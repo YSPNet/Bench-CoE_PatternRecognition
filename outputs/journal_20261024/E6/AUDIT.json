@@ -1,0 +1,229 @@
+{
+  "acceptance": {
+    "mlp": {
+      "R_mean": 75.12508724450116,
+      "abs_delta_R": 0.8950872445011555,
+      "published_R": 74.23,
+      "within_2_points": true
+    },
+    "routerdc": {
+      "R_mean": 71.47660084141386,
+      "abs_delta_R": 3.113399158586148,
+      "published_R": 74.59,
+      "within_2_points": false
+    },
+    "vlc": {
+      "R_mean": 74.78281020695395,
+      "abs_delta_R": 0.4528102069539557,
+      "published_R": 74.33,
+      "within_2_points": true
+    }
+  },
+  "c_max": 0.001063963514752686,
+  "c_min": 1.4453729818342254e-05,
+  "command": "journal:E6; e6_prepare.py; e6_task.py; e6_orchestrate.py",
+  "cosinecls_deviation": "Local CosineCls also preserves the canonical asset-list container so strict images are read. Upstream would pass a bare dict and silently substitute a placeholder. The local source change is recorded in SOURCE_DIFF.patch.",
+  "end_time": "2026-10-28T00:46:37+00:00",
+  "experiment": "E6",
+  "failures": [],
+  "feature_files_sha256": {
+    "bge-m3": "2701fd88bfd84daf32b18f042e290fbb575dda0eaa8db03404850f0cf98f0dc5",
+    "siglip-large-patch16-384": "02bad05ad80277e2f3d7827e9925a61bfe2bdc135d8fdd6ae870ef0fdd459f2f"
+  },
+  "feature_pair": "BAAI/bge-m3 + google/siglip-large-patch16-384; normalize_concat",
+  "git_commit": "f5a41ce83d6efe67489b35bb7a07ae72976a9aba",
+  "git_commit_note": "Pinned official VL-RouterBench release cloned under scripts/journal_20261024/upstream",
+  "gpu": "Four NVIDIA RTX A6000 GPUs; one physical GPU per task",
+  "historical_11_source": "/home/sm5/ys/ICASSP/archive/non_paper_research_20261011/outputs/table_a2_factory_v2_20260914",
+  "historical_11_source_fingerprint": "642a79a315447f61d849dc9b5077261b20d45e353d14176ef84df3c3e491ae7a",
+  "historical_11_source_sweep": {
+    "end_time": "2026-10-24T17:01:50.668857+00:00",
+    "methods": [
+      "routerdc",
+      "vlc"
+    ],
+    "protocol": "heldout11",
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "source": "exact historical native checkpoints",
+    "source_validation_uid_check": "e6_task.archived_dev verifies exact ordered UIDs",
+    "start_time": "2026-10-24T15:51:03.574004+00:00",
+    "status": "complete",
+    "tasks": [
+      {
+        "checkpoint": "outputs/journal_20261024/E6/tasks/heldout11/routerdc/seed-1/COMPLETE.json",
+        "elapsed_s": 1458.04,
+        "exit_code": 0,
+        "gpu": 0,
+        "log": "outputs/journal_20261024/E6/tasks/heldout11/routerdc/seed-1/run.log",
+        "method": "routerdc",
+        "seed": 1,
+        "status": "complete"
+      },
+      {
+        "checkpoint": "outputs/journal_20261024/E6/tasks/heldout11/routerdc/seed-2/COMPLETE.json",
+        "elapsed_s": 1402.44,
+        "exit_code": 0,
+        "gpu": 0,
+        "log": "outputs/journal_20261024/E6/tasks/heldout11/routerdc/seed-2/run.log",
+        "method": "routerdc",
+        "seed": 2,
+        "status": "complete"
+      },
+      {
+        "checkpoint": "outputs/journal_20261024/E6/tasks/heldout11/routerdc/seed-3/COMPLETE.json",
+        "elapsed_s": 1386.62,
+        "exit_code": 0,
+        "gpu": 0,
+        "log": "outputs/journal_20261024/E6/tasks/heldout11/routerdc/seed-3/run.log",
+        "method": "routerdc",
+        "seed": 3,
+        "status": "complete"
+      },
+      {
+        "checkpoint": "outputs/journal_20261024/E6/tasks/heldout11/vlc/seed-1/COMPLETE.json",
+        "elapsed_s": 1366.23,
+        "exit_code": 0,
+        "gpu": 3,
+        "log": "outputs/journal_20261024/E6/tasks/heldout11/vlc/seed-1/run.log",
+        "method": "vlc",
+        "seed": 1,
+        "status": "complete"
+      },
+      {
+        "checkpoint": "outputs/journal_20261024/E6/tasks/heldout11/vlc/seed-2/COMPLETE.json",
+        "elapsed_s": 1292.75,
+        "exit_code": 0,
+        "gpu": 3,
+        "log": "outputs/journal_20261024/E6/tasks/heldout11/vlc/seed-2/run.log",
+        "method": "vlc",
+        "seed": 2,
+        "status": "complete"
+      },
+      {
+        "checkpoint": "outputs/journal_20261024/E6/tasks/heldout11/vlc/seed-3/COMPLETE.json",
+        "elapsed_s": 1325.56,
+        "exit_code": 0,
+        "gpu": 3,
+        "log": "outputs/journal_20261024/E6/tasks/heldout11/vlc/seed-3/run.log",
+        "method": "vlc",
+        "seed": 3,
+        "status": "complete"
+      }
+    ],
+    "test_prediction_path": "released router load/predict; strict current test images"
+  },
+  "image_manifest_sha256": "2cdd3d0bec1d0d6fdfc75c855428c33e802af3c52c2d12e309df22c7a1c246b3",
+  "image_policy": {
+    "fallbacks": "synthetic black/white image replacement forbidden during native fit and predict",
+    "mlp_siglip_input": "all canonical images; mean image embedding followed by L2 normalization",
+    "multi_image_samples": 47,
+    "native_baseline_input": "first canonical decoded image per sample",
+    "samples": 30540
+  },
+  "incomplete_tasks": [],
+  "local_code_sha256": {
+    "cosinecls": "7648bcdb1c69894064d5bc834ae48d4ed3a59e56a92905abda05ee169f327fa6",
+    "mlp": "56f5b78d39adda83e7c697858d4cb5ff3f02ec1f485797f58922c41bd5d48273",
+    "routerdc": "6013aa83cd146fa5c0081fbdb6847915bb0b50052e8cb71c8bef95316b65d44d",
+    "vlc": "a04c53f0589cacb9c1806624b713f1887188a74023939b03c07a5c7b0a0a80c0",
+    "zooter": "53f65498e023408ad965e7d156665130bd2702649c4ca455e8606e12917129ca"
+  },
+  "mlp_training_adapter": "Released MLPRouter fusion, soft-target construction, network, prediction and serialization are reused. The journal adapter uses AdamW, batch 16, lr 2e-5 and weight decay 0.01 as required by Appendix H because the released MLPRouter.fit GPU branch hardcodes Adam and batch size 1024 and is gated by cuML. The adapter selects the epoch on source-dev Rank Score.",
+  "optional_baseline_smoke": {
+    "cosinecls": {
+      "predictions": 16,
+      "runs_unmodified": true
+    },
+    "zooter": {
+      "predictions": 16,
+      "runs_unmodified": true
+    }
+  },
+  "parallel_boost": {
+    "checkpoint_rule": "Each e6_task.py run checkpoints every lambda and writes COMPLETE.json only after all six candidates; the main coordinator resumes completed tasks without refitting.",
+    "logs": "Per-seed run.log under E6/tasks; E6/run.log remains the coordinator log.",
+    "purpose": "Run independent E6 seed-4 tasks on free A6000 memory while the original four-device coordinator continues.",
+    "scheduling": "Second process on each physical GPU; 49,140 MiB VRAM per GPU, observed at most 22,779 MiB used immediately after launch.",
+    "started_at": "2026-10-24T15:48:11.121428+00:00",
+    "tasks": [
+      {
+        "gpu": 0,
+        "historical_checkpoint_reuse": true,
+        "method": "routerdc",
+        "protocol": "heldout11",
+        "seed": 4
+      },
+      {
+        "gpu": 1,
+        "historical_checkpoint_reuse": false,
+        "method": "vlc",
+        "protocol": "full14",
+        "seed": 4
+      },
+      {
+        "gpu": 2,
+        "historical_checkpoint_reuse": false,
+        "method": "routerdc",
+        "protocol": "full14",
+        "seed": 4
+      },
+      {
+        "gpu": 3,
+        "historical_checkpoint_reuse": true,
+        "method": "vlc",
+        "protocol": "heldout11",
+        "seed": 4
+      }
+    ]
+  },
+  "python_env": {
+    "numpy": "1.26.4",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python": "3.12.11"
+  },
+  "released_code_url": "https://github.com/K1nght/VL-RouterBench",
+  "routerdc_deviation": "Local RouterDC preserves the canonical asset-list container so the native image dataset reads the actual first image; upstream passes a bare dict and silently uses a black placeholder. Native model, optimizer, losses and training loop are otherwise reused. See SOURCE_DIFF.patch.",
+  "scheduler_deviation": "The released RouterDC, VLC, CosineCls and ZOOTER fit methods use a linear warmup/decay scheduler, whereas Appendix H describes cosine decay. E6 retains the released training loops and records this discrepancy; the MLP Appendix-H adapter uses cosine decay.",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "selection_rule": "All six training lambdas fit on source train; source dev selects comparable lambda. A separately labeled best_test diagnostic selects on each test view as required by E6.",
+  "split_sizes": {
+    "11ID": 5341,
+    "14ID": 6108,
+    "3OOD": 767
+  },
+  "start_time": "2026-10-24T05:33:57+00:00",
+  "start_time_note": "Earliest native E6 task start; coordinator was restarted while tasks continued",
+  "status": "acceptance_needs_recheck",
+  "training": {
+    "batch_size": 16,
+    "epochs_max": 5,
+    "lambdas": [
+      "0",
+      "10",
+      "100",
+      "1000",
+      "10000",
+      "inf"
+    ],
+    "lr": 2e-05,
+    "optimizer": "AdamW",
+    "weight_decay": 0.01
+  },
+  "upstream_code_sha256": {
+    "cosinecls": "69216cd944e04d242b7994c0fd3b6be405264c957b4d634d9047737c52cb16c8",
+    "mlp": "56f5b78d39adda83e7c697858d4cb5ff3f02ec1f485797f58922c41bd5d48273",
+    "routerdc": "b450ba533e40f4ebd374801785493d0f8d526f3f93aa6bb607602a4871ad899a",
+    "vlc": "a04c53f0589cacb9c1806624b713f1887188a74023939b03c07a5c7b0a0a80c0",
+    "zooter": "53f65498e023408ad965e7d156665130bd2702649c4ca455e8606e12917129ca"
+  }
+}

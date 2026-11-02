@@ -1,0 +1,117 @@
+{
+  "acceptance": [
+    {
+      "observed": [
+        77.28889721026026,
+        0.8715833779525265,
+        75.05153584339797
+      ],
+      "pass_check": true,
+      "seed": 0,
+      "target": [
+        77.289,
+        0.8716,
+        75.052
+      ],
+      "variant": "subject_rule4_gate_fpr25",
+      "view": "11ID"
+    },
+    {
+      "observed": [
+        72.7509778357236,
+        0.7063275138754034,
+        71.7525247030539
+      ],
+      "pass_check": true,
+      "seed": 0,
+      "target": [
+        72.751,
+        0.7063,
+        71.753
+      ],
+      "variant": "subject_rule4_gate_fpr25",
+      "view": "3OOD"
+    },
+    {
+      "observed": [
+        78.38899803536346,
+        1.0984022791917185,
+        75.08517043326412
+      ],
+      "pass_check": true,
+      "seed": 0,
+      "target": [
+        78.389,
+        1.0984,
+        75.085
+      ],
+      "variant": "subject_accuracy14",
+      "view": "14ID"
+    },
+    {
+      "observed_R": 73.90044528647852,
+      "pass_check": true,
+      "seed": "mean",
+      "target_R": 73.9,
+      "variant": "stateroute_MM_K2_14ID",
+      "view": "14ID"
+    }
+  ],
+  "c_max": 0.001063963514752686,
+  "c_min": 1.4453729818342254e-05,
+  "command": "python -B scripts/journal_20261024/e4.py",
+  "end_time": "2026-10-24T05:11:40+00:00",
+  "experiment": "E4",
+  "failures": [],
+  "frozen_subject_rules": {
+    "accuracy": {
+      "accuracy_percent": 78.35146597824082,
+      "confidence_quantile": 0.35,
+      "confidence_threshold": 0.550855016708374,
+      "cost_usd_per_10k": 0.9203607940686073,
+      "gain_margin": 0.0,
+      "n": 16269,
+      "price_weight": 0.01,
+      "rank_score": 75.76094217524307,
+      "source_switch_n": 4004
+    },
+    "cap": 3.221258630752571,
+    "guard": {
+      "0.1": 0.14595923423767093,
+      "0.25": 0.4354184865951538
+    },
+    "rank_safe": {
+      "accuracy_percent": 77.78597332349868,
+      "confidence_quantile": 0.8,
+      "confidence_threshold": 0.9324352145195008,
+      "cost_usd_per_10k": 0.7448564482876096,
+      "gain_margin": 0.01,
+      "n": 16269,
+      "price_weight": 0.01,
+      "rank_score": 76.00676214689622,
+      "source_switch_n": 1355
+    }
+  },
+  "git_commit": null,
+  "git_commit_note": "Repository has no .git metadata",
+  "gpu": "cached features; CPU router fits",
+  "python_env": {
+    "numpy": "1.26.4",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python": "3.12.4"
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "selection_rule": "Subject rules: frozen MODEL_LOCK.json; MM lambda: source-fit group-isolated 3-fold OOF; T eligibility quantile: source-fit group-isolated 3-fold OOF Rank over preset q grid; no 3OOD selection",
+  "split_sizes": {
+    "11ID": 5341,
+    "14ID": 6108,
+    "3OOD": 767
+  },
+  "start_time": "2026-10-24T05:11:36+00:00"
+}

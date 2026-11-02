@@ -1,0 +1,359 @@
+{
+  "branch_fractions": [
+    {
+      "base": "T",
+      "fraction_aggressive": 0.0,
+      "fraction_conservative": 1.0,
+      "fraction_fallback": 0.0,
+      "rung": "K1",
+      "seed": 4,
+      "thresholds": "frozen",
+      "view": "11ID"
+    },
+    {
+      "base": "T",
+      "fraction_aggressive": 0.0,
+      "fraction_conservative": 1.0,
+      "fraction_fallback": 0.0,
+      "rung": "K1",
+      "seed": 4,
+      "thresholds": "refit",
+      "view": "11ID"
+    },
+    {
+      "base": "T",
+      "fraction_aggressive": 0.0,
+      "fraction_conservative": 1.0,
+      "fraction_fallback": 0.0,
+      "rung": "K1",
+      "seed": 4,
+      "thresholds": "frozen",
+      "view": "3OOD"
+    },
+    {
+      "base": "T",
+      "fraction_aggressive": 0.0,
+      "fraction_conservative": 1.0,
+      "fraction_fallback": 0.0,
+      "rung": "K1",
+      "seed": 4,
+      "thresholds": "refit",
+      "view": "3OOD"
+    },
+    {
+      "base": "T",
+      "fraction_aggressive": 0.0,
+      "fraction_conservative": 1.0,
+      "fraction_fallback": 0.0,
+      "rung": "K2_fixed_map",
+      "seed": 4,
+      "thresholds": "frozen",
+      "view": "11ID"
+    },
+    {
+      "base": "T",
+      "fraction_aggressive": 0.0,
+      "fraction_conservative": 1.0,
+      "fraction_fallback": 0.0,
+      "rung": "K2_fixed_map",
+      "seed": 4,
+      "thresholds": "refit",
+      "view": "11ID"
+    },
+    {
+      "base": "T",
+      "fraction_aggressive": 0.0,
+      "fraction_conservative": 1.0,
+      "fraction_fallback": 0.0,
+      "rung": "K2_fixed_map",
+      "seed": 4,
+      "thresholds": "frozen",
+      "view": "3OOD"
+    },
+    {
+      "base": "T",
+      "fraction_aggressive": 0.0,
+      "fraction_conservative": 1.0,
+      "fraction_fallback": 0.0,
+      "rung": "K2_fixed_map",
+      "seed": 4,
+      "thresholds": "refit",
+      "view": "3OOD"
+    },
+    {
+      "base": "MM",
+      "fraction_aggressive": 0.0,
+      "fraction_conservative": 1.0,
+      "fraction_fallback": 0.0,
+      "rung": "K1",
+      "seed": 4,
+      "thresholds": "frozen",
+      "view": "11ID"
+    },
+    {
+      "base": "MM",
+      "fraction_aggressive": 0.0,
+      "fraction_conservative": 1.0,
+      "fraction_fallback": 0.0,
+      "rung": "K1",
+      "seed": 4,
+      "thresholds": "refit",
+      "view": "11ID"
+    },
+    {
+      "base": "MM",
+      "fraction_aggressive": 0.0,
+      "fraction_conservative": 1.0,
+      "fraction_fallback": 0.0,
+      "rung": "K1",
+      "seed": 4,
+      "thresholds": "frozen",
+      "view": "3OOD"
+    },
+    {
+      "base": "MM",
+      "fraction_aggressive": 0.0,
+      "fraction_conservative": 1.0,
+      "fraction_fallback": 0.0,
+      "rung": "K1",
+      "seed": 4,
+      "thresholds": "refit",
+      "view": "3OOD"
+    },
+    {
+      "base": "MM",
+      "fraction_aggressive": 0.0,
+      "fraction_conservative": 1.0,
+      "fraction_fallback": 0.0,
+      "rung": "K2_fixed_map",
+      "seed": 4,
+      "thresholds": "frozen",
+      "view": "11ID"
+    },
+    {
+      "base": "MM",
+      "fraction_aggressive": 0.0,
+      "fraction_conservative": 1.0,
+      "fraction_fallback": 0.0,
+      "rung": "K2_fixed_map",
+      "seed": 4,
+      "thresholds": "refit",
+      "view": "11ID"
+    },
+    {
+      "base": "MM",
+      "fraction_aggressive": 0.0,
+      "fraction_conservative": 1.0,
+      "fraction_fallback": 0.0,
+      "rung": "K2_fixed_map",
+      "seed": 4,
+      "thresholds": "frozen",
+      "view": "3OOD"
+    },
+    {
+      "base": "MM",
+      "fraction_aggressive": 0.0,
+      "fraction_conservative": 1.0,
+      "fraction_fallback": 0.0,
+      "rung": "K2_fixed_map",
+      "seed": 4,
+      "thresholds": "refit",
+      "view": "3OOD"
+    }
+  ],
+  "rows": [
+    {
+      "A": 74.5740498034076,
+      "C": 0.7623001313220581,
+      "R": 73.13686158395922,
+      "experiment": "E5",
+      "method": "StateRoute-T",
+      "n_test": 5341,
+      "notes": "Full 11-source profile, kappa=20; thresholds inactive at rung <=2",
+      "seed": 4,
+      "variant": "K1__frozen",
+      "view": "11ID"
+    },
+    {
+      "A": 74.5740498034076,
+      "C": 0.7623001313220581,
+      "R": 73.13686158395922,
+      "experiment": "E5",
+      "method": "StateRoute-T",
+      "n_test": 5341,
+      "notes": "Full 11-source profile, kappa=20; thresholds inactive at rung <=2",
+      "seed": 4,
+      "variant": "K1__refit",
+      "view": "11ID"
+    },
+    {
+      "A": 67.53585397653194,
+      "C": 0.7085189058095844,
+      "R": 67.0988918221902,
+      "experiment": "E5",
+      "method": "StateRoute-T",
+      "n_test": 767,
+      "notes": "Full 11-source profile, kappa=20; thresholds inactive at rung <=2",
+      "seed": 4,
+      "variant": "K1__frozen",
+      "view": "3OOD"
+    },
+    {
+      "A": 67.53585397653194,
+      "C": 0.7085189058095844,
+      "R": 67.0988918221902,
+      "experiment": "E5",
+      "method": "StateRoute-T",
+      "n_test": 767,
+      "notes": "Full 11-source profile, kappa=20; thresholds inactive at rung <=2",
+      "seed": 4,
+      "variant": "K1__refit",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.52892716719715,
+      "C": 0.6558760949727419,
+      "R": 74.41101423424901,
+      "experiment": "E5",
+      "method": "StateRoute-T",
+      "n_test": 5341,
+      "notes": "Full 11-source profile, kappa=20; thresholds inactive at rung <=2",
+      "seed": 4,
+      "variant": "K2_fixed_map__frozen",
+      "view": "11ID"
+    },
+    {
+      "A": 75.52892716719715,
+      "C": 0.6558760949727419,
+      "R": 74.41101423424901,
+      "experiment": "E5",
+      "method": "StateRoute-T",
+      "n_test": 5341,
+      "notes": "Full 11-source profile, kappa=20; thresholds inactive at rung <=2",
+      "seed": 4,
+      "variant": "K2_fixed_map__refit",
+      "view": "11ID"
+    },
+    {
+      "A": 74.1851368970013,
+      "C": 0.6528644110556513,
+      "R": 73.2354789291852,
+      "experiment": "E5",
+      "method": "StateRoute-T",
+      "n_test": 767,
+      "notes": "Full 11-source profile, kappa=20; thresholds inactive at rung <=2",
+      "seed": 4,
+      "variant": "K2_fixed_map__frozen",
+      "view": "3OOD"
+    },
+    {
+      "A": 74.1851368970013,
+      "C": 0.6528644110556513,
+      "R": 73.2354789291852,
+      "experiment": "E5",
+      "method": "StateRoute-T",
+      "n_test": 767,
+      "notes": "Full 11-source profile, kappa=20; thresholds inactive at rung <=2",
+      "seed": 4,
+      "variant": "K2_fixed_map__refit",
+      "view": "3OOD"
+    },
+    {
+      "A": 74.5740498034076,
+      "C": 0.7623001313220581,
+      "R": 73.13686158395922,
+      "experiment": "E5",
+      "method": "StateRoute-MM",
+      "n_test": 5341,
+      "notes": "Full 11-source profile, kappa=20; thresholds inactive at rung <=2",
+      "seed": 4,
+      "variant": "K1__frozen",
+      "view": "11ID"
+    },
+    {
+      "A": 74.5740498034076,
+      "C": 0.7623001313220581,
+      "R": 73.13686158395922,
+      "experiment": "E5",
+      "method": "StateRoute-MM",
+      "n_test": 5341,
+      "notes": "Full 11-source profile, kappa=20; thresholds inactive at rung <=2",
+      "seed": 4,
+      "variant": "K1__refit",
+      "view": "11ID"
+    },
+    {
+      "A": 67.53585397653194,
+      "C": 0.7085189058095844,
+      "R": 67.0988918221902,
+      "experiment": "E5",
+      "method": "StateRoute-MM",
+      "n_test": 767,
+      "notes": "Full 11-source profile, kappa=20; thresholds inactive at rung <=2",
+      "seed": 4,
+      "variant": "K1__frozen",
+      "view": "3OOD"
+    },
+    {
+      "A": 67.53585397653194,
+      "C": 0.7085189058095844,
+      "R": 67.0988918221902,
+      "experiment": "E5",
+      "method": "StateRoute-MM",
+      "n_test": 767,
+      "notes": "Full 11-source profile, kappa=20; thresholds inactive at rung <=2",
+      "seed": 4,
+      "variant": "K1__refit",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.06085002808463,
+      "C": 0.6459669765261795,
+      "R": 74.03948044100414,
+      "experiment": "E5",
+      "method": "StateRoute-MM",
+      "n_test": 5341,
+      "notes": "Full 11-source profile, kappa=20; thresholds inactive at rung <=2",
+      "seed": 4,
+      "variant": "K2_fixed_map__frozen",
+      "view": "11ID"
+    },
+    {
+      "A": 75.06085002808463,
+      "C": 0.6459669765261795,
+      "R": 74.03948044100414,
+      "experiment": "E5",
+      "method": "StateRoute-MM",
+      "n_test": 5341,
+      "notes": "Full 11-source profile, kappa=20; thresholds inactive at rung <=2",
+      "seed": 4,
+      "variant": "K2_fixed_map__refit",
+      "view": "11ID"
+    },
+    {
+      "A": 73.92438070404172,
+      "C": 0.6323722338950811,
+      "R": 73.08878227063127,
+      "experiment": "E5",
+      "method": "StateRoute-MM",
+      "n_test": 767,
+      "notes": "Full 11-source profile, kappa=20; thresholds inactive at rung <=2",
+      "seed": 4,
+      "variant": "K2_fixed_map__frozen",
+      "view": "3OOD"
+    },
+    {
+      "A": 73.92438070404172,
+      "C": 0.6323722338950811,
+      "R": 73.08878227063127,
+      "experiment": "E5",
+      "method": "StateRoute-MM",
+      "n_test": 767,
+      "notes": "Full 11-source profile, kappa=20; thresholds inactive at rung <=2",
+      "seed": 4,
+      "variant": "K2_fixed_map__refit",
+      "view": "3OOD"
+    }
+  ],
+  "seed": 4
+}

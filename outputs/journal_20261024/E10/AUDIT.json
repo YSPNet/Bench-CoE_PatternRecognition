@@ -1,0 +1,37 @@
+{
+  "c_max": 0.001063963514752686,
+  "c_min": 1.4453729818342254e-05,
+  "command": "python -B scripts/journal_20261024/e10.py",
+  "end_time": "2026-10-24T05:16:07+00:00",
+  "experiment": "E10",
+  "failures": [],
+  "git_commit": null,
+  "git_commit_note": "Repository has no .git metadata",
+  "gpu": "none; frozen prediction evaluation",
+  "prediction_source": "outputs/bench_coe_query_subject_four_rules_20261024/PREDICTIONS.npz",
+  "python_env": {
+    "numpy": "1.26.4",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python": "3.12.11"
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "selection_rule": "Read frozen Subject base and rule 4 K2-on actions only; evaluate full 3OOD and ChartQA+MathVision subset; no model fitting or 3OOD selection.",
+  "split_sizes": {
+    "11ID": 5341,
+    "14ID": 6108,
+    "3OOD": 767
+  },
+  "start_time": "2026-10-24T05:16:07+00:00",
+  "status": "COMPLETE",
+  "subset_sizes": {
+    "full": 767,
+    "removed_MMMU": 206,
+    "without_MMMU": 561
+  }
+}

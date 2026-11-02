@@ -1,0 +1,301 @@
+experiment,method,variant,view,seed,n_test,A,C,R,notes
+E3,Strongest,source_train,11ID,0,5341,78.2812207451788,2.6893922501332406,69.1813337984604,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Strongest,source_train,3OOD,0,767,78.6179921773142,2.8702529378200734,68.7465695920104,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Cheapest,source_train,11ID,0,5341,62.46021344317544,0.14376436977311274,64.66711310042137,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Cheapest,source_train,3OOD,0,767,65.1890482398957,0.14667992180219708,67.30531310335631,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Oracle,test_oracle,11ID,0,5341,95.45029020782624,0.37023855043691495,93.56326021529718,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Oracle,test_oracle,3OOD,0,767,96.87092568448502,0.3799985691981215,94.72057916197797,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K1,11ID,0,5341,74.5740498034076,0.7623001313220581,73.13686158395922,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K1,3OOD,0,767,67.53585397653194,0.7085189058095844,67.0988918221902,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K2_fixed_map,11ID,0,5341,75.54765025276166,0.6557832097518193,74.42792955716268,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K2_fixed_map,3OOD,0,767,74.1851368970013,0.6528644110556513,73.2354789291852,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K1,11ID,0,5341,74.5740498034076,0.7623001313220581,73.13686158395922,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K1,3OOD,0,767,67.53585397653194,0.7085189058095844,67.0988918221902,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K2_fixed_map,11ID,0,5341,75.04212694252013,0.6654568656837875,73.94104293642995,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K2_fixed_map,3OOD,0,767,71.83833116036506,0.6734156480748564,71.07001474840628,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-state,rule4_coarse_fallback,11ID,0,5341,77.28889721026026,0.8715833779525265,75.05153584339797,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-state,rule4_coarse_fallback,3OOD,0,767,72.7509778357236,0.7063275138754034,71.7525247030539,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,base,11ID,0,5341,78.82419022654933,2.748865008634076,69.34478369138529,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,base,3OOD,0,767,78.6179921773142,2.8702529378200734,68.7465695920104,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,rule4_coarse_fallback,11ID,0,5341,79.46077513574237,1.7120005839454637,73.63841982235951,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,rule4_coarse_fallback,3OOD,0,767,74.83702737940025,1.0602443321415853,72.24256099152964,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,base,11ID,0,5341,78.84291331211384,2.768377551460514,69.28505440006354,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,base,3OOD,0,767,78.8787483702738,2.974007830629065,68.53516537794783,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,rule4_coarse_fallback,11ID,0,5341,79.49822130687137,1.712316404766519,73.66648145971536,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,rule4_coarse_fallback,3OOD,0,767,74.83702737940025,1.1098923125312479,72.06393684842858,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,base,11ID,0,5341,78.97397491106534,2.7603023788220225,69.40729582941582,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,base,3OOD,0,767,78.48761408083442,2.9724445965428226,68.27234127875388,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,rule4_coarse_fallback,11ID,0,5341,79.46077513574237,1.7296239312841573,73.57308604799586,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,rule4_coarse_fallback,3OOD,0,767,74.83702737940025,1.092717605256694,72.12551479203445,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,base,11ID,0,5341,81.05223740872496,2.9966128460360055,69.92853792369493,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,base,3OOD,0,767,75.09778357235984,4.066480309158325,61.84822614149186,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,rule4_coarse_fallback,11ID,0,5341,79.83523684703239,1.8717139516221197,73.33529229459411,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,rule4_coarse_fallback,3OOD,0,767,72.7509778357236,1.2187475867892283,69.93231348278711,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,base,11ID,0,5341,81.22074517880546,3.0756952838938134,69.72636480282061,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,base,3OOD,0,767,59.32203389830508,4.273233379887845,50.99762839833003,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,rule4_coarse_fallback,11ID,0,5341,79.83523684703239,1.9309773852566292,73.115034485374,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,rule4_coarse_fallback,3OOD,0,767,69.10039113428944,1.1213216438291187,67.1460026723542,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,base,11ID,0,5341,80.95862198090245,3.022997792894974,69.76045239916908,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,base,3OOD,0,767,60.88657105606258,4.5823746968214865,51.098109523643764,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,rule4_coarse_fallback,11ID,0,5341,79.68545216251638,1.9673200177393029,72.8662284435295,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,rule4_coarse_fallback,3OOD,0,767,69.6219035202086,1.2689816155881475,67.13474797036805,frozen/source-only selected actions; Oracle uses test outcomes
+E3,routerdc,select=val,11ID,0,5341,70.84815577607189,0.4878266055131176,70.92504660256104,frozen/source-only selected actions; Oracle uses test outcomes
+E3,routerdc,select=val,3OOD,0,767,65.31942633637549,0.3289295977963234,66.48166972153761,frozen/source-only selected actions; Oracle uses test outcomes
+E3,routerdc,select=best_test,11ID,0,5341,70.84815577607189,0.4878266055131176,70.92504660256104,test-selected diagnostic
+E3,routerdc,select=best_test,3OOD,0,767,68.70925684485006,0.36261851305562176,69.50457960479686,test-selected diagnostic
+E3,vlc,select=val,11ID,0,5341,78.97397491106534,1.4007635860653627,74.4119296012322,frozen/source-only selected actions; Oracle uses test outcomes
+E3,vlc,select=val,3OOD,0,767,69.6219035202086,0.8737750990442097,68.39456750633285,frozen/source-only selected actions; Oracle uses test outcomes
+E3,vlc,select=best_test,11ID,0,5341,78.97397491106534,1.4007635860653627,74.4119296012322,test-selected diagnostic
+E3,vlc,select=best_test,3OOD,0,767,71.1864406779661,0.5827254248089015,70.84157672514723,test-selected diagnostic
+E3,mlp,select=val,11ID,0,5341,78.3748361730013,1.1013271688116129,75.06198681201226,frozen/source-only selected actions; Oracle uses test outcomes
+E3,mlp,select=val,3OOD,0,767,67.01434159061279,1.124089960209456,65.34088793930883,frozen/source-only selected actions; Oracle uses test outcomes
+E3,mlp,select=best_test,11ID,0,5341,78.3748361730013,1.1013271688116129,75.06198681201226,test-selected diagnostic
+E3,mlp,select=best_test,3OOD,0,767,70.27379400260756,0.45624315791696657,70.53519332181027,test-selected diagnostic
+E3,cosinecls,select=val,11ID,0,5341,70.26774012357237,0.48648657576072,70.40146258208978,frozen/source-only selected actions; Oracle uses test outcomes
+E3,cosinecls,select=val,3OOD,0,767,71.1864406779661,0.4391148629515182,71.44606474001634,frozen/source-only selected actions; Oracle uses test outcomes
+E3,cosinecls,select=best_test,11ID,0,5341,70.26774012357237,0.48648657576072,70.40146258208978,test-selected diagnostic
+E3,cosinecls,select=best_test,3OOD,0,767,71.1864406779661,0.4391148629515182,71.44606474001634,test-selected diagnostic
+E3,zooter,select=val,11ID,0,5341,74.78000374461712,0.7088470515596665,73.53140906065876,frozen/source-only selected actions; Oracle uses test outcomes
+E3,zooter,select=val,3OOD,0,767,65.44980443285529,0.7020839645865089,65.24193244993978,frozen/source-only selected actions; Oracle uses test outcomes
+E3,zooter,select=best_test,11ID,0,5341,74.78000374461712,0.7088470515596665,73.53140906065876,test-selected diagnostic
+E3,zooter,select=best_test,3OOD,0,767,67.79661016949152,0.4131582803919339,68.43641030789112,test-selected diagnostic
+E3,Strongest,source_train,11ID,1,5341,78.2812207451788,2.6893922501332406,69.1813337984604,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Strongest,source_train,3OOD,1,767,78.6179921773142,2.8702529378200734,68.7465695920104,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Cheapest,source_train,11ID,1,5341,62.46021344317544,0.14376436977311274,64.66711310042137,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Cheapest,source_train,3OOD,1,767,65.1890482398957,0.14667992180219708,67.30531310335631,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Oracle,test_oracle,11ID,1,5341,95.45029020782624,0.37023855043691495,93.56326021529718,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Oracle,test_oracle,3OOD,1,767,96.87092568448502,0.3799985691981215,94.72057916197797,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K1,11ID,1,5341,74.5740498034076,0.7623001313220581,73.13686158395922,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K1,3OOD,1,767,67.53585397653194,0.7085189058095844,67.0988918221902,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K2_fixed_map,11ID,1,5341,75.52892716719715,0.6558760949727419,74.41101423424901,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K2_fixed_map,3OOD,1,767,74.1851368970013,0.6528644110556513,73.2354789291852,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K1,11ID,1,5341,74.5740498034076,0.7623001313220581,73.13686158395922,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K1,3OOD,1,767,67.53585397653194,0.7085189058095844,67.0988918221902,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K2_fixed_map,11ID,1,5341,75.22935779816514,0.6482710768829847,74.17872562279048,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K2_fixed_map,3OOD,1,767,73.92438070404172,0.6332946588842149,73.0849617721392,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-state,rule4_coarse_fallback,11ID,1,5341,77.28889721026026,0.8715833779525265,75.05153584339797,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-state,rule4_coarse_fallback,3OOD,1,767,72.7509778357236,0.7063275138754034,71.7525247030539,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,base,11ID,1,5341,78.91780565437185,2.7488620126723644,69.41064553954973,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,base,3OOD,1,767,78.6179921773142,2.8702529378200734,68.7465695920104,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,rule4_coarse_fallback,11ID,1,5341,79.46077513574237,1.7179659274763812,73.6162992527952,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,rule4_coarse_fallback,3OOD,1,767,74.83702737940025,1.0602443321415853,72.24256099152964,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,base,11ID,1,5341,80.1348062160644,2.9136915382912103,69.62867976628365,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,base,3OOD,1,767,78.748370273794,3.2489726280749838,67.39145762676499,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,rule4_coarse_fallback,11ID,1,5341,79.62928290582289,1.7439611334460716,73.65106588741035,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,rule4_coarse_fallback,3OOD,1,767,74.96740547588006,1.1479803169186555,72.03759618450314,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,base,11ID,1,5341,78.54334394308182,2.702096987010139,69.32033738534842,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,base,3OOD,1,767,78.6179921773142,2.906271191051283,68.61136814395931,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,rule4_coarse_fallback,11ID,1,5341,79.38588279348437,1.7047830776094002,73.60666844907618,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,rule4_coarse_fallback,3OOD,1,767,74.83702737940025,1.092717605256694,72.12551479203445,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,base,11ID,1,5341,80.95862198090245,3.003035801303344,69.83970177174851,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,base,3OOD,1,767,71.31681877444589,4.337465190516865,58.47089044266931,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,rule4_coarse_fallback,11ID,1,5341,79.66672907695188,1.8684922516460365,73.2179256192692,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,rule4_coarse_fallback,3OOD,1,767,71.70795306388527,1.0806048247619255,69.50995989760538,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,base,11ID,1,5341,81.01479123759596,3.097533553372769,69.5009797718389,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,base,3OOD,1,767,60.234680573663624,4.374714864546279,51.30915359699758,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,rule4_coarse_fallback,11ID,1,5341,79.79779067590339,1.930570625509473,73.08798998793401,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,rule4_coarse_fallback,3OOD,1,767,68.97001303780965,1.0563418534450018,67.23638009236048,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,base,11ID,1,5341,81.01479123759596,3.047815654775258,69.69954692451708,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,base,3OOD,1,767,62.190352020860495,5.003110830245924,50.51196377379787,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,rule4_coarse_fallback,11ID,1,5341,79.72289833364539,1.9716534757050623,72.87863648919648,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,rule4_coarse_fallback,3OOD,1,767,69.6219035202086,1.2682238581839729,67.13707428802411,frozen/source-only selected actions; Oracle uses test outcomes
+E3,routerdc,select=val,11ID,1,5341,71.69069462647444,0.7472888414479812,70.66046247244732,frozen/source-only selected actions; Oracle uses test outcomes
+E3,routerdc,select=val,3OOD,1,767,69.75228161668839,0.6423022187458322,69.3229851429527,frozen/source-only selected actions; Oracle uses test outcomes
+E3,routerdc,select=best_test,11ID,1,5341,71.95281782437746,0.7531834308036658,70.86993370889434,test-selected diagnostic
+E3,routerdc,select=best_test,3OOD,1,767,71.96870925684486,0.46190169644230133,72.0589126040933,test-selected diagnostic
+E3,vlc,select=val,11ID,1,5341,77.06422018348624,0.82054302854644,75.06557539715725,frozen/source-only selected actions; Oracle uses test outcomes
+E3,vlc,select=val,3OOD,1,767,68.31812255541068,0.9699998730275836,66.94141805420196,frozen/source-only selected actions; Oracle uses test outcomes
+E3,vlc,select=best_test,11ID,1,5341,77.06422018348624,0.82054302854644,75.06557539715725,test-selected diagnostic
+E3,vlc,select=best_test,3OOD,1,767,67.92698826597132,0.29263989652740824,69.10418083647265,test-selected diagnostic
+E3,mlp,select=val,11ID,1,5341,79.44205205017786,1.267434357467891,75.2996888225134,frozen/source-only selected actions; Oracle uses test outcomes
+E3,mlp,select=val,3OOD,1,767,61.016949152542374,2.007286965324152,57.997254095467724,frozen/source-only selected actions; Oracle uses test outcomes
+E3,mlp,select=best_test,11ID,1,5341,79.44205205017786,1.267434357467891,75.2996888225134,test-selected diagnostic
+E3,mlp,select=best_test,3OOD,1,767,71.83833116036506,0.505438856101408,71.74997204909874,test-selected diagnostic
+E3,cosinecls,select=val,11ID,1,5341,73.02003370155403,0.670476296563887,72.13135223216182,frozen/source-only selected actions; Oracle uses test outcomes
+E3,cosinecls,select=val,3OOD,1,767,68.70925684485006,0.6306418532045661,68.4273000482494,frozen/source-only selected actions; Oracle uses test outcomes
+E3,cosinecls,select=best_test,11ID,1,5341,73.02003370155403,0.670476296563887,72.13135223216182,test-selected diagnostic
+E3,cosinecls,select=best_test,3OOD,1,767,70.53455019556715,0.83948579002363,69.31233856532056,test-selected diagnostic
+E3,zooter,select=val,11ID,1,5341,76.03445047743868,0.7968757727352139,74.27087519548068,frozen/source-only selected actions; Oracle uses test outcomes
+E3,zooter,select=val,3OOD,1,767,70.92568448500653,0.8298906162598028,69.68915771944037,frozen/source-only selected actions; Oracle uses test outcomes
+E3,zooter,select=best_test,11ID,1,5341,76.03445047743868,0.7968757727352139,74.27087519548068,test-selected diagnostic
+E3,zooter,select=best_test,3OOD,1,767,70.66492829204694,0.449738854762285,70.92156283524305,test-selected diagnostic
+E3,Strongest,source_train,11ID,2,5341,78.2812207451788,2.6893922501332406,69.1813337984604,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Strongest,source_train,3OOD,2,767,78.6179921773142,2.8702529378200734,68.7465695920104,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Cheapest,source_train,11ID,2,5341,62.46021344317544,0.14376436977311274,64.66711310042137,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Cheapest,source_train,3OOD,2,767,65.1890482398957,0.14667992180219708,67.30531310335631,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Oracle,test_oracle,11ID,2,5341,95.45029020782624,0.37023855043691495,93.56326021529718,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Oracle,test_oracle,3OOD,2,767,96.87092568448502,0.3799985691981215,94.72057916197797,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K1,11ID,2,5341,74.5740498034076,0.7623001313220581,73.13686158395922,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K1,3OOD,2,767,67.53585397653194,0.7085189058095844,67.0988918221902,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K2_fixed_map,11ID,2,5341,75.52892716719715,0.6558760949727419,74.41101423424901,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K2_fixed_map,3OOD,2,767,74.1851368970013,0.6528644110556513,73.2354789291852,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K1,11ID,2,5341,74.5740498034076,0.7623001313220581,73.13686158395922,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K1,3OOD,2,767,67.53585397653194,0.7085189058095844,67.0988918221902,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K2_fixed_map,11ID,2,5341,75.21063471260064,0.6481365327791722,74.16274613123963,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K2_fixed_map,3OOD,2,767,73.79400260756192,0.6339671490375485,72.96631677404007,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-state,rule4_coarse_fallback,11ID,2,5341,77.28889721026026,0.8715833779525265,75.05153584339797,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-state,rule4_coarse_fallback,3OOD,2,767,72.7509778357236,0.7063275138754034,71.7525247030539,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,base,11ID,2,5341,79.08631342445234,2.7931334974889723,69.36273725312614,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,base,3OOD,2,767,78.6179921773142,2.8702529378200734,68.7465695920104,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,rule4_coarse_fallback,11ID,2,5341,79.44205205017786,1.7179895374003031,73.60160198371888,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,rule4_coarse_fallback,3OOD,2,767,74.83702737940025,1.0602443321415853,72.24256099152964,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,base,11ID,2,5341,78.93652873993634,2.771704550090338,69.33829705160605,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,base,3OOD,2,767,78.6179921773142,3.1629556800163505,67.63633832887737,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,rule4_coarse_fallback,11ID,2,5341,79.51694439243587,1.7147070806136422,73.67222008261328,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,rule4_coarse_fallback,3OOD,2,767,74.83702737940025,1.108531165084707,72.06880915097169,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,base,11ID,2,5341,78.46845160082381,2.7015182563742854,69.26943213844953,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,base,3OOD,2,767,78.6179921773142,2.9056362498195227,68.6137547189049,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,rule4_coarse_fallback,11ID,2,5341,79.40460587904886,1.7041676498142262,73.6235813724299,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,rule4_coarse_fallback,3OOD,2,767,74.83702737940025,1.092717605256694,72.12551479203445,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,base,11ID,2,5341,80.65905261187044,2.9684076037077674,69.77325237436197,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,base,3OOD,2,767,75.35853976531942,3.8565568483026027,62.83574997414888,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,rule4_coarse_fallback,11ID,2,5341,79.74162141920988,1.8712205613756272,73.26529843153772,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,rule4_coarse_fallback,3OOD,2,767,73.40286831812256,1.0785657136877567,70.9608265167229,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,base,11ID,2,5341,81.29563752106347,3.0982130520164644,69.68600324272202,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,base,3OOD,2,767,57.6271186440678,4.3120616699897605,49.74533786929257,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,rule4_coarse_fallback,11ID,2,5341,79.81651376146789,1.9384846305441887,73.0728812906665,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,rule4_coarse_fallback,3OOD,2,767,68.97001303780965,1.1091625836430903,67.07171796269158,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,base,11ID,2,5341,80.95862198090245,3.059024904197719,69.61709807444034,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,base,3OOD,2,767,61.929595827900904,4.597082131090454,51.71581821950375,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,rule4_coarse_fallback,11ID,2,5341,79.70417524808089,1.9724724985192905,72.8613789429453,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,rule4_coarse_fallback,3OOD,2,767,69.6219035202086,1.2733538450491542,67.12132995874566,frozen/source-only selected actions; Oracle uses test outcomes
+E3,routerdc,select=val,11ID,2,5341,70.43624789365288,0.3868681335570145,70.99385201244661,frozen/source-only selected actions; Oracle uses test outcomes
+E3,routerdc,select=val,3OOD,2,767,72.6205997392438,0.449810041220896,72.70772476968769,frozen/source-only selected actions; Oracle uses test outcomes
+E3,routerdc,select=best_test,11ID,2,5341,70.43624789365288,0.3868681335570145,70.99385201244661,test-selected diagnostic
+E3,routerdc,select=best_test,3OOD,2,767,72.6205997392438,0.449810041220896,72.70772476968769,test-selected diagnostic
+E3,vlc,select=val,11ID,2,5341,77.66335892155027,1.1304070609369736,74.35710880358857,frozen/source-only selected actions; Oracle uses test outcomes
+E3,vlc,select=val,3OOD,2,767,64.66753585397653,1.3452453722220643,62.705127199897916,frozen/source-only selected actions; Oracle uses test outcomes
+E3,vlc,select=best_test,11ID,2,5341,77.66335892155027,1.1304070609369736,74.35710880358857,test-selected diagnostic
+E3,vlc,select=best_test,3OOD,2,767,73.01173402868318,0.5948967447226378,72.4302605667417,test-selected diagnostic
+E3,mlp,select=val,11ID,2,5341,79.79779067590339,1.2303001491340277,75.73500543352807,frozen/source-only selected actions; Oracle uses test outcomes
+E3,mlp,select=val,3OOD,2,767,64.40677966101694,1.446970404336193,62.213741274479375,frozen/source-only selected actions; Oracle uses test outcomes
+E3,mlp,select=best_test,11ID,2,5341,79.79779067590339,1.2303001491340277,75.73500543352807,test-selected diagnostic
+E3,mlp,select=best_test,3OOD,2,767,69.10039113428944,0.48604211314657836,69.33641636202637,test-selected diagnostic
+E3,cosinecls,select=val,11ID,2,5341,70.51114023591087,0.4133177871394021,70.94198002925874,frozen/source-only selected actions; Oracle uses test outcomes
+E3,cosinecls,select=val,3OOD,2,767,69.88265971316818,0.31828774567959467,70.80946520666997,frozen/source-only selected actions; Oracle uses test outcomes
+E3,cosinecls,select=best_test,11ID,2,5341,72.15877176558698,0.5136520312792349,72.00506162487167,test-selected diagnostic
+E3,cosinecls,select=best_test,3OOD,2,767,69.88265971316818,0.31828774567959467,70.80946520666997,test-selected diagnostic
+E3,zooter,select=val,11ID,2,5341,76.3152967609062,0.9867930724210099,73.7692481798836,frozen/source-only selected actions; Oracle uses test outcomes
+E3,zooter,select=val,3OOD,2,767,40.41720990873533,1.362212124493541,40.99379977150423,frozen/source-only selected actions; Oracle uses test outcomes
+E3,zooter,select=best_test,11ID,2,5341,76.3152967609062,0.9867930724210099,73.7692481798836,test-selected diagnostic
+E3,zooter,select=best_test,3OOD,2,767,66.23207301173403,0.2273417218113259,67.83343589991631,test-selected diagnostic
+E3,Strongest,source_train,11ID,3,5341,78.2812207451788,2.6893922501332406,69.1813337984604,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Strongest,source_train,3OOD,3,767,78.6179921773142,2.8702529378200734,68.7465695920104,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Cheapest,source_train,11ID,3,5341,62.46021344317544,0.14376436977311274,64.66711310042137,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Cheapest,source_train,3OOD,3,767,65.1890482398957,0.14667992180219708,67.30531310335631,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Oracle,test_oracle,11ID,3,5341,95.45029020782624,0.37023855043691495,93.56326021529718,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Oracle,test_oracle,3OOD,3,767,96.87092568448502,0.3799985691981215,94.72057916197797,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K1,11ID,3,5341,74.5740498034076,0.7623001313220581,73.13686158395922,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K1,3OOD,3,767,67.53585397653194,0.7085189058095844,67.0988918221902,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K2_fixed_map,11ID,3,5341,75.52892716719715,0.6558760949727419,74.41101423424901,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K2_fixed_map,3OOD,3,767,74.1851368970013,0.6528644110556513,73.2354789291852,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K1,11ID,3,5341,74.5740498034076,0.7623001313220581,73.13686158395922,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K1,3OOD,3,767,67.53585397653194,0.7085189058095844,67.0988918221902,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K2_fixed_map,11ID,3,5341,75.13574237034263,0.6474494330143492,74.0994448010688,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K2_fixed_map,3OOD,3,767,73.92438070404172,0.6331483746654624,73.08556751706385,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-state,rule4_coarse_fallback,11ID,3,5341,77.28889721026026,0.8715833779525265,75.05153584339797,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-state,rule4_coarse_fallback,3OOD,3,767,72.7509778357236,0.7063275138754034,71.7525247030539,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,base,11ID,3,5341,80.07863695937091,2.9007773826389536,69.64010443242168,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,base,3OOD,3,767,79.26988265971316,3.376113433139508,67.23639257568136,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,rule4_coarse_fallback,11ID,3,5341,79.64800599138738,1.7404071366781655,73.67884236288371,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,rule4_coarse_fallback,3OOD,3,767,74.83702737940025,1.112589832551497,72.05428490146272,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,base,11ID,3,5341,78.4310054296948,2.7190752683129014,69.1780588289603,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,base,3OOD,3,767,78.6179921773142,2.8702529378200734,68.7465695920104,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,rule4_coarse_fallback,11ID,3,5341,79.38588279348437,1.7023005837135912,73.61586418438455,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,rule4_coarse_fallback,3OOD,3,767,74.83702737940025,1.0602443321415853,72.24256099152964,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,base,11ID,3,5341,79.21737502340386,2.7632378779666107,69.56704799121123,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,base,3OOD,3,767,78.48761408083442,2.986092576204594,68.22087984701054,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,rule4_coarse_fallback,11ID,3,5341,79.47949822130688,1.7310879829099124,73.58225009704215,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,rule4_coarse_fallback,3OOD,3,767,74.83702737940025,1.092717605256694,72.12551479203445,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,base,11ID,3,5341,81.16457592211196,3.111941230223778,69.54328782808132,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,base,3OOD,3,767,76.92307692307693,4.422756841143951,61.4624050437968,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,rule4_coarse_fallback,11ID,3,5341,79.72289833364539,1.8904515478352768,73.17959845352483,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,rule4_coarse_fallback,3OOD,3,767,73.92438070404172,1.1627501946985672,71.10922753678742,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,base,11ID,3,5341,81.31436060662797,3.065358099370782,69.83058655249619,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,base,3OOD,3,767,63.23337679269883,4.219597527193841,53.75671427155244,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,rule4_coarse_fallback,11ID,3,5341,79.8914061037259,1.931593411475818,73.15556651822297,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,rule4_coarse_fallback,3OOD,3,767,69.36114732724901,1.0434099105903163,67.61509522928468,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,base,11ID,3,5341,80.97734506646695,3.025726794695371,69.76224170074282,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,base,3OOD,3,767,59.32203389830508,4.402841455633824,50.623092686815816,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,rule4_coarse_fallback,11ID,3,5341,79.7790675903389,1.971854430693096,72.92055778962214,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,rule4_coarse_fallback,3OOD,3,767,69.36114732724901,1.1780924402376014,67.19328830867381,frozen/source-only selected actions; Oracle uses test outcomes
+E3,routerdc,select=val,11ID,3,5341,70.9604942894589,0.45901160824753884,71.1514889755108,frozen/source-only selected actions; Oracle uses test outcomes
+E3,routerdc,select=val,3OOD,3,767,71.70795306388527,0.44181786341845913,71.91109392361649,frozen/source-only selected actions; Oracle uses test outcomes
+E3,routerdc,select=best_test,11ID,3,5341,70.9604942894589,0.45901160824753884,71.1514889755108,test-selected diagnostic
+E3,routerdc,select=best_test,3OOD,3,767,72.09908735332465,0.42346949303796516,72.35302279111296,test-selected diagnostic
+E3,vlc,select=val,11ID,3,5341,78.99269799662984,1.1093162904884202,75.54522241950026,frozen/source-only selected actions; Oracle uses test outcomes
+E3,vlc,select=val,3OOD,3,767,64.40677966101694,1.3588591956265146,62.446062235476084,frozen/source-only selected actions; Oracle uses test outcomes
+E3,vlc,select=best_test,11ID,3,5341,78.99269799662984,1.1093162904884202,75.54522241950026,test-selected diagnostic
+E3,vlc,select=best_test,3OOD,3,767,68.44850065189048,0.5039161681783075,68.66845905343285,test-selected diagnostic
+E3,mlp,select=val,11ID,3,5341,78.84291331211384,1.235653547939885,74.9312749176546,frozen/source-only selected actions; Oracle uses test outcomes
+E3,mlp,select=val,3OOD,3,767,65.05867014341591,1.5272246445084448,62.552155718567484,frozen/source-only selected actions; Oracle uses test outcomes
+E3,mlp,select=best_test,11ID,3,5341,78.84291331211384,1.235653547939885,74.9312749176546,test-selected diagnostic
+E3,mlp,select=best_test,3OOD,3,767,67.79661016949152,0.4651022181991189,68.22389655906682,test-selected diagnostic
+E3,cosinecls,select=val,11ID,3,5341,72.08387942332897,0.6309108028399535,71.454868505182,frozen/source-only selected actions; Oracle uses test outcomes
+E3,cosinecls,select=val,3OOD,3,767,68.83963494132985,0.7319770547114507,68.18496560554279,frozen/source-only selected actions; Oracle uses test outcomes
+E3,cosinecls,select=best_test,11ID,3,5341,72.08387942332897,0.6309108028399535,71.454868505182,test-selected diagnostic
+E3,cosinecls,select=best_test,3OOD,3,767,68.83963494132985,0.7319770547114507,68.18496560554279,test-selected diagnostic
+E3,zooter,select=val,11ID,3,5341,77.41995880921175,1.0303919120545506,74.5364823944014,frozen/source-only selected actions; Oracle uses test outcomes
+E3,zooter,select=val,3OOD,3,767,64.40677966101694,1.4370294649715647,62.239859290647225,frozen/source-only selected actions; Oracle uses test outcomes
+E3,zooter,select=best_test,11ID,3,5341,77.41995880921175,1.0303919120545506,74.5364823944014,test-selected diagnostic
+E3,zooter,select=best_test,3OOD,3,767,65.84093872229465,0.15506271186743553,67.88136392260144,test-selected diagnostic
+E3,Strongest,source_train,11ID,4,5341,78.2812207451788,2.6893922501332406,69.1813337984604,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Strongest,source_train,3OOD,4,767,78.6179921773142,2.8702529378200734,68.7465695920104,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Cheapest,source_train,11ID,4,5341,62.46021344317544,0.14376436977311274,64.66711310042137,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Cheapest,source_train,3OOD,4,767,65.1890482398957,0.14667992180219708,67.30531310335631,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Oracle,test_oracle,11ID,4,5341,95.45029020782624,0.37023855043691495,93.56326021529718,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Oracle,test_oracle,3OOD,4,767,96.87092568448502,0.3799985691981215,94.72057916197797,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K1,11ID,4,5341,74.5740498034076,0.7623001313220581,73.13686158395922,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K1,3OOD,4,767,67.53585397653194,0.7085189058095844,67.0988918221902,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K2_fixed_map,11ID,4,5341,75.52892716719715,0.6558760949727419,74.41101423424901,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-T,K2_fixed_map,3OOD,4,767,74.1851368970013,0.6528644110556513,73.2354789291852,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K1,11ID,4,5341,74.5740498034076,0.7623001313220581,73.13686158395922,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K1,3OOD,4,767,67.53585397653194,0.7085189058095844,67.0988918221902,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K2_fixed_map,11ID,4,5341,75.06085002808463,0.6459669765261795,74.03948044100414,frozen/source-only selected actions; Oracle uses test outcomes
+E3,StateRoute-MM,K2_fixed_map,3OOD,4,767,73.92438070404172,0.6323722338950811,73.08878227063127,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-state,rule4_coarse_fallback,11ID,4,5341,77.28889721026026,0.8715833779525265,75.05153584339797,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-state,rule4_coarse_fallback,3OOD,4,767,72.7509778357236,0.7063275138754034,71.7525247030539,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,base,11ID,4,5341,78.95525182550084,2.744984087100759,69.45148731813956,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,base,3OOD,4,767,78.48761408083442,2.8660977877402676,68.67144175359846,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,rule4_coarse_fallback,11ID,4,5341,79.46077513574237,1.7182799323936058,73.61513502931122,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-BERT,rule4_coarse_fallback,3OOD,4,767,74.83702737940025,1.0608897037004854,72.24022666175452,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,base,11ID,4,5341,78.44972851525931,2.738274294457806,69.12028162029412,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,base,3OOD,4,767,78.6179921773142,2.8710156498003916,68.74371039686406,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,rule4_coarse_fallback,11ID,4,5341,79.40460587904886,1.7074522407273949,73.61141093069689,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-TinyLLaVA,rule4_coarse_fallback,3OOD,4,767,74.83702737940025,1.0602443321415853,72.24256099152964,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,base,11ID,4,5341,79.14248268114585,2.784709418802046,69.43373997520514,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,base,3OOD,4,767,78.48761408083442,2.9971525501071277,68.17913476705884,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,rule4_coarse_fallback,11ID,4,5341,79.47949822130688,1.7423718250792928,73.54043011292839,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Query-Qwen3-VL,rule4_coarse_fallback,3OOD,4,767,74.83702737940025,1.092717605256694,72.12551479203445,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,base,11ID,4,5341,80.64032952630593,3.0403176965610017,69.47698336979016,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,base,3OOD,4,767,75.8800521512386,4.030609783384708,62.47373794980814,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,rule4_coarse_fallback,11ID,4,5341,79.64800599138738,1.8663552926197255,73.21146418909412,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-BERT,rule4_coarse_fallback,3OOD,4,767,73.79400260756192,1.1472469354902892,71.05320423294089,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,base,11ID,4,5341,81.29563752106347,3.055033310295017,69.85944917237983,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,base,3OOD,4,767,62.71186440677966,4.277886052455168,53.23251568156483,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,rule4_coarse_fallback,11ID,4,5341,79.8539599325969,1.9272128461800428,73.14330071568405,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-TinyLLaVA,rule4_coarse_fallback,3OOD,4,767,69.6219035202086,1.119638463542062,67.59856671461083,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,base,11ID,4,5341,81.07096049428945,3.0561341532141713,69.704134866128,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,base,3OOD,4,767,58.670143415906125,4.465821371659841,50.008582107084344,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,rule4_coarse_fallback,11ID,4,5341,79.79779067590339,1.979144413917796,72.90772853632282,frozen/source-only selected actions; Oracle uses test outcomes
+E3,Subject-Qwen3-VL,rule4_coarse_fallback,3OOD,4,767,69.36114732724901,1.2568727497388141,66.95118883375369,frozen/source-only selected actions; Oracle uses test outcomes
+E3,routerdc,select=val,11ID,4,5341,70.71709417712039,0.6599503651349845,70.12137021788514,frozen/source-only selected actions; Oracle uses test outcomes
+E3,routerdc,select=val,3OOD,4,767,69.23076923076923,0.45367927073586506,69.58941138473324,frozen/source-only selected actions; Oracle uses test outcomes
+E3,routerdc,select=best_test,11ID,4,5341,70.71709417712039,0.6599503651349845,70.12137021788514,test-selected diagnostic
+E3,routerdc,select=best_test,3OOD,4,767,69.23076923076923,0.45367927073586506,69.58941138473324,test-selected diagnostic
+E3,vlc,select=val,11ID,4,5341,78.39355925856582,1.2146222639160997,74.64192631694384,frozen/source-only selected actions; Oracle uses test outcomes
+E3,vlc,select=val,3OOD,4,767,67.14471968709258,1.2659608857084308,65.04025721593551,frozen/source-only selected actions; Oracle uses test outcomes
+E3,vlc,select=best_test,11ID,4,5341,78.39355925856582,1.2146222639160997,74.64192631694384,test-selected diagnostic
+E3,vlc,select=best_test,3OOD,4,767,72.09908735332465,0.3814529345985804,72.55280255698396,test-selected diagnostic
+E3,mlp,select=val,11ID,4,5341,79.8914061037259,1.4005750230865321,75.15187445668167,frozen/source-only selected actions; Oracle uses test outcomes
+E3,mlp,select=val,3OOD,4,767,64.40677966101694,1.6138757541946835,61.77796135894488,frozen/source-only selected actions; Oracle uses test outcomes
+E3,mlp,select=best_test,11ID,4,5341,79.8914061037259,1.4005750230865321,75.15187445668167,test-selected diagnostic
+E3,mlp,select=best_test,3OOD,4,767,69.75228161668839,0.46686910087252737,70.01242422864159,test-selected diagnostic
+E3,cosinecls,select=val,11ID,4,5341,73.15109530050552,0.6958400480965026,72.14726640898027,frozen/source-only selected actions; Oracle uses test outcomes
+E3,cosinecls,select=val,3OOD,4,767,70.14341590612777,1.2754057385792572,67.55520292967209,frozen/source-only selected actions; Oracle uses test outcomes
+E3,cosinecls,select=best_test,11ID,4,5341,73.15109530050552,0.6958400480965026,72.14726640898027,test-selected diagnostic
+E3,cosinecls,select=best_test,3OOD,4,767,70.14341590612777,1.2754057385792572,67.55520292967209,test-selected diagnostic
+E3,zooter,select=val,11ID,4,5341,76.53997378768021,0.9616455163188222,74.05670473825477,frozen/source-only selected actions; Oracle uses test outcomes
+E3,zooter,select=val,3OOD,4,767,67.92698826597132,1.0938670213287476,66.21964945464869,frozen/source-only selected actions; Oracle uses test outcomes
+E3,zooter,select=best_test,11ID,4,5341,76.53997378768021,0.9616455163188222,74.05670473825477,test-selected diagnostic
+E3,zooter,select=best_test,3OOD,4,767,67.79661016949152,0.18856792704299297,69.55009511124928,test-selected diagnostic

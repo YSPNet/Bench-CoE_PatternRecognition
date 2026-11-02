@@ -1,0 +1,23 @@
+{
+  "action_sha256": "7448cd4e96b4ad374bad5035313053ae4a4ac495c2f2736db9652c32740c2af5",
+  "cluster_artifact_sha256": "83ac1131004118bade1ebc54ce34c9c0e30d56eb0bb650dee65c142e96fac676",
+  "cost_variant_tables": {},
+  "expert_table": [
+    10,
+    10,
+    10,
+    6
+  ],
+  "k": 4,
+  "kappa_fractions": {},
+  "kappa_tables": {},
+  "seed": 2,
+  "selected_lambda": 0.03,
+  "source_fit_n": 16269,
+  "source_support": [
+    4239,
+    3015,
+    6057,
+    2958
+  ]
+}

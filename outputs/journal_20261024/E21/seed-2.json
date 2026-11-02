@@ -1,0 +1,435 @@
+{
+  "curves": [
+    {
+      "A": 80.77930582842174,
+      "C": 3.047446155451695,
+      "R": 69.54245869720742,
+      "lambda": 0.0,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 2,
+      "view": "14ID"
+    },
+    {
+      "A": 80.7629338572364,
+      "C": 3.0046735618090286,
+      "R": 69.70077164551381,
+      "lambda": 0.001,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 2,
+      "view": "14ID"
+    },
+    {
+      "A": 80.7629338572364,
+      "C": 2.9973744457437617,
+      "R": 69.72961165260833,
+      "lambda": 0.003,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 2,
+      "view": "14ID"
+    },
+    {
+      "A": 80.51735428945645,
+      "C": 2.8876207617146425,
+      "R": 69.99270276444352,
+      "lambda": 0.01,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 2,
+      "view": "14ID"
+    },
+    {
+      "A": 77.68500327439423,
+      "C": 1.5544599401998813,
+      "R": 72.81184281386702,
+      "lambda": 0.02,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 2,
+      "view": "14ID"
+    },
+    {
+      "A": 75.58939096267191,
+      "C": 0.9578940272329808,
+      "R": 73.26065547875402,
+      "lambda": 0.03,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 2,
+      "view": "14ID"
+    },
+    {
+      "A": 75.27832351015063,
+      "C": 0.7332923252872031,
+      "R": 73.86919047442551,
+      "lambda": 0.05,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 2,
+      "view": "14ID"
+    },
+    {
+      "A": 74.90176817288801,
+      "C": 0.6533918668536617,
+      "R": 73.86754937737781,
+      "lambda": 0.1,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 2,
+      "view": "14ID"
+    },
+    {
+      "A": 67.6981008513425,
+      "C": 0.3031697118402838,
+      "R": 68.83753327189676,
+      "lambda": 0.3,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 2,
+      "view": "14ID"
+    },
+    {
+      "A": 62.819253438113954,
+      "C": 0.14419647985672504,
+      "R": 65.01686769253028,
+      "lambda": 1.0,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 2,
+      "view": "14ID"
+    },
+    {
+      "A": 81.29563752106347,
+      "C": 3.0982130520164644,
+      "R": 69.68600324272202,
+      "lambda": 0.0,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "11ID"
+    },
+    {
+      "A": 81.12712975098296,
+      "C": 2.9665215151227198,
+      "R": 70.09876057213711,
+      "lambda": 0.001,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "11ID"
+    },
+    {
+      "A": 81.14585283654746,
+      "C": 2.9247832637959634,
+      "R": 70.27689609232202,
+      "lambda": 0.003,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "11ID"
+    },
+    {
+      "A": 80.77139112525744,
+      "C": 2.731179911706885,
+      "R": 70.77664795198588,
+      "lambda": 0.01,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "11ID"
+    },
+    {
+      "A": 77.71952817824378,
+      "C": 1.451767929769907,
+      "R": 73.21119073203204,
+      "lambda": 0.02,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "11ID"
+    },
+    {
+      "A": 75.92211196405168,
+      "C": 0.9695422053543239,
+      "R": 73.50035902595116,
+      "lambda": 0.03,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "11ID"
+    },
+    {
+      "A": 75.24808088372964,
+      "C": 0.7096936750553314,
+      "R": 73.9390919100421,
+      "lambda": 0.05,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "11ID"
+    },
+    {
+      "A": 74.74255757348811,
+      "C": 0.6544405758782017,
+      "R": 73.72237260009909,
+      "lambda": 0.1,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "11ID"
+    },
+    {
+      "A": 67.72140048680022,
+      "C": 0.3128436808566507,
+      "R": 68.81307817431163,
+      "lambda": 0.3,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "11ID"
+    },
+    {
+      "A": 62.46021344317544,
+      "C": 0.14382166241526373,
+      "R": 64.66711310042137,
+      "lambda": 1.0,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "11ID"
+    },
+    {
+      "A": 57.6271186440678,
+      "C": 4.3120616699897605,
+      "R": 49.74533786929257,
+      "lambda": 0.0,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "3OOD"
+    },
+    {
+      "A": 62.190352020860495,
+      "C": 3.842704695333325,
+      "R": 54.18516550988887,
+      "lambda": 0.001,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "3OOD"
+    },
+    {
+      "A": 61.799217731421116,
+      "C": 3.6700867010859755,
+      "R": 54.40089413340109,
+      "lambda": 0.003,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "3OOD"
+    },
+    {
+      "A": 61.53846153846154,
+      "C": 3.583338984303339,
+      "R": 54.455312184804605,
+      "lambda": 0.01,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "3OOD"
+    },
+    {
+      "A": 70.27379400260756,
+      "C": 1.5129893102038139,
+      "R": 66.93437706627043,
+      "lambda": 0.02,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "3OOD"
+    },
+    {
+      "A": 69.36114732724901,
+      "C": 1.2177735356317794,
+      "R": 67.07097436220323,
+      "lambda": 0.03,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "3OOD"
+    },
+    {
+      "A": 70.27379400260756,
+      "C": 0.7971105635263839,
+      "R": 69.23045047296998,
+      "lambda": 0.05,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "3OOD"
+    },
+    {
+      "A": 71.83833116036506,
+      "C": 0.6981702765278066,
+      "R": 70.97535485378259,
+      "lambda": 0.1,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "3OOD"
+    },
+    {
+      "A": 69.10039113428944,
+      "C": 0.2573440681474268,
+      "R": 70.39237689748612,
+      "lambda": 0.3,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "3OOD"
+    },
+    {
+      "A": 65.44980443285529,
+      "C": 0.14667992180219708,
+      "R": 67.55794298553946,
+      "lambda": 1.0,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 2,
+      "view": "3OOD"
+    }
+  ],
+  "rows": [
+    {
+      "A": 75.27832351015063,
+      "C": 0.7332923252872031,
+      "R": 73.86919047442551,
+      "experiment": "E21",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 6108,
+      "notes": "Cost-penalized unshrunk subject map; best_test diagnostic only",
+      "seed": 2,
+      "variant": "lambda=0.05/select=source_cv",
+      "view": "14ID"
+    },
+    {
+      "A": 75.27832351015063,
+      "C": 0.7332923252872031,
+      "R": 73.86919047442551,
+      "experiment": "E21",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 6108,
+      "notes": "Cost-penalized unshrunk subject map; best_test diagnostic only",
+      "seed": 2,
+      "variant": "lambda=0.05/select=best_test",
+      "view": "14ID"
+    },
+    {
+      "A": 74.74255757348811,
+      "C": 0.6544405758782017,
+      "R": 73.72237260009909,
+      "experiment": "E21",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 5341,
+      "notes": "Cost-penalized unshrunk subject map; best_test diagnostic only",
+      "seed": 2,
+      "variant": "lambda=0.1/select=source_cv",
+      "view": "11ID"
+    },
+    {
+      "A": 75.24808088372964,
+      "C": 0.7096936750553314,
+      "R": 73.9390919100421,
+      "experiment": "E21",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 5341,
+      "notes": "Cost-penalized unshrunk subject map; best_test diagnostic only",
+      "seed": 2,
+      "variant": "lambda=0.05/select=best_test",
+      "view": "11ID"
+    },
+    {
+      "A": 71.83833116036506,
+      "C": 0.6981702765278066,
+      "R": 70.97535485378259,
+      "experiment": "E21",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 767,
+      "notes": "Cost-penalized unshrunk subject map; best_test diagnostic only",
+      "seed": 2,
+      "variant": "lambda=0.1/select=source_cv",
+      "view": "3OOD"
+    },
+    {
+      "A": 71.83833116036506,
+      "C": 0.6981702765278066,
+      "R": 70.97535485378259,
+      "experiment": "E21",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 767,
+      "notes": "Cost-penalized unshrunk subject map; best_test diagnostic only",
+      "seed": 2,
+      "variant": "lambda=0.1/select=best_test",
+      "view": "3OOD"
+    }
+  ],
+  "seed": 2,
+  "selections": [
+    {
+      "lambda": 0.05,
+      "protocol": "full14",
+      "seed": 2,
+      "selection": "source_cv",
+      "source_oof_R": 73.36095783113097,
+      "test_R": 73.86919047442551,
+      "view": "14ID"
+    },
+    {
+      "lambda": 0.05,
+      "protocol": "full14",
+      "seed": 2,
+      "selection": "best_test",
+      "source_oof_R": 73.36095783113097,
+      "test_R": 73.86919047442551,
+      "view": "14ID"
+    },
+    {
+      "lambda": 0.1,
+      "protocol": "heldout11",
+      "seed": 2,
+      "selection": "source_cv",
+      "source_oof_R": 73.89918557574022,
+      "test_R": 73.72237260009909,
+      "view": "11ID"
+    },
+    {
+      "lambda": 0.05,
+      "protocol": "heldout11",
+      "seed": 2,
+      "selection": "best_test",
+      "source_oof_R": 73.80483858478344,
+      "test_R": 73.9390919100421,
+      "view": "11ID"
+    },
+    {
+      "lambda": 0.1,
+      "protocol": "heldout11",
+      "seed": 2,
+      "selection": "source_cv",
+      "source_oof_R": 73.89918557574022,
+      "test_R": 70.97535485378259,
+      "view": "3OOD"
+    },
+    {
+      "lambda": 0.1,
+      "protocol": "heldout11",
+      "seed": 2,
+      "selection": "best_test",
+      "source_oof_R": 73.89918557574022,
+      "test_R": 70.97535485378259,
+      "view": "3OOD"
+    }
+  ]
+}

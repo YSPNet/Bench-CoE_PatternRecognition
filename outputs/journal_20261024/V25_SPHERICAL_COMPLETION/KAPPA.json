@@ -1,0 +1,67 @@
+[
+  {
+    "fraction_mean": 1.0,
+    "fraction_sd": 0.0,
+    "kappa": 5.0,
+    "same_experts_all_seeds": true,
+    "same_experts_by_seed": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "fraction_mean": 0.9094228286926056,
+    "fraction_sd": 8.865427966590341e-05,
+    "kappa": 20.0,
+    "same_experts_all_seeds": true,
+    "same_experts_by_seed": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "fraction_mean": 0.7751183231913454,
+    "fraction_sd": 0.00016253284605421376,
+    "kappa": 64.0,
+    "same_experts_all_seeds": true,
+    "same_experts_by_seed": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "fraction_mean": 0.6409121642387363,
+    "fraction_sd": 0.006872310970772755,
+    "kappa": 128.0,
+    "same_experts_all_seeds": true,
+    "same_experts_by_seed": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "fraction_mean": 0.26392525662302535,
+    "fraction_sd": 2.9551426555293442e-05,
+    "kappa": 512.0,
+    "same_experts_all_seeds": true,
+    "same_experts_by_seed": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "backbone": "tinyllava",
+  "best_dev_soft_loss": 2.7039554697433736,
+  "best_epoch": 9,
+  "checkpoint": "outputs/journal_20261024/V19_QUERY_COST_TINYLLAVA/models/heldout11/seed-0/final/lambda-0.pt",
+  "checkpoint_sha256": "806c901398ee4ab9f5b802606027539a60a109c0ef88b45103fceb433106a80b",
+  "dev_n": 2556,
+  "epochs_run": 14,
+  "history": [
+    {
+      "dev_loss": 2.7204273564155113,
+      "epoch": 1,
+      "train_loss": 2.757705739751251
+    },
+    {
+      "dev_loss": 2.718608390557374,
+      "epoch": 2,
+      "train_loss": 2.723368032450828
+    },
+    {
+      "dev_loss": 2.724026657605955,
+      "epoch": 3,
+      "train_loss": 2.7128019668499443
+    },
+    {
+      "dev_loss": 2.706694004494633,
+      "epoch": 4,
+      "train_loss": 2.7028039872642977
+    },
+    {
+      "dev_loss": 2.7186379290895655,
+      "epoch": 5,
+      "train_loss": 2.6941647765913816
+    },
+    {
+      "dev_loss": 2.7069869541412976,
+      "epoch": 6,
+      "train_loss": 2.689384613240007
+    },
+    {
+      "dev_loss": 2.7133507228606555,
+      "epoch": 7,
+      "train_loss": 2.6871660767781376
+    },
+    {
+      "dev_loss": 2.725939152199711,
+      "epoch": 8,
+      "train_loss": 2.682874341321567
+    },
+    {
+      "dev_loss": 2.7039554697433736,
+      "epoch": 9,
+      "train_loss": 2.679909326594461
+    },
+    {
+      "dev_loss": 2.7043564487511005,
+      "epoch": 10,
+      "train_loss": 2.6771657283984998
+    },
+    {
+      "dev_loss": 2.711192786227183,
+      "epoch": 11,
+      "train_loss": 2.675317495482623
+    },
+    {
+      "dev_loss": 2.7118913892289283,
+      "epoch": 12,
+      "train_loss": 2.673552022584417
+    },
+    {
+      "dev_loss": 2.711632831555577,
+      "epoch": 13,
+      "train_loss": 2.671443963725827
+    },
+    {
+      "dev_loss": 2.708836103269192,
+      "epoch": 14,
+      "train_loss": 2.6709507488470376
+    }
+  ],
+  "lambda": "0",
+  "missing_feature_fallback_expert_index": 12,
+  "protocol": "heldout11",
+  "seed": 0,
+  "trainable_n": 17767
+}

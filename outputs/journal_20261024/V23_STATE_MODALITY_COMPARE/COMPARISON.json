@@ -1,0 +1,233 @@
+{
+  "important_limit": "MiniLM, BGE-M3, SigLIP, and Qwen3-VL are different encoders; BGE-M3/SigLIP pair shares the same source, K=2 spherical fitter, and budget rule, whereas Qwen MM uses a smaller source-fit subset and a penalty rule.",
+  "reference_checks": [
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 0,
+      "variant": "minilm_text_original",
+      "view": "11ID"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 0,
+      "variant": "minilm_text_original",
+      "view": "3OOD"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 0,
+      "variant": "bge_text_spherical",
+      "view": "11ID"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 0,
+      "variant": "bge_text_spherical",
+      "view": "3OOD"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 1,
+      "variant": "minilm_text_original",
+      "view": "11ID"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 1,
+      "variant": "minilm_text_original",
+      "view": "3OOD"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 1,
+      "variant": "bge_text_spherical",
+      "view": "11ID"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 1,
+      "variant": "bge_text_spherical",
+      "view": "3OOD"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 2,
+      "variant": "minilm_text_original",
+      "view": "11ID"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 2,
+      "variant": "minilm_text_original",
+      "view": "3OOD"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 2,
+      "variant": "bge_text_spherical",
+      "view": "11ID"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 2,
+      "variant": "bge_text_spherical",
+      "view": "3OOD"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 3,
+      "variant": "minilm_text_original",
+      "view": "11ID"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 3,
+      "variant": "minilm_text_original",
+      "view": "3OOD"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 3,
+      "variant": "bge_text_spherical",
+      "view": "11ID"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 3,
+      "variant": "bge_text_spherical",
+      "view": "3OOD"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 4,
+      "variant": "minilm_text_original",
+      "view": "11ID"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 4,
+      "variant": "minilm_text_original",
+      "view": "3OOD"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 4,
+      "variant": "bge_text_spherical",
+      "view": "11ID"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 4,
+      "variant": "bge_text_spherical",
+      "view": "3OOD"
+    }
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "status": "complete"
+}

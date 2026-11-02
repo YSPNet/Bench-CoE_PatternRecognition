@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "view": "11ID",
+  "n_test": 5341,
+  "seed": 0,
+  "classifier": "frozen Subject-Bench-CoE TinyLLaVA MMMU-30 head",
+  "grouping": "predicted_subject from seed-0 11-ID predictions; not the true subject",
+  "variants": [
+    "base_cost_free",
+    "cost_aware_source_cv"
+  ],
+  "source_selected_lambda": "0.1",
+  "metric_definition": "repository common.scores, Rank Score with full-sample bounds",
+  "overall": {
+    "base_cost_free": {
+      "A": 81.22074517880546,
+      "C": 3.0756952838938134,
+      "R": 69.72636480282061
+    },
+    "cost_aware_source_cv": {
+      "A": 74.89234225800412,
+      "C": 0.6606140083877697,
+      "R": 73.82900568885421
+    }
+  },
+  "source_hashes": {
+    "outputs/bench_coe_subject_mmmu30/ood11_3/tinyllava/seed-0/predictions_11-ID.npz": "7bc3930e24b42771869c3f6ffbb64ae9ea3ee1742a728849684f176343a30d19",
+    "outputs/bench_coe_subject_mmmu30/assignments.npz": "f850101004f4f7238465f811e91b92ac65c383343e738e4618de402eadc37ee6",
+    "outputs/journal_20261024/E21/actions_seed-0.npz": "3ebeb78de45325f23e6694b89079747bb158876a8941965a0020d42f5b36b715",
+    "outputs/journal_20261024/E21/RESULTS.csv": "393437705eff291a52b5ece053931523da1e8ddffab73d7a6cb9c48745a7c45e",
+    "data/matrices/cost_bounds.json": "18a1a8bc114c7af3a6b924662fae31057142d8c00fef738a07c5fcf76b444d0d"
+  },
+  "plotted_min_n": 20,
+  "plotted_subject_count": 18,
+  "plotted_query_count": 5284,
+  "no_test_selection": "The >=20 support cutoff is only for figure legibility; all 30 subjects are in CSV.",
+  "generated_utc": "2026-10-28T11:34:11.914991+00:00",
+  "outputs": {
+    "per_subject_seed0.csv": "0d39e09dbe021986a303924475fcb911ff39bf39e1b6f314a34c0427a2d0b7e7",
+    "subject_radar_seed0.pdf": "67fa7885359b62b626c574b12bbd1aab952d9f50be7d8181aa43391e11377113",
+    "subject_radar_seed0.png": "9380237d1d977cf355603f2c0d5f241364d2e66f7dc5e3be0b7c9a12d9905779"
+  }
+}

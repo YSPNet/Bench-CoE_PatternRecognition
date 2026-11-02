@@ -1,0 +1,31 @@
+left,right,test,seed,observed_delta,ci_low,ci_high,p_value,status
+Query-BERT,StrongestGlobal,paired_bootstrap_mean_over_seeds,all,0.005108055009823183,0.0037982973149967253,0.006548788474132285,,computed
+Query-BERT,StrongestGlobal,paired_permutation_mean_over_seeds,all,0.005108055009823183,,,9.999000099990002e-05,computed
+Query-BERT,StrongestGlobal,mcnemar_exact,0,0.008677144728225339,,,1.189326415129671e-13,computed
+Query-BERT,StrongestGlobal,mcnemar_exact,1,0.0016371971185330514,,,0.021270751953125028,computed
+Query-BERT,StrongestGlobal,mcnemar_exact,2,0.008840864440078589,,,1.1879386363488732e-14,computed
+Query-BERT,StrongestGlobal,mcnemar_exact,3,0.0016371971185330514,,,0.006347656249999991,computed
+Query-BERT,StrongestGlobal,mcnemar_exact,4,0.0047478716437459045,,,2.9802322387694952e-08,computed
+Query-TinyLLaVA,StrongestGlobal,paired_bootstrap_mean_over_seeds,all,0.004977079240340537,0.0037000654878847415,0.006319580877537655,,computed
+Query-TinyLLaVA,StrongestGlobal,paired_permutation_mean_over_seeds,all,0.004977079240340537,,,9.999000099990002e-05,computed
+Query-TinyLLaVA,StrongestGlobal,mcnemar_exact,0,0.011624099541584831,,,6.926172041503188e-14,computed
+Query-TinyLLaVA,StrongestGlobal,mcnemar_exact,1,0.0006548788474132206,,,0.38769531250000044,computed
+Query-TinyLLaVA,StrongestGlobal,mcnemar_exact,2,0.008185985592665368,,,8.137102103234137e-13,computed
+Query-TinyLLaVA,StrongestGlobal,mcnemar_exact,3,0.0029469548133594925,,,0.0005335211753845287,computed
+Query-TinyLLaVA,StrongestGlobal,mcnemar_exact,4,0.0014734774066798018,,,0.00390625,computed
+Query-Qwen3VL,StrongestGlobal,paired_bootstrap_mean_over_seeds,all,0.005893909626719057,0.004322200392927309,0.007531106745252128,,computed
+Query-Qwen3VL,StrongestGlobal,paired_permutation_mean_over_seeds,all,0.005893909626719057,,,9.999000099990002e-05,computed
+Query-Qwen3VL,StrongestGlobal,mcnemar_exact,0,0.006057629338572346,,,9.33488308874084e-09,computed
+Query-Qwen3VL,StrongestGlobal,mcnemar_exact,1,0.0014734774066798018,,,0.022460937499999993,computed
+Query-Qwen3VL,StrongestGlobal,mcnemar_exact,2,0.00900458415193195,,,3.2857397358477145e-14,computed
+Query-Qwen3VL,StrongestGlobal,mcnemar_exact,3,0.007858546168958758,,,2.918776331739527e-12,computed
+Query-Qwen3VL,StrongestGlobal,mcnemar_exact,4,0.005075311067452515,,,3.6729034036398027e-08,computed
+Query-BERT,Query-TinyLLaVA,paired_bootstrap_mean_over_seeds,all,0.00013097576948264557,-0.0012442698100851343,0.0014734774066797642,,computed
+Query-BERT,Query-TinyLLaVA,paired_permutation_mean_over_seeds,all,0.00013097576948264557,,,0.8834116588341165,computed
+Query-BERT,Query-Qwen3VL,paired_bootstrap_mean_over_seeds,all,-0.0007858546168958746,-0.00252128356254093,0.0009495743287491815,,computed
+Query-BERT,Query-Qwen3VL,paired_permutation_mean_over_seeds,all,-0.0007858546168958746,,,0.3541645835416458,computed
+Query-TinyLLaVA,Query-Qwen3VL,paired_bootstrap_mean_over_seeds,all,-0.0009168303863785201,-0.0022920759659463,0.00042648984937785337,,computed
+Query-TinyLLaVA,Query-Qwen3VL,paired_permutation_mean_over_seeds,all,-0.0009168303863785201,,,0.18568143185681432,computed
+BenchCoE query routers,Official MLP lambda=0,paired_sample_level,all,,,,,not_computable_no_frozen_sample_predictions_in_release
+BenchCoE query routers,RouterDC,paired_sample_level,all,,,,,not_computable_no_frozen_sample_predictions_in_release
+BenchCoE query routers,VLC,paired_sample_level,all,,,,,not_computable_no_frozen_sample_predictions_in_release

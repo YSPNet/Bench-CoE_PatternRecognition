@@ -1,0 +1,133 @@
+{
+  "artifact": {
+    "bytes": 237803,
+    "exists": true,
+    "path": "outputs/stateroute_mmmu_subject_20260928/PROTOTYPES.npz",
+    "sha256": "aa8de7786ea4d95e3770d3a3765bbccb52560c1d4f3598979e2409a7ad94db64"
+  },
+  "input_n": 735,
+  "input_role": "MMMU_DEV_VAL official train only",
+  "labels": "native MMMU TSV l2-category, checked against UID",
+  "method": "Qwen3-VL frozen multimodal feature; per-query L2 normalization; per-subject mean; centroid L2 normalization; maximum cosine",
+  "mmmu_dev_or_test_used_for_centers": false,
+  "mmmu_expert_y_or_c_read": false,
+  "model_path": "/home/sm5/ys/Project/SegR/models/Qwen3-VL-2B-Instruct",
+  "multi_image_overlay_n": 32,
+  "multi_image_overlay_uids": [
+    "MMMU_DEV_VAL/dev_Art_Theory_3",
+    "MMMU_DEV_VAL/validation_Math_19",
+    "MMMU_DEV_VAL/validation_Music_23",
+    "MMMU_DEV_VAL/validation_Pharmacy_4",
+    "MMMU_DEV_VAL/validation_Pharmacy_18",
+    "MMMU_DEV_VAL/validation_Biology_29",
+    "MMMU_DEV_VAL/validation_Art_Theory_4",
+    "MMMU_DEV_VAL/validation_Materials_10",
+    "MMMU_DEV_VAL/validation_Art_Theory_11",
+    "MMMU_DEV_VAL/validation_Art_Theory_16",
+    "MMMU_DEV_VAL/dev_Pharmacy_2",
+    "MMMU_DEV_VAL/validation_Chemistry_29",
+    "MMMU_DEV_VAL/validation_Manage_20",
+    "MMMU_DEV_VAL/validation_Literature_5",
+    "MMMU_DEV_VAL/validation_Clinical_Medicine_13",
+    "MMMU_DEV_VAL/validation_Chemistry_12",
+    "MMMU_DEV_VAL/validation_Music_21",
+    "MMMU_DEV_VAL/validation_Psychology_1",
+    "MMMU_DEV_VAL/validation_History_18",
+    "MMMU_DEV_VAL/validation_Computer_Science_28",
+    "MMMU_DEV_VAL/validation_Agriculture_26",
+    "MMMU_DEV_VAL/validation_Art_Theory_27",
+    "MMMU_DEV_VAL/validation_Chemistry_10",
+    "MMMU_DEV_VAL/validation_Biology_24",
+    "MMMU_DEV_VAL/validation_Computer_Science_11",
+    "MMMU_DEV_VAL/validation_Psychology_17",
+    "MMMU_DEV_VAL/validation_Architecture_and_Engineering_24",
+    "MMMU_DEV_VAL/dev_Music_2",
+    "MMMU_DEV_VAL/validation_Math_3",
+    "MMMU_DEV_VAL/validation_Economics_25",
+    "MMMU_DEV_VAL/validation_Chemistry_26",
+    "MMMU_DEV_VAL/validation_Music_1"
+  ],
+  "sources": [
+    {
+      "bytes": 1845,
+      "exists": true,
+      "path": "outputs/bench_coe_query/features/qwen3vl/LATEST_FULL.json",
+      "sha256": "68e92fd784d906dcaa90ec4eb066627707eb691cb74b5d049f9cdef0e7107cac"
+    },
+    {
+      "bytes": 1424,
+      "exists": true,
+      "path": "outputs/bench_coe_query/features/qwen3vl/e1c1775c3e46a338a3f7196788d57070d5adcb59772cdef0fb86ea5d945fc8c5/merged/manifest.json",
+      "sha256": "9058cf7056dce28a7d4550f1c59a1aed37ddfad69962d52b2662424af93de76b"
+    },
+    {
+      "bytes": 124899456,
+      "exists": true,
+      "path": "outputs/bench_coe_query/features/qwen3vl/e1c1775c3e46a338a3f7196788d57070d5adcb59772cdef0fb86ea5d945fc8c5/merged/features.npy",
+      "sha256": "36d3922828d0279ad5ecbe0fa366f9beb4b27eaa66f54c58835892db3aff89a4"
+    },
+    {
+      "bytes": 7347515,
+      "exists": true,
+      "path": "outputs/bench_coe_query/features/qwen3vl/e1c1775c3e46a338a3f7196788d57070d5adcb59772cdef0fb86ea5d945fc8c5/merged/index.jsonl",
+      "sha256": "7a481e92646f3ca00c35d3989d05c84a2afe9aeb0514823e3b9646c5fd0bbf81"
+    },
+    {
+      "bytes": 184108,
+      "exists": true,
+      "path": "outputs/stateroute_multi_image_20260918/multi_image_features.npz",
+      "sha256": "903026357998b542b55cfed52676dfb711eec3498b5b2dc271c9b634edfa643e"
+    },
+    {
+      "bytes": 50436,
+      "exists": true,
+      "path": "outputs/stateroute_multi_image_20260918/FEATURE_MANIFEST.json",
+      "sha256": "6bae2cf98cee51c6059b313fe8a2f9992c64d3c402a11c9f86ef9bdb259a68b3"
+    },
+    {
+      "bytes": 80999563,
+      "exists": true,
+      "path": "vlm_router_data/TSV_images/MMMU_DEV_VAL.tsv",
+      "sha256": "cae0445a60c2a22f29cb9df43d2d97671baa8d5921df5d8667f4f3b1f643a478"
+    },
+    {
+      "bytes": 11785084,
+      "exists": true,
+      "path": "artifacts/subject_routing/manifests/splits.json",
+      "sha256": "0f3dabd646e96a816bedc06643977b9d9058e310bc74586282a2a7ebb098211f"
+    }
+  ],
+  "subject_n": 30,
+  "support": {
+    "Accounting": 24,
+    "Agriculture": 29,
+    "Architecture_and_Engineering": 25,
+    "Art": 23,
+    "Art_Theory": 26,
+    "Basic_Medical_Science": 28,
+    "Biology": 25,
+    "Chemistry": 24,
+    "Clinical_Medicine": 23,
+    "Computer_Science": 27,
+    "Design": 23,
+    "Diagnostics_and_Laboratory_Medicine": 25,
+    "Economics": 25,
+    "Electronics": 21,
+    "Energy_and_Power": 26,
+    "Finance": 22,
+    "Geography": 23,
+    "History": 25,
+    "Literature": 24,
+    "Manage": 26,
+    "Marketing": 23,
+    "Materials": 22,
+    "Math": 23,
+    "Mechanical_Engineering": 27,
+    "Music": 26,
+    "Pharmacy": 27,
+    "Physics": 26,
+    "Psychology": 22,
+    "Public_Health": 19,
+    "Sociology": 26
+  }
+}

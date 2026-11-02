@@ -1,0 +1,82 @@
+{
+  "artifacts": {
+    "ALL_RESULTS_LONG.csv": {
+      "path": "ALL_RESULTS_LONG.csv",
+      "sha256": "b5d80d82457fb029de52d43cee3b5a3e0fc2e246a39b000f57a7fbed28bc354c"
+    },
+    "CACHE_INTEGRITY.json": {
+      "path": "CACHE_INTEGRITY.json",
+      "sha256": "332b00743eb86deec520a05afe654dcd3a250b7ad29015ccffc935372044f322"
+    },
+    "CLAIMS_AND_EVIDENCE.md": {
+      "path": "CLAIMS_AND_EVIDENCE.md",
+      "sha256": "0813f95f1b195f7c0b1749b1afe93a81af1ac8a7746e8fb8f9d89f9df0e22376"
+    },
+    "COST_TABLE.csv": {
+      "path": "COST_TABLE.csv",
+      "sha256": "f222cbe04cedbf62d3eb85514d390015af95a14637f7aeb207ffa7d6ecf53668"
+    },
+    "DIFFICULTY_STRATA.csv": {
+      "path": "DIFFICULTY_STRATA.csv",
+      "sha256": "8f15c66ec530c403f58d4667eafc27119aae563b4606e1a92067eac79459cd70"
+    },
+    "INDEPENDENT_METRICS_MANIFEST.json": {
+      "path": "INDEPENDENT_METRICS_MANIFEST.json",
+      "sha256": "fe6781c91b3cc5c9a6be4d57f5a4347ec9abbdd135fe5d47ff56c04526bd98fb"
+    },
+    "INPUT_CONTENT_PROVENANCE.json": {
+      "path": "INPUT_CONTENT_PROVENANCE.json",
+      "sha256": "2d49af6981499a74d980897b4654e10e1e5548be47bcd136f416d66724fb321f"
+    },
+    "MAIN_TABLE.csv": {
+      "path": "MAIN_TABLE.csv",
+      "sha256": "50a90f003eb47b20a77c5719e2eda396e5bd030b28acce05a7fae88784677217"
+    },
+    "PER_DATASET.csv": {
+      "path": "PER_DATASET.csv",
+      "sha256": "e2c7a593316b9ce3aa2c6179ce6605c7676613715a5ce487c3da3616e0eb277c"
+    },
+    "PREDICTION_PROVENANCE.json": {
+      "path": "PREDICTION_PROVENANCE.json",
+      "sha256": "3588785dfc12c487c1a2d477325df0d9882b7c97f11cbbd8a01931589ca63313"
+    },
+    "REPRODUCIBILITY_BOUNDARY.json": {
+      "path": "REPRODUCIBILITY_BOUNDARY.json",
+      "sha256": "cd501347811f2f713988bfed1c5f6c3f49d4c591541a286cf3d9195db0464e94"
+    },
+    "REPRODUCTION_REPORT.md": {
+      "path": "REPRODUCTION_REPORT.md",
+      "sha256": "e2c568513e7458c1f33662b06e1efff813233d78ade6890294387438a4ba7d19"
+    },
+    "RESOURCE_TABLE.csv": {
+      "path": "RESOURCE_TABLE.csv",
+      "sha256": "0264ebe3ee80f862be0079aaba4f87fc7171c924321cb4638cdb64941045bc62"
+    },
+    "ROUTING_COLLAPSE.csv": {
+      "path": "ROUTING_COLLAPSE.csv",
+      "sha256": "feeb573ef2836eb9ba9378cb16263d85c870d7ff18f9bc595f496af7d0b60254"
+    },
+    "STATISTICAL_TESTS.csv": {
+      "path": "STATISTICAL_TESTS.csv",
+      "sha256": "ad0bf4bd1a1dd086d46e204b5f1a382d08648f28c3deafe2bd43722c037a38f2"
+    }
+  },
+  "checkpoint_provenance_verified_files": 15,
+  "complete_backbone_state_attestation_passed": true,
+  "contract_sha256": "a1c24102e63954371a113d247d4beb72fdb03fc16bcd871d0589aa2399fa5e0f",
+  "fallback_policy_fail_closed": true,
+  "feature_cache_integrity_passed": true,
+  "independent_evaluation_runs": 15,
+  "input_content_provenance_passed": true,
+  "legacy_amp_migration_ledger_passed": true,
+  "official_comparator_limitation_disclosed": true,
+  "passed": true,
+  "prediction_files_immutable": true,
+  "prediction_provenance_verified_files": 45,
+  "reproducibility_boundary_disclosed": true,
+  "run_completeness_passed": true,
+  "run_id": "full-vlrb-adapted-v1",
+  "schema_version": 1,
+  "target_free_prediction_process_boundary_passed": true,
+  "target_free_prediction_processes_verified": 45
+}

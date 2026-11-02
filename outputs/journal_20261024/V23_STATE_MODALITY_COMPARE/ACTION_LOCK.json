@@ -1,0 +1,24 @@
+{
+  "prediction_sha256": {
+    "0": "1d3639baec282cd3e15eca5596c5ac4cbf04a080e0a8f6038805c0f5390911e3",
+    "1": "d4f3d521edaf7e7f8c831a18aaa19f36d9f26d069acd1c8672f4c51ab43c035e",
+    "2": "d4f3d521edaf7e7f8c831a18aaa19f36d9f26d069acd1c8672f4c51ab43c035e",
+    "3": "d4f3d521edaf7e7f8c831a18aaa19f36d9f26d069acd1c8672f4c51ab43c035e",
+    "4": "d4f3d521edaf7e7f8c831a18aaa19f36d9f26d069acd1c8672f4c51ab43c035e"
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "source_scope": "all_18665_heldout11_source_train_rows",
+  "status": "predictions_frozen_before_test_scoring",
+  "variants": [
+    "minilm_text_original",
+    "bge_text_spherical",
+    "siglip_image_spherical",
+    "bge_siglip_spherical"
+  ]
+}

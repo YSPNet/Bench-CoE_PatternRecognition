@@ -1,0 +1,31 @@
+schema_version: 1
+protocol_manifest: outputs/bench_coe_query/ood/protocol/HELD_OUT_PROTOCOL.json
+output_dir: outputs/table_a2
+methods: [oracle, strongest, cheapest, knn, prknn, ovr, kmeans, linear, mlp, cosinecls, routerdc, zooter, vlc]
+seeds: [0, 1, 2, 3, 4]
+lambdas: [0, 10, 100, 1000, 10000, "inf"]
+features:
+  root: EMBEDDINGS
+  text_encoder: BAAI/bge-m3
+  vision_encoder: facebook/dinov2-base
+  fusion_method: normalize_concat
+  text_weight: 0.5
+  batch_size: 32
+training:
+  max_epochs: 5
+  learning_rate: 2.0e-5
+  batch_size: 16
+  weight_decay: 0.01
+  patience: 2
+runtime:
+  device: cuda
+  offline: true
+  verbose: 1
+method_parameters:
+  knn: {n_neighbors: 5}
+  prknn: {n_neighbors: 7}
+  mlp: {hidden_sizes: [2048, 1024]}
+  cosinecls: {lambda_sample_sample: 0.0}
+  zooter: {max_length: 128}
+  vlc: {model_type: lxmert}
+rank_score_beta: 0.1

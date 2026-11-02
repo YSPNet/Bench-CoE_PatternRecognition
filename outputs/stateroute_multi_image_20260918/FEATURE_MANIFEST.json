@@ -1,0 +1,2553 @@
+{
+  "contract_sha256": "a1c24102e63954371a113d247d4beb72fdb03fc16bcd871d0589aa2399fa5e0f",
+  "created_at": "2026-09-18T23:24:50+0800",
+  "device": "cuda:0",
+  "dtype": "float32",
+  "dtype_forward": "bfloat16",
+  "expert_or_api_calls": 0,
+  "feature_dim": 2048,
+  "feature_file": {
+    "bytes": 184108,
+    "exists": true,
+    "path": "outputs/stateroute_multi_image_20260918/multi_image_features.npz",
+    "sha256": "903026357998b542b55cfed52676dfb711eec3498b5b2dc271c9b634edfa643e"
+  },
+  "finite": true,
+  "image_count_histogram": {
+    "2": 26,
+    "3": 5,
+    "4": 10,
+    "5": 6
+  },
+  "implementation": {
+    "bytes": 35455,
+    "exists": true,
+    "path": "scripts/run_stateroute_multi_image_20260918.py",
+    "sha256": "fe4ba796fcff832e8cb36cbcbd7a749282903c85f626897e1916701fae156a11"
+  },
+  "input": "all RGB images in original TSV order, followed by the unchanged sample text",
+  "kind": "stateroute_qwen3vl_native_multi_image_feature_overlay",
+  "maximum_l2_norm": 111.1747055053711,
+  "minimum_l2_norm": 62.72859191894531,
+  "model": "Qwen3-VL-2B-Instruct",
+  "offline": true,
+  "old_cache_root": "outputs/bench_coe_query/features/qwen3vl/e1c1775c3e46a338a3f7196788d57070d5adcb59772cdef0fb86ea5d945fc8c5",
+  "old_single_image_cache_untouched": true,
+  "per_sample": [
+    {
+      "forward_seconds": 0.6660680120112374,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          38,
+          58
+        ],
+        [
+          1,
+          46,
+          58
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            933,
+            609
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            933,
+            737
+          ]
+        }
+      ],
+      "pooling_positions": 1250,
+      "preprocess_seconds": 0.31908469001064077,
+      "row_index": 16003,
+      "sample_id": "MMMU_DEV_VAL/dev_Art_Theory_3",
+      "sequence_tokens": 1250,
+      "split": "train",
+      "visual_tokens": 1218
+    },
+    {
+      "forward_seconds": 0.12879969499772415,
+      "image_count": 4,
+      "image_grid_thw": [
+        [
+          1,
+          40,
+          28
+        ],
+        [
+          1,
+          42,
+          26
+        ],
+        [
+          1,
+          44,
+          26
+        ],
+        [
+          1,
+          40,
+          26
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            450,
+            650
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            420,
+            672
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            428,
+            698
+          ]
+        },
+        {
+          "image_index": 4,
+          "original_mode": "RGB",
+          "original_size": [
+            412,
+            628
+          ]
+        }
+      ],
+      "pooling_positions": 1123,
+      "preprocess_seconds": 0.20558054000139236,
+      "row_index": 16072,
+      "sample_id": "MMMU_DEV_VAL/dev_Literature_2",
+      "sequence_tokens": 1123,
+      "split": "test",
+      "visual_tokens": 1099
+    },
+    {
+      "forward_seconds": 0.12368424399755895,
+      "image_count": 4,
+      "image_grid_thw": [
+        [
+          1,
+          10,
+          30
+        ],
+        [
+          1,
+          10,
+          28
+        ],
+        [
+          1,
+          10,
+          28
+        ],
+        [
+          1,
+          10,
+          28
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            346,
+            112
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            352,
+            122
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            342,
+            112
+          ]
+        },
+        {
+          "image_index": 4,
+          "original_mode": "RGB",
+          "original_size": [
+            330,
+            118
+          ]
+        }
+      ],
+      "pooling_positions": 309,
+      "preprocess_seconds": 0.2559530109865591,
+      "row_index": 16102,
+      "sample_id": "MMMU_DEV_VAL/dev_Music_2",
+      "sequence_tokens": 309,
+      "split": "train",
+      "visual_tokens": 285
+    },
+    {
+      "forward_seconds": 0.11320785596035421,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          14,
+          24
+        ],
+        [
+          1,
+          28,
+          60
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            372,
+            234
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            963,
+            434
+          ]
+        }
+      ],
+      "pooling_positions": 544,
+      "preprocess_seconds": 0.10343921097228304,
+      "row_index": 16107,
+      "sample_id": "MMMU_DEV_VAL/dev_Pharmacy_2",
+      "sequence_tokens": 544,
+      "split": "train",
+      "visual_tokens": 504
+    },
+    {
+      "forward_seconds": 0.0427159650134854,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          22,
+          26
+        ],
+        [
+          1,
+          16,
+          20
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            414,
+            365
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            300,
+            232
+          ]
+        }
+      ],
+      "pooling_positions": 285,
+      "preprocess_seconds": 0.08660127996699885,
+      "row_index": 16179,
+      "sample_id": "MMMU_DEV_VAL/validation_Agriculture_26",
+      "sequence_tokens": 285,
+      "split": "train",
+      "visual_tokens": 223
+    },
+    {
+      "forward_seconds": 0.04466725897509605,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          16,
+          46
+        ],
+        [
+          1,
+          6,
+          44
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            723,
+            249
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            693,
+            109
+          ]
+        }
+      ],
+      "pooling_positions": 323,
+      "preprocess_seconds": 0.09066863299813122,
+      "row_index": 16207,
+      "sample_id": "MMMU_DEV_VAL/validation_Architecture_and_Engineering_24",
+      "sequence_tokens": 323,
+      "split": "train",
+      "visual_tokens": 250
+    },
+    {
+      "forward_seconds": 0.4378763080458157,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          90,
+          56
+        ],
+        [
+          1,
+          90,
+          64
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            896,
+            1436
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            1014,
+            1438
+          ]
+        }
+      ],
+      "pooling_positions": 2729,
+      "preprocess_seconds": 0.15512473601847887,
+      "row_index": 16251,
+      "sample_id": "MMMU_DEV_VAL/validation_Art_Theory_1",
+      "sequence_tokens": 2729,
+      "split": "test",
+      "visual_tokens": 2700
+    },
+    {
+      "forward_seconds": 0.1375023809960112,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          38,
+          54
+        ],
+        [
+          1,
+          36,
+          54
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            878,
+            608
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            864,
+            588
+          ]
+        }
+      ],
+      "pooling_positions": 1031,
+      "preprocess_seconds": 0.14226243703160435,
+      "row_index": 16253,
+      "sample_id": "MMMU_DEV_VAL/validation_Art_Theory_11",
+      "sequence_tokens": 1031,
+      "split": "train",
+      "visual_tokens": 999
+    },
+    {
+      "forward_seconds": 0.11448862904217094,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          38,
+          54
+        ],
+        [
+          1,
+          36,
+          54
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            878,
+            608
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            864,
+            588
+          ]
+        }
+      ],
+      "pooling_positions": 1024,
+      "preprocess_seconds": 0.0955181400058791,
+      "row_index": 16258,
+      "sample_id": "MMMU_DEV_VAL/validation_Art_Theory_16",
+      "sequence_tokens": 1024,
+      "split": "train",
+      "visual_tokens": 999
+    },
+    {
+      "forward_seconds": 0.2022369600017555,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          44,
+          60
+        ],
+        [
+          1,
+          42,
+          32
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            966,
+            702
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            520,
+            662
+          ]
+        }
+      ],
+      "pooling_positions": 1026,
+      "preprocess_seconds": 0.10089291603071615,
+      "row_index": 16270,
+      "sample_id": "MMMU_DEV_VAL/validation_Art_Theory_27",
+      "sequence_tokens": 1026,
+      "split": "train",
+      "visual_tokens": 996
+    },
+    {
+      "forward_seconds": 0.13794548896839842,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          50,
+          36
+        ],
+        [
+          1,
+          46,
+          62
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            568,
+            800
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            1004,
+            742
+          ]
+        }
+      ],
+      "pooling_positions": 1203,
+      "preprocess_seconds": 0.10065798199502751,
+      "row_index": 16275,
+      "sample_id": "MMMU_DEV_VAL/validation_Art_Theory_4",
+      "sequence_tokens": 1203,
+      "split": "train",
+      "visual_tokens": 1163
+    },
+    {
+      "forward_seconds": 0.05636854900512844,
+      "image_count": 3,
+      "image_grid_thw": [
+        [
+          1,
+          12,
+          46
+        ],
+        [
+          1,
+          12,
+          46
+        ],
+        [
+          1,
+          12,
+          46
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            728,
+            196
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            746,
+            204
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            744,
+            196
+          ]
+        }
+      ],
+      "pooling_positions": 441,
+      "preprocess_seconds": 0.08672741299960762,
+      "row_index": 16327,
+      "sample_id": "MMMU_DEV_VAL/validation_Biology_24",
+      "sequence_tokens": 441,
+      "split": "train",
+      "visual_tokens": 414
+    },
+    {
+      "forward_seconds": 0.1710090099950321,
+      "image_count": 5,
+      "image_grid_thw": [
+        [
+          1,
+          20,
+          48
+        ],
+        [
+          1,
+          20,
+          48
+        ],
+        [
+          1,
+          26,
+          44
+        ],
+        [
+          1,
+          20,
+          38
+        ],
+        [
+          1,
+          20,
+          38
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            774,
+            320
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            766,
+            316
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            696,
+            414
+          ]
+        },
+        {
+          "image_index": 4,
+          "original_mode": "RGB",
+          "original_size": [
+            614,
+            330
+          ]
+        },
+        {
+          "image_index": 5,
+          "original_mode": "RGB",
+          "original_size": [
+            614,
+            326
+          ]
+        }
+      ],
+      "pooling_positions": 1175,
+      "preprocess_seconds": 0.21188324299873784,
+      "row_index": 16332,
+      "sample_id": "MMMU_DEV_VAL/validation_Biology_29",
+      "sequence_tokens": 1175,
+      "split": "train",
+      "visual_tokens": 1146
+    },
+    {
+      "forward_seconds": 0.06537828000728041,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          38,
+          42
+        ],
+        [
+          1,
+          12,
+          38
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            660,
+            614
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            600,
+            198
+          ]
+        }
+      ],
+      "pooling_positions": 579,
+      "preprocess_seconds": 0.16116968402639031,
+      "row_index": 16342,
+      "sample_id": "MMMU_DEV_VAL/validation_Chemistry_10",
+      "sequence_tokens": 579,
+      "split": "train",
+      "visual_tokens": 513
+    },
+    {
+      "forward_seconds": 0.11242454202147201,
+      "image_count": 5,
+      "image_grid_thw": [
+        [
+          1,
+          18,
+          16
+        ],
+        [
+          1,
+          16,
+          18
+        ],
+        [
+          1,
+          16,
+          18
+        ],
+        [
+          1,
+          16,
+          18
+        ],
+        [
+          1,
+          16,
+          18
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            133,
+            151
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            160,
+            153
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            172,
+            156
+          ]
+        },
+        {
+          "image_index": 4,
+          "original_mode": "RGB",
+          "original_size": [
+            162,
+            151
+          ]
+        },
+        {
+          "image_index": 5,
+          "original_mode": "RGB",
+          "original_size": [
+            166,
+            153
+          ]
+        }
+      ],
+      "pooling_positions": 398,
+      "preprocess_seconds": 0.14181599800940603,
+      "row_index": 16344,
+      "sample_id": "MMMU_DEV_VAL/validation_Chemistry_12",
+      "sequence_tokens": 398,
+      "split": "train",
+      "visual_tokens": 360
+    },
+    {
+      "forward_seconds": 0.06733285501832142,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          36,
+          36
+        ],
+        [
+          1,
+          14,
+          44
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            580,
+            572
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            708,
+            236
+          ]
+        }
+      ],
+      "pooling_positions": 652,
+      "preprocess_seconds": 0.0936316850129515,
+      "row_index": 16350,
+      "sample_id": "MMMU_DEV_VAL/validation_Chemistry_18",
+      "sequence_tokens": 652,
+      "split": "test",
+      "visual_tokens": 478
+    },
+    {
+      "forward_seconds": 0.06945378298405558,
+      "image_count": 4,
+      "image_grid_thw": [
+        [
+          1,
+          8,
+          36
+        ],
+        [
+          1,
+          12,
+          24
+        ],
+        [
+          1,
+          10,
+          28
+        ],
+        [
+          1,
+          12,
+          24
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            471,
+            102
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            288,
+            130
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            349,
+            118
+          ]
+        },
+        {
+          "image_index": 4,
+          "original_mode": "RGB",
+          "original_size": [
+            313,
+            165
+          ]
+        }
+      ],
+      "pooling_positions": 322,
+      "preprocess_seconds": 0.1538247829885222,
+      "row_index": 16359,
+      "sample_id": "MMMU_DEV_VAL/validation_Chemistry_26",
+      "sequence_tokens": 322,
+      "split": "train",
+      "visual_tokens": 286
+    },
+    {
+      "forward_seconds": 0.05094778200145811,
+      "image_count": 4,
+      "image_grid_thw": [
+        [
+          1,
+          10,
+          30
+        ],
+        [
+          1,
+          10,
+          28
+        ],
+        [
+          1,
+          12,
+          26
+        ],
+        [
+          1,
+          10,
+          26
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            199,
+            64
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            189,
+            64
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            175,
+            69
+          ]
+        },
+        {
+          "image_index": 4,
+          "original_mode": "RGB",
+          "original_size": [
+            172,
+            66
+          ]
+        }
+      ],
+      "pooling_positions": 315,
+      "preprocess_seconds": 0.34699179098242894,
+      "row_index": 16362,
+      "sample_id": "MMMU_DEV_VAL/validation_Chemistry_29",
+      "sequence_tokens": 315,
+      "split": "train",
+      "visual_tokens": 288
+    },
+    {
+      "forward_seconds": 0.19163111003581434,
+      "image_count": 3,
+      "image_grid_thw": [
+        [
+          1,
+          36,
+          36
+        ],
+        [
+          1,
+          36,
+          38
+        ],
+        [
+          1,
+          36,
+          36
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            590,
+            590
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            598,
+            590
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            578,
+            572
+          ]
+        }
+      ],
+      "pooling_positions": 1051,
+      "preprocess_seconds": 0.12561162799829617,
+      "row_index": 16375,
+      "sample_id": "MMMU_DEV_VAL/validation_Clinical_Medicine_13",
+      "sequence_tokens": 1051,
+      "split": "train",
+      "visual_tokens": 990
+    },
+    {
+      "forward_seconds": 0.04523345804773271,
+      "image_count": 4,
+      "image_grid_thw": [
+        [
+          1,
+          14,
+          20
+        ],
+        [
+          1,
+          14,
+          22
+        ],
+        [
+          1,
+          14,
+          20
+        ],
+        [
+          1,
+          14,
+          22
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            148,
+            97
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            163,
+            94
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            128,
+            96
+          ]
+        },
+        {
+          "image_index": 4,
+          "original_mode": "RGB",
+          "original_size": [
+            147,
+            93
+          ]
+        }
+      ],
+      "pooling_positions": 330,
+      "preprocess_seconds": 0.12329039699397981,
+      "row_index": 16403,
+      "sample_id": "MMMU_DEV_VAL/validation_Computer_Science_11",
+      "sequence_tokens": 330,
+      "split": "train",
+      "visual_tokens": 294
+    },
+    {
+      "forward_seconds": 0.05760251102037728,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          48,
+          28
+        ],
+        [
+          1,
+          8,
+          36
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            432,
+            780
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            377,
+            75
+          ]
+        }
+      ],
+      "pooling_positions": 509,
+      "preprocess_seconds": 0.08924127701902762,
+      "row_index": 16421,
+      "sample_id": "MMMU_DEV_VAL/validation_Computer_Science_28",
+      "sequence_tokens": 509,
+      "split": "train",
+      "visual_tokens": 408
+    },
+    {
+      "forward_seconds": 0.15366438002092764,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          30,
+          24
+        ],
+        [
+          1,
+          30,
+          30
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            382,
+            470
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            494,
+            478
+          ]
+        }
+      ],
+      "pooling_positions": 507,
+      "preprocess_seconds": 0.0983873110380955,
+      "row_index": 16468,
+      "sample_id": "MMMU_DEV_VAL/validation_Diagnostics_and_Laboratory_Medicine_16",
+      "sequence_tokens": 507,
+      "split": "dev",
+      "visual_tokens": 405
+    },
+    {
+      "forward_seconds": 0.03608804603572935,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          8,
+          32
+        ],
+        [
+          1,
+          14,
+          22
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            517,
+            142
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            365,
+            233
+          ]
+        }
+      ],
+      "pooling_positions": 252,
+      "preprocess_seconds": 0.0863170949742198,
+      "row_index": 16496,
+      "sample_id": "MMMU_DEV_VAL/validation_Economics_14",
+      "sequence_tokens": 252,
+      "split": "dev",
+      "visual_tokens": 141
+    },
+    {
+      "forward_seconds": 0.03485856403131038,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          8,
+          32
+        ],
+        [
+          1,
+          14,
+          22
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            517,
+            142
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            365,
+            233
+          ]
+        }
+      ],
+      "pooling_positions": 252,
+      "preprocess_seconds": 0.08593608799856156,
+      "row_index": 16508,
+      "sample_id": "MMMU_DEV_VAL/validation_Economics_25",
+      "sequence_tokens": 252,
+      "split": "train",
+      "visual_tokens": 141
+    },
+    {
+      "forward_seconds": 0.34026971098501235,
+      "image_count": 4,
+      "image_grid_thw": [
+        [
+          1,
+          42,
+          66
+        ],
+        [
+          1,
+          34,
+          56
+        ],
+        [
+          1,
+          28,
+          88
+        ],
+        [
+          1,
+          56,
+          46
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            1054,
+            669
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            891,
+            534
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            1399,
+            451
+          ]
+        },
+        {
+          "image_index": 4,
+          "original_mode": "RGB",
+          "original_size": [
+            751,
+            891
+          ]
+        }
+      ],
+      "pooling_positions": 2458,
+      "preprocess_seconds": 0.3029331809957512,
+      "row_index": 16618,
+      "sample_id": "MMMU_DEV_VAL/validation_Geography_16",
+      "sequence_tokens": 2458,
+      "split": "dev",
+      "visual_tokens": 2429
+    },
+    {
+      "forward_seconds": 0.14298838895047083,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          54,
+          44
+        ],
+        [
+          1,
+          46,
+          56
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            690,
+            862
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            894,
+            738
+          ]
+        }
+      ],
+      "pooling_positions": 1277,
+      "preprocess_seconds": 0.11238908197265118,
+      "row_index": 16647,
+      "sample_id": "MMMU_DEV_VAL/validation_History_15",
+      "sequence_tokens": 1277,
+      "split": "test",
+      "visual_tokens": 1238
+    },
+    {
+      "forward_seconds": 0.17879003001144156,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          30,
+          44
+        ],
+        [
+          1,
+          42,
+          50
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            690,
+            480
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            808,
+            682
+          ]
+        }
+      ],
+      "pooling_positions": 898,
+      "preprocess_seconds": 0.10318788705626503,
+      "row_index": 16650,
+      "sample_id": "MMMU_DEV_VAL/validation_History_18",
+      "sequence_tokens": 898,
+      "split": "train",
+      "visual_tokens": 855
+    },
+    {
+      "forward_seconds": 0.2330093999626115,
+      "image_count": 4,
+      "image_grid_thw": [
+        [
+          1,
+          40,
+          28
+        ],
+        [
+          1,
+          42,
+          26
+        ],
+        [
+          1,
+          44,
+          26
+        ],
+        [
+          1,
+          40,
+          26
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            450,
+            650
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            420,
+            672
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            428,
+            698
+          ]
+        },
+        {
+          "image_index": 4,
+          "original_mode": "RGB",
+          "original_size": [
+            412,
+            628
+          ]
+        }
+      ],
+      "pooling_positions": 1124,
+      "preprocess_seconds": 0.38040743896272033,
+      "row_index": 16696,
+      "sample_id": "MMMU_DEV_VAL/validation_Literature_5",
+      "sequence_tokens": 1124,
+      "split": "train",
+      "visual_tokens": 1099
+    },
+    {
+      "forward_seconds": 0.04051579599035904,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          12,
+          38
+        ],
+        [
+          1,
+          8,
+          32
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            611,
+            182
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            500,
+            135
+          ]
+        }
+      ],
+      "pooling_positions": 309,
+      "preprocess_seconds": 0.09232839202741161,
+      "row_index": 16713,
+      "sample_id": "MMMU_DEV_VAL/validation_Manage_20",
+      "sequence_tokens": 309,
+      "split": "train",
+      "visual_tokens": 178
+    },
+    {
+      "forward_seconds": 0.11527273297542706,
+      "image_count": 4,
+      "image_grid_thw": [
+        [
+          1,
+          20,
+          22
+        ],
+        [
+          1,
+          20,
+          24
+        ],
+        [
+          1,
+          22,
+          24
+        ],
+        [
+          1,
+          22,
+          24
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            364,
+            331
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            382,
+            334
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            372,
+            361
+          ]
+        },
+        {
+          "image_index": 4,
+          "original_mode": "RGB",
+          "original_size": [
+            384,
+            343
+          ]
+        }
+      ],
+      "pooling_positions": 554,
+      "preprocess_seconds": 0.15467317803995684,
+      "row_index": 16762,
+      "sample_id": "MMMU_DEV_VAL/validation_Materials_10",
+      "sequence_tokens": 554,
+      "split": "train",
+      "visual_tokens": 494
+    },
+    {
+      "forward_seconds": 0.056399289052933455,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          26,
+          30
+        ],
+        [
+          1,
+          24,
+          40
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            493,
+            429
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            651,
+            399
+          ]
+        }
+      ],
+      "pooling_positions": 500,
+      "preprocess_seconds": 0.09272907098056749,
+      "row_index": 16767,
+      "sample_id": "MMMU_DEV_VAL/validation_Materials_15",
+      "sequence_tokens": 500,
+      "split": "dev",
+      "visual_tokens": 435
+    },
+    {
+      "forward_seconds": 0.17573595501016825,
+      "image_count": 4,
+      "image_grid_thw": [
+        [
+          1,
+          18,
+          22
+        ],
+        [
+          1,
+          18,
+          26
+        ],
+        [
+          1,
+          18,
+          24
+        ],
+        [
+          1,
+          30,
+          44
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            366,
+            285
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            418,
+            280
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            369,
+            276
+          ]
+        },
+        {
+          "image_index": 4,
+          "original_mode": "RGB",
+          "original_size": [
+            703,
+            472
+          ]
+        }
+      ],
+      "pooling_positions": 727,
+      "preprocess_seconds": 0.18040204897988588,
+      "row_index": 16781,
+      "sample_id": "MMMU_DEV_VAL/validation_Materials_28",
+      "sequence_tokens": 727,
+      "split": "test",
+      "visual_tokens": 654
+    },
+    {
+      "forward_seconds": 0.08021701604593545,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          16,
+          28
+        ],
+        [
+          1,
+          14,
+          24
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            441,
+            256
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            371,
+            234
+          ]
+        }
+      ],
+      "pooling_positions": 252,
+      "preprocess_seconds": 0.09635961498133838,
+      "row_index": 16801,
+      "sample_id": "MMMU_DEV_VAL/validation_Math_19",
+      "sequence_tokens": 252,
+      "split": "train",
+      "visual_tokens": 196
+    },
+    {
+      "forward_seconds": 0.14180505799595267,
+      "image_count": 3,
+      "image_grid_thw": [
+        [
+          1,
+          24,
+          26
+        ],
+        [
+          1,
+          26,
+          26
+        ],
+        [
+          1,
+          26,
+          26
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            406,
+            399
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            406,
+            414
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            411,
+            406
+          ]
+        }
+      ],
+      "pooling_positions": 518,
+      "preprocess_seconds": 0.23484097298933193,
+      "row_index": 16813,
+      "sample_id": "MMMU_DEV_VAL/validation_Math_3",
+      "sequence_tokens": 518,
+      "split": "train",
+      "visual_tokens": 494
+    },
+    {
+      "forward_seconds": 0.053134251036681235,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          16,
+          44
+        ],
+        [
+          1,
+          14,
+          46
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            711,
+            254
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            724,
+            236
+          ]
+        }
+      ],
+      "pooling_positions": 450,
+      "preprocess_seconds": 0.0894544210168533,
+      "row_index": 16831,
+      "sample_id": "MMMU_DEV_VAL/validation_Mechanical_Engineering_19",
+      "sequence_tokens": 450,
+      "split": "test",
+      "visual_tokens": 337
+    },
+    {
+      "forward_seconds": 0.16034428996499628,
+      "image_count": 5,
+      "image_grid_thw": [
+        [
+          1,
+          20,
+          14
+        ],
+        [
+          1,
+          14,
+          26
+        ],
+        [
+          1,
+          16,
+          24
+        ],
+        [
+          1,
+          16,
+          24
+        ],
+        [
+          1,
+          16,
+          30
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            124,
+            184
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            422,
+            212
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            386,
+            244
+          ]
+        },
+        {
+          "image_index": 4,
+          "original_mode": "RGB",
+          "original_size": [
+            398,
+            260
+          ]
+        },
+        {
+          "image_index": 5,
+          "original_mode": "RGB",
+          "original_size": [
+            474,
+            256
+          ]
+        }
+      ],
+      "pooling_positions": 505,
+      "preprocess_seconds": 0.19703495601424947,
+      "row_index": 16851,
+      "sample_id": "MMMU_DEV_VAL/validation_Music_1",
+      "sequence_tokens": 505,
+      "split": "train",
+      "visual_tokens": 473
+    },
+    {
+      "forward_seconds": 0.14098338299663737,
+      "image_count": 4,
+      "image_grid_thw": [
+        [
+          1,
+          14,
+          52
+        ],
+        [
+          1,
+          12,
+          60
+        ],
+        [
+          1,
+          14,
+          34
+        ],
+        [
+          1,
+          14,
+          20
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            818,
+            222
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            958,
+            198
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            536,
+            222
+          ]
+        },
+        {
+          "image_index": 4,
+          "original_mode": "RGB",
+          "original_size": [
+            318,
+            204
+          ]
+        }
+      ],
+      "pooling_positions": 582,
+      "preprocess_seconds": 0.3589421040378511,
+      "row_index": 16858,
+      "sample_id": "MMMU_DEV_VAL/validation_Music_16",
+      "sequence_tokens": 582,
+      "split": "dev",
+      "visual_tokens": 551
+    },
+    {
+      "forward_seconds": 1.0058686539996415,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          128,
+          98
+        ],
+        [
+          1,
+          96,
+          100
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            1557,
+            2057
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            1586,
+            1530
+          ]
+        }
+      ],
+      "pooling_positions": 5579,
+      "preprocess_seconds": 0.23463561898097396,
+      "row_index": 16864,
+      "sample_id": "MMMU_DEV_VAL/validation_Music_21",
+      "sequence_tokens": 5579,
+      "split": "train",
+      "visual_tokens": 5536
+    },
+    {
+      "forward_seconds": 0.14812964102020487,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          12,
+          104
+        ],
+        [
+          1,
+          38,
+          94
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            1651,
+            187
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            1506,
+            620
+          ]
+        }
+      ],
+      "pooling_positions": 1226,
+      "preprocess_seconds": 0.11353186197811738,
+      "row_index": 16866,
+      "sample_id": "MMMU_DEV_VAL/validation_Music_23",
+      "sequence_tokens": 1226,
+      "split": "train",
+      "visual_tokens": 1205
+    },
+    {
+      "forward_seconds": 0.30300951399840415,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          80,
+          100
+        ],
+        [
+          1,
+          12,
+          84
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            1613,
+            1284
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            1334,
+            183
+          ]
+        }
+      ],
+      "pooling_positions": 2274,
+      "preprocess_seconds": 0.30608588800532743,
+      "row_index": 16872,
+      "sample_id": "MMMU_DEV_VAL/validation_Music_29",
+      "sequence_tokens": 2274,
+      "split": "test",
+      "visual_tokens": 2252
+    },
+    {
+      "forward_seconds": 0.055648406967520714,
+      "image_count": 3,
+      "image_grid_thw": [
+        [
+          1,
+          26,
+          24
+        ],
+        [
+          1,
+          22,
+          22
+        ],
+        [
+          1,
+          22,
+          24
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            394,
+            402
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            342,
+            342
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            370,
+            338
+          ]
+        }
+      ],
+      "pooling_positions": 458,
+      "preprocess_seconds": 0.1310398049536161,
+      "row_index": 16890,
+      "sample_id": "MMMU_DEV_VAL/validation_Pharmacy_18",
+      "sequence_tokens": 458,
+      "split": "train",
+      "visual_tokens": 409
+    },
+    {
+      "forward_seconds": 0.041498421982396394,
+      "image_count": 3,
+      "image_grid_thw": [
+        [
+          1,
+          12,
+          24
+        ],
+        [
+          1,
+          16,
+          18
+        ],
+        [
+          1,
+          14,
+          20
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            337,
+            160
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            178,
+            154
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            217,
+            155
+          ]
+        }
+      ],
+      "pooling_positions": 257,
+      "preprocess_seconds": 0.13148972403723747,
+      "row_index": 16895,
+      "sample_id": "MMMU_DEV_VAL/validation_Pharmacy_22",
+      "sequence_tokens": 257,
+      "split": "test",
+      "visual_tokens": 214
+    },
+    {
+      "forward_seconds": 0.05679825600236654,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          22,
+          22
+        ],
+        [
+          1,
+          12,
+          24
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            341,
+            367
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            304,
+            136
+          ]
+        }
+      ],
+      "pooling_positions": 271,
+      "preprocess_seconds": 0.19133110594702885,
+      "row_index": 16905,
+      "sample_id": "MMMU_DEV_VAL/validation_Pharmacy_4",
+      "sequence_tokens": 271,
+      "split": "train",
+      "visual_tokens": 193
+    },
+    {
+      "forward_seconds": 0.12346169998636469,
+      "image_count": 5,
+      "image_grid_thw": [
+        [
+          1,
+          22,
+          30
+        ],
+        [
+          1,
+          22,
+          32
+        ],
+        [
+          1,
+          22,
+          32
+        ],
+        [
+          1,
+          22,
+          32
+        ],
+        [
+          1,
+          22,
+          32
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            494,
+            342
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            502,
+            342
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            502,
+            342
+          ]
+        },
+        {
+          "image_index": 4,
+          "original_mode": "RGB",
+          "original_size": [
+            502,
+            342
+          ]
+        },
+        {
+          "image_index": 5,
+          "original_mode": "RGB",
+          "original_size": [
+            502,
+            342
+          ]
+        }
+      ],
+      "pooling_positions": 900,
+      "preprocess_seconds": 0.22672287799650803,
+      "row_index": 16941,
+      "sample_id": "MMMU_DEV_VAL/validation_Psychology_1",
+      "sequence_tokens": 900,
+      "split": "train",
+      "visual_tokens": 869
+    },
+    {
+      "forward_seconds": 0.06574051699135453,
+      "image_count": 5,
+      "image_grid_thw": [
+        [
+          1,
+          18,
+          24
+        ],
+        [
+          1,
+          18,
+          24
+        ],
+        [
+          1,
+          18,
+          24
+        ],
+        [
+          1,
+          18,
+          24
+        ],
+        [
+          1,
+          18,
+          24
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            394,
+            284
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            394,
+            276
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            394,
+            276
+          ]
+        },
+        {
+          "image_index": 4,
+          "original_mode": "RGB",
+          "original_size": [
+            394,
+            276
+          ]
+        },
+        {
+          "image_index": 5,
+          "original_mode": "RGB",
+          "original_size": [
+            394,
+            276
+          ]
+        }
+      ],
+      "pooling_positions": 572,
+      "preprocess_seconds": 0.12420960300369188,
+      "row_index": 16949,
+      "sample_id": "MMMU_DEV_VAL/validation_Psychology_17",
+      "sequence_tokens": 572,
+      "split": "train",
+      "visual_tokens": 540
+    },
+    {
+      "forward_seconds": 0.42719439696520567,
+      "image_count": 2,
+      "image_grid_thw": [
+        [
+          1,
+          54,
+          84
+        ],
+        [
+          1,
+          62,
+          90
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            1354,
+            860
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            1434,
+            980
+          ]
+        }
+      ],
+      "pooling_positions": 2701,
+      "preprocess_seconds": 0.13761709298705682,
+      "row_index": 16954,
+      "sample_id": "MMMU_DEV_VAL/validation_Psychology_21",
+      "sequence_tokens": 2701,
+      "split": "test",
+      "visual_tokens": 2529
+    },
+    {
+      "forward_seconds": 0.2725188079639338,
+      "image_count": 5,
+      "image_grid_thw": [
+        [
+          1,
+          32,
+          40
+        ],
+        [
+          1,
+          32,
+          40
+        ],
+        [
+          1,
+          32,
+          40
+        ],
+        [
+          1,
+          32,
+          40
+        ],
+        [
+          1,
+          32,
+          40
+        ]
+      ],
+      "images": [
+        {
+          "image_index": 1,
+          "original_mode": "RGB",
+          "original_size": [
+            636,
+            496
+          ]
+        },
+        {
+          "image_index": 2,
+          "original_mode": "RGB",
+          "original_size": [
+            636,
+            496
+          ]
+        },
+        {
+          "image_index": 3,
+          "original_mode": "RGB",
+          "original_size": [
+            636,
+            496
+          ]
+        },
+        {
+          "image_index": 4,
+          "original_mode": "RGB",
+          "original_size": [
+            636,
+            496
+          ]
+        },
+        {
+          "image_index": 5,
+          "original_mode": "RGB",
+          "original_size": [
+            636,
+            496
+          ]
+        }
+      ],
+      "pooling_positions": 1644,
+      "preprocess_seconds": 0.14593571203295141,
+      "row_index": 16964,
+      "sample_id": "MMMU_DEV_VAL/validation_Psychology_30",
+      "sequence_tokens": 1644,
+      "split": "test",
+      "visual_tokens": 1600
+    }
+  ],
+  "pooling": "attention-mask mean of Qwen3-VL multimodal final hidden states",
+  "processor": "frozen native AutoProcessor chat template with add_generation_prompt=True",
+  "rows": 47,
+  "seconds": 16.145359012996778,
+  "sources": [
+    {
+      "bytes": 1845,
+      "exists": true,
+      "path": "outputs/bench_coe_query/features/qwen3vl/LATEST_FULL.json",
+      "sha256": "68e92fd784d906dcaa90ec4eb066627707eb691cb74b5d049f9cdef0e7107cac"
+    },
+    {
+      "bytes": 441313,
+      "exists": true,
+      "path": "BENCHMARKS/vqa_mc/mmmu_dev_val_samples.jsonl",
+      "sha256": "a4badb4e35ce5aabe93f188a2ed8fa39616ed1afccdfaa3ceceee7c94e7b190d"
+    },
+    {
+      "bytes": 9193,
+      "exists": true,
+      "path": "configs/bench_coe_query/experiment_contract.yaml",
+      "sha256": "a1c24102e63954371a113d247d4beb72fdb03fc16bcd871d0589aa2399fa5e0f"
+    }
+  ],
+  "split_counts": {
+    "dev": 5,
+    "test": 10,
+    "train": 32
+  }
+}

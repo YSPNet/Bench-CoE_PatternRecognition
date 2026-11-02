@@ -1,0 +1,97 @@
+{
+  "cost_scope": "cached expert USD proxy only; excludes Qwen3-VL feature extraction overhead",
+  "exposure": "historical 11-ID test results already exposed; exploratory comparison",
+  "files": [
+    {
+      "bytes": 26361,
+      "exists": true,
+      "path": "scripts/run_stateroute_mmmu_subject_20260928.py",
+      "sha256": "db178314ca1a2f686b33ad6adcd9563a509d084ffb9eedd185161735a647fa56"
+    },
+    {
+      "bytes": 7498,
+      "exists": true,
+      "path": "src/next_round_x/data.py",
+      "sha256": "d645c581d952b2f8188ec6ca3c979ac861bbd976e7676fa0117266598c427e8f"
+    },
+    {
+      "bytes": 9434,
+      "exists": true,
+      "path": "src/next_round_x/models.py",
+      "sha256": "fecf3efc7aec58820323c2865dc5c0fa258b9fb9bd25ce90a1046522db76a059"
+    },
+    {
+      "bytes": 7660,
+      "exists": true,
+      "path": "routers/utils/rank_score.py",
+      "sha256": "586c6795939592b45ea2fdf2a124bfd55b6d3ddf66f05b98779e2eaf135e5d50"
+    },
+    {
+      "bytes": 4786,
+      "exists": true,
+      "path": "outputs/stateroute_mmmu_subject_20260928/PROTOTYPES.json",
+      "sha256": "332c1e64646d842c5226017461bd51c854be20f513b8869a108897787312f146"
+    },
+    {
+      "bytes": 237803,
+      "exists": true,
+      "path": "outputs/stateroute_mmmu_subject_20260928/PROTOTYPES.npz",
+      "sha256": "aa8de7786ea4d95e3770d3a3765bbccb52560c1d4f3598979e2409a7ad94db64"
+    },
+    {
+      "bytes": 3944,
+      "exists": true,
+      "path": "outputs/stateroute_mmmu_subject_20260928/SELECTION.json",
+      "sha256": "9d20129b83c49682a1ee5d266d692a71590c8d7c78ec3602b7d11f34f6670cc4"
+    },
+    {
+      "bytes": 233981,
+      "exists": true,
+      "path": "outputs/stateroute_mmmu_subject_20260928/MODEL.npz",
+      "sha256": "0c86562a7f013d7678cbe36c77a21ae16a577e67331aa127c711a4259ca8e92d"
+    },
+    {
+      "bytes": 199491,
+      "exists": true,
+      "path": "outputs/stateroute_mmmu_subject_20260928/OOF.npz",
+      "sha256": "1918d7b9ad89486c312af0a471b78bc826a311e42d8e2ad21c7df1bcc8a0c817"
+    },
+    {
+      "bytes": 662,
+      "exists": true,
+      "path": "outputs/stateroute_mmmu_subject_20260928/OOF_RESULTS.csv",
+      "sha256": "318b24e873a895c06db49f4a3200383e7809cfc00f7c4523912df8dc72fa557c"
+    },
+    {
+      "bytes": 474186,
+      "exists": true,
+      "path": "outputs/next_round_x/source/heldout11/MANIFEST.json",
+      "sha256": "fe8f01bb6f863b695e70c981246ebd93d7fa9c12108b0f890ec855d78f65957c"
+    },
+    {
+      "bytes": 11785084,
+      "exists": true,
+      "path": "artifacts/subject_routing/manifests/splits.json",
+      "sha256": "0f3dabd646e96a816bedc06643977b9d9058e310bc74586282a2a7ebb098211f"
+    },
+    {
+      "bytes": 5881,
+      "exists": true,
+      "path": "artifacts/subject_routing/manifests/model_pool.json",
+      "sha256": "f9ec0fec77744d83c4be9e68b4febc23fb751b33b882c3865eeb7b27d9495ac2"
+    },
+    {
+      "bytes": 998,
+      "exists": true,
+      "path": "data/matrices/cost_bounds.json",
+      "sha256": "18a1a8bc114c7af3a6b924662fae31057142d8c00fef738a07c5fcf76b444d0d"
+    }
+  ],
+  "model_path": "/home/sm5/ys/Project/SegR/models/Qwen3-VL-2B-Instruct",
+  "original_ood_expert_outcomes_used": false,
+  "prototype_n": 735,
+  "source_fit_n": 16269,
+  "status": "FROZEN_BEFORE_NEW_11_ID_TEST_ACTIONS_AND_OUTCOMES",
+  "subject_n": 30,
+  "test_selection": false
+}

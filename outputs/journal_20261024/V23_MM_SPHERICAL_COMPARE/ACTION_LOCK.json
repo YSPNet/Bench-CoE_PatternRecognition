@@ -1,0 +1,24 @@
+{
+  "prediction_files": {
+    "outputs/journal_20261024/V23_MM_SPHERICAL_COMPARE/models/seed-0/PREDICTIONS.npz": "ac2f6afe17c35d3e27502a59256143cca7d3d4abbe88e83aac10377c787a04f6",
+    "outputs/journal_20261024/V23_MM_SPHERICAL_COMPARE/models/seed-1/PREDICTIONS.npz": "463b2882d77f1533a928af854cdd721fc10549c0b34b6f7a54cf265511444f3e",
+    "outputs/journal_20261024/V23_MM_SPHERICAL_COMPARE/models/seed-2/PREDICTIONS.npz": "cc6ad823f327100667a65499b5320453701bb136e9d0227eb09f769e7fbd8c76",
+    "outputs/journal_20261024/V23_MM_SPHERICAL_COMPARE/models/seed-3/PREDICTIONS.npz": "2d18b32317d7a13f3fd858cd3825fc07455064ac550d9461d4ac9998cfcc31f1",
+    "outputs/journal_20261024/V23_MM_SPHERICAL_COMPARE/models/seed-4/PREDICTIONS.npz": "34839a799924e161508f0378acc6e71419554c602662ecabb32c44051d8b4941"
+  },
+  "protocol": "heldout11",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "status": "predictions_frozen_before_test_scoring",
+  "variants": [
+    "euclidean_original",
+    "cosine_original_centroids",
+    "spherical_fixed_lambda",
+    "spherical_source_cv"
+  ]
+}

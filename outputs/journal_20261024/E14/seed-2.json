@@ -1,0 +1,407 @@
+{
+  "details": [
+    {
+      "base": "T",
+      "conditional_no_eligible_states": 0,
+      "protocol": "full14",
+      "seed": 2,
+      "state_support": [
+        5321,
+        12550
+      ],
+      "tables": {
+        "full": [
+          6,
+          10
+        ],
+        "no_cost": [
+          6,
+          12
+        ],
+        "rule_swapped": [
+          6,
+          10
+        ],
+        "state_conditional_cost": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "base": "MM",
+      "conditional_no_eligible_states": 0,
+      "protocol": "full14",
+      "seed": 2,
+      "state_support": [
+        4752,
+        13119
+      ],
+      "tables": {
+        "full": [
+          6,
+          10
+        ],
+        "no_cost": [
+          6,
+          12
+        ],
+        "rule_swapped": [
+          6,
+          10
+        ],
+        "state_conditional_cost": [
+          6,
+          10
+        ]
+      }
+    },
+    {
+      "base": "T",
+      "conditional_no_eligible_states": 0,
+      "protocol": "heldout11",
+      "seed": 2,
+      "state_support": [
+        4950,
+        13715
+      ],
+      "tables": {
+        "full": [
+          6,
+          10
+        ],
+        "no_cost": [
+          6,
+          12
+        ],
+        "rule_swapped": [
+          6,
+          10
+        ],
+        "state_conditional_cost": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "base": "MM",
+      "conditional_no_eligible_states": 0,
+      "protocol": "heldout11",
+      "seed": 2,
+      "state_support": [
+        4198,
+        12071
+      ],
+      "tables": {
+        "full": [
+          6,
+          10
+        ],
+        "no_cost": [
+          6,
+          12
+        ],
+        "rule_swapped": [
+          6,
+          10
+        ],
+        "state_conditional_cost": [
+          6,
+          10
+        ]
+      }
+    }
+  ],
+  "rows": [
+    {
+      "A": 75.24557956777997,
+      "C": 0.6608860716483592,
+      "R": 74.13977839728018,
+      "experiment": "E14",
+      "method": "StateRoute-T",
+      "n_test": 6108,
+      "notes": "K2; source-only lambda=0.02 for swapped rule",
+      "seed": 2,
+      "variant": "full",
+      "view": "14ID"
+    },
+    {
+      "A": 79.07662082514734,
+      "C": 1.8997085812166277,
+      "R": 72.65002988503724,
+      "experiment": "E14",
+      "method": "StateRoute-T",
+      "n_test": 6108,
+      "notes": "K2; source-only lambda=0.02 for swapped rule",
+      "seed": 2,
+      "variant": "no_cost",
+      "view": "14ID"
+    },
+    {
+      "A": 70.43222003929273,
+      "C": 0.5145178663036956,
+      "R": 70.43511222392306,
+      "experiment": "E14",
+      "method": "StateRoute-T",
+      "n_test": 6108,
+      "notes": "K2; source-only lambda=0.02 for swapped rule",
+      "seed": 2,
+      "variant": "state_conditional_cost",
+      "view": "14ID"
+    },
+    {
+      "A": 75.24557956777997,
+      "C": 0.6608860716483592,
+      "R": 74.13977839728018,
+      "experiment": "E14",
+      "method": "StateRoute-T",
+      "n_test": 6108,
+      "notes": "K2; source-only lambda=0.02 for swapped rule",
+      "seed": 2,
+      "variant": "rule_swapped",
+      "view": "14ID"
+    },
+    {
+      "A": 74.93451211525868,
+      "C": 0.6440592051655264,
+      "R": 73.93575368242156,
+      "experiment": "E14",
+      "method": "StateRoute-MM",
+      "n_test": 6108,
+      "notes": "K2; source-only lambda=0.02 for full/conditional rule",
+      "seed": 2,
+      "variant": "full",
+      "view": "14ID"
+    },
+    {
+      "A": 78.76555337262606,
+      "C": 1.9849408997038707,
+      "R": 72.10161871821413,
+      "experiment": "E14",
+      "method": "StateRoute-MM",
+      "n_test": 6108,
+      "notes": "K2; source-only lambda=0.02 for full/conditional rule",
+      "seed": 2,
+      "variant": "no_cost",
+      "view": "14ID"
+    },
+    {
+      "A": 74.93451211525868,
+      "C": 0.6440592051655264,
+      "R": 73.93575368242156,
+      "experiment": "E14",
+      "method": "StateRoute-MM",
+      "n_test": 6108,
+      "notes": "K2; source-only lambda=0.02 for full/conditional rule",
+      "seed": 2,
+      "variant": "state_conditional_cost",
+      "view": "14ID"
+    },
+    {
+      "A": 74.93451211525868,
+      "C": 0.6440592051655264,
+      "R": 73.93575368242156,
+      "experiment": "E14",
+      "method": "StateRoute-MM",
+      "n_test": 6108,
+      "notes": "K2; source-only lambda=0.02 for full/conditional rule",
+      "seed": 2,
+      "variant": "rule_swapped",
+      "view": "14ID"
+    },
+    {
+      "A": 75.52892716719715,
+      "C": 0.6558760949727419,
+      "R": 74.41101423424901,
+      "experiment": "E14",
+      "method": "StateRoute-T",
+      "n_test": 5341,
+      "notes": "K2; source-only lambda=0.02 for swapped rule",
+      "seed": 2,
+      "variant": "full",
+      "view": "11ID"
+    },
+    {
+      "A": 74.1851368970013,
+      "C": 0.6528644110556513,
+      "R": 73.2354789291852,
+      "experiment": "E14",
+      "method": "StateRoute-T",
+      "n_test": 767,
+      "notes": "K2; source-only lambda=0.02 for swapped rule",
+      "seed": 2,
+      "variant": "full",
+      "view": "3OOD"
+    },
+    {
+      "A": 79.64800599138738,
+      "C": 1.935491201838702,
+      "R": 72.95551512645,
+      "experiment": "E14",
+      "method": "StateRoute-T",
+      "n_test": 5341,
+      "notes": "K2; source-only lambda=0.02 for swapped rule",
+      "seed": 2,
+      "variant": "no_cost",
+      "view": "11ID"
+    },
+    {
+      "A": 76.79269882659713,
+      "C": 1.8750762767767086,
+      "R": 70.97492688767818,
+      "experiment": "E14",
+      "method": "StateRoute-T",
+      "n_test": 767,
+      "notes": "K2; source-only lambda=0.02 for swapped rule",
+      "seed": 2,
+      "variant": "no_cost",
+      "view": "3OOD"
+    },
+    {
+      "A": 70.58603257816888,
+      "C": 0.5084389672402161,
+      "R": 70.60004915069023,
+      "experiment": "E14",
+      "method": "StateRoute-T",
+      "n_test": 5341,
+      "notes": "K2; source-only lambda=0.02 for swapped rule",
+      "seed": 2,
+      "variant": "state_conditional_cost",
+      "view": "11ID"
+    },
+    {
+      "A": 69.36114732724901,
+      "C": 0.5568482442672462,
+      "R": 69.29356112531357,
+      "experiment": "E14",
+      "method": "StateRoute-T",
+      "n_test": 767,
+      "notes": "K2; source-only lambda=0.02 for swapped rule",
+      "seed": 2,
+      "variant": "state_conditional_cost",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.52892716719715,
+      "C": 0.6558760949727419,
+      "R": 74.41101423424901,
+      "experiment": "E14",
+      "method": "StateRoute-T",
+      "n_test": 5341,
+      "notes": "K2; source-only lambda=0.02 for swapped rule",
+      "seed": 2,
+      "variant": "rule_swapped",
+      "view": "11ID"
+    },
+    {
+      "A": 74.1851368970013,
+      "C": 0.6528644110556513,
+      "R": 73.2354789291852,
+      "experiment": "E14",
+      "method": "StateRoute-T",
+      "n_test": 767,
+      "notes": "K2; source-only lambda=0.02 for swapped rule",
+      "seed": 2,
+      "variant": "rule_swapped",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.15446545590714,
+      "C": 0.6482817677794958,
+      "R": 74.11247803500734,
+      "experiment": "E14",
+      "method": "StateRoute-MM",
+      "n_test": 5341,
+      "notes": "K2; source-only lambda=0.03 for full/conditional rule",
+      "seed": 2,
+      "variant": "full",
+      "view": "11ID"
+    },
+    {
+      "A": 73.92438070404172,
+      "C": 0.6331483746654624,
+      "R": 73.08556751706385,
+      "experiment": "E14",
+      "method": "StateRoute-MM",
+      "n_test": 767,
+      "notes": "K2; source-only lambda=0.03 for full/conditional rule",
+      "seed": 2,
+      "variant": "full",
+      "view": "3OOD"
+    },
+    {
+      "A": 79.12375959558136,
+      "C": 1.9735123593742454,
+      "R": 72.41609185835617,
+      "experiment": "E14",
+      "method": "StateRoute-MM",
+      "n_test": 5341,
+      "notes": "K2; source-only lambda=0.03 for full/conditional rule",
+      "seed": 2,
+      "variant": "no_cost",
+      "view": "11ID"
+    },
+    {
+      "A": 75.8800521512386,
+      "C": 1.9728024820963344,
+      "R": 69.93133862710738,
+      "experiment": "E14",
+      "method": "StateRoute-MM",
+      "n_test": 767,
+      "notes": "K2; source-only lambda=0.03 for full/conditional rule",
+      "seed": 2,
+      "variant": "no_cost",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.15446545590714,
+      "C": 0.6482817677794958,
+      "R": 74.11247803500734,
+      "experiment": "E14",
+      "method": "StateRoute-MM",
+      "n_test": 5341,
+      "notes": "K2; source-only lambda=0.03 for full/conditional rule",
+      "seed": 2,
+      "variant": "state_conditional_cost",
+      "view": "11ID"
+    },
+    {
+      "A": 73.92438070404172,
+      "C": 0.6331483746654624,
+      "R": 73.08556751706385,
+      "experiment": "E14",
+      "method": "StateRoute-MM",
+      "n_test": 767,
+      "notes": "K2; source-only lambda=0.03 for full/conditional rule",
+      "seed": 2,
+      "variant": "state_conditional_cost",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.15446545590714,
+      "C": 0.6482817677794958,
+      "R": 74.11247803500734,
+      "experiment": "E14",
+      "method": "StateRoute-MM",
+      "n_test": 5341,
+      "notes": "K2; source-only lambda=0.03 for full/conditional rule",
+      "seed": 2,
+      "variant": "rule_swapped",
+      "view": "11ID"
+    },
+    {
+      "A": 73.92438070404172,
+      "C": 0.6331483746654624,
+      "R": 73.08556751706385,
+      "experiment": "E14",
+      "method": "StateRoute-MM",
+      "n_test": 767,
+      "notes": "K2; source-only lambda=0.03 for full/conditional rule",
+      "seed": 2,
+      "variant": "rule_swapped",
+      "view": "3OOD"
+    }
+  ],
+  "seed": 2
+}

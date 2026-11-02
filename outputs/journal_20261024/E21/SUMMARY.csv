@@ -1,0 +1,5 @@
+experiment,method,variant,view,n_seeds,A_mean,A_sd,C_mean,C_sd,R_mean,R_sd,notes
+E21,Subject-TinyLLaVA,lambda=0.05/select=source_cv,14ID,5,75.29469548133595,0.11862620126218962,0.7421838282349954,0.007248976300230946,73.84741181786464,0.08305206337078068,Cost-penalized unshrunk subject map; best_test diagnostic only
+E21,Subject-TinyLLaVA,lambda=0.1/select=best_test,3OOD,5,72.38591916558019,0.7951995140535522,0.6892651660008166,0.016495827255007128,71.49492693935488,0.7130041469877377,Cost-penalized unshrunk subject map; best_test diagnostic only
+E21,Subject-TinyLLaVA,lambda=0.1/select=source_cv,11ID,5,74.95600074892343,0.20916292894617652,0.6644544425194804,0.00923476764778938,73.86908357705997,0.14768743845816829,Cost-penalized unshrunk subject map; best_test diagnostic only
+E21,Subject-TinyLLaVA,lambda=0.1/select=source_cv,3OOD,5,72.38591916558019,0.7951995140535522,0.6892651660008166,0.016495827255007128,71.49492693935488,0.7130041469877377,Cost-penalized unshrunk subject map; best_test diagnostic only

@@ -1,0 +1,28 @@
+{
+  "backbone": "qwen3vl",
+  "cache_root": "outputs/bench_coe_query/features/qwen3vl/e1c1775c3e46a338a3f7196788d57070d5adcb59772cdef0fb86ea5d945fc8c5",
+  "contract_sha256": "a1c24102e63954371a113d247d4beb72fdb03fc16bcd871d0589aa2399fa5e0f",
+  "extraction_gate": "outputs/bench_coe_query/features/qwen3vl/e1c1775c3e46a338a3f7196788d57070d5adcb59772cdef0fb86ea5d945fc8c5/EXTRACTION_GATE.json",
+  "gate_sha256": "babaf5a12bed2fee459b56a384e832af9cb088e327f304a80ef4cb64de6caa3a",
+  "input_content": {
+    "approval_sha256": "b2adf5b214df4003abd702434e310e34a65bbf2e5ce88752fa4e1e0c6446df37",
+    "manifest_file_sha256": "2dd9fd5c2181a2904a4f970c7faa7d765e229f35d0559538bcbd4a34762cdb1d",
+    "manifest_path": "outputs/bench_coe_query/audit/INPUT_CONTENT_MANIFEST.json",
+    "manifest_sha256": "76e3fec87393681f189cb6f0742815130c52f782f40a32de8a2b3c1dad1643ad",
+    "model_configured_path": "/home/sm5/ys/Project/SegR/models/Qwen3-VL-2B-Instruct",
+    "model_configured_path_is_symlink": true,
+    "model_configured_symlink_target": "/home/sm5/ys/Project/First/models/Qwen/Qwen3-VL-2B-Instruct",
+    "model_file_count": 11,
+    "model_manifest_sha256": "ef675b23461f98cf2ffe56f5f171e6b2ae88adfd25502a7a0cc770411d957702",
+    "model_name": "qwen3vl",
+    "model_resolved_path": "/home/sm5/ys/Project/First/models/Qwen/Qwen3-VL-2B-Instruct",
+    "model_total_bytes": 4266640357,
+    "schema_version": 1,
+    "visual_assets_file_count": 18,
+    "visual_assets_manifest_sha256": "ca509f6b58e56982763619e6c21a07fcd78a20c86df69adeed090098768fd7c5",
+    "visual_assets_total_bytes": 9503769326
+  },
+  "manifest": "outputs/bench_coe_query/features/qwen3vl/e1c1775c3e46a338a3f7196788d57070d5adcb59772cdef0fb86ea5d945fc8c5/merged/manifest.json",
+  "manifest_sha256": "9058cf7056dce28a7d4550f1c59a1aed37ddfad69962d52b2662424af93de76b",
+  "schema_version": 2
+}

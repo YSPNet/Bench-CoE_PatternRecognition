@@ -1,0 +1,3 @@
+# v10 subject-level per-subject radar
+
+Seed-0 11-ID predictions from the frozen Subject-Bench-CoE TinyLLaVA head were grouped by its *predicted* MMMU subject. The source-CV-selected cost-aware map uses λ=0.1; the cost-free map uses the same classifier. All 30 subject outcomes, counts and expert choices are in `per_subject_seed0.csv`. The two-panel radar displays 18 groups with n≥20, covering 5284/5341 queries. Small or empty groups are excluded from the image solely for legibility; their data remain in the CSV. The subgroup values are descriptive and one-seed, without uncertainty intervals. The weighted subgroup A and C reproduce E21's full 11-ID point.

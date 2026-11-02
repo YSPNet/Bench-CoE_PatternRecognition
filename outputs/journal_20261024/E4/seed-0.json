@@ -1,0 +1,195 @@
+{
+  "mm": {
+    "selected_lambda": 0.02,
+    "table": [
+      10,
+      6
+    ],
+    "train_overlay": 32
+  },
+  "rows": [
+    {
+      "A": 76.68975847219622,
+      "C": 0.7964984315077681,
+      "R": 74.8402899024245,
+      "experiment": "E4",
+      "method": "Subject-state",
+      "n_test": 5341,
+      "notes": "Frozen deterministic subject fit and thresholds; seed-independent replay",
+      "seed": 0,
+      "variant": "subject_rule1_gate_fpr10",
+      "view": "11ID"
+    },
+    {
+      "A": 72.22946544980444,
+      "C": 0.6608119982775426,
+      "R": 71.46697188879581,
+      "experiment": "E4",
+      "method": "Subject-state",
+      "n_test": 767,
+      "notes": "Frozen deterministic subject fit and thresholds; seed-independent replay",
+      "seed": 0,
+      "variant": "subject_rule1_gate_fpr10",
+      "view": "3OOD"
+    },
+    {
+      "A": 77.51357423703426,
+      "C": 0.9432181466743629,
+      "R": 74.95690023208549,
+      "experiment": "E4",
+      "method": "Subject-state",
+      "n_test": 5341,
+      "notes": "Frozen deterministic subject fit and thresholds; seed-independent replay",
+      "seed": 0,
+      "variant": "subject_rule2_gate_fpr10",
+      "view": "11ID"
+    },
+    {
+      "A": 71.83833116036506,
+      "C": 0.7862980452031803,
+      "R": 70.64707581299086,
+      "experiment": "E4",
+      "method": "Subject-state",
+      "n_test": 767,
+      "notes": "Frozen deterministic subject fit and thresholds; seed-independent replay",
+      "seed": 0,
+      "variant": "subject_rule2_gate_fpr10",
+      "view": "3OOD"
+    },
+    {
+      "A": 77.28889721026026,
+      "C": 0.8720534397058958,
+      "R": 75.04963957142058,
+      "experiment": "E4",
+      "method": "Subject-state",
+      "n_test": 5341,
+      "notes": "Frozen deterministic subject fit and thresholds; seed-independent replay",
+      "seed": 0,
+      "variant": "subject_rule3_gate_fpr10",
+      "view": "11ID"
+    },
+    {
+      "A": 71.83833116036506,
+      "C": 0.7090483738301167,
+      "R": 70.93412190926747,
+      "experiment": "E4",
+      "method": "Subject-state",
+      "n_test": 767,
+      "notes": "Frozen deterministic subject fit and thresholds; seed-independent replay",
+      "seed": 0,
+      "variant": "subject_rule3_gate_fpr10",
+      "view": "3OOD"
+    },
+    {
+      "A": 77.28889721026026,
+      "C": 0.8715833779525265,
+      "R": 75.05153584339797,
+      "experiment": "E4",
+      "method": "Subject-state",
+      "n_test": 5341,
+      "notes": "Frozen deterministic subject fit and thresholds; seed-independent replay",
+      "seed": 0,
+      "variant": "subject_rule4_gate_fpr25",
+      "view": "11ID"
+    },
+    {
+      "A": 72.7509778357236,
+      "C": 0.7063275138754034,
+      "R": 71.7525247030539,
+      "experiment": "E4",
+      "method": "Subject-state",
+      "n_test": 767,
+      "notes": "Frozen deterministic subject fit and thresholds; seed-independent replay",
+      "seed": 0,
+      "variant": "subject_rule4_gate_fpr25",
+      "view": "3OOD"
+    },
+    {
+      "A": 78.38899803536346,
+      "C": 1.0984022791917185,
+      "R": 75.08517043326412,
+      "experiment": "E4",
+      "method": "Subject-state",
+      "n_test": 6108,
+      "notes": "Frozen deterministic subject fit; seed-independent replay",
+      "seed": 0,
+      "variant": "subject_accuracy14",
+      "view": "14ID"
+    },
+    {
+      "A": 75.24557956777997,
+      "C": 0.6608860716483592,
+      "R": 74.13977839728018,
+      "experiment": "E4",
+      "method": "StateRoute-T",
+      "n_test": 6108,
+      "notes": "New 14-source fit; q selected by source-fit 3-fold OOF",
+      "seed": 0,
+      "variant": "stateroute_T_K2_14ID",
+      "view": "14ID"
+    },
+    {
+      "A": 74.91814014407335,
+      "C": 0.6438031966598968,
+      "R": 73.92234311378047,
+      "experiment": "E4",
+      "method": "StateRoute-MM",
+      "n_test": 6108,
+      "notes": "New 14-source fit with 32-image overlay; lambda selected by source-fit 3-fold OOF",
+      "seed": 0,
+      "variant": "stateroute_MM_K2_14ID",
+      "view": "14ID"
+    }
+  ],
+  "seed": 0,
+  "text": {
+    "selected_cap": 8.68632785466288e-05,
+    "selected_q": 0.5,
+    "source_oof": [
+      {
+        "A": 70.08001790610486,
+        "C": 0.5174364879761485,
+        "R": 70.10289262512717,
+        "q": 0.25
+      },
+      {
+        "A": 70.08001790610486,
+        "C": 0.5174364879761485,
+        "R": 70.10289262512717,
+        "q": 0.35
+      },
+      {
+        "A": 75.35112752504057,
+        "C": 0.6657072561025298,
+        "R": 74.21259849439448,
+        "q": 0.5
+      },
+      {
+        "A": 75.35112752504057,
+        "C": 0.6657072561025298,
+        "R": 74.21259849439448,
+        "q": 0.65
+      },
+      {
+        "A": 75.35112752504057,
+        "C": 0.6657072561025298,
+        "R": 74.21259849439448,
+        "q": 0.75
+      },
+      {
+        "A": 78.64137429354821,
+        "C": 1.884799032951728,
+        "R": 72.36979136681634,
+        "q": 1.0
+      }
+    ],
+    "state_support": [
+      5321,
+      12550
+    ],
+    "table": [
+      6,
+      10
+    ]
+  }
+}

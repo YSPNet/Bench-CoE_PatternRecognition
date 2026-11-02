@@ -1,0 +1,91 @@
+{
+  "backbone": "tinyllava",
+  "best_dev_soft_loss": 2.7002863160134853,
+  "best_epoch": 10,
+  "checkpoint": "outputs/journal_20261024/V19_QUERY_COST_TINYLLAVA/models/heldout11/seed-0/final/lambda-10.pt",
+  "checkpoint_sha256": "233dd9f7207b84b60e51745b03890d779e094b1cebc16098a22b81af4f91b858",
+  "dev_n": 2556,
+  "epochs_run": 15,
+  "history": [
+    {
+      "dev_loss": 2.716202015048461,
+      "epoch": 1,
+      "train_loss": 2.75669948485879
+    },
+    {
+      "dev_loss": 2.718311285935284,
+      "epoch": 2,
+      "train_loss": 2.7213136863848058
+    },
+    {
+      "dev_loss": 2.7263624164420115,
+      "epoch": 3,
+      "train_loss": 2.7098600914463944
+    },
+    {
+      "dev_loss": 2.7067454163457305,
+      "epoch": 4,
+      "train_loss": 2.7000926327019665
+    },
+    {
+      "dev_loss": 2.7155379711742134,
+      "epoch": 5,
+      "train_loss": 2.690722382839566
+    },
+    {
+      "dev_loss": 2.706759170747139,
+      "epoch": 6,
+      "train_loss": 2.685813039667049
+    },
+    {
+      "dev_loss": 2.711675736452679,
+      "epoch": 7,
+      "train_loss": 2.683869793652992
+    },
+    {
+      "dev_loss": 2.727075221579586,
+      "epoch": 8,
+      "train_loss": 2.6792663057821846
+    },
+    {
+      "dev_loss": 2.700751261345471,
+      "epoch": 9,
+      "train_loss": 2.6762527720355327
+    },
+    {
+      "dev_loss": 2.7002863160134853,
+      "epoch": 10,
+      "train_loss": 2.673462956222892
+    },
+    {
+      "dev_loss": 2.709074859141557,
+      "epoch": 11,
+      "train_loss": 2.6709873306333245
+    },
+    {
+      "dev_loss": 2.708377414279514,
+      "epoch": 12,
+      "train_loss": 2.669911652389104
+    },
+    {
+      "dev_loss": 2.711633941936941,
+      "epoch": 13,
+      "train_loss": 2.6668552445621936
+    },
+    {
+      "dev_loss": 2.7067784352668203,
+      "epoch": 14,
+      "train_loss": 2.6662795622441244
+    },
+    {
+      "dev_loss": 2.7134161517840223,
+      "epoch": 15,
+      "train_loss": 2.6628656325198294
+    }
+  ],
+  "lambda": "10",
+  "missing_feature_fallback_expert_index": 12,
+  "protocol": "heldout11",
+  "seed": 0,
+  "trainable_n": 17767
+}

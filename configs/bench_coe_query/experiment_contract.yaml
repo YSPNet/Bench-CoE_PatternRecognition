@@ -1,0 +1,266 @@
+schema_version: 1
+method:
+  name: Bench-CoE Query Routers on VL-RouterBench
+  short_name: bench_coe_query
+  implementation_status: adapted
+  adaptation_reason: >-
+    The behavior is ported from hash-audited candidate Bench-CoE sources into the
+    fixed VL-RouterBench Y/C protocol, but BENCHCOE_ORIGINAL_ROOT has not been
+    frozen to an authoritative revision.
+  source_evidence_root: /home/sm5/ys/Bench-CoE
+  source_evidence_status: hash_pinned_candidate
+  upstream_vlrb_commit: f5a41ce83d6efe67489b35bb7a07ae72976a9aba
+
+data:
+  root: /home/sm5/ys/VL-RouterBench
+  expected_samples: 30540
+  expected_experts: 17
+  expected_datasets: 14
+  benchmarks:
+    path: BENCHMARKS
+    files: 14
+    records: 30540
+    manifest_sha256: 077bdefb838b75b34939491375af0e2d97d644cf106326d427b404953497b36c
+  splits:
+    train:
+      path: SPLITS/train.jsonl
+      count: 21378
+      sha256: 0dc934548f4105d79504341f3743f68c2303f81e6a30ebcbe9a517f695874c95
+    dev:
+      path: SPLITS/dev.jsonl
+      count: 3054
+      sha256: 0962f03d92f282e7142ff8b3a7120d4834be914082e3e60a480bfebdd578ea45
+    test:
+      path: SPLITS/test.jsonl
+      count: 6108
+      sha256: a6720b3988c822726d8ec775966b1f2a9563e7fe669167d8c8a40634923549fa
+  matrices:
+    y:
+      path: data/matrices/Y.npz
+      sha256: 89a5342f9e3f4b7b5157cd510bd2742b836228c165edb641cbde75b9c79736a7
+      shape: [30540, 17]
+      dtype: int8
+    c:
+      path: data/matrices/C.npy
+      sha256: 446833a05aeacb1fcd43b82753d69a02e168211528980429f7f37ef1caf8d998
+      shape: [30540, 17]
+      dtype: float32
+    cost_bounds:
+      path: data/matrices/cost_bounds.json
+      sha256: 18a1a8bc114c7af3a6b924662fae31057142d8c00fef738a07c5fcf76b444d0d
+  registry:
+    meta:
+      path: data/registry/meta.parquet
+      sha256: 3bd86e23301ec3b24600bc4e5451dc3188c2bfa6097e7ecb15c424a058adea3a
+    models:
+      path: data/registry/model_index.pkl
+      sha256: e6c9f940fb08658bf4a4cb68317cdb3c4feeb4838f4d2caed6a9ce1fa38338b4
+    samples:
+      path: data/registry/sample_index.pkl
+      sha256: 34c0f83c7dcc5630a163fe0a56239b1ec4a331da7d780fec81e2b6d1dac4e27a
+  tsv_assets_root: vlm_router_data/TSV_images
+  asset_policy:
+    images_per_sample: exactly_one
+    output_mode: RGB
+    adapter_resize: forbidden
+    bad_or_empty: structured_error
+    multi_image: structured_error
+    known_multi_image_samples: 47
+
+experts:
+  canonical_order:
+    - GPT4o
+    - GeminiFlash2-5
+    - Gemma3-27B
+    - InternVL2_5-78B
+    - Janus-Pro-1B
+    - Janus-Pro-7B
+    - Kimi-VL-A3B-Thinking-2506
+    - MiMo-VL-7B-RL
+    - Phi-3.5-Vision
+    - Pixtral-12B
+    - Qianfan-VL-8B
+    - Qwen2.5-VL-32B-Instruct
+    - Qwen2.5-VL-72B-Instruct
+    - SmolVLM2
+    - deepseek_vl2
+    - deepseek_vl2_tiny
+    - llava_next_vicuna_7b
+  api_expert_ids:
+    openai: GPT4o
+    google: GeminiFlash2-5
+
+labels:
+  name: hard_global_best_among_correct
+  statistics_source: train_only
+  expert_priority: descending_train_accuracy
+  tie_break: ascending_canonical_model_index
+  all_wrong_policy: exclude_from_ce
+  ignore_index: -100
+  class_weights: null
+  oversampling: false
+  load_balancing: false
+
+evaluation:
+  primary_metric: routed_accuracy
+  routed_accuracy_definition: mean(Y[row_index, predicted_expert_index])
+  auxiliary_metrics:
+    - average_cost
+    - official_rank_score
+    - hard_label_accuracy_non_all_wrong
+    - per_dataset_micro_and_macro
+    - expert_usage_entropy_and_gini
+    - difficulty_strata
+  rank_score_implementation: routers.utils.rank_score.rank_score
+  cost_bounds_path: data/matrices/cost_bounds.json
+  checkpoint_selection:
+    split: dev
+    monitor: dev_hard_label_loss
+    mode: min
+    test_allowed: false
+
+reproducibility:
+  seeds: [0, 1, 2, 3, 4]
+  deterministic_sharding: row_index_mod_world_size
+  prediction_before_evaluation: true
+  manifest_environment_whitelist:
+    - RUN_FULL
+    - RUN_API_REGEN
+    - CUDA_VISIBLE_DEVICES
+    - HF_HUB_OFFLINE
+    - TRANSFORMERS_OFFLINE
+    - BERT_ROUTER_PATH
+    - TINYLLAVA_ROUTER_PATH
+    - QWEN3VL_ROUTER_PATH
+    - BENCHCOE_ORIGINAL_ROOT
+
+models:
+  bert:
+    identity: bert-base-uncased
+    path: /home/sm5/ys/PR/Y/models/bert-base-uncased
+    path_env: BERT_ROUTER_PATH
+    revision: local-config-sha256-7160e1553ad2ca51d8c1cb066be533db31826e12d173824c1bb0cb1a4f187d20
+    config_sha256: 7160e1553ad2ca51d8c1cb066be533db31826e12d173824c1bb0cb1a4f187d20
+    tokenizer_config_sha256: a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10
+    loader: AutoModelForSequenceClassification
+    processor: BertTokenizerFast_or_AutoTokenizer_local_only
+    max_length: 256
+    padding: max_length
+    truncation: true
+    pooling: native_bert_sequence_classification_pooled_CLS
+    dtype: fp16_training
+    trainable_scope: all_parameters
+  tinyllava:
+    identity: TinyLLaVA-Phi-2-SigLIP-3.1B
+    path: /home/sm5/ys/Project/SegR/models/TinyLLaVA-Phi-2-SigLIP-3.1B
+    path_env: TINYLLAVA_ROUTER_PATH
+    revision: local-config-and-remote-code-hash-pinned
+    config_sha256: ddb87f9ef97748f827bbbaba3da2aea393cc8b97614fb7866b83d73f3cd82160
+    tokenizer_config_sha256: f35151ab695539efbfc8b4f6f9e76ff098373d287917732e19a95ab3cf3df605
+    remote_code_sha256: b836cfb65485cf81e3114eb6491978e5b2f19dd5fb982842faea38ff871b7598
+    loader: AutoModelForCausalLM_trust_audited_local_remote_code
+    processor: direct_SiglipImageProcessor_from_vision_cfg_image_size_384
+    prompt_template: question_and_optional_options_without_image_tokens
+    pooling: concat_encode_images_token_mean_and_phi2_final_hidden_attention_mask_mean
+    hidden_state_layer: vision_feature_layer_minus_2_and_language_model_final
+    dtype: fp16
+    attention: eager
+    trainable_scope: layernorm_dropout_linear_head_only
+    backbone_frozen: true
+  qwen3vl:
+    identity: Qwen3-VL-2B-Instruct
+    path: /home/sm5/ys/Project/SegR/models/Qwen3-VL-2B-Instruct
+    path_env: QWEN3VL_ROUTER_PATH
+    revision: local-artifacts-and-transformers-source-hash-pinned
+    config_sha256: bec4b3d446efa05807365c9e1cec03ac590836879d02f3a6da879971154bdd3b
+    tokenizer_config_sha256: c2da771801886ad9ae98181793ffd3dfb7f1af30f6f7c6a4e15d7dbba52e2399
+    preprocessor_config_sha256: 27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516
+    chat_template_sha256: 6f8a6a55027e3da5160105556cda5dd69f6423f1c32645f6730d32de7773d0c4
+    modeling_source_sha256: d8a2bbac9965fcbd3f9bdfcb1bfe0f6e85a527e0a58bf9fb6558e4b64c6e68b0
+    processing_source_sha256: add767ca5e9511e1db0a69091d51b1d0b2078c874d59ee3a58c4748b5d9014a4
+    loader: Qwen3VLForConditionalGeneration_local_only
+    processor: AutoProcessor_native_image_text_chat_template
+    processor_min_pixels: 65536
+    processor_max_pixels: 16777216
+    pooling: model_model_final_hidden_attention_mask_mean_over_multimodal_sequence
+    dtype: bf16
+    attention: sdpa
+    trainable_scope: layernorm_dropout_linear_head_only
+    backbone_frozen: true
+
+profiles:
+  benchcoe_faithful_evidence:
+    status: requires_authoritative_source_approval
+    source_root: /home/sm5/ys/Bench-CoE
+    source_hashes:
+      bert: 4804a04541b4bd095aeb41110521d9a64301d0440e1659f7a81b98c45e321719
+      tinyllava: 7b1cc4bfb363297a22e682ce36b35fc2180149650ba7cf22c7f06d6923c69867
+      qwen3vl: 6df46eb01e1f73c9b6fb0685c00c6e6ad9c4f4acd7e263458d35f3f0a53267b8
+  vlrb_adapted_v1:
+    status: main_preregistered_profile
+    bert:
+      batch_size_per_gpu: 64
+      epochs: 10
+      min_epochs: 3
+      patience: 3
+      learning_rate: 0.00002
+      weight_decay: 0.01
+      warmup_ratio: 0.06
+      dropout: native_model_default
+    frozen_head:
+      architecture: LayerNorm_Dropout_Linear
+      dropout: 0.15
+      batch_size_per_gpu: 64
+      epochs: 40
+      min_epochs: 8
+      patience: 5
+      learning_rate: 0.0003
+      weight_decay: 0.001
+    loss: cross_entropy_ignore_index_minus_100
+    hyperparameter_selection: dev_loss_only
+
+features:
+  root: outputs/bench_coe_query/features
+  format: numpy_npy_plus_jsonl_indices
+  save_every_batches: 25
+  shard_rule: row_index_mod_world_size
+  full_expected_rows: 30540
+  signature_fields:
+    - model_identity_and_revision
+    - model_and_processor_config_hashes
+    - chat_or_prompt_template
+    - pooling_and_hidden_layer
+    - dtype_and_attention
+    - image_processor_parameters
+    - implementation_source_hash
+
+scheduling:
+  available_target_gpus: 8
+  target_gpu_model: NVIDIA RTX A6000
+  feature_extraction:
+    world_size: 8
+    strategy: independent_model_per_rank_no_DDP
+    backbone_order: [tinyllava, qwen3vl]
+  five_seed_training:
+    mapping: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4}
+    single_seed_ddp: forbidden
+  oom_batch_ladder:
+    bert: [64, 32, 16, 8]
+    tinyllava: [8, 4, 2, 1]
+    qwen3vl: [4, 2, 1]
+
+safety:
+  RUN_FULL: 0
+  RUN_API_REGEN: 0
+  offline_only: true
+  minimum_full_run_free_disk_percent: 20
+  smoke_limits: {train: 64, dev: 32, test: 64, epochs: 1}
+  full_run_requires_quality_gate: true
+  output_root: outputs/bench_coe_query
+
+requires_human_approval:
+  - authoritative_original_benchcoe_root_and_revision
+  - adapted_tinyllava_pooling_and_processor_contract
+  - adapted_qwen3vl_chat_template_and_pooling_contract
+  - explicit_policy_for_47_genuine_multi_image_samples
+  - full_run_after_quality_gate_and_disk_cleanup

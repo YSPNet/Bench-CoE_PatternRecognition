@@ -1,0 +1,10 @@
+{
+  "bootstrap_seed": 20261031,
+  "bootstraps": 2000,
+  "manuscript_docx_sha256": "495551705acb9401641b8196ced777125252ce9ac5a3e455ad25ee4d87ecbef8",
+  "manuscript_pdf_sha256": "2c5b5a2518429b00fb16f39521e2a6d750d681878de00d2ff018808a7d90dc42",
+  "mm_action_lock_sha256": "7c419a25a50f72b31b537248f7785f4028683790999959e29a2e6b34ae9c4313",
+  "modality_action_lock_sha256": "7d7334216c3fe914ff17972a75ec6da6a42c9d1f0230e0aa90bddb1e4fa6b5b6",
+  "scope": "paired_test_UID_resampling_across_5_seeds",
+  "status": "complete"
+}

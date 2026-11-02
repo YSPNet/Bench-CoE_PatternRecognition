@@ -1,0 +1,56 @@
+experiment,method,variant,view,seed,n_test,A,C,R,notes
+E4,Subject-state,subject_rule1_gate_fpr10,11ID,0,5341,76.68975847219622,0.7964984315077681,74.8402899024245,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule1_gate_fpr10,3OOD,0,767,72.22946544980444,0.6608119982775426,71.46697188879581,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule2_gate_fpr10,11ID,0,5341,77.51357423703426,0.9432181466743629,74.95690023208549,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule2_gate_fpr10,3OOD,0,767,71.83833116036506,0.7862980452031803,70.64707581299086,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule3_gate_fpr10,11ID,0,5341,77.28889721026026,0.8720534397058958,75.04963957142058,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule3_gate_fpr10,3OOD,0,767,71.83833116036506,0.7090483738301167,70.93412190926747,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule4_gate_fpr25,11ID,0,5341,77.28889721026026,0.8715833779525265,75.05153584339797,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule4_gate_fpr25,3OOD,0,767,72.7509778357236,0.7063275138754034,71.7525247030539,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_accuracy14,14ID,0,6108,78.38899803536346,1.0984022791917185,75.08517043326412,Frozen deterministic subject fit; seed-independent replay
+E4,StateRoute-T,stateroute_T_K2_14ID,14ID,0,6108,75.24557956777997,0.6608860716483592,74.13977839728018,New 14-source fit; q selected by source-fit 3-fold OOF
+E4,StateRoute-MM,stateroute_MM_K2_14ID,14ID,0,6108,74.91814014407335,0.6438031966598968,73.92234311378047,New 14-source fit with 32-image overlay; lambda selected by source-fit 3-fold OOF
+E4,Subject-state,subject_rule1_gate_fpr10,11ID,1,5341,76.68975847219622,0.7964984315077681,74.8402899024245,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule1_gate_fpr10,3OOD,1,767,72.22946544980444,0.6608119982775426,71.46697188879581,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule2_gate_fpr10,11ID,1,5341,77.51357423703426,0.9432181466743629,74.95690023208549,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule2_gate_fpr10,3OOD,1,767,71.83833116036506,0.7862980452031803,70.64707581299086,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule3_gate_fpr10,11ID,1,5341,77.28889721026026,0.8720534397058958,75.04963957142058,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule3_gate_fpr10,3OOD,1,767,71.83833116036506,0.7090483738301167,70.93412190926747,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule4_gate_fpr25,11ID,1,5341,77.28889721026026,0.8715833779525265,75.05153584339797,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule4_gate_fpr25,3OOD,1,767,72.7509778357236,0.7063275138754034,71.7525247030539,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_accuracy14,14ID,1,6108,78.38899803536346,1.0984022791917185,75.08517043326412,Frozen deterministic subject fit; seed-independent replay
+E4,StateRoute-T,stateroute_T_K2_14ID,14ID,1,6108,75.22920759659463,0.6608315857326804,74.12555797238744,New 14-source fit; q selected by source-fit 3-fold OOF
+E4,StateRoute-MM,stateroute_MM_K2_14ID,14ID,1,6108,74.93451211525868,0.6434654920392354,73.93825783251137,New 14-source fit with 32-image overlay; lambda selected by source-fit 3-fold OOF
+E4,Subject-state,subject_rule1_gate_fpr10,11ID,2,5341,76.68975847219622,0.7964984315077681,74.8402899024245,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule1_gate_fpr10,3OOD,2,767,72.22946544980444,0.6608119982775426,71.46697188879581,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule2_gate_fpr10,11ID,2,5341,77.51357423703426,0.9432181466743629,74.95690023208549,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule2_gate_fpr10,3OOD,2,767,71.83833116036506,0.7862980452031803,70.64707581299086,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule3_gate_fpr10,11ID,2,5341,77.28889721026026,0.8720534397058958,75.04963957142058,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule3_gate_fpr10,3OOD,2,767,71.83833116036506,0.7090483738301167,70.93412190926747,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule4_gate_fpr25,11ID,2,5341,77.28889721026026,0.8715833779525265,75.05153584339797,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule4_gate_fpr25,3OOD,2,767,72.7509778357236,0.7063275138754034,71.7525247030539,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_accuracy14,14ID,2,6108,78.38899803536346,1.0984022791917185,75.08517043326412,Frozen deterministic subject fit; seed-independent replay
+E4,StateRoute-T,stateroute_T_K2_14ID,14ID,2,6108,75.24557956777997,0.6608860716483592,74.13977839728018,New 14-source fit; q selected by source-fit 3-fold OOF
+E4,StateRoute-MM,stateroute_MM_K2_14ID,14ID,2,6108,74.93451211525868,0.6440592051655264,73.93575368242156,New 14-source fit with 32-image overlay; lambda selected by source-fit 3-fold OOF
+E4,Subject-state,subject_rule1_gate_fpr10,11ID,3,5341,76.68975847219622,0.7964984315077681,74.8402899024245,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule1_gate_fpr10,3OOD,3,767,72.22946544980444,0.6608119982775426,71.46697188879581,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule2_gate_fpr10,11ID,3,5341,77.51357423703426,0.9432181466743629,74.95690023208549,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule2_gate_fpr10,3OOD,3,767,71.83833116036506,0.7862980452031803,70.64707581299086,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule3_gate_fpr10,11ID,3,5341,77.28889721026026,0.8720534397058958,75.04963957142058,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule3_gate_fpr10,3OOD,3,767,71.83833116036506,0.7090483738301167,70.93412190926747,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule4_gate_fpr25,11ID,3,5341,77.28889721026026,0.8715833779525265,75.05153584339797,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule4_gate_fpr25,3OOD,3,767,72.7509778357236,0.7063275138754034,71.7525247030539,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_accuracy14,14ID,3,6108,78.38899803536346,1.0984022791917185,75.08517043326412,Frozen deterministic subject fit; seed-independent replay
+E4,StateRoute-T,stateroute_T_K2_14ID,14ID,3,6108,75.24557956777997,0.6608860716483592,74.13977839728018,New 14-source fit; q selected by source-fit 3-fold OOF
+E4,StateRoute-MM,stateroute_MM_K2_14ID,14ID,3,6108,74.88539620170268,0.653521451165904,73.85253062318952,New 14-source fit with 32-image overlay; lambda selected by source-fit 3-fold OOF
+E4,Subject-state,subject_rule1_gate_fpr10,11ID,4,5341,76.68975847219622,0.7964984315077681,74.8402899024245,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule1_gate_fpr10,3OOD,4,767,72.22946544980444,0.6608119982775426,71.46697188879581,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule2_gate_fpr10,11ID,4,5341,77.51357423703426,0.9432181466743629,74.95690023208549,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule2_gate_fpr10,3OOD,4,767,71.83833116036506,0.7862980452031803,70.64707581299086,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule3_gate_fpr10,11ID,4,5341,77.28889721026026,0.8720534397058958,75.04963957142058,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule3_gate_fpr10,3OOD,4,767,71.83833116036506,0.7090483738301167,70.93412190926747,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule4_gate_fpr25,11ID,4,5341,77.28889721026026,0.8715833779525265,75.05153584339797,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule4_gate_fpr25,3OOD,4,767,72.7509778357236,0.7063275138754034,71.7525247030539,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_accuracy14,14ID,4,6108,78.38899803536346,1.0984022791917185,75.08517043326412,Frozen deterministic subject fit; seed-independent replay
+E4,StateRoute-T,stateroute_T_K2_14ID,14ID,4,6108,75.24557956777997,0.6608860716483592,74.13977839728018,New 14-source fit; q selected by source-fit 3-fold OOF
+E4,StateRoute-MM,stateroute_MM_K2_14ID,14ID,4,6108,74.90176817288801,0.6567843030939315,73.85334118048968,New 14-source fit with 32-image overlay; lambda selected by source-fit 3-fold OOF

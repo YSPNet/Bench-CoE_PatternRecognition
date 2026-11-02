@@ -1,0 +1,435 @@
+{
+  "curves": [
+    {
+      "A": 80.7629338572364,
+      "C": 3.1377357425879246,
+      "R": 69.17196095728752,
+      "lambda": 0.0,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 4,
+      "view": "14ID"
+    },
+    {
+      "A": 80.7629338572364,
+      "C": 3.0970710402521044,
+      "R": 69.3342005353963,
+      "lambda": 0.001,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 4,
+      "view": "14ID"
+    },
+    {
+      "A": 80.77930582842174,
+      "C": 3.090805323145861,
+      "R": 69.3701250378521,
+      "lambda": 0.003,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 4,
+      "view": "14ID"
+    },
+    {
+      "A": 80.48461034708579,
+      "C": 2.8863202870157636,
+      "R": 69.97527294052857,
+      "lambda": 0.01,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 4,
+      "view": "14ID"
+    },
+    {
+      "A": 77.27570399476097,
+      "C": 1.5544150815983155,
+      "R": 72.4848758153656,
+      "lambda": 0.02,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 4,
+      "view": "14ID"
+    },
+    {
+      "A": 75.65487884741323,
+      "C": 0.9901781299765539,
+      "R": 73.19496994692129,
+      "lambda": 0.03,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 4,
+      "view": "14ID"
+    },
+    {
+      "A": 75.39292730844794,
+      "C": 0.7488966471931741,
+      "R": 73.90611910524024,
+      "lambda": 0.05,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 4,
+      "view": "14ID"
+    },
+    {
+      "A": 75.01637197118534,
+      "C": 0.6635301445408495,
+      "R": 73.92636130017318,
+      "lambda": 0.1,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 4,
+      "view": "14ID"
+    },
+    {
+      "A": 67.77996070726915,
+      "C": 0.3043270956349896,
+      "R": 68.90887871537024,
+      "lambda": 0.3,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 4,
+      "view": "14ID"
+    },
+    {
+      "A": 62.78650949574329,
+      "C": 0.1442011949851888,
+      "R": 64.98498035886915,
+      "lambda": 1.0,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "full14",
+      "seed": 4,
+      "view": "14ID"
+    },
+    {
+      "A": 81.29563752106347,
+      "C": 3.055033310295017,
+      "R": 69.85944917237983,
+      "lambda": 0.0,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "11ID"
+    },
+    {
+      "A": 81.16457592211196,
+      "C": 2.921496538177316,
+      "R": 70.30267147339056,
+      "lambda": 0.001,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "11ID"
+    },
+    {
+      "A": 81.20202209324097,
+      "C": 2.8663227879923054,
+      "R": 70.5462838691106,
+      "lambda": 0.003,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "11ID"
+    },
+    {
+      "A": 80.82756038195095,
+      "C": 2.6770329538081237,
+      "R": 71.02561505030873,
+      "lambda": 0.01,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "11ID"
+    },
+    {
+      "A": 77.38251263808276,
+      "C": 1.3446507240208665,
+      "R": 73.328017084415,
+      "lambda": 0.02,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "11ID"
+    },
+    {
+      "A": 76.1280659052612,
+      "C": 0.9695056206855853,
+      "R": 73.67591828654011,
+      "lambda": 0.03,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "11ID"
+    },
+    {
+      "A": 75.45403482493916,
+      "C": 0.7129233326383644,
+      "R": 74.10649477978104,
+      "lambda": 0.05,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "11ID"
+    },
+    {
+      "A": 75.30425014042315,
+      "C": 0.6783749332837398,
+      "R": 74.11817378278903,
+      "lambda": 0.1,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "11ID"
+    },
+    {
+      "A": 67.83373900018724,
+      "C": 0.3151367346995781,
+      "R": 68.90758951462358,
+      "lambda": 0.3,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "11ID"
+    },
+    {
+      "A": 62.478936528739936,
+      "C": 0.14382166241526373,
+      "R": 64.68535781621073,
+      "lambda": 1.0,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "11ID"
+    },
+    {
+      "A": 62.71186440677966,
+      "C": 4.277886052455168,
+      "R": 53.23251568156483,
+      "lambda": 0.0,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "3OOD"
+    },
+    {
+      "A": 68.31812255541068,
+      "C": 3.894375883564898,
+      "R": 58.15614311480346,
+      "lambda": 0.001,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "3OOD"
+    },
+    {
+      "A": 67.79661016949152,
+      "C": 3.6552794047256354,
+      "R": 58.593108512451586,
+      "lambda": 0.003,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "3OOD"
+    },
+    {
+      "A": 67.79661016949152,
+      "C": 3.5793061331578917,
+      "R": 58.836220130265524,
+      "lambda": 0.01,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "3OOD"
+    },
+    {
+      "A": 71.57757496740548,
+      "C": 1.53742881494038,
+      "R": 67.9303214946707,
+      "lambda": 0.02,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "3OOD"
+    },
+    {
+      "A": 70.53455019556715,
+      "C": 1.2847735345885511,
+      "R": 67.85541779551242,
+      "lambda": 0.03,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "3OOD"
+    },
+    {
+      "A": 71.57757496740548,
+      "C": 0.7979554142380625,
+      "R": 70.37549392654141,
+      "lambda": 0.05,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "3OOD"
+    },
+    {
+      "A": 72.6205997392438,
+      "C": 0.7113515023702774,
+      "R": 71.61784057298497,
+      "lambda": 0.1,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "3OOD"
+    },
+    {
+      "A": 69.6219035202086,
+      "C": 0.2588448503273887,
+      "R": 70.87584490558602,
+      "lambda": 0.3,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "3OOD"
+    },
+    {
+      "A": 65.44980443285529,
+      "C": 0.14667992180219708,
+      "R": 67.55794298553946,
+      "lambda": 1.0,
+      "method": "Subject-TinyLLaVA",
+      "protocol": "heldout11",
+      "seed": 4,
+      "view": "3OOD"
+    }
+  ],
+  "rows": [
+    {
+      "A": 75.39292730844794,
+      "C": 0.7488966471931741,
+      "R": 73.90611910524024,
+      "experiment": "E21",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 6108,
+      "notes": "Cost-penalized unshrunk subject map; best_test diagnostic only",
+      "seed": 4,
+      "variant": "lambda=0.05/select=source_cv",
+      "view": "14ID"
+    },
+    {
+      "A": 75.01637197118534,
+      "C": 0.6635301445408495,
+      "R": 73.92636130017318,
+      "experiment": "E21",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 6108,
+      "notes": "Cost-penalized unshrunk subject map; best_test diagnostic only",
+      "seed": 4,
+      "variant": "lambda=0.1/select=best_test",
+      "view": "14ID"
+    },
+    {
+      "A": 75.30425014042315,
+      "C": 0.6783749332837398,
+      "R": 74.11817378278903,
+      "experiment": "E21",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 5341,
+      "notes": "Cost-penalized unshrunk subject map; best_test diagnostic only",
+      "seed": 4,
+      "variant": "lambda=0.1/select=source_cv",
+      "view": "11ID"
+    },
+    {
+      "A": 75.30425014042315,
+      "C": 0.6783749332837398,
+      "R": 74.11817378278903,
+      "experiment": "E21",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 5341,
+      "notes": "Cost-penalized unshrunk subject map; best_test diagnostic only",
+      "seed": 4,
+      "variant": "lambda=0.1/select=best_test",
+      "view": "11ID"
+    },
+    {
+      "A": 72.6205997392438,
+      "C": 0.7113515023702774,
+      "R": 71.61784057298497,
+      "experiment": "E21",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 767,
+      "notes": "Cost-penalized unshrunk subject map; best_test diagnostic only",
+      "seed": 4,
+      "variant": "lambda=0.1/select=source_cv",
+      "view": "3OOD"
+    },
+    {
+      "A": 72.6205997392438,
+      "C": 0.7113515023702774,
+      "R": 71.61784057298497,
+      "experiment": "E21",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 767,
+      "notes": "Cost-penalized unshrunk subject map; best_test diagnostic only",
+      "seed": 4,
+      "variant": "lambda=0.1/select=best_test",
+      "view": "3OOD"
+    }
+  ],
+  "seed": 4,
+  "selections": [
+    {
+      "lambda": 0.05,
+      "protocol": "full14",
+      "seed": 4,
+      "selection": "source_cv",
+      "source_oof_R": 73.32314094511062,
+      "test_R": 73.90611910524024,
+      "view": "14ID"
+    },
+    {
+      "lambda": 0.1,
+      "protocol": "full14",
+      "seed": 4,
+      "selection": "best_test",
+      "source_oof_R": 73.12610506476639,
+      "test_R": 73.92636130017318,
+      "view": "14ID"
+    },
+    {
+      "lambda": 0.1,
+      "protocol": "heldout11",
+      "seed": 4,
+      "selection": "source_cv",
+      "source_oof_R": 74.15082550431154,
+      "test_R": 74.11817378278903,
+      "view": "11ID"
+    },
+    {
+      "lambda": 0.1,
+      "protocol": "heldout11",
+      "seed": 4,
+      "selection": "best_test",
+      "source_oof_R": 74.15082550431154,
+      "test_R": 74.11817378278903,
+      "view": "11ID"
+    },
+    {
+      "lambda": 0.1,
+      "protocol": "heldout11",
+      "seed": 4,
+      "selection": "source_cv",
+      "source_oof_R": 74.15082550431154,
+      "test_R": 71.61784057298497,
+      "view": "3OOD"
+    },
+    {
+      "lambda": 0.1,
+      "protocol": "heldout11",
+      "seed": 4,
+      "selection": "best_test",
+      "source_oof_R": 74.15082550431154,
+      "test_R": 71.61784057298497,
+      "view": "3OOD"
+    }
+  ]
+}

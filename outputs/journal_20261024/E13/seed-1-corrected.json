@@ -1,0 +1,703 @@
+{
+  "fractions": [
+    {
+      "encoder": "T",
+      "fraction": null,
+      "kappa": 0.0,
+      "protocol": "full14",
+      "seed": 1,
+      "source_support": [
+        5311,
+        12560
+      ]
+    },
+    {
+      "encoder": "T",
+      "fraction": 1.0,
+      "kappa": 5.0,
+      "protocol": "full14",
+      "seed": 1,
+      "source_support": [
+        5311,
+        12560
+      ]
+    },
+    {
+      "encoder": "T",
+      "fraction": 0.8951110408910921,
+      "kappa": 20.0,
+      "protocol": "full14",
+      "seed": 1,
+      "source_support": [
+        5311,
+        12560
+      ]
+    },
+    {
+      "encoder": "T",
+      "fraction": 0.5596513576053218,
+      "kappa": 64.0,
+      "protocol": "full14",
+      "seed": 1,
+      "source_support": [
+        5311,
+        12560
+      ]
+    },
+    {
+      "encoder": "T",
+      "fraction": 0.35932022632789895,
+      "kappa": 128.0,
+      "protocol": "full14",
+      "seed": 1,
+      "source_support": [
+        5311,
+        12560
+      ]
+    },
+    {
+      "encoder": "T",
+      "fraction": 0.17647058823529413,
+      "kappa": 512.0,
+      "protocol": "full14",
+      "seed": 1,
+      "source_support": [
+        5311,
+        12560
+      ]
+    },
+    {
+      "encoder": "MM",
+      "fraction": null,
+      "kappa": 0.0,
+      "protocol": "full14",
+      "seed": 1,
+      "source_support": [
+        13192,
+        4679
+      ]
+    },
+    {
+      "encoder": "MM",
+      "fraction": 1.0,
+      "kappa": 5.0,
+      "protocol": "full14",
+      "seed": 1,
+      "source_support": [
+        13192,
+        4679
+      ]
+    },
+    {
+      "encoder": "MM",
+      "fraction": 0.9075926492806288,
+      "kappa": 20.0,
+      "protocol": "full14",
+      "seed": 1,
+      "source_support": [
+        13192,
+        4679
+      ]
+    },
+    {
+      "encoder": "MM",
+      "fraction": 0.8025654445091785,
+      "kappa": 64.0,
+      "protocol": "full14",
+      "seed": 1,
+      "source_support": [
+        13192,
+        4679
+      ]
+    },
+    {
+      "encoder": "MM",
+      "fraction": 0.48320808934619675,
+      "kappa": 128.0,
+      "protocol": "full14",
+      "seed": 1,
+      "source_support": [
+        13192,
+        4679
+      ]
+    },
+    {
+      "encoder": "MM",
+      "fraction": 0.23529411764705882,
+      "kappa": 512.0,
+      "protocol": "full14",
+      "seed": 1,
+      "source_support": [
+        13192,
+        4679
+      ]
+    },
+    {
+      "encoder": "T",
+      "fraction": null,
+      "kappa": 0.0,
+      "protocol": "heldout11",
+      "seed": 1,
+      "source_support": [
+        13715,
+        4950
+      ]
+    },
+    {
+      "encoder": "T",
+      "fraction": 1.0,
+      "kappa": 5.0,
+      "protocol": "heldout11",
+      "seed": 1,
+      "source_support": [
+        13715,
+        4950
+      ]
+    },
+    {
+      "encoder": "T",
+      "fraction": 0.8595988087171649,
+      "kappa": 20.0,
+      "protocol": "heldout11",
+      "seed": 1,
+      "source_support": [
+        13715,
+        4950
+      ]
+    },
+    {
+      "encoder": "T",
+      "fraction": 0.6831282204818707,
+      "kappa": 64.0,
+      "protocol": "heldout11",
+      "seed": 1,
+      "source_support": [
+        13715,
+        4950
+      ]
+    },
+    {
+      "encoder": "T",
+      "fraction": 0.4634342351995714,
+      "kappa": 128.0,
+      "protocol": "heldout11",
+      "seed": 1,
+      "source_support": [
+        13715,
+        4950
+      ]
+    },
+    {
+      "encoder": "T",
+      "fraction": 0.21611698523502623,
+      "kappa": 512.0,
+      "protocol": "heldout11",
+      "seed": 1,
+      "source_support": [
+        13715,
+        4950
+      ]
+    },
+    {
+      "encoder": "MM",
+      "fraction": null,
+      "kappa": 0.0,
+      "protocol": "heldout11",
+      "seed": 1,
+      "source_support": [
+        11219,
+        5050
+      ]
+    },
+    {
+      "encoder": "MM",
+      "fraction": 1.0,
+      "kappa": 5.0,
+      "protocol": "heldout11",
+      "seed": 1,
+      "source_support": [
+        11219,
+        5050
+      ]
+    },
+    {
+      "encoder": "MM",
+      "fraction": 0.926963224899032,
+      "kappa": 20.0,
+      "protocol": "heldout11",
+      "seed": 1,
+      "source_support": [
+        11219,
+        5050
+      ]
+    },
+    {
+      "encoder": "MM",
+      "fraction": 0.7768437266110575,
+      "kappa": 64.0,
+      "protocol": "heldout11",
+      "seed": 1,
+      "source_support": [
+        11219,
+        5050
+      ]
+    },
+    {
+      "encoder": "MM",
+      "fraction": 0.5375036608779599,
+      "kappa": 128.0,
+      "protocol": "heldout11",
+      "seed": 1,
+      "source_support": [
+        11219,
+        5050
+      ]
+    },
+    {
+      "encoder": "MM",
+      "fraction": 0.25759925950833956,
+      "kappa": 512.0,
+      "protocol": "heldout11",
+      "seed": 1,
+      "source_support": [
+        11219,
+        5050
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "A": 75.22920759659463,
+      "C": 0.6608315857326804,
+      "R": 74.12555797238744,
+      "experiment": "E13",
+      "method": "StateRoute-T",
+      "n_test": 6108,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=0",
+      "view": "14ID"
+    },
+    {
+      "A": 75.22920759659463,
+      "C": 0.6608315857326804,
+      "R": 74.12555797238744,
+      "experiment": "E13",
+      "method": "StateRoute-T",
+      "n_test": 6108,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=5",
+      "view": "14ID"
+    },
+    {
+      "A": 75.22920759659463,
+      "C": 0.6608315857326804,
+      "R": 74.12555797238744,
+      "experiment": "E13",
+      "method": "StateRoute-T",
+      "n_test": 6108,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=20",
+      "view": "14ID"
+    },
+    {
+      "A": 75.22920759659463,
+      "C": 0.6608315857326804,
+      "R": 74.12555797238744,
+      "experiment": "E13",
+      "method": "StateRoute-T",
+      "n_test": 6108,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=64",
+      "view": "14ID"
+    },
+    {
+      "A": 75.22920759659463,
+      "C": 0.6608315857326804,
+      "R": 74.12555797238744,
+      "experiment": "E13",
+      "method": "StateRoute-T",
+      "n_test": 6108,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=128",
+      "view": "14ID"
+    },
+    {
+      "A": 75.22920759659463,
+      "C": 0.6608315857326804,
+      "R": 74.12555797238744,
+      "experiment": "E13",
+      "method": "StateRoute-T",
+      "n_test": 6108,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=512",
+      "view": "14ID"
+    },
+    {
+      "A": 74.93451211525868,
+      "C": 0.6434654920392354,
+      "R": 73.93825783251137,
+      "experiment": "E13",
+      "method": "StateRoute-MM",
+      "n_test": 6108,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=0",
+      "view": "14ID"
+    },
+    {
+      "A": 74.93451211525868,
+      "C": 0.6434654920392354,
+      "R": 73.93825783251137,
+      "experiment": "E13",
+      "method": "StateRoute-MM",
+      "n_test": 6108,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=5",
+      "view": "14ID"
+    },
+    {
+      "A": 74.93451211525868,
+      "C": 0.6434654920392354,
+      "R": 73.93825783251137,
+      "experiment": "E13",
+      "method": "StateRoute-MM",
+      "n_test": 6108,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=20",
+      "view": "14ID"
+    },
+    {
+      "A": 74.93451211525868,
+      "C": 0.6434654920392354,
+      "R": 73.93825783251137,
+      "experiment": "E13",
+      "method": "StateRoute-MM",
+      "n_test": 6108,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=64",
+      "view": "14ID"
+    },
+    {
+      "A": 74.93451211525868,
+      "C": 0.6434654920392354,
+      "R": 73.93825783251137,
+      "experiment": "E13",
+      "method": "StateRoute-MM",
+      "n_test": 6108,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=128",
+      "view": "14ID"
+    },
+    {
+      "A": 74.93451211525868,
+      "C": 0.6434654920392354,
+      "R": 73.93825783251137,
+      "experiment": "E13",
+      "method": "StateRoute-MM",
+      "n_test": 6108,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=512",
+      "view": "14ID"
+    },
+    {
+      "A": 75.52892716719715,
+      "C": 0.6558760949727419,
+      "R": 74.41101423424901,
+      "experiment": "E13",
+      "method": "StateRoute-T",
+      "n_test": 5341,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=0",
+      "view": "11ID"
+    },
+    {
+      "A": 74.1851368970013,
+      "C": 0.6528644110556513,
+      "R": 73.2354789291852,
+      "experiment": "E13",
+      "method": "StateRoute-T",
+      "n_test": 767,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=0",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.52892716719715,
+      "C": 0.6558760949727419,
+      "R": 74.41101423424901,
+      "experiment": "E13",
+      "method": "StateRoute-T",
+      "n_test": 5341,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=5",
+      "view": "11ID"
+    },
+    {
+      "A": 74.1851368970013,
+      "C": 0.6528644110556513,
+      "R": 73.2354789291852,
+      "experiment": "E13",
+      "method": "StateRoute-T",
+      "n_test": 767,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=5",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.52892716719715,
+      "C": 0.6558760949727419,
+      "R": 74.41101423424901,
+      "experiment": "E13",
+      "method": "StateRoute-T",
+      "n_test": 5341,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=20",
+      "view": "11ID"
+    },
+    {
+      "A": 74.1851368970013,
+      "C": 0.6528644110556513,
+      "R": 73.2354789291852,
+      "experiment": "E13",
+      "method": "StateRoute-T",
+      "n_test": 767,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=20",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.52892716719715,
+      "C": 0.6558760949727419,
+      "R": 74.41101423424901,
+      "experiment": "E13",
+      "method": "StateRoute-T",
+      "n_test": 5341,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=64",
+      "view": "11ID"
+    },
+    {
+      "A": 74.1851368970013,
+      "C": 0.6528644110556513,
+      "R": 73.2354789291852,
+      "experiment": "E13",
+      "method": "StateRoute-T",
+      "n_test": 767,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=64",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.52892716719715,
+      "C": 0.6558760949727419,
+      "R": 74.41101423424901,
+      "experiment": "E13",
+      "method": "StateRoute-T",
+      "n_test": 5341,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=128",
+      "view": "11ID"
+    },
+    {
+      "A": 74.1851368970013,
+      "C": 0.6528644110556513,
+      "R": 73.2354789291852,
+      "experiment": "E13",
+      "method": "StateRoute-T",
+      "n_test": 767,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=128",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.52892716719715,
+      "C": 0.6558760949727419,
+      "R": 74.41101423424901,
+      "experiment": "E13",
+      "method": "StateRoute-T",
+      "n_test": 5341,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=512",
+      "view": "11ID"
+    },
+    {
+      "A": 74.1851368970013,
+      "C": 0.6528644110556513,
+      "R": 73.2354789291852,
+      "experiment": "E13",
+      "method": "StateRoute-T",
+      "n_test": 767,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=512",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.06085002808463,
+      "C": 0.6580759446636818,
+      "R": 73.98848649489351,
+      "experiment": "E13",
+      "method": "StateRoute-MM",
+      "n_test": 5341,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=0",
+      "view": "11ID"
+    },
+    {
+      "A": 73.27249022164276,
+      "C": 0.6487488955454512,
+      "R": 72.44249275246597,
+      "experiment": "E13",
+      "method": "StateRoute-MM",
+      "n_test": 767,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=0",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.06085002808463,
+      "C": 0.6580759446636818,
+      "R": 73.98848649489351,
+      "experiment": "E13",
+      "method": "StateRoute-MM",
+      "n_test": 5341,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=5",
+      "view": "11ID"
+    },
+    {
+      "A": 73.27249022164276,
+      "C": 0.6487488955454512,
+      "R": 72.44249275246597,
+      "experiment": "E13",
+      "method": "StateRoute-MM",
+      "n_test": 767,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=5",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.06085002808463,
+      "C": 0.6580759446636818,
+      "R": 73.98848649489351,
+      "experiment": "E13",
+      "method": "StateRoute-MM",
+      "n_test": 5341,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=20",
+      "view": "11ID"
+    },
+    {
+      "A": 73.27249022164276,
+      "C": 0.6487488955454512,
+      "R": 72.44249275246597,
+      "experiment": "E13",
+      "method": "StateRoute-MM",
+      "n_test": 767,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=20",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.06085002808463,
+      "C": 0.6580759446636818,
+      "R": 73.98848649489351,
+      "experiment": "E13",
+      "method": "StateRoute-MM",
+      "n_test": 5341,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=64",
+      "view": "11ID"
+    },
+    {
+      "A": 73.27249022164276,
+      "C": 0.6487488955454512,
+      "R": 72.44249275246597,
+      "experiment": "E13",
+      "method": "StateRoute-MM",
+      "n_test": 767,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=64",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.06085002808463,
+      "C": 0.6580759446636818,
+      "R": 73.98848649489351,
+      "experiment": "E13",
+      "method": "StateRoute-MM",
+      "n_test": 5341,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=128",
+      "view": "11ID"
+    },
+    {
+      "A": 73.27249022164276,
+      "C": 0.6487488955454512,
+      "R": 72.44249275246597,
+      "experiment": "E13",
+      "method": "StateRoute-MM",
+      "n_test": 767,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=128",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.06085002808463,
+      "C": 0.6580759446636818,
+      "R": 73.98848649489351,
+      "experiment": "E13",
+      "method": "StateRoute-MM",
+      "n_test": 5341,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=512",
+      "view": "11ID"
+    },
+    {
+      "A": 73.27249022164276,
+      "C": 0.6487488955454512,
+      "R": 72.44249275246597,
+      "experiment": "E13",
+      "method": "StateRoute-MM",
+      "n_test": 767,
+      "notes": "T: E4/E5 source profile, median-cost filter; MM: source-fit, frozen OOF lambda",
+      "seed": 1,
+      "variant": "K2/kappa=512",
+      "view": "3OOD"
+    }
+  ],
+  "seed": 1
+}

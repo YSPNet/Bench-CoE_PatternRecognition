@@ -1,0 +1,7 @@
+experiment,method,variant,view,seed,n_test,A,C,R,notes
+V19_QUERY_COST_TINYLLAVA,Query-TinyLLaVA,lambda=100/select=source_cv,14ID,0,6108,72.2822527832351,0.6193040610640562,71.67840097499172,Frozen TinyLLaVA features and trained soft-label head; test-selected lambda is diagnostic only
+V19_QUERY_COST_TINYLLAVA,Query-TinyLLaVA,lambda=10/select=best_test,14ID,0,6108,76.88277668631304,1.5496898008240045,72.18707930634395,Frozen TinyLLaVA features and trained soft-label head; test-selected lambda is diagnostic only
+V19_QUERY_COST_TINYLLAVA,Query-TinyLLaVA,lambda=10/select=source_cv,11ID,0,5341,79.32971353679086,1.6314403303843252,73.83460989459213,Frozen TinyLLaVA features and trained soft-label head; test-selected lambda is diagnostic only
+V19_QUERY_COST_TINYLLAVA,Query-TinyLLaVA,lambda=100/select=best_test,11ID,0,5341,75.49148099606815,0.6197789573510623,74.53278822161327,Frozen TinyLLaVA features and trained soft-label head; test-selected lambda is diagnostic only
+V19_QUERY_COST_TINYLLAVA,Query-TinyLLaVA,lambda=10/select=source_cv,3OOD,0,767,68.44850065189048,2.2456156472065194,63.316822539297746,Frozen TinyLLaVA features and trained soft-label head; test-selected lambda is diagnostic only
+V19_QUERY_COST_TINYLLAVA,Query-TinyLLaVA,lambda=10000/select=best_test,3OOD,0,767,67.27509778357236,0.26945293417462723,68.60514857868392,Frozen TinyLLaVA features and trained soft-label head; test-selected lambda is diagnostic only

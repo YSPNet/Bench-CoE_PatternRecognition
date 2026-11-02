@@ -1,0 +1,184 @@
+{
+  "author_manifest_search": {
+    "author_original_ood_manifest_found": false,
+    "candidate_manifest_files": [],
+    "current_official_scope_files_scanned": 100,
+    "expected_candidate_presence": {
+      "SPLITS/test_id.jsonl": false,
+      "SPLITS/test_ood.jsonl": false
+    },
+    "interpretation": "No author OOD membership manifest exists in the pinned repository. The only official OOD-like source reference is legacy cleanup code for absent test_id/test_ood files; it defines no membership.",
+    "text_matches": [
+      {
+        "line": 655,
+        "line_sha256": "2bfdcb5ab3c6377a1f48c6276e528b208f53add05b880acb4cce4ee9f882b8b5",
+        "path": "tools/build_benchmark_from_vlmevalkit.py"
+      },
+      {
+        "line": 656,
+        "line_sha256": "d126743a451130f764ec17fe8fa683214cf62ed5fe621ae7633ad7837fd9fe2c",
+        "path": "tools/build_benchmark_from_vlmevalkit.py"
+      }
+    ],
+    "upstream_archive_sha256": "2499181bd25f464e7b6209b7e8ea804d6469963b5877867cbdf597c59089ecc1",
+    "upstream_commit": "f5a41ce83d6efe67489b35bb7a07ae72976a9aba",
+    "upstream_files_scanned_in_prior_byte_audit": 88
+  },
+  "base_contract": "configs/bench_coe_query/experiment_contract.yaml",
+  "base_contract_sha256": "a1c24102e63954371a113d247d4beb72fdb03fc16bcd871d0589aa2399fa5e0f",
+  "claim": "reconstructed held-out protocol; not an exact per-sample reproduction of Table A2",
+  "feature_reuse_boundary": {
+    "new_feature_extraction": false,
+    "pretraining_caveat": "The pretrained backbones may have seen these benchmark datasets.",
+    "reuse_existing_unlabeled_query_features": true
+  },
+  "held_out_datasets_by_domain": {
+    "charts_ocr": "ChartQA_TEST",
+    "general": "MMMU_DEV_VAL",
+    "stem": "MathVision_MINI"
+  },
+  "ignored_not_used_for_training_or_tuning": {
+    "held_out_official_dev_rows": 374,
+    "held_out_official_train_rows": 2713
+  },
+  "kind": "reconstructed_held_out_protocol",
+  "official_splits_overwritten": false,
+  "ood_config": "configs/bench_coe_query/ood_reconstructed.yaml",
+  "ood_config_sha256": "d2d46f731f3db0a3980a4075f54f968563efaaea79eb262ff8682c55cd64e697",
+  "protocol_manifest_sha256": "1cbd8ba13e7a62da11ac99a7bfac96041c27da47a227d01cae197f8fffd1f74e",
+  "schema_version": 1,
+  "seen_datasets": [
+    "AI2D_TEST",
+    "DocVQA_VAL",
+    "HallusionBench",
+    "InfoVQA_VAL",
+    "MMBench_DEV_EN_V11",
+    "MMStar",
+    "MathVerse_MINI",
+    "MathVista_MINI",
+    "OCRBench",
+    "RealWorldQA",
+    "TextVQA_VAL"
+  ],
+  "selection_rule": "official_split_intersection_frozen_dataset_partition",
+  "training_statistics": {
+    "all_wrong_ignored_rows": 898,
+    "expert_accuracy": [
+      0.5399410661666221,
+      0.7531208143584248,
+      0.5790517010447361,
+      0.76785427270292,
+      0.29515135279935706,
+      0.3184570050897402,
+      0.7474417358692741,
+      0.38617733726225556,
+      0.5052772568979373,
+      0.4341816233592285,
+      0.7078489150817038,
+      0.7554245914813823,
+      0.7842485936244308,
+      0.5081167961425127,
+      0.7096705062952049,
+      0.6327886418430217,
+      0.44152156442539514
+    ],
+    "held_out_y_used": false,
+    "model_order": [
+      "GPT4o",
+      "GeminiFlash2-5",
+      "Gemma3-27B",
+      "InternVL2_5-78B",
+      "Janus-Pro-1B",
+      "Janus-Pro-7B",
+      "Kimi-VL-A3B-Thinking-2506",
+      "MiMo-VL-7B-RL",
+      "Phi-3.5-Vision",
+      "Pixtral-12B",
+      "Qianfan-VL-8B",
+      "Qwen2.5-VL-32B-Instruct",
+      "Qwen2.5-VL-72B-Instruct",
+      "SmolVLM2",
+      "deepseek_vl2",
+      "deepseek_vl2_tiny",
+      "llava_next_vicuna_7b"
+    ],
+    "source_view": "train_seen",
+    "strongest_expert_id": "Qwen2.5-VL-72B-Instruct",
+    "strongest_expert_index": 12,
+    "trainable_label_rows": 17767
+  },
+  "views": {
+    "dev_seen": {
+      "count": 2680,
+      "datasets": [
+        "AI2D_TEST",
+        "DocVQA_VAL",
+        "HallusionBench",
+        "InfoVQA_VAL",
+        "MMBench_DEV_EN_V11",
+        "MMStar",
+        "MathVerse_MINI",
+        "MathVista_MINI",
+        "OCRBench",
+        "RealWorldQA",
+        "TextVQA_VAL"
+      ],
+      "official_split": "dev",
+      "path": "outputs/bench_coe_query/ood/protocol/dev_seen.jsonl",
+      "row_indices_sha256": "1405e1d6e28bcedef3fee0caedfb970eca6c4bd022d83907eccb9ff0484ba52b",
+      "sha256": "17ce60c31e294a6ef6a1ba2f12594229df572104f08a0fc89b8f013e003752f8"
+    },
+    "id_test": {
+      "count": 5341,
+      "datasets": [
+        "AI2D_TEST",
+        "DocVQA_VAL",
+        "HallusionBench",
+        "InfoVQA_VAL",
+        "MMBench_DEV_EN_V11",
+        "MMStar",
+        "MathVerse_MINI",
+        "MathVista_MINI",
+        "OCRBench",
+        "RealWorldQA",
+        "TextVQA_VAL"
+      ],
+      "official_split": "test",
+      "path": "outputs/bench_coe_query/ood/protocol/id_test.jsonl",
+      "row_indices_sha256": "3ad7fe0db5aed781eec988bb11ac06c2ac4bb4b62ad3bd6a1102da18e16502c3",
+      "sha256": "75d9cc9103ef905aeb224f038e38ef2fe10cb8d34895e99ddfdc838624adb926"
+    },
+    "ood_test": {
+      "count": 767,
+      "datasets": [
+        "ChartQA_TEST",
+        "MMMU_DEV_VAL",
+        "MathVision_MINI"
+      ],
+      "official_split": "test",
+      "path": "outputs/bench_coe_query/ood/protocol/ood_test.jsonl",
+      "row_indices_sha256": "100a1c9c7288869eb2be8f6e660c7f85dca726637738f345ce1ab517a013dfe4",
+      "sha256": "821feaf72a987e62b7e0f2c5c88900d8fe0a71d4a1a7753f27b69eb4edae1846"
+    },
+    "train_seen": {
+      "count": 18665,
+      "datasets": [
+        "AI2D_TEST",
+        "DocVQA_VAL",
+        "HallusionBench",
+        "InfoVQA_VAL",
+        "MMBench_DEV_EN_V11",
+        "MMStar",
+        "MathVerse_MINI",
+        "MathVista_MINI",
+        "OCRBench",
+        "RealWorldQA",
+        "TextVQA_VAL"
+      ],
+      "official_split": "train",
+      "path": "outputs/bench_coe_query/ood/protocol/train_seen.jsonl",
+      "row_indices_sha256": "a3f0c6caf52e23966a62f626d50c1015ad4459bd70815119a29c00febd331002",
+      "sha256": "74af6a141a2af7fdebca1b3974580ae7264c1de7688349bec1b5b85424c626d8"
+    }
+  }
+}

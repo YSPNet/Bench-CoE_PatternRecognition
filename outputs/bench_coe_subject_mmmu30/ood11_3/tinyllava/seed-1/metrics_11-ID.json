@@ -1,0 +1,12 @@
+{
+  "accuracy_percent": 81.01479123759596,
+  "backbone": "tinyllava",
+  "correct": 4327,
+  "cost_usd_per_10k": 3.097533553372769,
+  "n": 5341,
+  "predictions_sha256": "65e3b957b9d099c6ddba0ef4047ea38c7c61bd2ec48f5ff397cce180e29a8fe2",
+  "protocol": "ood11_3",
+  "rank_score": 69.5009797718389,
+  "seed": 1,
+  "view": "11-ID"
+}

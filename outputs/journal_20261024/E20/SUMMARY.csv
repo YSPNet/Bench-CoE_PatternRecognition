@@ -1,0 +1,6 @@
+experiment,method,variant,view,n_seeds,A_mean,A_sd,C_mean,C_sd,R_mean,R_sd,notes
+E20,Query-BERT,lambda=10/select=best_test,11ID,5,78.35236847032391,0.635951313047054,1.0947852620008565,0.0742982131849814,75.06806694049769,0.43265085496832156,Fully trained soft-label BERT; test-selected lambda is diagnostic only
+E20,Query-BERT,lambda=10/select=best_test,14ID,5,78.1335952848723,0.3135563751113014,1.06715075164768,0.038292068027284624,74.99423573415088,0.3690445254006178,Fully trained soft-label BERT; test-selected lambda is diagnostic only
+E20,Query-BERT,lambda=10/select=source_cv,11ID,5,78.35236847032391,0.635951313047054,1.0947852620008565,0.0742982131849814,75.06806694049769,0.43265085496832156,Fully trained soft-label BERT; test-selected lambda is diagnostic only
+E20,Query-BERT,lambda=10/select=source_cv,14ID,5,78.1335952848723,0.3135563751113014,1.06715075164768,0.038292068027284624,74.99423573415088,0.3690445254006178,Fully trained soft-label BERT; test-selected lambda is diagnostic only
+E20,Query-BERT,lambda=10/select=source_cv,3OOD,5,65.97131681877445,1.615320950894899,1.3105357234794486,0.10921436244844952,63.903686530231425,1.1786365256008153,Fully trained soft-label BERT; test-selected lambda is diagnostic only

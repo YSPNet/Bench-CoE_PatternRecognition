@@ -1,0 +1,48 @@
+{
+  "c_max": 0.001063963514752686,
+  "c_min": 1.4453729818342254e-05,
+  "command": "v19_query_softlabels_frozen.py --protocol heldout11",
+  "cost_scale": 100.0,
+  "end_time": "2026-10-30T14:33:15+00:00",
+  "experiment": "V19_QUERY_COST_TINYLLAVA",
+  "failures": [],
+  "git_commit": null,
+  "git_commit_note": "Repository has no .git metadata",
+  "gpu": "0",
+  "lambda_grid": [
+    "0",
+    "10",
+    "100",
+    "1000",
+    "10000",
+    "inf"
+  ],
+  "protocol": "heldout11",
+  "python_env": {
+    "numpy": "1.26.4",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python": "3.12.11"
+  },
+  "seed_policy": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "selection_rule": "Frozen TinyLLaVA features validated through the full cache gate; the LayerNorm-Dropout-Linear head is trained independently for each released benchmark lambda, with cost_scale=100 and all-wrong rows excluded from soft cross-entropy. Source-dev soft loss selects the epoch; group-isolated three-fold source-fit OOF Rank selects lambda. Missing-image features use the train-global strongest expert, index 12, verified independently on every source fold. Test-selected lambda is a labelled supplement diagnostic only.",
+  "split_sizes": {
+    "11ID": 5341,
+    "14ID": 6108,
+    "3OOD": 767
+  },
+  "start_time": "2026-10-30T14:29:18+00:00",
+  "status": "complete"
+}

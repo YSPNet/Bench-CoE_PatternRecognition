@@ -1,0 +1,3493 @@
+{
+  "action_index": [
+    {
+      "key": "action_000_11ID",
+      "method": "Cheapest",
+      "variant": "source_train",
+      "view": "11ID"
+    },
+    {
+      "key": "action_000_3OOD",
+      "method": "Cheapest",
+      "variant": "source_train",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_001_11ID",
+      "method": "Oracle",
+      "variant": "test_oracle",
+      "view": "11ID"
+    },
+    {
+      "key": "action_001_3OOD",
+      "method": "Oracle",
+      "variant": "test_oracle",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_002_11ID",
+      "method": "Query-BERT",
+      "variant": "base",
+      "view": "11ID"
+    },
+    {
+      "key": "action_002_3OOD",
+      "method": "Query-BERT",
+      "variant": "base",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_003_11ID",
+      "method": "Query-BERT",
+      "variant": "rule4_coarse_fallback",
+      "view": "11ID"
+    },
+    {
+      "key": "action_003_3OOD",
+      "method": "Query-BERT",
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_004_11ID",
+      "method": "Query-Qwen3-VL",
+      "variant": "base",
+      "view": "11ID"
+    },
+    {
+      "key": "action_004_3OOD",
+      "method": "Query-Qwen3-VL",
+      "variant": "base",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_005_11ID",
+      "method": "Query-Qwen3-VL",
+      "variant": "rule4_coarse_fallback",
+      "view": "11ID"
+    },
+    {
+      "key": "action_005_3OOD",
+      "method": "Query-Qwen3-VL",
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_006_11ID",
+      "method": "Query-TinyLLaVA",
+      "variant": "base",
+      "view": "11ID"
+    },
+    {
+      "key": "action_006_3OOD",
+      "method": "Query-TinyLLaVA",
+      "variant": "base",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_007_11ID",
+      "method": "Query-TinyLLaVA",
+      "variant": "rule4_coarse_fallback",
+      "view": "11ID"
+    },
+    {
+      "key": "action_007_3OOD",
+      "method": "Query-TinyLLaVA",
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_008_11ID",
+      "method": "StateRoute-MM",
+      "variant": "K1",
+      "view": "11ID"
+    },
+    {
+      "key": "action_008_3OOD",
+      "method": "StateRoute-MM",
+      "variant": "K1",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_009_11ID",
+      "method": "StateRoute-MM",
+      "variant": "K2_fixed_map",
+      "view": "11ID"
+    },
+    {
+      "key": "action_009_3OOD",
+      "method": "StateRoute-MM",
+      "variant": "K2_fixed_map",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_010_11ID",
+      "method": "StateRoute-T",
+      "variant": "K1",
+      "view": "11ID"
+    },
+    {
+      "key": "action_010_3OOD",
+      "method": "StateRoute-T",
+      "variant": "K1",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_011_11ID",
+      "method": "StateRoute-T",
+      "variant": "K2_fixed_map",
+      "view": "11ID"
+    },
+    {
+      "key": "action_011_3OOD",
+      "method": "StateRoute-T",
+      "variant": "K2_fixed_map",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_012_11ID",
+      "method": "Strongest",
+      "variant": "source_train",
+      "view": "11ID"
+    },
+    {
+      "key": "action_012_3OOD",
+      "method": "Strongest",
+      "variant": "source_train",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_013_11ID",
+      "method": "Subject-BERT",
+      "variant": "base",
+      "view": "11ID"
+    },
+    {
+      "key": "action_013_3OOD",
+      "method": "Subject-BERT",
+      "variant": "base",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_014_11ID",
+      "method": "Subject-BERT",
+      "variant": "rule4_coarse_fallback",
+      "view": "11ID"
+    },
+    {
+      "key": "action_014_3OOD",
+      "method": "Subject-BERT",
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_015_11ID",
+      "method": "Subject-Qwen3-VL",
+      "variant": "base",
+      "view": "11ID"
+    },
+    {
+      "key": "action_015_3OOD",
+      "method": "Subject-Qwen3-VL",
+      "variant": "base",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_016_11ID",
+      "method": "Subject-Qwen3-VL",
+      "variant": "rule4_coarse_fallback",
+      "view": "11ID"
+    },
+    {
+      "key": "action_016_3OOD",
+      "method": "Subject-Qwen3-VL",
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_017_11ID",
+      "method": "Subject-TinyLLaVA",
+      "variant": "base",
+      "view": "11ID"
+    },
+    {
+      "key": "action_017_3OOD",
+      "method": "Subject-TinyLLaVA",
+      "variant": "base",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_018_11ID",
+      "method": "Subject-TinyLLaVA",
+      "variant": "rule4_coarse_fallback",
+      "view": "11ID"
+    },
+    {
+      "key": "action_018_3OOD",
+      "method": "Subject-TinyLLaVA",
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_019_11ID",
+      "method": "Subject-state",
+      "variant": "rule4_coarse_fallback",
+      "view": "11ID"
+    },
+    {
+      "key": "action_019_3OOD",
+      "method": "Subject-state",
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_020_11ID",
+      "method": "cosinecls",
+      "variant": "select=best_test",
+      "view": "11ID"
+    },
+    {
+      "key": "action_020_3OOD",
+      "method": "cosinecls",
+      "variant": "select=best_test",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_021_11ID",
+      "method": "cosinecls",
+      "variant": "select=val",
+      "view": "11ID"
+    },
+    {
+      "key": "action_021_3OOD",
+      "method": "cosinecls",
+      "variant": "select=val",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_022_11ID",
+      "method": "mlp",
+      "variant": "select=best_test",
+      "view": "11ID"
+    },
+    {
+      "key": "action_022_3OOD",
+      "method": "mlp",
+      "variant": "select=best_test",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_023_11ID",
+      "method": "mlp",
+      "variant": "select=val",
+      "view": "11ID"
+    },
+    {
+      "key": "action_023_3OOD",
+      "method": "mlp",
+      "variant": "select=val",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_024_11ID",
+      "method": "routerdc",
+      "variant": "select=best_test",
+      "view": "11ID"
+    },
+    {
+      "key": "action_024_3OOD",
+      "method": "routerdc",
+      "variant": "select=best_test",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_025_11ID",
+      "method": "routerdc",
+      "variant": "select=val",
+      "view": "11ID"
+    },
+    {
+      "key": "action_025_3OOD",
+      "method": "routerdc",
+      "variant": "select=val",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_026_11ID",
+      "method": "vlc",
+      "variant": "select=best_test",
+      "view": "11ID"
+    },
+    {
+      "key": "action_026_3OOD",
+      "method": "vlc",
+      "variant": "select=best_test",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_027_11ID",
+      "method": "vlc",
+      "variant": "select=val",
+      "view": "11ID"
+    },
+    {
+      "key": "action_027_3OOD",
+      "method": "vlc",
+      "variant": "select=val",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_028_11ID",
+      "method": "zooter",
+      "variant": "select=best_test",
+      "view": "11ID"
+    },
+    {
+      "key": "action_028_3OOD",
+      "method": "zooter",
+      "variant": "select=best_test",
+      "view": "3OOD"
+    },
+    {
+      "key": "action_029_11ID",
+      "method": "zooter",
+      "variant": "select=val",
+      "view": "11ID"
+    },
+    {
+      "key": "action_029_3OOD",
+      "method": "zooter",
+      "variant": "select=val",
+      "view": "3OOD"
+    }
+  ],
+  "checks": [
+    {
+      "aggregate_A": 78.6179921773142,
+      "aggregate_C": 2.8702529378200734,
+      "method": "Strongest",
+      "passed": true,
+      "seed": 0,
+      "variant": "source_train",
+      "weighted_A": 78.6179921773142,
+      "weighted_C": 2.8702529378200734
+    },
+    {
+      "aggregate_A": 65.1890482398957,
+      "aggregate_C": 0.14667992180219708,
+      "method": "Cheapest",
+      "passed": true,
+      "seed": 0,
+      "variant": "source_train",
+      "weighted_A": 65.1890482398957,
+      "weighted_C": 0.14667992180219708
+    },
+    {
+      "aggregate_A": 96.87092568448502,
+      "aggregate_C": 0.3799985691981215,
+      "method": "Oracle",
+      "passed": true,
+      "seed": 0,
+      "variant": "test_oracle",
+      "weighted_A": 96.870925684485,
+      "weighted_C": 0.3799985691981215
+    },
+    {
+      "aggregate_A": 67.53585397653194,
+      "aggregate_C": 0.7085189058095844,
+      "method": "StateRoute-T",
+      "passed": true,
+      "seed": 0,
+      "variant": "K1",
+      "weighted_A": 67.53585397653194,
+      "weighted_C": 0.7085189058095844
+    },
+    {
+      "aggregate_A": 74.1851368970013,
+      "aggregate_C": 0.6528644110556513,
+      "method": "StateRoute-T",
+      "passed": true,
+      "seed": 0,
+      "variant": "K2_fixed_map",
+      "weighted_A": 74.1851368970013,
+      "weighted_C": 0.6528644110556513
+    },
+    {
+      "aggregate_A": 67.53585397653194,
+      "aggregate_C": 0.7085189058095844,
+      "method": "StateRoute-MM",
+      "passed": true,
+      "seed": 0,
+      "variant": "K1",
+      "weighted_A": 67.53585397653194,
+      "weighted_C": 0.7085189058095844
+    },
+    {
+      "aggregate_A": 71.83833116036506,
+      "aggregate_C": 0.6734156480748564,
+      "method": "StateRoute-MM",
+      "passed": true,
+      "seed": 0,
+      "variant": "K2_fixed_map",
+      "weighted_A": 71.83833116036506,
+      "weighted_C": 0.6734156480748564
+    },
+    {
+      "aggregate_A": 72.7509778357236,
+      "aggregate_C": 0.7063275138754034,
+      "method": "Subject-state",
+      "passed": true,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "weighted_A": 72.7509778357236,
+      "weighted_C": 0.7063275138754034
+    },
+    {
+      "aggregate_A": 78.6179921773142,
+      "aggregate_C": 2.8702529378200734,
+      "method": "Query-BERT",
+      "passed": true,
+      "seed": 0,
+      "variant": "base",
+      "weighted_A": 78.6179921773142,
+      "weighted_C": 2.8702529378200734
+    },
+    {
+      "aggregate_A": 74.83702737940025,
+      "aggregate_C": 1.0602443321415853,
+      "method": "Query-BERT",
+      "passed": true,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "weighted_A": 74.83702737940025,
+      "weighted_C": 1.0602443321415853
+    },
+    {
+      "aggregate_A": 78.8787483702738,
+      "aggregate_C": 2.974007830629065,
+      "method": "Query-TinyLLaVA",
+      "passed": true,
+      "seed": 0,
+      "variant": "base",
+      "weighted_A": 78.8787483702738,
+      "weighted_C": 2.9740078306290645
+    },
+    {
+      "aggregate_A": 74.83702737940025,
+      "aggregate_C": 1.1098923125312479,
+      "method": "Query-TinyLLaVA",
+      "passed": true,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "weighted_A": 74.83702737940025,
+      "weighted_C": 1.1098923125312479
+    },
+    {
+      "aggregate_A": 78.48761408083442,
+      "aggregate_C": 2.9724445965428226,
+      "method": "Query-Qwen3-VL",
+      "passed": true,
+      "seed": 0,
+      "variant": "base",
+      "weighted_A": 78.48761408083442,
+      "weighted_C": 2.9724445965428226
+    },
+    {
+      "aggregate_A": 74.83702737940025,
+      "aggregate_C": 1.092717605256694,
+      "method": "Query-Qwen3-VL",
+      "passed": true,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "weighted_A": 74.83702737940025,
+      "weighted_C": 1.092717605256694
+    },
+    {
+      "aggregate_A": 75.09778357235984,
+      "aggregate_C": 4.066480309158325,
+      "method": "Subject-BERT",
+      "passed": true,
+      "seed": 0,
+      "variant": "base",
+      "weighted_A": 75.09778357235984,
+      "weighted_C": 4.066480309158324
+    },
+    {
+      "aggregate_A": 72.7509778357236,
+      "aggregate_C": 1.2187475867892283,
+      "method": "Subject-BERT",
+      "passed": true,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "weighted_A": 72.7509778357236,
+      "weighted_C": 1.2187475867892283
+    },
+    {
+      "aggregate_A": 59.32203389830508,
+      "aggregate_C": 4.273233379887845,
+      "method": "Subject-TinyLLaVA",
+      "passed": true,
+      "seed": 0,
+      "variant": "base",
+      "weighted_A": 59.32203389830509,
+      "weighted_C": 4.273233379887845
+    },
+    {
+      "aggregate_A": 69.10039113428944,
+      "aggregate_C": 1.1213216438291187,
+      "method": "Subject-TinyLLaVA",
+      "passed": true,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "weighted_A": 69.10039113428944,
+      "weighted_C": 1.1213216438291187
+    },
+    {
+      "aggregate_A": 60.88657105606258,
+      "aggregate_C": 4.5823746968214865,
+      "method": "Subject-Qwen3-VL",
+      "passed": true,
+      "seed": 0,
+      "variant": "base",
+      "weighted_A": 60.88657105606258,
+      "weighted_C": 4.5823746968214865
+    },
+    {
+      "aggregate_A": 69.6219035202086,
+      "aggregate_C": 1.2689816155881475,
+      "method": "Subject-Qwen3-VL",
+      "passed": true,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "weighted_A": 69.62190352020862,
+      "weighted_C": 1.2689816155881475
+    },
+    {
+      "aggregate_A": 65.31942633637549,
+      "aggregate_C": 0.3289295977963234,
+      "method": "routerdc",
+      "passed": true,
+      "seed": 0,
+      "variant": "select=val",
+      "weighted_A": 65.31942633637549,
+      "weighted_C": 0.3289295977963234
+    },
+    {
+      "aggregate_A": 68.70925684485006,
+      "aggregate_C": 0.36261851305562176,
+      "method": "routerdc",
+      "passed": true,
+      "seed": 0,
+      "variant": "select=best_test",
+      "weighted_A": 68.70925684485007,
+      "weighted_C": 0.3626185130556217
+    },
+    {
+      "aggregate_A": 69.6219035202086,
+      "aggregate_C": 0.8737750990442097,
+      "method": "vlc",
+      "passed": true,
+      "seed": 0,
+      "variant": "select=val",
+      "weighted_A": 69.6219035202086,
+      "weighted_C": 0.8737750990442098
+    },
+    {
+      "aggregate_A": 71.1864406779661,
+      "aggregate_C": 0.5827254248089015,
+      "method": "vlc",
+      "passed": true,
+      "seed": 0,
+      "variant": "select=best_test",
+      "weighted_A": 71.18644067796612,
+      "weighted_C": 0.5827254248089015
+    },
+    {
+      "aggregate_A": 67.01434159061279,
+      "aggregate_C": 1.124089960209456,
+      "method": "mlp",
+      "passed": true,
+      "seed": 0,
+      "variant": "select=val",
+      "weighted_A": 67.01434159061277,
+      "weighted_C": 1.124089960209456
+    },
+    {
+      "aggregate_A": 70.27379400260756,
+      "aggregate_C": 0.45624315791696657,
+      "method": "mlp",
+      "passed": true,
+      "seed": 0,
+      "variant": "select=best_test",
+      "weighted_A": 70.27379400260756,
+      "weighted_C": 0.45624315791696657
+    },
+    {
+      "aggregate_A": 71.1864406779661,
+      "aggregate_C": 0.4391148629515182,
+      "method": "cosinecls",
+      "passed": true,
+      "seed": 0,
+      "variant": "select=val",
+      "weighted_A": 71.1864406779661,
+      "weighted_C": 0.4391148629515182
+    },
+    {
+      "aggregate_A": 71.1864406779661,
+      "aggregate_C": 0.4391148629515182,
+      "method": "cosinecls",
+      "passed": true,
+      "seed": 0,
+      "variant": "select=best_test",
+      "weighted_A": 71.1864406779661,
+      "weighted_C": 0.4391148629515182
+    },
+    {
+      "aggregate_A": 65.44980443285529,
+      "aggregate_C": 0.7020839645865089,
+      "method": "zooter",
+      "passed": true,
+      "seed": 0,
+      "variant": "select=val",
+      "weighted_A": 65.44980443285527,
+      "weighted_C": 0.702083964586509
+    },
+    {
+      "aggregate_A": 67.79661016949152,
+      "aggregate_C": 0.4131582803919339,
+      "method": "zooter",
+      "passed": true,
+      "seed": 0,
+      "variant": "select=best_test",
+      "weighted_A": 67.79661016949153,
+      "weighted_C": 0.413158280391934
+    }
+  ],
+  "per_dataset": [
+    {
+      "A": 85.09803921568627,
+      "C": 2.1855372609684753,
+      "R": 76.03390300835393,
+      "dataset": "ChartQA_TEST",
+      "method": "Strongest",
+      "n": 510,
+      "seed": 0,
+      "variant": "source_train"
+    },
+    {
+      "A": 73.7864077669903,
+      "C": 3.195378643424404,
+      "R": 64.22836584829402,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "Strongest",
+      "n": 206,
+      "seed": 0,
+      "variant": "source_train"
+    },
+    {
+      "A": 33.33333333333333,
+      "C": 8.404156856247972,
+      "R": 22.80922456057066,
+      "dataset": "MathVision_MINI",
+      "method": "Strongest",
+      "n": 51,
+      "seed": 0,
+      "variant": "source_train"
+    },
+    {
+      "A": 80.58823529411765,
+      "C": 0.13604607843886948,
+      "R": 82.03592814363567,
+      "dataset": "ChartQA_TEST",
+      "method": "Cheapest",
+      "n": 510,
+      "seed": 0,
+      "variant": "source_train"
+    },
+    {
+      "A": 40.77669902912621,
+      "C": 0.16501699034069514,
+      "R": 43.04337817320009,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "Cheapest",
+      "n": 206,
+      "seed": 0,
+      "variant": "source_train"
+    },
+    {
+      "A": 9.803921568627452,
+      "C": 0.1789509805544809,
+      "R": 10.674193757378916,
+      "dataset": "MathVision_MINI",
+      "method": "Cheapest",
+      "n": 51,
+      "seed": 0,
+      "variant": "source_train"
+    },
+    {
+      "A": 97.25490196078431,
+      "C": 0.1950462752824487,
+      "R": 96.85486156651677,
+      "dataset": "ChartQA_TEST",
+      "method": "Oracle",
+      "n": 510,
+      "seed": 0,
+      "variant": "test_oracle"
+    },
+    {
+      "A": 96.60194174757282,
+      "C": 0.511850491147042,
+      "R": 93.4699255194517,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "Oracle",
+      "n": 206,
+      "seed": 0,
+      "variant": "test_oracle"
+    },
+    {
+      "A": 94.11764705882352,
+      "C": 1.6969431569533282,
+      "R": 84.83265093539507,
+      "dataset": "MathVision_MINI",
+      "method": "Oracle",
+      "n": 51,
+      "seed": 0,
+      "variant": "test_oracle"
+    },
+    {
+      "A": 71.76470588235294,
+      "C": 0.5914549026284458,
+      "R": 71.32655037950329,
+      "dataset": "ChartQA_TEST",
+      "method": "StateRoute-T",
+      "n": 510,
+      "seed": 0,
+      "variant": "K1"
+    },
+    {
+      "A": 60.19417475728155,
+      "C": 0.694405340095948,
+      "R": 60.47954066674603,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "StateRoute-T",
+      "n": 206,
+      "seed": 0,
+      "variant": "K1"
+    },
+    {
+      "A": 54.90196078431373,
+      "C": 1.936166673640757,
+      "R": 53.044663969952055,
+      "dataset": "MathVision_MINI",
+      "method": "StateRoute-T",
+      "n": 51,
+      "seed": 0,
+      "variant": "K1"
+    },
+    {
+      "A": 82.15686274509804,
+      "C": 0.5179045146374561,
+      "R": 80.91756679758484,
+      "dataset": "ChartQA_TEST",
+      "method": "StateRoute-T",
+      "n": 510,
+      "seed": 0,
+      "variant": "K2_fixed_map"
+    },
+    {
+      "A": 59.22330097087378,
+      "C": 0.6692776721305986,
+      "R": 59.655112424446614,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "StateRoute-T",
+      "n": 206,
+      "seed": 0,
+      "variant": "K2_fixed_map"
+    },
+    {
+      "A": 54.90196078431373,
+      "C": 1.936166673640757,
+      "R": 53.044663969952055,
+      "dataset": "MathVision_MINI",
+      "method": "StateRoute-T",
+      "n": 51,
+      "seed": 0,
+      "variant": "K2_fixed_map"
+    },
+    {
+      "A": 71.76470588235294,
+      "C": 0.5914549026284458,
+      "R": 71.32655037950329,
+      "dataset": "ChartQA_TEST",
+      "method": "StateRoute-MM",
+      "n": 510,
+      "seed": 0,
+      "variant": "K1"
+    },
+    {
+      "A": 60.19417475728155,
+      "C": 0.694405340095948,
+      "R": 60.47954066674603,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "StateRoute-MM",
+      "n": 206,
+      "seed": 0,
+      "variant": "K1"
+    },
+    {
+      "A": 54.90196078431373,
+      "C": 1.936166673640757,
+      "R": 53.044663969952055,
+      "dataset": "MathVision_MINI",
+      "method": "StateRoute-MM",
+      "n": 51,
+      "seed": 0,
+      "variant": "K1"
+    },
+    {
+      "A": 78.43137254901961,
+      "C": 0.5601111790347917,
+      "R": 77.40978808503807,
+      "dataset": "ChartQA_TEST",
+      "method": "StateRoute-MM",
+      "n": 510,
+      "seed": 0,
+      "variant": "K2_fixed_map"
+    },
+    {
+      "A": 60.19417475728155,
+      "C": 0.6733315549177701,
+      "R": 60.53807653030181,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "StateRoute-MM",
+      "n": 206,
+      "seed": 0,
+      "variant": "K2_fixed_map"
+    },
+    {
+      "A": 52.94117647058824,
+      "C": 1.8068000088747154,
+      "R": 51.610620382918825,
+      "dataset": "MathVision_MINI",
+      "method": "StateRoute-MM",
+      "n": 51,
+      "seed": 0,
+      "variant": "K2_fixed_map"
+    },
+    {
+      "A": 80.0,
+      "C": 0.5316266710282185,
+      "R": 78.93987351998565,
+      "dataset": "ChartQA_TEST",
+      "method": "Subject-state",
+      "n": 510,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 59.70873786407766,
+      "C": 0.6835830122194574,
+      "R": 60.06327381981477,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "Subject-state",
+      "n": 206,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 52.94117647058824,
+      "C": 2.5452058902124453,
+      "R": 50.24148324587653,
+      "dataset": "MathVision_MINI",
+      "method": "Subject-state",
+      "n": 51,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 85.09803921568627,
+      "C": 2.1855372609684753,
+      "R": 76.03390300835393,
+      "dataset": "ChartQA_TEST",
+      "method": "Query-BERT",
+      "n": 510,
+      "seed": 0,
+      "variant": "base"
+    },
+    {
+      "A": 73.7864077669903,
+      "C": 3.195378643424404,
+      "R": 64.22836584829402,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "Query-BERT",
+      "n": 206,
+      "seed": 0,
+      "variant": "base"
+    },
+    {
+      "A": 33.33333333333333,
+      "C": 8.404156856247972,
+      "R": 22.80922456057066,
+      "dataset": "MathVision_MINI",
+      "method": "Query-BERT",
+      "n": 51,
+      "seed": 0,
+      "variant": "base"
+    },
+    {
+      "A": 81.17647058823529,
+      "C": 0.6896974556701596,
+      "R": 79.1937212888671,
+      "dataset": "ChartQA_TEST",
+      "method": "Query-BERT",
+      "n": 510,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 63.59223300970874,
+      "C": 1.1748893248119043,
+      "R": 62.230687496919735,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "Query-BERT",
+      "n": 206,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 56.86274509803921,
+      "C": 4.302637244109064,
+      "R": 49.25140570643112,
+      "dataset": "MathVision_MINI",
+      "method": "Query-BERT",
+      "n": 51,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 85.09803921568627,
+      "C": 2.1855372609684753,
+      "R": 76.03390300835393,
+      "dataset": "ChartQA_TEST",
+      "method": "Query-TinyLLaVA",
+      "n": 510,
+      "seed": 0,
+      "variant": "base"
+    },
+    {
+      "A": 73.7864077669903,
+      "C": 3.565791278746368,
+      "R": 62.91127097965899,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "Query-TinyLLaVA",
+      "n": 206,
+      "seed": 0,
+      "variant": "base"
+    },
+    {
+      "A": 37.254901960784316,
+      "C": 8.468372540721926,
+      "R": 24.082650836348606,
+      "dataset": "MathVision_MINI",
+      "method": "Query-TinyLLaVA",
+      "n": 51,
+      "seed": 0,
+      "variant": "base"
+    },
+    {
+      "A": 81.17647058823529,
+      "C": 0.6896974556701596,
+      "R": 79.1937212888671,
+      "dataset": "ChartQA_TEST",
+      "method": "Query-TinyLLaVA",
+      "n": 510,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 63.59223300970874,
+      "C": 1.3597436983986573,
+      "R": 61.74662888398251,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "Query-TinyLLaVA",
+      "n": 206,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 56.86274509803921,
+      "C": 4.302637244109064,
+      "R": 49.25140570643112,
+      "dataset": "MathVision_MINI",
+      "method": "Query-TinyLLaVA",
+      "n": 51,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 85.09803921568627,
+      "C": 2.1855372609684753,
+      "R": 76.03390300835393,
+      "dataset": "ChartQA_TEST",
+      "method": "Query-Qwen3-VL",
+      "n": 510,
+      "seed": 0,
+      "variant": "base"
+    },
+    {
+      "A": 73.30097087378641,
+      "C": 3.495796129234063,
+      "R": 62.840428542693395,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "Query-Qwen3-VL",
+      "n": 206,
+      "seed": 0,
+      "variant": "base"
+    },
+    {
+      "A": 33.33333333333333,
+      "C": 8.72758823200403,
+      "R": 21.276395670613706,
+      "dataset": "MathVision_MINI",
+      "method": "Query-Qwen3-VL",
+      "n": 51,
+      "seed": 0,
+      "variant": "base"
+    },
+    {
+      "A": 81.17647058823529,
+      "C": 0.6896974556701596,
+      "R": 79.1937212888671,
+      "dataset": "ChartQA_TEST",
+      "method": "Query-Qwen3-VL",
+      "n": 510,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 63.59223300970874,
+      "C": 1.2265592284042284,
+      "R": 62.094151529623275,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "Query-Qwen3-VL",
+      "n": 206,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 56.86274509803921,
+      "C": 4.582303917428077,
+      "R": 48.480904510689555,
+      "dataset": "MathVision_MINI",
+      "method": "Query-Qwen3-VL",
+      "n": 51,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 80.19607843137256,
+      "C": 2.0228000055295507,
+      "R": 73.04642115494669,
+      "dataset": "ChartQA_TEST",
+      "method": "Subject-BERT",
+      "n": 510,
+      "seed": 0,
+      "variant": "base"
+    },
+    {
+      "A": 72.81553398058253,
+      "C": 8.228424239948334,
+      "R": 36.112058407282156,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "Subject-BERT",
+      "n": 206,
+      "seed": 0,
+      "variant": "base"
+    },
+    {
+      "A": 33.33333333333333,
+      "C": 7.692294134804065,
+      "R": 25.431822956936017,
+      "dataset": "MathVision_MINI",
+      "method": "Subject-BERT",
+      "n": 51,
+      "seed": 0,
+      "variant": "base"
+    },
+    {
+      "A": 78.62745098039215,
+      "C": 0.6654856911422137,
+      "R": 77.089667042507,
+      "dataset": "ChartQA_TEST",
+      "method": "Subject-BERT",
+      "n": 510,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 64.07766990291263,
+      "C": 2.067316484684746,
+      "R": 60.34027525593248,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "Subject-BERT",
+      "n": 206,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 49.01960784313725,
+      "C": 3.3238137399951255,
+      "R": 45.65299983606834,
+      "dataset": "MathVision_MINI",
+      "method": "Subject-BERT",
+      "n": 51,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 55.490196078431374,
+      "C": 1.450658826797735,
+      "R": 54.51314335078591,
+      "dataset": "ChartQA_TEST",
+      "method": "Subject-TinyLLaVA",
+      "n": 510,
+      "seed": 0,
+      "variant": "base"
+    },
+    {
+      "A": 74.75728155339806,
+      "C": 9.643844682569995,
+      "R": 19.25666540294169,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "Subject-TinyLLaVA",
+      "n": 206,
+      "seed": 0,
+      "variant": "base"
+    },
+    {
+      "A": 35.294117647058826,
+      "C": 10.805921492112033,
+      "R": 0.0,
+      "dataset": "MathVision_MINI",
+      "method": "Subject-TinyLLaVA",
+      "n": 51,
+      "seed": 0,
+      "variant": "base"
+    },
+    {
+      "A": 73.33333333333333,
+      "C": 0.5940294157007171,
+      "R": 72.72148440085856,
+      "dataset": "ChartQA_TEST",
+      "method": "Subject-TinyLLaVA",
+      "n": 510,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 63.59223300970874,
+      "C": 1.66483834318481,
+      "R": 60.96620617672618,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "Subject-TinyLLaVA",
+      "n": 206,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 49.01960784313725,
+      "C": 4.19886274732348,
+      "R": 43.958677284604455,
+      "dataset": "MathVision_MINI",
+      "method": "Subject-TinyLLaVA",
+      "n": 51,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 56.86274509803921,
+      "C": 1.4439078452186567,
+      "R": 55.728407394308555,
+      "dataset": "ChartQA_TEST",
+      "method": "Subject-Qwen3-VL",
+      "n": 510,
+      "seed": 0,
+      "variant": "base"
+    },
+    {
+      "A": 75.24271844660194,
+      "C": 9.216040774562607,
+      "R": 25.45247093509327,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "Subject-Qwen3-VL",
+      "n": 206,
+      "seed": 0,
+      "variant": "base"
+    },
+    {
+      "A": 43.13725490196079,
+      "C": 17.250666506679764,
+      "R": 0.0,
+      "dataset": "MathVision_MINI",
+      "method": "Subject-Qwen3-VL",
+      "n": 51,
+      "seed": 0,
+      "variant": "base"
+    },
+    {
+      "A": 73.72549019607844,
+      "C": 0.6130572588767346,
+      "R": 72.99207258268075,
+      "dataset": "ChartQA_TEST",
+      "method": "Subject-Qwen3-VL",
+      "n": 510,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 63.59223300970874,
+      "C": 1.66483834318481,
+      "R": 60.96620617672618,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "Subject-Qwen3-VL",
+      "n": 206,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 52.94117647058824,
+      "C": 6.22927447907654,
+      "R": 40.86312081803505,
+      "dataset": "MathVision_MINI",
+      "method": "Subject-Qwen3-VL",
+      "n": 51,
+      "seed": 0,
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 77.45098039215686,
+      "C": 0.1478621568500838,
+      "R": 79.04166405465237,
+      "dataset": "ChartQA_TEST",
+      "method": "routerdc",
+      "n": 510,
+      "seed": 0,
+      "variant": "select=val"
+    },
+    {
+      "A": 43.203883495145625,
+      "C": 0.6590869000240328,
+      "R": 44.549611084201665,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "routerdc",
+      "n": 206,
+      "seed": 0,
+      "variant": "select=val"
+    },
+    {
+      "A": 33.33333333333333,
+      "C": 0.8060274531624815,
+      "R": 34.737509119267166,
+      "dataset": "MathVision_MINI",
+      "method": "routerdc",
+      "n": 51,
+      "seed": 0,
+      "variant": "select=val"
+    },
+    {
+      "A": 79.80392156862746,
+      "C": 0.1661833334140943,
+      "R": 81.09543587110014,
+      "dataset": "ChartQA_TEST",
+      "method": "routerdc",
+      "n": 510,
+      "seed": 0,
+      "variant": "select=best_test"
+    },
+    {
+      "A": 49.51456310679612,
+      "C": 0.6760747526606034,
+      "R": 50.56110126817295,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "routerdc",
+      "n": 206,
+      "seed": 0,
+      "variant": "select=best_test"
+    },
+    {
+      "A": 35.294117647058826,
+      "C": 1.0608529494978332,
+      "R": 36.426362873358165,
+      "dataset": "MathVision_MINI",
+      "method": "routerdc",
+      "n": 51,
+      "seed": 0,
+      "variant": "select=best_test"
+    },
+    {
+      "A": 73.92156862745098,
+      "C": 0.7530603941310855,
+      "R": 72.60176579493597,
+      "dataset": "ChartQA_TEST",
+      "method": "vlc",
+      "n": 510,
+      "seed": 0,
+      "variant": "select=val"
+    },
+    {
+      "A": 62.62135922330098,
+      "C": 0.9096126194387217,
+      "R": 62.08741925983306,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "vlc",
+      "n": 206,
+      "seed": 0,
+      "variant": "select=val"
+    },
+    {
+      "A": 54.90196078431373,
+      "C": 1.936166673640757,
+      "R": 53.044663969952055,
+      "dataset": "MathVision_MINI",
+      "method": "vlc",
+      "n": 51,
+      "seed": 0,
+      "variant": "select=val"
+    },
+    {
+      "A": 77.25490196078432,
+      "C": 0.4346550986691214,
+      "R": 76.98516231141974,
+      "dataset": "ChartQA_TEST",
+      "method": "vlc",
+      "n": 510,
+      "seed": 0,
+      "variant": "select=best_test"
+    },
+    {
+      "A": 60.19417475728155,
+      "C": 0.6194237871612626,
+      "R": 60.690740444595534,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "vlc",
+      "n": 206,
+      "seed": 0,
+      "variant": "select=best_test"
+    },
+    {
+      "A": 54.90196078431373,
+      "C": 1.9151960853324614,
+      "R": 53.085680752560705,
+      "dataset": "MathVision_MINI",
+      "method": "vlc",
+      "n": 51,
+      "seed": 0,
+      "variant": "select=best_test"
+    },
+    {
+      "A": 71.17647058823529,
+      "C": 0.727142353539153,
+      "R": 70.27993429371227,
+      "dataset": "ChartQA_TEST",
+      "method": "mlp",
+      "n": 510,
+      "seed": 0,
+      "variant": "select=val"
+    },
+    {
+      "A": 62.13592233009708,
+      "C": 1.6564830107685322,
+      "R": 59.7661334274672,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "mlp",
+      "n": 206,
+      "seed": 0,
+      "variant": "select=val"
+    },
+    {
+      "A": 45.09803921568628,
+      "C": 2.9431156658307267,
+      "R": 43.10517105995441,
+      "dataset": "MathVision_MINI",
+      "method": "mlp",
+      "n": 51,
+      "seed": 0,
+      "variant": "select=val"
+    },
+    {
+      "A": 80.0,
+      "C": 0.3685933365797574,
+      "R": 79.83511230398261,
+      "dataset": "ChartQA_TEST",
+      "method": "mlp",
+      "n": 510,
+      "seed": 0,
+      "variant": "select=best_test"
+    },
+    {
+      "A": 52.42718446601942,
+      "C": 0.49964320548929875,
+      "R": 53.711920513702246,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "mlp",
+      "n": 206,
+      "seed": 0,
+      "variant": "select=best_test"
+    },
+    {
+      "A": 45.09803921568628,
+      "C": 1.1574392183498348,
+      "R": 45.62095148113803,
+      "dataset": "MathVision_MINI",
+      "method": "mlp",
+      "n": 51,
+      "seed": 0,
+      "variant": "select=best_test"
+    },
+    {
+      "A": 80.7843137254902,
+      "C": 0.1528864707449661,
+      "R": 82.13934256082749,
+      "dataset": "ChartQA_TEST",
+      "method": "cosinecls",
+      "n": 510,
+      "seed": 0,
+      "variant": "select=val"
+    },
+    {
+      "A": 53.398058252427184,
+      "C": 0.9361864058784033,
+      "R": 53.669154321651604,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "cosinecls",
+      "n": 206,
+      "seed": 0,
+      "variant": "select=val"
+    },
+    {
+      "A": 47.05882352941176,
+      "C": 1.2936196116260914,
+      "R": 47.23034567257756,
+      "dataset": "MathVision_MINI",
+      "method": "cosinecls",
+      "n": 51,
+      "seed": 0,
+      "variant": "select=val"
+    },
+    {
+      "A": 80.7843137254902,
+      "C": 0.1528864707449661,
+      "R": 82.13934256082749,
+      "dataset": "ChartQA_TEST",
+      "method": "cosinecls",
+      "n": 510,
+      "seed": 0,
+      "variant": "select=best_test"
+    },
+    {
+      "A": 53.398058252427184,
+      "C": 0.9361864058784033,
+      "R": 53.669154321651604,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "cosinecls",
+      "n": 206,
+      "seed": 0,
+      "variant": "select=best_test"
+    },
+    {
+      "A": 47.05882352941176,
+      "C": 1.2936196116260914,
+      "R": 47.23034567257756,
+      "dataset": "MathVision_MINI",
+      "method": "cosinecls",
+      "n": 51,
+      "seed": 0,
+      "variant": "select=best_test"
+    },
+    {
+      "A": 69.6078431372549,
+      "C": 0.586271373589732,
+      "R": 69.40378170045872,
+      "dataset": "ChartQA_TEST",
+      "method": "zooter",
+      "n": 510,
+      "seed": 0,
+      "variant": "select=val"
+    },
+    {
+      "A": 57.76699029126213,
+      "C": 0.6933713591457243,
+      "R": 58.2468837489498,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "zooter",
+      "n": 206,
+      "seed": 0,
+      "variant": "select=val"
+    },
+    {
+      "A": 54.90196078431373,
+      "C": 1.8954019671190168,
+      "R": 53.12438602123277,
+      "dataset": "MathVision_MINI",
+      "method": "zooter",
+      "n": 51,
+      "seed": 0,
+      "variant": "select=val"
+    },
+    {
+      "A": 77.64705882352942,
+      "C": 0.33029353120332866,
+      "R": 77.9213730229055,
+      "dataset": "ChartQA_TEST",
+      "method": "zooter",
+      "n": 510,
+      "seed": 0,
+      "variant": "select=best_test"
+    },
+    {
+      "A": 53.883495145631066,
+      "C": 0.4508820389338387,
+      "R": 55.22517851082011,
+      "dataset": "MMMU_DEV_VAL",
+      "method": "zooter",
+      "n": 206,
+      "seed": 0,
+      "variant": "select=best_test"
+    },
+    {
+      "A": 25.49019607843137,
+      "C": 1.0894313750302935,
+      "R": 26.752863079014777,
+      "dataset": "MathVision_MINI",
+      "method": "zooter",
+      "n": 51,
+      "seed": 0,
+      "variant": "select=best_test"
+    }
+  ],
+  "per_group": [
+    {
+      "A": 55.47594677584442,
+      "C": 4.729940631951633,
+      "R": 47.152450393899116,
+      "method": "Strongest",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "source_train"
+    },
+    {
+      "A": 88.54328667703474,
+      "C": 2.2121513750744013,
+      "R": 78.39827695801654,
+      "method": "Strongest",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "source_train"
+    },
+    {
+      "A": 82.50950570342205,
+      "C": 2.329387075042869,
+      "R": 73.57921871058485,
+      "method": "Strongest",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "source_train"
+    },
+    {
+      "A": 75.53571428571428,
+      "C": 2.154025003879464,
+      "R": 69.05144288236707,
+      "method": "Strongest",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "source_train"
+    },
+    {
+      "A": 29.37563971340839,
+      "C": 0.17990429876845565,
+      "R": 31.343083768839648,
+      "method": "Cheapest",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "source_train"
+    },
+    {
+      "A": 71.48781752203213,
+      "C": 0.13639761523357563,
+      "R": 73.39010111754646,
+      "method": "Cheapest",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "source_train"
+    },
+    {
+      "A": 65.8555133079848,
+      "C": 0.13651026583898826,
+      "R": 67.96518264833739,
+      "method": "Cheapest",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "source_train"
+    },
+    {
+      "A": 71.78571428571429,
+      "C": 0.13344374972997944,
+      "R": 73.67544151942396,
+      "method": "Cheapest",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "source_train"
+    },
+    {
+      "A": 91.60696008188332,
+      "C": 0.9862916046838455,
+      "R": 86.45321802859101,
+      "method": "Oracle",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "test_oracle"
+    },
+    {
+      "A": 97.97822706065318,
+      "C": 0.24902337996633642,
+      "R": 96.90577158942902,
+      "method": "Oracle",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "test_oracle"
+    },
+    {
+      "A": 98.40304182509506,
+      "C": 0.22401619791548996,
+      "R": 97.55416202565897,
+      "method": "Oracle",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "test_oracle"
+    },
+    {
+      "A": 90.98214285714286,
+      "C": 0.2132944641906371,
+      "R": 90.97902022772767,
+      "method": "Oracle",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "test_oracle"
+    },
+    {
+      "A": 64.27840327533265,
+      "C": 1.3257287619005127,
+      "R": 62.4239080210895,
+      "method": "StateRoute-T",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "K1"
+    },
+    {
+      "A": 80.50803525142561,
+      "C": 0.5848050802458643,
+      "R": 79.12004991961105,
+      "method": "StateRoute-T",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "K1"
+    },
+    {
+      "A": 78.02281368821293,
+      "C": 0.7500984802425612,
+      "R": 76.18969943196147,
+      "method": "StateRoute-T",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "K1"
+    },
+    {
+      "A": 69.28571428571428,
+      "C": 0.5908388390188131,
+      "R": 69.09524140526065,
+      "method": "StateRoute-T",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "K1"
+    },
+    {
+      "A": 64.27840327533265,
+      "C": 1.3257287619005127,
+      "R": 62.4239080210895,
+      "method": "StateRoute-T",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "K2_fixed_map"
+    },
+    {
+      "A": 80.248833592535,
+      "C": 0.5014504428996747,
+      "R": 79.31670733978305,
+      "method": "StateRoute-T",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "K2_fixed_map"
+    },
+    {
+      "A": 79.08745247148289,
+      "C": 0.5312028983990775,
+      "R": 78.13329452371873,
+      "method": "StateRoute-T",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "K2_fixed_map"
+    },
+    {
+      "A": 73.125,
+      "C": 0.4834566135351841,
+      "R": 73.01309132415165,
+      "method": "StateRoute-T",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "K2_fixed_map"
+    },
+    {
+      "A": 64.27840327533265,
+      "C": 1.3257287619005127,
+      "R": 62.4239080210895,
+      "method": "StateRoute-MM",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "K1"
+    },
+    {
+      "A": 80.50803525142561,
+      "C": 0.5848050802458643,
+      "R": 79.12004991961105,
+      "method": "StateRoute-MM",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "K1"
+    },
+    {
+      "A": 78.02281368821293,
+      "C": 0.7500984802425612,
+      "R": 76.18969943196147,
+      "method": "StateRoute-MM",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "K1"
+    },
+    {
+      "A": 69.28571428571428,
+      "C": 0.5908388390188131,
+      "R": 69.09524140526065,
+      "method": "StateRoute-MM",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "K1"
+    },
+    {
+      "A": 62.74309109518935,
+      "C": 1.244366734795105,
+      "R": 61.31133299909016,
+      "method": "StateRoute-MM",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "K2_fixed_map"
+    },
+    {
+      "A": 81.28564022809745,
+      "C": 0.5231016089274869,
+      "R": 80.12088863754889,
+      "method": "StateRoute-MM",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "K2_fixed_map"
+    },
+    {
+      "A": 78.09885931558935,
+      "C": 0.595014151625075,
+      "R": 76.95008857363095,
+      "method": "StateRoute-MM",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "K2_fixed_map"
+    },
+    {
+      "A": 71.42857142857143,
+      "C": 0.4883501845662457,
+      "R": 71.45120039818875,
+      "method": "StateRoute-MM",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "K2_fixed_map"
+    },
+    {
+      "A": 66.8372569089048,
+      "C": 1.719298363228218,
+      "R": 63.509529440797465,
+      "method": "Subject-state",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 83.46293416277865,
+      "C": 0.7531968402716673,
+      "R": 80.85397851378289,
+      "method": "Subject-state",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 80.07604562737643,
+      "C": 0.6745064712108286,
+      "R": 78.31080617282286,
+      "method": "Subject-state",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 72.5,
+      "C": 0.567392505575169,
+      "R": 72.08564491646486,
+      "method": "Subject-state",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 58.44421699078812,
+      "C": 5.05506243661178,
+      "R": 48.0626948214561,
+      "method": "Query-BERT",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "base"
+    },
+    {
+      "A": 88.54328667703474,
+      "C": 2.2121513750744013,
+      "R": 78.39827695801654,
+      "method": "Query-BERT",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "base"
+    },
+    {
+      "A": 82.50950570342205,
+      "C": 2.329387075042869,
+      "R": 73.57921871058485,
+      "method": "Query-BERT",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "base"
+    },
+    {
+      "A": 75.53571428571428,
+      "C": 2.154025003879464,
+      "R": 69.05144288236707,
+      "method": "Query-BERT",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "base"
+    },
+    {
+      "A": 68.16786079836234,
+      "C": 2.5419798409270182,
+      "R": 62.244034249229806,
+      "method": "Query-BERT",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 86.88439606013478,
+      "C": 1.7186597211546475,
+      "R": 79.32166347967028,
+      "method": "Query-BERT",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 81.59695817490494,
+      "C": 1.3056298914113604,
+      "R": 76.89911025343704,
+      "method": "Query-BERT",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 74.01785714285715,
+      "C": 1.4536454508515817,
+      "R": 70.19827391524888,
+      "method": "Query-BERT",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 58.13715455475946,
+      "C": 5.144514321902921,
+      "R": 47.584888426268385,
+      "method": "Query-TinyLLaVA",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "base"
+    },
+    {
+      "A": 88.54328667703474,
+      "C": 2.2121513750744013,
+      "R": 78.39827695801654,
+      "method": "Query-TinyLLaVA",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "base"
+    },
+    {
+      "A": 82.66159695817491,
+      "C": 2.3402684433925756,
+      "R": 73.64616484449785,
+      "method": "Query-TinyLLaVA",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "base"
+    },
+    {
+      "A": 75.71428571428571,
+      "C": 2.156268753814012,
+      "R": 69.17941308550722,
+      "method": "Query-TinyLLaVA",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "base"
+    },
+    {
+      "A": 68.16786079836234,
+      "C": 2.536668478852477,
+      "R": 62.259466970633696,
+      "method": "Query-TinyLLaVA",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 86.88439606013478,
+      "C": 1.7186597211546475,
+      "R": 79.32166347967028,
+      "method": "Query-TinyLLaVA",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 81.59695817490494,
+      "C": 1.307763731585835,
+      "R": 76.89052991055941,
+      "method": "Query-TinyLLaVA",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 74.19642857142857,
+      "C": 1.457279379353947,
+      "R": 70.33204183681035,
+      "method": "Query-TinyLLaVA",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 59.16069600818833,
+      "C": 5.075858746748942,
+      "R": 48.43340290542489,
+      "method": "Query-Qwen3-VL",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "base"
+    },
+    {
+      "A": 88.54328667703474,
+      "C": 2.2121513750744013,
+      "R": 78.39827695801654,
+      "method": "Query-Qwen3-VL",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "base"
+    },
+    {
+      "A": 82.58555133079848,
+      "C": 2.3603901162366436,
+      "R": 73.51190164950623,
+      "method": "Query-Qwen3-VL",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "base"
+    },
+    {
+      "A": 75.53571428571428,
+      "C": 2.154025003879464,
+      "R": 69.05144288236707,
+      "method": "Query-Qwen3-VL",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "base"
+    },
+    {
+      "A": 68.16786079836234,
+      "C": 2.6089893583165544,
+      "R": 62.04887686746572,
+      "method": "Query-Qwen3-VL",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 86.88439606013478,
+      "C": 1.7186597211546475,
+      "R": 79.32166347967028,
+      "method": "Query-Qwen3-VL",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 81.59695817490494,
+      "C": 1.3274230470359873,
+      "R": 76.81159693215926,
+      "method": "Query-Qwen3-VL",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 74.01785714285715,
+      "C": 1.4536454508515817,
+      "R": 70.19827391524888,
+      "method": "Query-Qwen3-VL",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 68.06550665301944,
+      "C": 3.724053326461911,
+      "R": 58.552024774940826,
+      "method": "Subject-BERT",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "base"
+    },
+    {
+      "A": 88.9061689994816,
+      "C": 2.1681270104040067,
+      "R": 78.85171478466457,
+      "method": "Subject-BERT",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "base"
+    },
+    {
+      "A": 83.49809885931559,
+      "C": 4.23464722810322,
+      "R": 66.09619535383409,
+      "method": "Subject-BERT",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "base"
+    },
+    {
+      "A": 75.98214285714285,
+      "C": 2.335384823839247,
+      "R": 68.76786278909822,
+      "method": "Subject-BERT",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "base"
+    },
+    {
+      "A": 68.474923234391,
+      "C": 2.6905628461610576,
+      "R": 62.03941848421199,
+      "method": "Subject-BERT",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 86.88439606013478,
+      "C": 1.6987532411423825,
+      "R": 79.40740280406182,
+      "method": "Subject-BERT",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 82.66159695817491,
+      "C": 1.8606613757099404,
+      "R": 75.53432587198711,
+      "method": "Subject-BERT",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 74.28571428571429,
+      "C": 1.4682853604394301,
+      "R": 70.36796449973683,
+      "method": "Subject-BERT",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 69.39611054247698,
+      "C": 4.2870128946004975,
+      "R": 57.473644072352194,
+      "method": "Subject-TinyLLaVA",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "base"
+    },
+    {
+      "A": 88.54328667703474,
+      "C": 2.158611717019479,
+      "R": 78.63387749983659,
+      "method": "Subject-TinyLLaVA",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "base"
+    },
+    {
+      "A": 83.8022813688213,
+      "C": 4.181985482128653,
+      "R": 66.51988521052473,
+      "method": "Subject-TinyLLaVA",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "base"
+    },
+    {
+      "A": 75.89285714285714,
+      "C": 2.299646430466445,
+      "R": 68.82403630083881,
+      "method": "Subject-TinyLLaVA",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "base"
+    },
+    {
+      "A": 69.08904810644832,
+      "C": 2.9322707274088162,
+      "R": 61.764582149280024,
+      "method": "Subject-TinyLLaVA",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 86.78071539657853,
+      "C": 1.7035182487915892,
+      "R": 79.30816522204238,
+      "method": "Subject-TinyLLaVA",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 82.50950570342205,
+      "C": 1.8932044174588114,
+      "R": 75.29101466169928,
+      "method": "Subject-TinyLLaVA",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 74.10714285714286,
+      "C": 1.4936350027677952,
+      "R": 70.13751850332966,
+      "method": "Subject-TinyLLaVA",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 69.70317297850563,
+      "C": 4.15540992573831,
+      "R": 58.142936692375166,
+      "method": "Subject-Qwen3-VL",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "base"
+    },
+    {
+      "A": 88.18040435458786,
+      "C": 2.142060135762828,
+      "R": 78.44582300782031,
+      "method": "Subject-Qwen3-VL",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "base"
+    },
+    {
+      "A": 83.34600760456273,
+      "C": 4.079256053236463,
+      "R": 66.73825464237825,
+      "method": "Subject-Qwen3-VL",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "base"
+    },
+    {
+      "A": 75.53571428571428,
+      "C": 2.312267859386858,
+      "R": 68.51383438574668,
+      "method": "Subject-Qwen3-VL",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "base"
+    },
+    {
+      "A": 68.78198567041966,
+      "C": 2.926780551563788,
+      "R": 61.557978488688335,
+      "method": "Subject-Qwen3-VL",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 86.83255572835667,
+      "C": 1.7050590988357155,
+      "R": 79.3408904967701,
+      "method": "Subject-Qwen3-VL",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 82.20532319391634,
+      "C": 2.014773771894508,
+      "R": 74.58661182415463,
+      "method": "Subject-Qwen3-VL",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 73.92857142857143,
+      "C": 1.526343843011091,
+      "R": 69.8834404454813,
+      "method": "Subject-Qwen3-VL",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "rule4_coarse_fallback"
+    },
+    {
+      "A": 61.61719549641761,
+      "C": 1.7625168880094062,
+      "R": 59.07523062295177,
+      "method": "routerdc",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "select=val"
+    },
+    {
+      "A": 77.24209434940383,
+      "C": 0.2485241060556983,
+      "R": 78.06633390948188,
+      "method": "routerdc",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "select=val"
+    },
+    {
+      "A": 68.212927756654,
+      "C": 0.18271079865606732,
+      "R": 69.9850589511658,
+      "method": "routerdc",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "select=val"
+    },
+    {
+      "A": 70.98214285714286,
+      "C": 0.14628142825553628,
+      "R": 72.89185951986906,
+      "method": "routerdc",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "select=val"
+    },
+    {
+      "A": 61.61719549641761,
+      "C": 1.7625168880094062,
+      "R": 59.07523062295177,
+      "method": "routerdc",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 77.24209434940383,
+      "C": 0.2485241060556983,
+      "R": 78.06633390948188,
+      "method": "routerdc",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 68.212927756654,
+      "C": 0.18271079865606732,
+      "R": 69.9850589511658,
+      "method": "routerdc",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 70.98214285714286,
+      "C": 0.14628142825553628,
+      "R": 72.89185951986906,
+      "method": "routerdc",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 68.06550665301944,
+      "C": 3.403757526787706,
+      "R": 59.576738866690995,
+      "method": "vlc",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "select=val"
+    },
+    {
+      "A": 86.57335406946605,
+      "C": 1.1720955932226125,
+      "R": 81.48288003038205,
+      "method": "vlc",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "select=val"
+    },
+    {
+      "A": 79.16349809885932,
+      "C": 0.7942617539257877,
+      "R": 76.9838992371599,
+      "method": "vlc",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "select=val"
+    },
+    {
+      "A": 75.17857142857143,
+      "C": 0.7594469676470388,
+      "R": 73.67641433332874,
+      "method": "vlc",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "select=val"
+    },
+    {
+      "A": 68.06550665301944,
+      "C": 3.403757526787706,
+      "R": 59.576738866690995,
+      "method": "vlc",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 86.57335406946605,
+      "C": 1.1720955932226125,
+      "R": 81.48288003038205,
+      "method": "vlc",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 79.16349809885932,
+      "C": 0.7942617539257877,
+      "R": 76.9838992371599,
+      "method": "vlc",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 75.17857142857143,
+      "C": 0.7594469676470388,
+      "R": 73.67641433332874,
+      "method": "vlc",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 70.11258955987716,
+      "C": 2.7172625396780976,
+      "R": 63.174205073296676,
+      "method": "mlp",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "select=val"
+    },
+    {
+      "A": 85.22550544323484,
+      "C": 0.7393688960086344,
+      "R": 82.42354007027035,
+      "method": "mlp",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "select=val"
+    },
+    {
+      "A": 78.70722433460075,
+      "C": 0.9279270762807386,
+      "R": 76.0321678673854,
+      "method": "mlp",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "select=val"
+    },
+    {
+      "A": 73.39285714285714,
+      "C": 0.5187108943281211,
+      "R": 73.09805311193172,
+      "method": "mlp",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "select=val"
+    },
+    {
+      "A": 70.11258955987716,
+      "C": 2.7172625396780976,
+      "R": 63.174205073296676,
+      "method": "mlp",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 85.22550544323484,
+      "C": 0.7393688960086344,
+      "R": 82.42354007027035,
+      "method": "mlp",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 78.70722433460075,
+      "C": 0.9279270762807386,
+      "R": 76.0321678673854,
+      "method": "mlp",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 73.39285714285714,
+      "C": 0.5187108943281211,
+      "R": 73.09805311193172,
+      "method": "mlp",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 59.877175025588535,
+      "C": 1.747845651153533,
+      "R": 57.64933791976337,
+      "method": "cosinecls",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "select=val"
+    },
+    {
+      "A": 76.82737169517885,
+      "C": 0.24467801984875628,
+      "R": 77.70701748483125,
+      "method": "cosinecls",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "select=val"
+    },
+    {
+      "A": 67.30038022813687,
+      "C": 0.20205832705291887,
+      "R": 68.9945988516573,
+      "method": "cosinecls",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "select=val"
+    },
+    {
+      "A": 71.51785714285714,
+      "C": 0.13659732106979,
+      "R": 73.41888175978404,
+      "method": "cosinecls",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "select=val"
+    },
+    {
+      "A": 59.877175025588535,
+      "C": 1.747845651153533,
+      "R": 57.64933791976337,
+      "method": "cosinecls",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 76.82737169517885,
+      "C": 0.24467801984875628,
+      "R": 77.70701748483125,
+      "method": "cosinecls",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 67.30038022813687,
+      "C": 0.20205832705291887,
+      "R": 68.9945988516573,
+      "method": "cosinecls",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 71.51785714285714,
+      "C": 0.13659732106979,
+      "R": 73.41888175978404,
+      "method": "cosinecls",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 59.26305015353122,
+      "C": 1.386211361944612,
+      "R": 57.94587223681222,
+      "method": "zooter",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "select=val"
+    },
+    {
+      "A": 84.75894245723173,
+      "C": 0.6274901502419757,
+      "R": 82.60212999642563,
+      "method": "zooter",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "select=val"
+    },
+    {
+      "A": 74.9809885931559,
+      "C": 0.7074371873241312,
+      "R": 73.71377913936634,
+      "method": "zooter",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "select=val"
+    },
+    {
+      "A": 70.89285714285715,
+      "C": 0.25974571483240133,
+      "R": 72.06651321066532,
+      "method": "zooter",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "select=val"
+    },
+    {
+      "A": 59.26305015353122,
+      "C": 1.386211361944612,
+      "R": 57.94587223681222,
+      "method": "zooter",
+      "n": 977,
+      "seed": 0,
+      "task_group": "math",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 84.75894245723173,
+      "C": 0.6274901502419757,
+      "R": 82.60212999642563,
+      "method": "zooter",
+      "n": 1929,
+      "seed": 0,
+      "task_group": "ocr_qa",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 74.9809885931559,
+      "C": 0.7074371873241312,
+      "R": 73.71377913936634,
+      "method": "zooter",
+      "n": 1315,
+      "seed": 0,
+      "task_group": "vqa_mc",
+      "variant": "select=best_test"
+    },
+    {
+      "A": 70.89285714285715,
+      "C": 0.25974571483240133,
+      "R": 72.06651321066532,
+      "method": "zooter",
+      "n": 1120,
+      "seed": 0,
+      "task_group": "vqa_oe",
+      "variant": "select=best_test"
+    }
+  ],
+  "seed": 0,
+  "standard": [
+    {
+      "A": 78.2812207451788,
+      "C": 2.6893922501332406,
+      "R": 69.1813337984604,
+      "experiment": "E3",
+      "method": "Strongest",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "source_train",
+      "view": "11ID"
+    },
+    {
+      "A": 78.6179921773142,
+      "C": 2.8702529378200734,
+      "R": 68.7465695920104,
+      "experiment": "E3",
+      "method": "Strongest",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "source_train",
+      "view": "3OOD"
+    },
+    {
+      "A": 62.46021344317544,
+      "C": 0.14376436977311274,
+      "R": 64.66711310042137,
+      "experiment": "E3",
+      "method": "Cheapest",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "source_train",
+      "view": "11ID"
+    },
+    {
+      "A": 65.1890482398957,
+      "C": 0.14667992180219708,
+      "R": 67.30531310335631,
+      "experiment": "E3",
+      "method": "Cheapest",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "source_train",
+      "view": "3OOD"
+    },
+    {
+      "A": 95.45029020782624,
+      "C": 0.37023855043691495,
+      "R": 93.56326021529718,
+      "experiment": "E3",
+      "method": "Oracle",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "test_oracle",
+      "view": "11ID"
+    },
+    {
+      "A": 96.87092568448502,
+      "C": 0.3799985691981215,
+      "R": 94.72057916197797,
+      "experiment": "E3",
+      "method": "Oracle",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "test_oracle",
+      "view": "3OOD"
+    },
+    {
+      "A": 74.5740498034076,
+      "C": 0.7623001313220581,
+      "R": 73.13686158395922,
+      "experiment": "E3",
+      "method": "StateRoute-T",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "K1",
+      "view": "11ID"
+    },
+    {
+      "A": 67.53585397653194,
+      "C": 0.7085189058095844,
+      "R": 67.0988918221902,
+      "experiment": "E3",
+      "method": "StateRoute-T",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "K1",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.54765025276166,
+      "C": 0.6557832097518193,
+      "R": 74.42792955716268,
+      "experiment": "E3",
+      "method": "StateRoute-T",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "K2_fixed_map",
+      "view": "11ID"
+    },
+    {
+      "A": 74.1851368970013,
+      "C": 0.6528644110556513,
+      "R": 73.2354789291852,
+      "experiment": "E3",
+      "method": "StateRoute-T",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "K2_fixed_map",
+      "view": "3OOD"
+    },
+    {
+      "A": 74.5740498034076,
+      "C": 0.7623001313220581,
+      "R": 73.13686158395922,
+      "experiment": "E3",
+      "method": "StateRoute-MM",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "K1",
+      "view": "11ID"
+    },
+    {
+      "A": 67.53585397653194,
+      "C": 0.7085189058095844,
+      "R": 67.0988918221902,
+      "experiment": "E3",
+      "method": "StateRoute-MM",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "K1",
+      "view": "3OOD"
+    },
+    {
+      "A": 75.04212694252013,
+      "C": 0.6654568656837875,
+      "R": 73.94104293642995,
+      "experiment": "E3",
+      "method": "StateRoute-MM",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "K2_fixed_map",
+      "view": "11ID"
+    },
+    {
+      "A": 71.83833116036506,
+      "C": 0.6734156480748564,
+      "R": 71.07001474840628,
+      "experiment": "E3",
+      "method": "StateRoute-MM",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "K2_fixed_map",
+      "view": "3OOD"
+    },
+    {
+      "A": 77.28889721026026,
+      "C": 0.8715833779525265,
+      "R": 75.05153584339797,
+      "experiment": "E3",
+      "method": "Subject-state",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "11ID"
+    },
+    {
+      "A": 72.7509778357236,
+      "C": 0.7063275138754034,
+      "R": 71.7525247030539,
+      "experiment": "E3",
+      "method": "Subject-state",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD"
+    },
+    {
+      "A": 78.82419022654933,
+      "C": 2.748865008634076,
+      "R": 69.34478369138529,
+      "experiment": "E3",
+      "method": "Query-BERT",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "base",
+      "view": "11ID"
+    },
+    {
+      "A": 78.6179921773142,
+      "C": 2.8702529378200734,
+      "R": 68.7465695920104,
+      "experiment": "E3",
+      "method": "Query-BERT",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "base",
+      "view": "3OOD"
+    },
+    {
+      "A": 79.46077513574237,
+      "C": 1.7120005839454637,
+      "R": 73.63841982235951,
+      "experiment": "E3",
+      "method": "Query-BERT",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "11ID"
+    },
+    {
+      "A": 74.83702737940025,
+      "C": 1.0602443321415853,
+      "R": 72.24256099152964,
+      "experiment": "E3",
+      "method": "Query-BERT",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD"
+    },
+    {
+      "A": 78.84291331211384,
+      "C": 2.768377551460514,
+      "R": 69.28505440006354,
+      "experiment": "E3",
+      "method": "Query-TinyLLaVA",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "base",
+      "view": "11ID"
+    },
+    {
+      "A": 78.8787483702738,
+      "C": 2.974007830629065,
+      "R": 68.53516537794783,
+      "experiment": "E3",
+      "method": "Query-TinyLLaVA",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "base",
+      "view": "3OOD"
+    },
+    {
+      "A": 79.49822130687137,
+      "C": 1.712316404766519,
+      "R": 73.66648145971536,
+      "experiment": "E3",
+      "method": "Query-TinyLLaVA",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "11ID"
+    },
+    {
+      "A": 74.83702737940025,
+      "C": 1.1098923125312479,
+      "R": 72.06393684842858,
+      "experiment": "E3",
+      "method": "Query-TinyLLaVA",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD"
+    },
+    {
+      "A": 78.97397491106534,
+      "C": 2.7603023788220225,
+      "R": 69.40729582941582,
+      "experiment": "E3",
+      "method": "Query-Qwen3-VL",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "base",
+      "view": "11ID"
+    },
+    {
+      "A": 78.48761408083442,
+      "C": 2.9724445965428226,
+      "R": 68.27234127875388,
+      "experiment": "E3",
+      "method": "Query-Qwen3-VL",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "base",
+      "view": "3OOD"
+    },
+    {
+      "A": 79.46077513574237,
+      "C": 1.7296239312841573,
+      "R": 73.57308604799586,
+      "experiment": "E3",
+      "method": "Query-Qwen3-VL",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "11ID"
+    },
+    {
+      "A": 74.83702737940025,
+      "C": 1.092717605256694,
+      "R": 72.12551479203445,
+      "experiment": "E3",
+      "method": "Query-Qwen3-VL",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD"
+    },
+    {
+      "A": 81.05223740872496,
+      "C": 2.9966128460360055,
+      "R": 69.92853792369493,
+      "experiment": "E3",
+      "method": "Subject-BERT",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "base",
+      "view": "11ID"
+    },
+    {
+      "A": 75.09778357235984,
+      "C": 4.066480309158325,
+      "R": 61.84822614149186,
+      "experiment": "E3",
+      "method": "Subject-BERT",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "base",
+      "view": "3OOD"
+    },
+    {
+      "A": 79.83523684703239,
+      "C": 1.8717139516221197,
+      "R": 73.33529229459411,
+      "experiment": "E3",
+      "method": "Subject-BERT",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "11ID"
+    },
+    {
+      "A": 72.7509778357236,
+      "C": 1.2187475867892283,
+      "R": 69.93231348278711,
+      "experiment": "E3",
+      "method": "Subject-BERT",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD"
+    },
+    {
+      "A": 81.22074517880546,
+      "C": 3.0756952838938134,
+      "R": 69.72636480282061,
+      "experiment": "E3",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "base",
+      "view": "11ID"
+    },
+    {
+      "A": 59.32203389830508,
+      "C": 4.273233379887845,
+      "R": 50.99762839833003,
+      "experiment": "E3",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "base",
+      "view": "3OOD"
+    },
+    {
+      "A": 79.83523684703239,
+      "C": 1.9309773852566292,
+      "R": 73.115034485374,
+      "experiment": "E3",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "11ID"
+    },
+    {
+      "A": 69.10039113428944,
+      "C": 1.1213216438291187,
+      "R": 67.1460026723542,
+      "experiment": "E3",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD"
+    },
+    {
+      "A": 80.95862198090245,
+      "C": 3.022997792894974,
+      "R": 69.76045239916908,
+      "experiment": "E3",
+      "method": "Subject-Qwen3-VL",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "base",
+      "view": "11ID"
+    },
+    {
+      "A": 60.88657105606258,
+      "C": 4.5823746968214865,
+      "R": 51.098109523643764,
+      "experiment": "E3",
+      "method": "Subject-Qwen3-VL",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "base",
+      "view": "3OOD"
+    },
+    {
+      "A": 79.68545216251638,
+      "C": 1.9673200177393029,
+      "R": 72.8662284435295,
+      "experiment": "E3",
+      "method": "Subject-Qwen3-VL",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "11ID"
+    },
+    {
+      "A": 69.6219035202086,
+      "C": 1.2689816155881475,
+      "R": 67.13474797036805,
+      "experiment": "E3",
+      "method": "Subject-Qwen3-VL",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD"
+    },
+    {
+      "A": 70.84815577607189,
+      "C": 0.4878266055131176,
+      "R": 70.92504660256104,
+      "experiment": "E3",
+      "method": "routerdc",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "select=val",
+      "view": "11ID"
+    },
+    {
+      "A": 65.31942633637549,
+      "C": 0.3289295977963234,
+      "R": 66.48166972153761,
+      "experiment": "E3",
+      "method": "routerdc",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "select=val",
+      "view": "3OOD"
+    },
+    {
+      "A": 70.84815577607189,
+      "C": 0.4878266055131176,
+      "R": 70.92504660256104,
+      "experiment": "E3",
+      "method": "routerdc",
+      "n_test": 5341,
+      "notes": "test-selected diagnostic",
+      "seed": 0,
+      "variant": "select=best_test",
+      "view": "11ID"
+    },
+    {
+      "A": 68.70925684485006,
+      "C": 0.36261851305562176,
+      "R": 69.50457960479686,
+      "experiment": "E3",
+      "method": "routerdc",
+      "n_test": 767,
+      "notes": "test-selected diagnostic",
+      "seed": 0,
+      "variant": "select=best_test",
+      "view": "3OOD"
+    },
+    {
+      "A": 78.97397491106534,
+      "C": 1.4007635860653627,
+      "R": 74.4119296012322,
+      "experiment": "E3",
+      "method": "vlc",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "select=val",
+      "view": "11ID"
+    },
+    {
+      "A": 69.6219035202086,
+      "C": 0.8737750990442097,
+      "R": 68.39456750633285,
+      "experiment": "E3",
+      "method": "vlc",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "select=val",
+      "view": "3OOD"
+    },
+    {
+      "A": 78.97397491106534,
+      "C": 1.4007635860653627,
+      "R": 74.4119296012322,
+      "experiment": "E3",
+      "method": "vlc",
+      "n_test": 5341,
+      "notes": "test-selected diagnostic",
+      "seed": 0,
+      "variant": "select=best_test",
+      "view": "11ID"
+    },
+    {
+      "A": 71.1864406779661,
+      "C": 0.5827254248089015,
+      "R": 70.84157672514723,
+      "experiment": "E3",
+      "method": "vlc",
+      "n_test": 767,
+      "notes": "test-selected diagnostic",
+      "seed": 0,
+      "variant": "select=best_test",
+      "view": "3OOD"
+    },
+    {
+      "A": 78.3748361730013,
+      "C": 1.1013271688116129,
+      "R": 75.06198681201226,
+      "experiment": "E3",
+      "method": "mlp",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "select=val",
+      "view": "11ID"
+    },
+    {
+      "A": 67.01434159061279,
+      "C": 1.124089960209456,
+      "R": 65.34088793930883,
+      "experiment": "E3",
+      "method": "mlp",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "select=val",
+      "view": "3OOD"
+    },
+    {
+      "A": 78.3748361730013,
+      "C": 1.1013271688116129,
+      "R": 75.06198681201226,
+      "experiment": "E3",
+      "method": "mlp",
+      "n_test": 5341,
+      "notes": "test-selected diagnostic",
+      "seed": 0,
+      "variant": "select=best_test",
+      "view": "11ID"
+    },
+    {
+      "A": 70.27379400260756,
+      "C": 0.45624315791696657,
+      "R": 70.53519332181027,
+      "experiment": "E3",
+      "method": "mlp",
+      "n_test": 767,
+      "notes": "test-selected diagnostic",
+      "seed": 0,
+      "variant": "select=best_test",
+      "view": "3OOD"
+    },
+    {
+      "A": 70.26774012357237,
+      "C": 0.48648657576072,
+      "R": 70.40146258208978,
+      "experiment": "E3",
+      "method": "cosinecls",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "select=val",
+      "view": "11ID"
+    },
+    {
+      "A": 71.1864406779661,
+      "C": 0.4391148629515182,
+      "R": 71.44606474001634,
+      "experiment": "E3",
+      "method": "cosinecls",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "select=val",
+      "view": "3OOD"
+    },
+    {
+      "A": 70.26774012357237,
+      "C": 0.48648657576072,
+      "R": 70.40146258208978,
+      "experiment": "E3",
+      "method": "cosinecls",
+      "n_test": 5341,
+      "notes": "test-selected diagnostic",
+      "seed": 0,
+      "variant": "select=best_test",
+      "view": "11ID"
+    },
+    {
+      "A": 71.1864406779661,
+      "C": 0.4391148629515182,
+      "R": 71.44606474001634,
+      "experiment": "E3",
+      "method": "cosinecls",
+      "n_test": 767,
+      "notes": "test-selected diagnostic",
+      "seed": 0,
+      "variant": "select=best_test",
+      "view": "3OOD"
+    },
+    {
+      "A": 74.78000374461712,
+      "C": 0.7088470515596665,
+      "R": 73.53140906065876,
+      "experiment": "E3",
+      "method": "zooter",
+      "n_test": 5341,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "select=val",
+      "view": "11ID"
+    },
+    {
+      "A": 65.44980443285529,
+      "C": 0.7020839645865089,
+      "R": 65.24193244993978,
+      "experiment": "E3",
+      "method": "zooter",
+      "n_test": 767,
+      "notes": "frozen/source-only selected actions; Oracle uses test outcomes",
+      "seed": 0,
+      "variant": "select=val",
+      "view": "3OOD"
+    },
+    {
+      "A": 74.78000374461712,
+      "C": 0.7088470515596665,
+      "R": 73.53140906065876,
+      "experiment": "E3",
+      "method": "zooter",
+      "n_test": 5341,
+      "notes": "test-selected diagnostic",
+      "seed": 0,
+      "variant": "select=best_test",
+      "view": "11ID"
+    },
+    {
+      "A": 67.79661016949152,
+      "C": 0.4131582803919339,
+      "R": 68.43641030789112,
+      "experiment": "E3",
+      "method": "zooter",
+      "n_test": 767,
+      "notes": "test-selected diagnostic",
+      "seed": 0,
+      "variant": "select=best_test",
+      "view": "3OOD"
+    }
+  ]
+}

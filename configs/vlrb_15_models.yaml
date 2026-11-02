@@ -1,0 +1,182 @@
+schema_version: 1
+paper:
+  title: "VL-RouterBench: A Benchmark for Vision-Language Model Routing"
+  arxiv_id: "2512.23562"
+  version_checked: "v2 (2026-03-18)"
+vlmevalkit_registry_checked: "open-compass/VLMEvalKit main/vlmeval/config.py"
+models:
+  - canonical_name: DeepSeek-VL2
+    slug: deepseek-vl2
+    paper_name: DeepSeek-VL2
+    vlrb_log_aliases: [deepseek_vl2, deepseek-vl2, DeepSeek_VL2]
+    expected_parameter_scale: "27.0B total / 4.5B activated"
+    identity_confidence: exact
+    hf_repo: deepseek-ai/deepseek-vl2
+    modelscope_candidates:
+      - {repo_id: deepseek-ai/deepseek-vl2, publisher_type: official_upstream}
+    local_candidates: []
+
+  - canonical_name: DeepSeek-VL2-Tiny
+    slug: deepseek-vl2-tiny
+    paper_name: DeepSeek-VL2-Tiny
+    vlrb_log_aliases: [deepseek_vl2_tiny, deepseek-vl2-tiny, DeepSeek_VL2_Tiny]
+    expected_parameter_scale: "27.0B total / 1.0B activated (paper notation)"
+    identity_confidence: exact
+    hf_repo: deepseek-ai/deepseek-vl2-tiny
+    modelscope_candidates:
+      - {repo_id: deepseek-ai/deepseek-vl2-tiny, publisher_type: official_upstream}
+    local_candidates:
+      - /home/sm5/ys/FCS/models_v/DeepSeek-VL2-Tiny
+
+  - canonical_name: Gemma3-27B
+    slug: gemma3-27b
+    paper_name: Gemma3-27B
+    vlrb_log_aliases: [Gemma3-27B, gemma3-27b, Gemma_3_27B]
+    expected_parameter_scale: "27B dense"
+    identity_confidence: exact
+    hf_repo: google/gemma-3-27b-it
+    hf_gate_policy: license_acceptance_required
+    modelscope_candidates:
+      - {repo_id: LLM-Research/gemma-3-27b-it, publisher_type: platform_verified_mirror}
+    local_candidates: []
+
+  - canonical_name: InternVL2.5-78B
+    slug: internvl2-5-78b
+    paper_name: InternVL2.5-78B
+    vlrb_log_aliases: [InternVL2_5-78B, internvl2_5-78b, InternVL2.5-78B]
+    expected_parameter_scale: "78B dense"
+    identity_confidence: exact
+    hf_repo: OpenGVLab/InternVL2_5-78B
+    modelscope_candidates:
+      - {repo_id: OpenGVLab/InternVL2_5-78B, publisher_type: official_upstream}
+    local_candidates: []
+
+  - canonical_name: Janus-Pro-1B
+    slug: janus-pro-1b
+    paper_name: Janus-Pro-1B
+    vlrb_log_aliases: [Janus-Pro-1B, janus-pro-1b, Janus_Pro_1B]
+    expected_parameter_scale: "1B"
+    identity_confidence: exact
+    hf_repo: deepseek-ai/Janus-Pro-1B
+    modelscope_candidates:
+      - {repo_id: deepseek-ai/Janus-Pro-1B, publisher_type: official_upstream}
+    local_candidates: []
+
+  - canonical_name: Janus-Pro-7B
+    slug: janus-pro-7b
+    paper_name: Janus-Pro-7B
+    vlrb_log_aliases: [Janus-Pro-7B, janus-pro-7b, Janus_Pro_7B]
+    expected_parameter_scale: "7B"
+    identity_confidence: exact
+    hf_repo: deepseek-ai/Janus-Pro-7B
+    modelscope_candidates:
+      - {repo_id: deepseek-ai/Janus-Pro-7B, publisher_type: official_upstream}
+    local_candidates: []
+
+  - canonical_name: Kimi-VL-A3B-Thinking-2506
+    slug: kimi-vl-a3b-thinking-2506
+    paper_name: Kimi-VL-A3B-Thinking-2506
+    vlrb_log_aliases: [Kimi-VL-A3B-Thinking-2506, kimi-vl-a3b-thinking-2506, Kimi_VL_A3B_Thinking_2506]
+    expected_parameter_scale: "16.0B total / 2.8B activated"
+    identity_confidence: exact
+    hf_repo: moonshotai/Kimi-VL-A3B-Thinking-2506
+    modelscope_candidates:
+      - {repo_id: moonshotai/Kimi-VL-A3B-Thinking-2506, publisher_type: official_upstream}
+    local_candidates: []
+
+  - canonical_name: LLaVA-Next-Vicuna-7B
+    slug: llava-next-vicuna-7b
+    paper_name: LLaVA-Next-Vicuna-7B
+    vlrb_log_aliases: [llava_next_vicuna_7b, llava-next-vicuna-7b, LLaVA_Next_Vicuna_7B]
+    expected_parameter_scale: "7B"
+    identity_confidence: exact
+    identity_note: "VLMEvalKit llava_next_vicuna_7b maps to the Transformers-converted llava-hf repository."
+    hf_repo: llava-hf/llava-v1.6-vicuna-7b-hf
+    modelscope_candidates:
+      - {repo_id: llava-hf/llava-v1.6-vicuna-7b-hf, publisher_type: official_upstream}
+      - {repo_id: LLM-Research/llava-v1.6-vicuna-7b-hf, publisher_type: platform_verified_mirror}
+    local_candidates: []
+
+  - canonical_name: MiMo-VL-7B-RL
+    slug: mimo-vl-7b-rl
+    paper_name: MiMo-VL-7B-RL
+    vlrb_log_aliases: [MiMo-VL-7B-RL, mimo-vl-7b-rl, MiMo_VL_7B_RL]
+    expected_parameter_scale: "7B"
+    identity_confidence: exact
+    hf_repo: XiaomiMiMo/MiMo-VL-7B-RL
+    modelscope_candidates:
+      - {repo_id: XiaomiMiMo/MiMo-VL-7B-RL, publisher_type: official_upstream}
+    local_candidates:
+      - /home/sm5/ys/FCS/models_v/MiMo-VL-7B-RL
+
+  - canonical_name: Phi-3.5-Vision
+    slug: phi-3-5-vision
+    paper_name: Phi-3.5-Vision
+    vlrb_log_aliases: [Phi-3.5-Vision, phi-3.5-vision, Phi_3.5_Vision]
+    expected_parameter_scale: "4.2B"
+    identity_confidence: exact
+    hf_repo: microsoft/Phi-3.5-vision-instruct
+    modelscope_candidates:
+      - {repo_id: microsoft/Phi-3.5-vision-instruct, publisher_type: official_upstream}
+      - {repo_id: LLM-Research/Phi-3.5-vision-instruct, publisher_type: platform_verified_mirror}
+    local_candidates: []
+
+  - canonical_name: Pixtral-12B
+    slug: pixtral-12b
+    paper_name: Pixtral-12B
+    vlrb_log_aliases: [Pixtral-12B, pixtral-12b, Pixtral_12B]
+    expected_parameter_scale: "12B"
+    identity_confidence: exact
+    hf_repo: mistralai/Pixtral-12B-2409
+    modelscope_candidates:
+      - {repo_id: mistralai/Pixtral-12B-2409, publisher_type: official_upstream}
+      - {repo_id: LLM-Research/Pixtral-12B-2409, publisher_type: platform_verified_mirror}
+    local_candidates: []
+
+  - canonical_name: Qianfan-VL-8B
+    slug: qianfan-vl-8b
+    paper_name: Qianfan-VL-8B
+    vlrb_log_aliases: [Qianfan-VL-8B, qianfan-vl-8b, Qianfan_VL_8B]
+    expected_parameter_scale: "8B"
+    identity_confidence: exact
+    hf_repo: baidu/Qianfan-VL-8B
+    modelscope_candidates:
+      # Exact official link published by baidubce/Qianfan-VL.  The ModelScope
+      # organization differs from the Hugging Face organization name.
+      - {repo_id: baidu-qianfan/Qianfan-VL-8B, publisher_type: official_upstream}
+    local_candidates: []
+
+  - canonical_name: Qwen2.5-VL-32B-Instruct
+    slug: qwen2-5-vl-32b-instruct
+    paper_name: Qwen2.5-VL-32B-Instruct
+    vlrb_log_aliases: [Qwen2.5-VL-32B-Instruct, qwen2.5-vl-32b-instruct, Qwen2_5_VL_32B_Instruct]
+    expected_parameter_scale: "32B"
+    identity_confidence: exact
+    hf_repo: Qwen/Qwen2.5-VL-32B-Instruct
+    modelscope_candidates:
+      - {repo_id: Qwen/Qwen2.5-VL-32B-Instruct, publisher_type: official_upstream}
+    local_candidates: []
+
+  - canonical_name: Qwen2.5-VL-72B-Instruct
+    slug: qwen2-5-vl-72b-instruct
+    paper_name: Qwen2.5-VL-72B-Instruct
+    vlrb_log_aliases: [Qwen2.5-VL-72B-Instruct, qwen2.5-vl-72b-instruct, Qwen2_5_VL_72B_Instruct]
+    expected_parameter_scale: "72B"
+    identity_confidence: exact
+    hf_repo: Qwen/Qwen2.5-VL-72B-Instruct
+    modelscope_candidates:
+      - {repo_id: Qwen/Qwen2.5-VL-72B-Instruct, publisher_type: official_upstream}
+    local_candidates: []
+
+  - canonical_name: SmolVLM2-2.2B
+    slug: smolvlm2-2-2b
+    paper_name: SmolVLM2
+    vlrb_log_aliases: [SmolVLM2, smolvlm2]
+    expected_parameter_scale: "2.2B"
+    identity_confidence: exact
+    hf_repo: HuggingFaceTB/SmolVLM2-2.2B-Instruct
+    modelscope_candidates:
+      - {repo_id: HuggingFaceTB/SmolVLM2-2.2B-Instruct, publisher_type: official_upstream}
+      - {repo_id: LLM-Research/SmolVLM2-2.2B-Instruct, publisher_type: platform_verified_mirror}
+    local_candidates:
+      - /home/sm5/ys/FCS/models_v/SmolVLM2-2.2B-Instruct

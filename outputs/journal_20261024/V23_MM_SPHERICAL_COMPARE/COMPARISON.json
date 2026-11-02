@@ -1,0 +1,165 @@
+{
+  "original_lambda": 0.03,
+  "seed0_reference_checks": [
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 0,
+      "view": "11ID"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 0,
+      "view": "3OOD"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 1,
+      "view": "11ID"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 1,
+      "view": "3OOD"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 2,
+      "view": "11ID"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 2,
+      "view": "3OOD"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 3,
+      "view": "11ID"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 3,
+      "view": "3OOD"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 4,
+      "view": "11ID"
+    },
+    {
+      "differences": {
+        "A": 0.0,
+        "C": 0.0,
+        "R": 0.0
+      },
+      "passed": true,
+      "seed": 4,
+      "view": "3OOD"
+    }
+  ],
+  "source_ari_mean": 0.9291210489003449,
+  "source_support_by_seed": {
+    "0": [
+      12094,
+      4175
+    ],
+    "1": [
+      12087,
+      4182
+    ],
+    "2": [
+      12094,
+      4175
+    ],
+    "3": [
+      12097,
+      4172
+    ],
+    "4": [
+      4172,
+      12097
+    ]
+  },
+  "spherical_selected_lambda_by_seed": {
+    "0": 0.03,
+    "1": 0.03,
+    "2": 0.03,
+    "3": 0.03,
+    "4": 0.03
+  },
+  "status": "complete",
+  "table_by_seed": {
+    "0": [
+      10,
+      6
+    ],
+    "1": [
+      10,
+      6
+    ],
+    "2": [
+      10,
+      6
+    ],
+    "3": [
+      10,
+      6
+    ],
+    "4": [
+      6,
+      10
+    ]
+  },
+  "test_ari_mean": 0.9169390237496146,
+  "variants": [
+    "euclidean_original",
+    "cosine_original_centroids",
+    "spherical_fixed_lambda",
+    "spherical_source_cv"
+  ]
+}

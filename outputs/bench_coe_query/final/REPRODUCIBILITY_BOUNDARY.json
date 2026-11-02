@@ -1,0 +1,95 @@
+{
+  "archived_bert_runs": {
+    "determinism_classification": "numerically_validated_not_fresh_run_bitwise_attested",
+    "legacy_warn_only_metadata": true,
+    "runtime_warnings_by_seed": {
+      "0": [
+        "Memory Efficient attention defaults to a non-deterministic algorithm. To explicitly enable determinism call torch.use_deterministic_algorithms(True, warn_only=False). (Triggered internally at /pytorch/aten/src/ATen/native/transformers/cuda/attention_backward.cu:775.)"
+      ],
+      "1": [
+        "Memory Efficient attention defaults to a non-deterministic algorithm. To explicitly enable determinism call torch.use_deterministic_algorithms(True, warn_only=False). (Triggered internally at /pytorch/aten/src/ATen/native/transformers/cuda/attention_backward.cu:775.)"
+      ],
+      "2": [
+        "Memory Efficient attention defaults to a non-deterministic algorithm. To explicitly enable determinism call torch.use_deterministic_algorithms(True, warn_only=False). (Triggered internally at /pytorch/aten/src/ATen/native/transformers/cuda/attention_backward.cu:775.)"
+      ],
+      "3": [
+        "Memory Efficient attention defaults to a non-deterministic algorithm. To explicitly enable determinism call torch.use_deterministic_algorithms(True, warn_only=False). (Triggered internally at /pytorch/aten/src/ATen/native/transformers/cuda/attention_backward.cu:775.)"
+      ],
+      "4": [
+        "Memory Efficient attention defaults to a non-deterministic algorithm. To explicitly enable determinism call torch.use_deterministic_algorithms(True, warn_only=False). (Triggered internally at /pytorch/aten/src/ATen/native/transformers/cuda/attention_backward.cu:775.)"
+      ]
+    }
+  },
+  "archived_result_claim": "The frozen predictions and derived metrics are exactly reproducible from archived bytes. Fresh training and cross-geometry feature extraction are not claimed bitwise identical.",
+  "contract_sha256": "a1c24102e63954371a113d247d4beb72fdb03fc16bcd871d0589aa2399fa5e0f",
+  "feature_reextraction": {
+    "qwen3vl": {
+      "acceptance": {
+        "maximum_relative_l2": 0.01,
+        "minimum_cosine_similarity": 0.9999
+      },
+      "bitwise_equal": true,
+      "maximum_absolute_difference": 0.0,
+      "maximum_relative_l2": 0.0,
+      "minimum_cosine_similarity": 0.9999998807907104,
+      "passed": true,
+      "reference_root": "outputs/bench_coe_query/smoke/qwen3vl/v2-single32",
+      "rows": 32,
+      "sample_ids_equal": true
+    },
+    "tinyllava": {
+      "acceptance": {
+        "maximum_relative_l2": 0.01,
+        "minimum_cosine_similarity": 0.9999
+      },
+      "bitwise_equal": false,
+      "maximum_absolute_difference": 0.16015625,
+      "maximum_relative_l2": 0.004486848134547472,
+      "minimum_cosine_similarity": 0.9999899864196777,
+      "passed": true,
+      "reference_root": "outputs/bench_coe_query/smoke/tinyllava/v2-single32",
+      "rows": 32,
+      "sample_ids_equal": true
+    }
+  },
+  "future_run_policy": {
+    "cross_geometry_bitwise_claim": false,
+    "flash_sdp_enabled": false,
+    "math_sdp_enabled": true,
+    "memory_efficient_sdp_enabled": false,
+    "mode": "fail_closed_fixed_execution_geometry",
+    "source": "routers/bench_coe_query/reproducibility.py",
+    "source_sha256": "a848e6746e0bf4e21895c5a77210ea0dca7072605b508c81ba50c3cb4cf9c110",
+    "torch_deterministic_warn_only": false
+  },
+  "input_content": {
+    "all_model_tokenizer_and_tsv_bytes_content_addressed": true,
+    "archived_feature_bytes_unchanged": true,
+    "archived_feature_cache_rebound_without_reextraction": true,
+    "evidence": "INPUT_CONTENT_PROVENANCE.json",
+    "fresh_archived_extraction_bitwise_identity_claimed": false,
+    "future_runs_fail_closed": true,
+    "manifest_sha256": "76e3fec87393681f189cb6f0742815130c52f782f40a32de8a2b3c1dad1643ad"
+  },
+  "passed": true,
+  "provenance_remediation": {
+    "complete_state_backbones_verified": 2,
+    "complete_state_digest_includes_buffers_and_raw_bytes": true,
+    "complete_state_rank_processes_verified": 16,
+    "evidence_chain": "REPRODUCIBILITY_BOUNDARY.json -> INPUT_CONTENT_PROVENANCE.json -> QUALITY_GATE.json -> AF004_AF006_REMEDIATION.json",
+    "file_sha256": "9bff82fa43200bc77ad0068bde1bc4f3463979c2f7fab2fdf20df77c4f970c0f",
+    "legacy_amp_exact_skipped_step_status_claimed": false,
+    "legacy_amp_migration_entries": 16,
+    "manifest_sha256": "51d967620a9474ffb7002b2cd62b80470f9393fb5c248d4ad894e613a8921a45",
+    "path": "outputs/bench_coe_query/audit/AF004_AF006_REMEDIATION.json"
+  },
+  "schema_version": 1,
+  "target_free_prediction_process": {
+    "archived_predictions_regenerated_in_isolated_processes": true,
+    "evaluation_process_started_after_prediction_freeze": true,
+    "evidence": "PREDICTION_PROVENANCE.json",
+    "os_open_trace_evidence": "outputs/bench_coe_query/audit/AF010_TARGET_FREE_REFREEZE.json",
+    "prediction_process_loaded_y_or_c": false,
+    "receipt_files_verified": 45
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "folds": 3,
+  "learned_state_profile_kappa": 20.0,
+  "ood_outcomes_used": false,
+  "protocol": "heldout11",
+  "quantiles": {
+    "confidence": 0.35,
+    "cost_cap": 0.995,
+    "gate_fpr10": 0.1,
+    "gate_fpr25": 0.25
+  },
+  "selected": {
+    "MM-0": {
+      "confidence_quantile": 0.35,
+      "confidence_threshold": 0.5509497404098511,
+      "cost_delta_cap": 3.442435816526385,
+      "cost_delta_cap_quantile": 0.995,
+      "gain_margin": 0.0,
+      "gate_fpr10": 0.14642951488494874,
+      "gate_fpr25": 0.4354456067085266,
+      "price_weight": 0.01,
+      "source_fit_n": 16269,
+      "source_pre_cap_switch_n": 1312
+    },
+    "MM-1": {
+      "confidence_quantile": 0.35,
+      "confidence_threshold": 0.5509497404098511,
+      "cost_delta_cap": 3.2449729442596436,
+      "cost_delta_cap_quantile": 0.995,
+      "gain_margin": 0.0,
+      "gate_fpr10": 0.14642951488494874,
+      "gate_fpr25": 0.4354456067085266,
+      "price_weight": 0.01,
+      "source_fit_n": 16269,
+      "source_pre_cap_switch_n": 1347
+    },
+    "MM-2": {
+      "confidence_quantile": 0.35,
+      "confidence_threshold": 0.5509497404098511,
+      "cost_delta_cap": 3.2449729442596436,
+      "cost_delta_cap_quantile": 0.995,
+      "gain_margin": 0.0,
+      "gate_fpr10": 0.14642951488494874,
+      "gate_fpr25": 0.4354456067085266,
+      "price_weight": 0.01,
+      "source_fit_n": 16269,
+      "source_pre_cap_switch_n": 1438
+    },
+    "MM-3": {
+      "confidence_quantile": 0.35,
+      "confidence_threshold": 0.5509497404098511,
+      "cost_delta_cap": 3.2449729442596436,
+      "cost_delta_cap_quantile": 0.995,
+      "gain_margin": 0.0,
+      "gate_fpr10": 0.14642951488494874,
+      "gate_fpr25": 0.4354456067085266,
+      "price_weight": 0.01,
+      "source_fit_n": 16269,
+      "source_pre_cap_switch_n": 1283
+    },
+    "MM-4": {
+      "confidence_quantile": 0.35,
+      "confidence_threshold": 0.5509497404098511,
+      "cost_delta_cap": 3.2449729442596436,
+      "cost_delta_cap_quantile": 0.995,
+      "gain_margin": 0.0,
+      "gate_fpr10": 0.14642951488494874,
+      "gate_fpr25": 0.4354456067085266,
+      "price_weight": 0.01,
+      "source_fit_n": 16269,
+      "source_pre_cap_switch_n": 1483
+    },
+    "T-0": {
+      "confidence_quantile": 0.35,
+      "confidence_threshold": 0.5509497404098511,
+      "cost_delta_cap": 3.2449729442596436,
+      "cost_delta_cap_quantile": 0.995,
+      "gain_margin": 0.0,
+      "gate_fpr10": 0.14642951488494874,
+      "gate_fpr25": 0.4354456067085266,
+      "price_weight": 0.01,
+      "source_fit_n": 16269,
+      "source_pre_cap_switch_n": 870
+    },
+    "T-1": {
+      "confidence_quantile": 0.35,
+      "confidence_threshold": 0.5509497404098511,
+      "cost_delta_cap": 3.2449729442596436,
+      "cost_delta_cap_quantile": 0.995,
+      "gain_margin": 0.0,
+      "gate_fpr10": 0.14642951488494874,
+      "gate_fpr25": 0.4354456067085266,
+      "price_weight": 0.01,
+      "source_fit_n": 16269,
+      "source_pre_cap_switch_n": 838
+    },
+    "T-2": {
+      "confidence_quantile": 0.35,
+      "confidence_threshold": 0.5509497404098511,
+      "cost_delta_cap": 3.2449729442596436,
+      "cost_delta_cap_quantile": 0.995,
+      "gain_margin": 0.0,
+      "gate_fpr10": 0.14642951488494874,
+      "gate_fpr25": 0.4354456067085266,
+      "price_weight": 0.01,
+      "source_fit_n": 16269,
+      "source_pre_cap_switch_n": 783
+    },
+    "T-3": {
+      "confidence_quantile": 0.35,
+      "confidence_threshold": 0.5509497404098511,
+      "cost_delta_cap": 3.2449729442596436,
+      "cost_delta_cap_quantile": 0.995,
+      "gain_margin": 0.0,
+      "gate_fpr10": 0.14642951488494874,
+      "gate_fpr25": 0.4354456067085266,
+      "price_weight": 0.01,
+      "source_fit_n": 16269,
+      "source_pre_cap_switch_n": 788
+    },
+    "T-4": {
+      "confidence_quantile": 0.35,
+      "confidence_threshold": 0.5509497404098511,
+      "cost_delta_cap": 3.2449729442596436,
+      "cost_delta_cap_quantile": 0.995,
+      "gain_margin": 0.0,
+      "gate_fpr10": 0.14642951488494874,
+      "gate_fpr25": 0.4354456067085266,
+      "price_weight": 0.01,
+      "source_fit_n": 16269,
+      "source_pre_cap_switch_n": 842
+    }
+  },
+  "source_subset": "official 11-source fit; dependency groups disjoint by fold",
+  "status": "source_only_complete",
+  "test_outcomes_used": false
+}

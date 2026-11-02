@@ -1,0 +1,43 @@
+{
+  "c_max": 0.001063963514752686,
+  "c_min": 1.4453729818342254e-05,
+  "command": "v19_query_softlabels_frozen.py --aggregate",
+  "end_time": "2026-10-29T13:29:14+00:00",
+  "experiment": "V19_QUERY_COST_TINYLLAVA",
+  "failures": [],
+  "git_commit": null,
+  "git_commit_note": "Repository has no .git metadata",
+  "gpu": "see per-protocol audits",
+  "lambda_grid": [
+    "0",
+    "10",
+    "100",
+    "1000",
+    "10000",
+    "inf"
+  ],
+  "python_env": {
+    "numpy": "1.26.4",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python": "3.12.11"
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "selection_rule": "Source-fit three-fold group-isolated OOF selects lambda for main rows. The best_test rows are labelled supplement diagnostics only.",
+  "source_audits": {
+    "full14": "outputs/journal_20261024/V19_QUERY_COST_TINYLLAVA/full14/AUDIT.json",
+    "heldout11": "outputs/journal_20261024/V19_QUERY_COST_TINYLLAVA/heldout11/AUDIT.json"
+  },
+  "split_sizes": {
+    "11ID": 5341,
+    "14ID": 6108,
+    "3OOD": 767
+  },
+  "start_time": "2026-10-29T13:29:14+00:00",
+  "status": "preview_complete"
+}

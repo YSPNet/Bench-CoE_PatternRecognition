@@ -1,0 +1,14 @@
+{
+  "action_lock_sha256": "95cc4236c8447b66ca40b883ec1088a02ab7186e9a4bd928eb445f32220902d2",
+  "comparator_action_sources": "E20, V19_QUERY_COST_TINYLLAVA, E21, E6, E3",
+  "n": 2000,
+  "p_value": "two-sided sign probability with plus-one correction",
+  "reference": "spherical K=2, seed 0",
+  "source_selection": "all model and cost knobs selected on source data",
+  "status": "complete",
+  "test_resampling": "paired by UID, percentile 95% interval",
+  "views": [
+    "11ID",
+    "3OOD"
+  ]
+}

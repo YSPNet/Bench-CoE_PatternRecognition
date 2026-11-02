@@ -1,0 +1,149 @@
+{
+  "rows": [
+    {
+      "A": 75.09778357235984,
+      "C": 4.066480309158325,
+      "R": 61.84822614149186,
+      "experiment": "E10",
+      "method": "Subject-BERT",
+      "n_test": 767,
+      "notes": "Frozen 11-source Subject route; no 3OOD selection",
+      "seed": 0,
+      "variant": "base",
+      "view": "3OOD_full"
+    },
+    {
+      "A": 75.93582887700535,
+      "C": 2.538208562736325,
+      "R": 68.0330590278453,
+      "experiment": "E10",
+      "method": "Subject-BERT",
+      "n_test": 561,
+      "notes": "Frozen 11-source Subject route; no 3OOD selection",
+      "seed": 0,
+      "variant": "base",
+      "view": "3OOD_no_MMMU"
+    },
+    {
+      "A": 72.7509778357236,
+      "C": 1.2187475867892283,
+      "R": 69.93231348278711,
+      "experiment": "E10",
+      "method": "Subject-BERT",
+      "n_test": 767,
+      "notes": "Frozen 11-source Subject route; no 3OOD selection",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD_full"
+    },
+    {
+      "A": 75.93582887700535,
+      "C": 0.9071518774015693,
+      "R": 73.75099320511251,
+      "experiment": "E10",
+      "method": "Subject-BERT",
+      "n_test": 561,
+      "notes": "Frozen 11-source Subject route; no 3OOD selection",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD_no_MMMU"
+    },
+    {
+      "A": 59.32203389830508,
+      "C": 4.273233379887845,
+      "R": 50.99762839833003,
+      "experiment": "E10",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 767,
+      "notes": "Frozen 11-source Subject route; no 3OOD selection",
+      "seed": 0,
+      "variant": "base",
+      "view": "3OOD_full"
+    },
+    {
+      "A": 53.65418894830659,
+      "C": 2.3011372509172165,
+      "R": 51.29310092208521,
+      "experiment": "E10",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 561,
+      "notes": "Frozen 11-source Subject route; no 3OOD selection",
+      "seed": 0,
+      "variant": "base",
+      "view": "3OOD_no_MMMU"
+    },
+    {
+      "A": 69.10039113428944,
+      "C": 1.1213216438291187,
+      "R": 67.1460026723542,
+      "experiment": "E10",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 767,
+      "notes": "Frozen 11-source Subject route; no 3OOD selection",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD_full"
+    },
+    {
+      "A": 71.12299465240642,
+      "C": 0.921741536757332,
+      "R": 69.54288223560458,
+      "experiment": "E10",
+      "method": "Subject-TinyLLaVA",
+      "n_test": 561,
+      "notes": "Frozen 11-source Subject route; no 3OOD selection",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD_no_MMMU"
+    },
+    {
+      "A": 60.88657105606258,
+      "C": 4.5823746968214865,
+      "R": 51.098109523643764,
+      "experiment": "E10",
+      "method": "Subject-Qwen3-VL",
+      "n_test": 767,
+      "notes": "Frozen 11-source Subject route; no 3OOD selection",
+      "seed": 0,
+      "variant": "base",
+      "view": "3OOD_full"
+    },
+    {
+      "A": 55.61497326203209,
+      "C": 2.880885905351485,
+      "R": 51.7133108637049,
+      "experiment": "E10",
+      "method": "Subject-Qwen3-VL",
+      "n_test": 561,
+      "notes": "Frozen 11-source Subject route; no 3OOD selection",
+      "seed": 0,
+      "variant": "base",
+      "view": "3OOD_no_MMMU"
+    },
+    {
+      "A": 69.6219035202086,
+      "C": 1.2689816155881475,
+      "R": 67.13474797036805,
+      "experiment": "E10",
+      "method": "Subject-Qwen3-VL",
+      "n_test": 767,
+      "notes": "Frozen 11-source Subject route; no 3OOD selection",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD_full"
+    },
+    {
+      "A": 71.83600713012478,
+      "C": 1.1236224607130805,
+      "R": 69.47580201496383,
+      "experiment": "E10",
+      "method": "Subject-Qwen3-VL",
+      "n_test": 561,
+      "notes": "Frozen 11-source Subject route; no 3OOD selection",
+      "seed": 0,
+      "variant": "rule4_coarse_fallback",
+      "view": "3OOD_no_MMMU"
+    }
+  ],
+  "seed": 0
+}

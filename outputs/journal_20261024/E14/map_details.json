@@ -1,0 +1,562 @@
+[
+  {
+    "base": "T",
+    "conditional_no_eligible_states": 0,
+    "protocol": "full14",
+    "seed": 0,
+    "state_support": [
+      5321,
+      12550
+    ],
+    "tables": {
+      "full": [
+        6,
+        10
+      ],
+      "no_cost": [
+        6,
+        12
+      ],
+      "rule_swapped": [
+        6,
+        10
+      ],
+      "state_conditional_cost": [
+        10,
+        10
+      ]
+    }
+  },
+  {
+    "base": "MM",
+    "conditional_no_eligible_states": 0,
+    "protocol": "full14",
+    "seed": 0,
+    "state_support": [
+      13169,
+      4702
+    ],
+    "tables": {
+      "full": [
+        10,
+        6
+      ],
+      "no_cost": [
+        12,
+        6
+      ],
+      "rule_swapped": [
+        10,
+        6
+      ],
+      "state_conditional_cost": [
+        10,
+        6
+      ]
+    }
+  },
+  {
+    "base": "T",
+    "conditional_no_eligible_states": 0,
+    "protocol": "heldout11",
+    "seed": 0,
+    "state_support": [
+      4960,
+      13705
+    ],
+    "tables": {
+      "full": [
+        6,
+        10
+      ],
+      "no_cost": [
+        6,
+        12
+      ],
+      "rule_swapped": [
+        6,
+        10
+      ],
+      "state_conditional_cost": [
+        10,
+        10
+      ]
+    }
+  },
+  {
+    "base": "MM",
+    "conditional_no_eligible_states": 0,
+    "protocol": "heldout11",
+    "seed": 0,
+    "state_support": [
+      11797,
+      4472
+    ],
+    "tables": {
+      "full": [
+        10,
+        6
+      ],
+      "no_cost": [
+        12,
+        6
+      ],
+      "rule_swapped": [
+        10,
+        6
+      ],
+      "state_conditional_cost": [
+        10,
+        6
+      ]
+    }
+  },
+  {
+    "base": "T",
+    "conditional_no_eligible_states": 0,
+    "protocol": "full14",
+    "seed": 1,
+    "state_support": [
+      5311,
+      12560
+    ],
+    "tables": {
+      "full": [
+        6,
+        10
+      ],
+      "no_cost": [
+        6,
+        12
+      ],
+      "rule_swapped": [
+        6,
+        10
+      ],
+      "state_conditional_cost": [
+        10,
+        10
+      ]
+    }
+  },
+  {
+    "base": "MM",
+    "conditional_no_eligible_states": 0,
+    "protocol": "full14",
+    "seed": 1,
+    "state_support": [
+      13192,
+      4679
+    ],
+    "tables": {
+      "full": [
+        10,
+        6
+      ],
+      "no_cost": [
+        12,
+        6
+      ],
+      "rule_swapped": [
+        10,
+        6
+      ],
+      "state_conditional_cost": [
+        10,
+        6
+      ]
+    }
+  },
+  {
+    "base": "T",
+    "conditional_no_eligible_states": 0,
+    "protocol": "heldout11",
+    "seed": 1,
+    "state_support": [
+      13715,
+      4950
+    ],
+    "tables": {
+      "full": [
+        10,
+        6
+      ],
+      "no_cost": [
+        12,
+        6
+      ],
+      "rule_swapped": [
+        10,
+        6
+      ],
+      "state_conditional_cost": [
+        10,
+        10
+      ]
+    }
+  },
+  {
+    "base": "MM",
+    "conditional_no_eligible_states": 0,
+    "protocol": "heldout11",
+    "seed": 1,
+    "state_support": [
+      11219,
+      5050
+    ],
+    "tables": {
+      "full": [
+        10,
+        6
+      ],
+      "no_cost": [
+        12,
+        6
+      ],
+      "rule_swapped": [
+        10,
+        6
+      ],
+      "state_conditional_cost": [
+        10,
+        6
+      ]
+    }
+  },
+  {
+    "base": "T",
+    "conditional_no_eligible_states": 0,
+    "protocol": "full14",
+    "seed": 2,
+    "state_support": [
+      5321,
+      12550
+    ],
+    "tables": {
+      "full": [
+        6,
+        10
+      ],
+      "no_cost": [
+        6,
+        12
+      ],
+      "rule_swapped": [
+        6,
+        10
+      ],
+      "state_conditional_cost": [
+        10,
+        10
+      ]
+    }
+  },
+  {
+    "base": "MM",
+    "conditional_no_eligible_states": 0,
+    "protocol": "full14",
+    "seed": 2,
+    "state_support": [
+      4752,
+      13119
+    ],
+    "tables": {
+      "full": [
+        6,
+        10
+      ],
+      "no_cost": [
+        6,
+        12
+      ],
+      "rule_swapped": [
+        6,
+        10
+      ],
+      "state_conditional_cost": [
+        6,
+        10
+      ]
+    }
+  },
+  {
+    "base": "T",
+    "conditional_no_eligible_states": 0,
+    "protocol": "heldout11",
+    "seed": 2,
+    "state_support": [
+      4950,
+      13715
+    ],
+    "tables": {
+      "full": [
+        6,
+        10
+      ],
+      "no_cost": [
+        6,
+        12
+      ],
+      "rule_swapped": [
+        6,
+        10
+      ],
+      "state_conditional_cost": [
+        10,
+        10
+      ]
+    }
+  },
+  {
+    "base": "MM",
+    "conditional_no_eligible_states": 0,
+    "protocol": "heldout11",
+    "seed": 2,
+    "state_support": [
+      4198,
+      12071
+    ],
+    "tables": {
+      "full": [
+        6,
+        10
+      ],
+      "no_cost": [
+        6,
+        12
+      ],
+      "rule_swapped": [
+        6,
+        10
+      ],
+      "state_conditional_cost": [
+        6,
+        10
+      ]
+    }
+  },
+  {
+    "base": "T",
+    "conditional_no_eligible_states": 0,
+    "protocol": "full14",
+    "seed": 3,
+    "state_support": [
+      12550,
+      5321
+    ],
+    "tables": {
+      "full": [
+        10,
+        6
+      ],
+      "no_cost": [
+        12,
+        6
+      ],
+      "rule_swapped": [
+        10,
+        6
+      ],
+      "state_conditional_cost": [
+        10,
+        10
+      ]
+    }
+  },
+  {
+    "base": "MM",
+    "conditional_no_eligible_states": 0,
+    "protocol": "full14",
+    "seed": 3,
+    "state_support": [
+      5673,
+      12198
+    ],
+    "tables": {
+      "full": [
+        6,
+        10
+      ],
+      "no_cost": [
+        6,
+        12
+      ],
+      "rule_swapped": [
+        6,
+        10
+      ],
+      "state_conditional_cost": [
+        6,
+        10
+      ]
+    }
+  },
+  {
+    "base": "T",
+    "conditional_no_eligible_states": 0,
+    "protocol": "heldout11",
+    "seed": 3,
+    "state_support": [
+      4950,
+      13715
+    ],
+    "tables": {
+      "full": [
+        6,
+        10
+      ],
+      "no_cost": [
+        6,
+        12
+      ],
+      "rule_swapped": [
+        6,
+        10
+      ],
+      "state_conditional_cost": [
+        10,
+        10
+      ]
+    }
+  },
+  {
+    "base": "MM",
+    "conditional_no_eligible_states": 0,
+    "protocol": "heldout11",
+    "seed": 3,
+    "state_support": [
+      4091,
+      12178
+    ],
+    "tables": {
+      "full": [
+        6,
+        10
+      ],
+      "no_cost": [
+        6,
+        12
+      ],
+      "rule_swapped": [
+        6,
+        10
+      ],
+      "state_conditional_cost": [
+        6,
+        10
+      ]
+    }
+  },
+  {
+    "base": "T",
+    "conditional_no_eligible_states": 0,
+    "protocol": "full14",
+    "seed": 4,
+    "state_support": [
+      5321,
+      12550
+    ],
+    "tables": {
+      "full": [
+        6,
+        10
+      ],
+      "no_cost": [
+        6,
+        12
+      ],
+      "rule_swapped": [
+        6,
+        10
+      ],
+      "state_conditional_cost": [
+        10,
+        10
+      ]
+    }
+  },
+  {
+    "base": "MM",
+    "conditional_no_eligible_states": 0,
+    "protocol": "full14",
+    "seed": 4,
+    "state_support": [
+      6105,
+      11766
+    ],
+    "tables": {
+      "full": [
+        6,
+        10
+      ],
+      "no_cost": [
+        12,
+        12
+      ],
+      "rule_swapped": [
+        6,
+        10
+      ],
+      "state_conditional_cost": [
+        6,
+        10
+      ]
+    }
+  },
+  {
+    "base": "T",
+    "conditional_no_eligible_states": 0,
+    "protocol": "heldout11",
+    "seed": 4,
+    "state_support": [
+      4956,
+      13709
+    ],
+    "tables": {
+      "full": [
+        6,
+        10
+      ],
+      "no_cost": [
+        6,
+        12
+      ],
+      "rule_swapped": [
+        6,
+        10
+      ],
+      "state_conditional_cost": [
+        10,
+        10
+      ]
+    }
+  },
+  {
+    "base": "MM",
+    "conditional_no_eligible_states": 0,
+    "protocol": "heldout11",
+    "seed": 4,
+    "state_support": [
+      4321,
+      11948
+    ],
+    "tables": {
+      "full": [
+        6,
+        10
+      ],
+      "no_cost": [
+        6,
+        12
+      ],
+      "rule_swapped": [
+        6,
+        10
+      ],
+      "state_conditional_cost": [
+        6,
+        10
+      ]
+    }
+  }
+]

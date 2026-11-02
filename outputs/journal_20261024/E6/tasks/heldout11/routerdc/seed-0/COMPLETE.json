@@ -1,0 +1,19 @@
+{
+  "candidates": [
+    "outputs/journal_20261024/E6/tasks/heldout11/routerdc/seed-0/lambda-0/CANDIDATE.json",
+    "outputs/journal_20261024/E6/tasks/heldout11/routerdc/seed-0/lambda-10/CANDIDATE.json",
+    "outputs/journal_20261024/E6/tasks/heldout11/routerdc/seed-0/lambda-100/CANDIDATE.json",
+    "outputs/journal_20261024/E6/tasks/heldout11/routerdc/seed-0/lambda-1000/CANDIDATE.json",
+    "outputs/journal_20261024/E6/tasks/heldout11/routerdc/seed-0/lambda-10000/CANDIDATE.json",
+    "outputs/journal_20261024/E6/tasks/heldout11/routerdc/seed-0/lambda-inf/CANDIDATE.json"
+  ],
+  "lambda_best_test": {
+    "11ID": "100",
+    "3OOD": "1000"
+  },
+  "lambda_val": "100",
+  "method": "routerdc",
+  "protocol": "heldout11",
+  "seed": 0,
+  "selected_val_model": null
+}

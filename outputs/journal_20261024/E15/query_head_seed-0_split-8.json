@@ -1,0 +1,10 @@
+{
+  "half_a_n": 8135,
+  "half_b_n": 8134,
+  "model_a": "outputs/journal_20261024/E15/query_head/seed-0/split-8/half-0/model.pt",
+  "model_b": "outputs/journal_20261024/E15/query_head/seed-0/split-8/half-1/model.pt",
+  "route_agreement_11ID": 0.9913873806403295,
+  "route_agreement_3OOD": 0.9934810951760105,
+  "seed": 0,
+  "split": 8
+}

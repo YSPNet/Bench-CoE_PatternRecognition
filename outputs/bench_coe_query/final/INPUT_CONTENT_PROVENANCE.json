@@ -1,0 +1,64 @@
+{
+  "contract_sha256": "a1c24102e63954371a113d247d4beb72fdb03fc16bcd871d0589aa2399fa5e0f",
+  "feature_caches_bound": true,
+  "feature_caches_checked": 2,
+  "immutable_base_contract_extended_by_hash_pinned_approval_overlay": true,
+  "input_content": {
+    "approval_sha256": "b2adf5b214df4003abd702434e310e34a65bbf2e5ce88752fa4e1e0c6446df37",
+    "manifest_file_sha256": "2dd9fd5c2181a2904a4f970c7faa7d765e229f35d0559538bcbd4a34762cdb1d",
+    "manifest_path": "outputs/bench_coe_query/audit/INPUT_CONTENT_MANIFEST.json",
+    "manifest_sha256": "76e3fec87393681f189cb6f0742815130c52f782f40a32de8a2b3c1dad1643ad",
+    "model_manifest_sha256": {
+      "bert": "980c4e8515164b78296ceacc22fae87bcb924d6b6c57dc8cf267b301bc952cf8",
+      "qwen3vl": "ef675b23461f98cf2ffe56f5f171e6b2ae88adfd25502a7a0cc770411d957702",
+      "tinyllava": "f174e3ed1dea5814447b88fc21de6e99d07e942b36b2d64c37d2e9fbef7250a5"
+    },
+    "models": {
+      "bert": {
+        "configured_path": "/home/sm5/ys/PR/Y/models/bert-base-uncased",
+        "configured_path_is_symlink": false,
+        "configured_symlink_target": null,
+        "file_count": 6,
+        "model_manifest_sha256": "980c4e8515164b78296ceacc22fae87bcb924d6b6c57dc8cf267b301bc952cf8",
+        "resolved_path": "/home/sm5/ys/PR/Y/models/bert-base-uncased",
+        "total_bytes": 441148573
+      },
+      "qwen3vl": {
+        "configured_path": "/home/sm5/ys/Project/SegR/models/Qwen3-VL-2B-Instruct",
+        "configured_path_is_symlink": true,
+        "configured_symlink_target": "/home/sm5/ys/Project/First/models/Qwen/Qwen3-VL-2B-Instruct",
+        "file_count": 11,
+        "model_manifest_sha256": "ef675b23461f98cf2ffe56f5f171e6b2ae88adfd25502a7a0cc770411d957702",
+        "resolved_path": "/home/sm5/ys/Project/First/models/Qwen/Qwen3-VL-2B-Instruct",
+        "total_bytes": 4266640357
+      },
+      "tinyllava": {
+        "configured_path": "/home/sm5/ys/Project/SegR/models/TinyLLaVA-Phi-2-SigLIP-3.1B",
+        "configured_path_is_symlink": false,
+        "configured_symlink_target": null,
+        "file_count": 12,
+        "model_manifest_sha256": "f174e3ed1dea5814447b88fc21de6e99d07e942b36b2d64c37d2e9fbef7250a5",
+        "resolved_path": "/home/sm5/ys/Project/SegR/models/TinyLLaVA-Phi-2-SigLIP-3.1B",
+        "total_bytes": 6436550529
+      }
+    },
+    "visual_assets": {
+      "configured_root": "vlm_router_data/TSV_images",
+      "file_count": 18,
+      "resolved_root": "/home/sm5/ys/VL-RouterBench/vlm_router_data/TSV_images",
+      "total_bytes": 9503769326,
+      "visual_assets_manifest_sha256": "ca509f6b58e56982763619e6c21a07fcd78a20c86df69adeed090098768fd7c5"
+    },
+    "visual_assets_manifest_sha256": "ca509f6b58e56982763619e6c21a07fcd78a20c86df69adeed090098768fd7c5"
+  },
+  "passed": true,
+  "quality_gate": {
+    "all_input_bytes_verified": true,
+    "manifest_sha256": "76e3fec87393681f189cb6f0742815130c52f782f40a32de8a2b3c1dad1643ad",
+    "path": "outputs/bench_coe_query/smoke/QUALITY_GATE.json",
+    "sha256": "51f91e3705c6d69eecee3f7c2edf8062e8870a7a7b69b2b82edacc2a182d1793"
+  },
+  "run_manifests_bound": true,
+  "run_manifests_checked": 15,
+  "schema_version": 1
+}

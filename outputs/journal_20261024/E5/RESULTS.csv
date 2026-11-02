@@ -1,0 +1,301 @@
+experiment,method,variant,view,seed,n_test,A,C,R,notes
+E5,StateRoute-T,K1__frozen,11ID,0,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__refit,11ID,0,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__frozen,3OOD,0,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__refit,3OOD,0,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__frozen,11ID,0,5341,75.54765025276166,0.6557832097518193,74.42792955716268,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__refit,11ID,0,5341,75.54765025276166,0.6557832097518193,74.42792955716268,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__frozen,3OOD,0,767,74.1851368970013,0.6528644110556513,73.2354789291852,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__refit,3OOD,0,767,74.1851368970013,0.6528644110556513,73.2354789291852,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__frozen,11ID,0,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__refit,11ID,0,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__frozen,3OOD,0,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__refit,3OOD,0,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__frozen,11ID,0,5341,75.04212694252013,0.6654568656837875,73.94104293642995,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__refit,11ID,0,5341,75.04212694252013,0.6654568656837875,73.94104293642995,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__frozen,3OOD,0,767,71.83833116036506,0.6734156480748564,71.07001474840628,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__refit,3OOD,0,767,71.83833116036506,0.6734156480748564,71.07001474840628,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__frozen,11ID,1,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__refit,11ID,1,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__frozen,3OOD,1,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__refit,3OOD,1,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__frozen,11ID,1,5341,75.52892716719715,0.6558760949727419,74.41101423424901,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__refit,11ID,1,5341,75.52892716719715,0.6558760949727419,74.41101423424901,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__frozen,3OOD,1,767,74.1851368970013,0.6528644110556513,73.2354789291852,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__refit,3OOD,1,767,74.1851368970013,0.6528644110556513,73.2354789291852,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__frozen,11ID,1,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__refit,11ID,1,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__frozen,3OOD,1,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__refit,3OOD,1,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__frozen,11ID,1,5341,75.22935779816514,0.6482710768829847,74.17872562279048,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__refit,11ID,1,5341,75.22935779816514,0.6482710768829847,74.17872562279048,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__frozen,3OOD,1,767,73.92438070404172,0.6332946588842149,73.0849617721392,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__refit,3OOD,1,767,73.92438070404172,0.6332946588842149,73.0849617721392,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__frozen,11ID,2,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__refit,11ID,2,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__frozen,3OOD,2,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__refit,3OOD,2,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__frozen,11ID,2,5341,75.52892716719715,0.6558760949727419,74.41101423424901,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__refit,11ID,2,5341,75.52892716719715,0.6558760949727419,74.41101423424901,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__frozen,3OOD,2,767,74.1851368970013,0.6528644110556513,73.2354789291852,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__refit,3OOD,2,767,74.1851368970013,0.6528644110556513,73.2354789291852,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__frozen,11ID,2,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__refit,11ID,2,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__frozen,3OOD,2,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__refit,3OOD,2,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__frozen,11ID,2,5341,75.21063471260064,0.6481365327791722,74.16274613123963,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__refit,11ID,2,5341,75.21063471260064,0.6481365327791722,74.16274613123963,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__frozen,3OOD,2,767,73.79400260756192,0.6339671490375485,72.96631677404007,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__refit,3OOD,2,767,73.79400260756192,0.6339671490375485,72.96631677404007,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__frozen,11ID,3,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__refit,11ID,3,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__frozen,3OOD,3,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__refit,3OOD,3,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__frozen,11ID,3,5341,75.52892716719715,0.6558760949727419,74.41101423424901,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__refit,11ID,3,5341,75.52892716719715,0.6558760949727419,74.41101423424901,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__frozen,3OOD,3,767,74.1851368970013,0.6528644110556513,73.2354789291852,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__refit,3OOD,3,767,74.1851368970013,0.6528644110556513,73.2354789291852,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__frozen,11ID,3,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__refit,11ID,3,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__frozen,3OOD,3,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__refit,3OOD,3,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__frozen,11ID,3,5341,75.13574237034263,0.6474494330143492,74.0994448010688,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__refit,11ID,3,5341,75.13574237034263,0.6474494330143492,74.0994448010688,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__frozen,3OOD,3,767,73.92438070404172,0.6331483746654624,73.08556751706385,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__refit,3OOD,3,767,73.92438070404172,0.6331483746654624,73.08556751706385,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__frozen,11ID,4,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__refit,11ID,4,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__frozen,3OOD,4,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K1__refit,3OOD,4,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__frozen,11ID,4,5341,75.52892716719715,0.6558760949727419,74.41101423424901,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__refit,11ID,4,5341,75.52892716719715,0.6558760949727419,74.41101423424901,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__frozen,3OOD,4,767,74.1851368970013,0.6528644110556513,73.2354789291852,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_fixed_map__refit,3OOD,4,767,74.1851368970013,0.6528644110556513,73.2354789291852,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__frozen,11ID,4,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__refit,11ID,4,5341,74.5740498034076,0.7623001313220581,73.13686158395922,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__frozen,3OOD,4,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K1__refit,3OOD,4,767,67.53585397653194,0.7085189058095844,67.0988918221902,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__frozen,11ID,4,5341,75.06085002808463,0.6459669765261795,74.03948044100414,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__refit,11ID,4,5341,75.06085002808463,0.6459669765261795,74.03948044100414,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__frozen,3OOD,4,767,73.92438070404172,0.6323722338950811,73.08878227063127,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-MM,K2_fixed_map__refit,3OOD,4,767,73.92438070404172,0.6323722338950811,73.08878227063127,"Full 11-source profile, kappa=20; thresholds inactive at rung <=2"
+E5,StateRoute-T,K2_local__frozen,11ID,0,5341,75.60381950945516,0.6560092910150274,74.47652382976501,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__frozen,3OOD,0,767,73.79400260756192,0.6590563273496745,72.86352323782084,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__frozen,11ID,0,5341,76.55869687324471,0.7211694106723312,75.0388646562851,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__frozen,3OOD,0,767,73.53324641460235,0.6587504603209567,72.63356563617197,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__frozen,11ID,0,5341,76.53997378768021,0.7210619588916295,75.02296474771994,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__frozen,3OOD,0,767,73.92438070404172,0.6547827942615905,72.99652192702044,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__frozen,11ID,0,5341,76.53997378768021,0.7207182030233978,75.0244122844239,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__frozen,3OOD,0,767,74.1851368970013,0.652933772228357,73.23519305677848,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__refit,11ID,0,5341,75.60381950945516,0.6560092910150274,74.47652382976501,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__refit,3OOD,0,767,73.79400260756192,0.6590563273496745,72.86352323782084,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__refit,11ID,0,5341,76.55869687324471,0.7211694106723312,75.0388646562851,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__refit,3OOD,0,767,73.53324641460235,0.6587504603209567,72.63356563617197,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__refit,11ID,0,5341,76.53997378768021,0.7210619588916295,75.02296474771994,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__refit,3OOD,0,767,73.92438070404172,0.6547827942615905,72.99652192702044,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__refit,11ID,0,5341,76.53997378768021,0.7207182030233978,75.0244122844239,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__refit,3OOD,0,767,74.1851368970013,0.652933772228357,73.23519305677848,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__frozen,11ID,1,5341,75.60381950945516,0.6561721256795088,74.47583072764137,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__frozen,3OOD,1,767,73.79400260756192,0.6591272530429924,72.86323464881325,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__frozen,11ID,1,5341,76.55869687324471,0.7222879839122792,75.03415420365528,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__frozen,3OOD,1,767,73.53324641460235,0.6588213860142748,72.63327882845316,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__frozen,11ID,1,5341,76.53997378768021,0.7221805321315776,75.01825611103739,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__frozen,3OOD,1,767,73.92438070404172,0.6548537199549084,72.99623175208811,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__frozen,11ID,1,5341,76.53997378768021,0.7218367762633459,75.01970288986432,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__frozen,3OOD,1,767,74.1851368970013,0.6530046979216749,73.23490074739914,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__refit,11ID,1,5341,75.60381950945516,0.6561721256795088,74.47583072764137,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__refit,3OOD,1,767,73.79400260756192,0.6591272530429924,72.86323464881325,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__refit,11ID,1,5341,76.55869687324471,0.7222879839122792,75.03415420365528,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__refit,3OOD,1,767,73.53324641460235,0.6588213860142748,72.63327882845316,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__refit,11ID,1,5341,76.53997378768021,0.7221805321315776,75.01825611103739,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__refit,3OOD,1,767,73.92438070404172,0.6548537199549084,72.99623175208811,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__refit,11ID,1,5341,76.53997378768021,0.7218367762633459,75.01970288986432,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__refit,3OOD,1,767,74.1851368970013,0.6530046979216749,73.23490074739914,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__frozen,11ID,2,5341,75.60381950945516,0.6561721256795088,74.47583072764137,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__frozen,3OOD,2,767,73.79400260756192,0.6591272530429924,72.86323464881325,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__frozen,11ID,2,5341,76.55869687324471,0.7222879839122792,75.03415420365528,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__frozen,3OOD,2,767,73.53324641460235,0.6588213860142748,72.63327882845316,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__frozen,11ID,2,5341,76.53997378768021,0.7221805321315776,75.01825611103739,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__frozen,3OOD,2,767,73.92438070404172,0.6548537199549084,72.99623175208811,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__frozen,11ID,2,5341,76.53997378768021,0.7218367762633459,75.01970288986432,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__frozen,3OOD,2,767,74.1851368970013,0.6530046979216749,73.23490074739914,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__refit,11ID,2,5341,75.60381950945516,0.6561721256795088,74.47583072764137,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__refit,3OOD,2,767,73.79400260756192,0.6591272530429924,72.86323464881325,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__refit,11ID,2,5341,76.55869687324471,0.7222879839122792,75.03415420365528,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__refit,3OOD,2,767,73.53324641460235,0.6588213860142748,72.63327882845316,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__refit,11ID,2,5341,76.53997378768021,0.7221805321315776,75.01825611103739,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__refit,3OOD,2,767,73.92438070404172,0.6548537199549084,72.99623175208811,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__refit,11ID,2,5341,76.53997378768021,0.7218367762633459,75.01970288986432,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__refit,3OOD,2,767,74.1851368970013,0.6530046979216749,73.23490074739914,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__frozen,11ID,3,5341,75.60381950945516,0.6561721256795088,74.47583072764137,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__frozen,3OOD,3,767,73.79400260756192,0.6591272530429924,72.86323464881325,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__frozen,11ID,3,5341,76.55869687324471,0.7222879839122792,75.03415420365528,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__frozen,3OOD,3,767,73.53324641460235,0.6588213860142748,72.63327882845316,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__frozen,11ID,3,5341,76.53997378768021,0.7221805321315776,75.01825611103739,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__frozen,3OOD,3,767,73.92438070404172,0.6548537199549084,72.99623175208811,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__frozen,11ID,3,5341,76.53997378768021,0.7218367762633459,75.01970288986432,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__frozen,3OOD,3,767,74.1851368970013,0.6530046979216749,73.23490074739914,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__refit,11ID,3,5341,75.60381950945516,0.6561721256795088,74.47583072764137,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__refit,3OOD,3,767,73.79400260756192,0.6591272530429924,72.86323464881325,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__refit,11ID,3,5341,76.55869687324471,0.7222879839122792,75.03415420365528,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__refit,3OOD,3,767,73.53324641460235,0.6588213860142748,72.63327882845316,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__refit,11ID,3,5341,76.53997378768021,0.7221805321315776,75.01825611103739,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__refit,3OOD,3,767,73.92438070404172,0.6548537199549084,72.99623175208811,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__refit,11ID,3,5341,76.53997378768021,0.7218367762633459,75.01970288986432,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__refit,3OOD,3,767,74.1851368970013,0.6530046979216749,73.23490074739914,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__frozen,11ID,4,5341,75.60381950945516,0.6561721256795088,74.47583072764137,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__frozen,3OOD,4,767,73.79400260756192,0.6591272530429924,72.86323464881325,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__frozen,11ID,4,5341,76.55869687324471,0.721342093674435,75.03813730545804,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__frozen,3OOD,4,767,73.53324641460235,0.6588213860142748,72.63327882845316,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__frozen,11ID,4,5341,76.53997378768021,0.7212346418937334,75.02223767726599,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__frozen,3OOD,4,767,73.92438070404172,0.6548537199549084,72.99623175208811,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__frozen,11ID,4,5341,76.53997378768021,0.7208908860255017,75.023685096818,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__frozen,3OOD,4,767,74.1851368970013,0.6530046979216749,73.23490074739914,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__refit,11ID,4,5341,75.60381950945516,0.6561721256795088,74.47583072764137,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local__refit,3OOD,4,767,73.79400260756192,0.6591272530429924,72.86323464881325,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__refit,11ID,4,5341,76.55869687324471,0.721342093674435,75.03813730545804,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch__refit,3OOD,4,767,73.53324641460235,0.6588213860142748,72.63327882845316,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__refit,11ID,4,5341,76.53997378768021,0.7212346418937334,75.02223767726599,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb10__refit,3OOD,4,767,73.92438070404172,0.6548537199549084,72.99623175208811,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__refit,11ID,4,5341,76.53997378768021,0.7208908860255017,75.023685096818,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K2_local_switch_fb25__refit,3OOD,4,767,74.1851368970013,0.6530046979216749,73.23490074739914,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__frozen,11ID,0,5341,75.37914248268115,0.6796885077271344,74.1786286719277,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__frozen,3OOD,0,767,70.66492829204694,0.6827044349987633,69.989644841078,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__frozen,11ID,0,5341,75.97828122074517,0.7212631192081816,74.53114734224933,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__frozen,3OOD,0,767,70.53455019556715,0.697032466118034,69.82044790167863,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__frozen,11ID,0,5341,75.99700430630968,0.7210507058265838,74.54840874998058,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__frozen,3OOD,0,767,71.1864406779661,0.6936542395195125,70.41324743549247,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__frozen,11ID,0,5341,75.97828122074517,0.7210247369210008,74.5321379431429,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__frozen,3OOD,0,767,71.31681877444589,0.69229491756046,70.53430263862163,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__refit,11ID,0,5341,75.37914248268115,0.6796885077271344,74.1786286719277,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__refit,3OOD,0,767,70.66492829204694,0.6827044349987633,69.989644841078,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__refit,11ID,0,5341,75.97828122074517,0.7212631192081816,74.53114734224933,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__refit,3OOD,0,767,70.53455019556715,0.697032466118034,69.82044790167863,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__refit,11ID,0,5341,75.99700430630968,0.7210507058265838,74.54840874998058,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__refit,3OOD,0,767,71.1864406779661,0.6936542395195125,70.41324743549247,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__refit,11ID,0,5341,75.97828122074517,0.7210247369210008,74.5321379431429,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__refit,3OOD,0,767,71.31681877444589,0.69229491756046,70.53430263862163,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__frozen,11ID,1,5341,75.65998876614866,0.6671142897290514,74.47887991273639,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__frozen,3OOD,1,767,71.83833116036506,0.6610778386697339,71.11764372524473,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__frozen,11ID,1,5341,76.82082007114772,0.7384074371008206,75.19494243148162,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__frozen,3OOD,1,767,71.83833116036506,0.6847551522213836,71.02650709320204,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__frozen,11ID,1,5341,76.80209698558322,0.7380251304426911,75.18024071634713,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__frozen,3OOD,1,767,72.7509778357236,0.6724026107096182,71.88499335551347,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__frozen,11ID,1,5341,76.80209698558322,0.7378036925237123,75.18117155604841,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__frozen,3OOD,1,767,73.40286831812256,0.6664886606132886,72.48677360144363,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__refit,11ID,1,5341,75.65998876614866,0.6671142897290514,74.47887991273639,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__refit,3OOD,1,767,71.83833116036506,0.6610778386697339,71.11764372524473,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__refit,11ID,1,5341,76.82082007114772,0.7384074371008206,75.19494243148162,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__refit,3OOD,1,767,71.83833116036506,0.6847551522213836,71.02650709320204,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__refit,11ID,1,5341,76.80209698558322,0.7380251304426911,75.18024071634713,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__refit,3OOD,1,767,72.7509778357236,0.6724026107096182,71.88499335551347,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__refit,11ID,1,5341,76.80209698558322,0.7378036925237123,75.18117155604841,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__refit,3OOD,1,767,73.40286831812256,0.6664886606132886,72.48677360144363,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__frozen,11ID,2,5341,75.64126568058416,0.6670393412217255,74.46270319011528,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__frozen,3OOD,2,767,71.70795306388527,0.6613962220056426,71.00023431294237,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__frozen,11ID,2,5341,76.55869687324471,0.7262769370874932,75.01737620909239,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__frozen,3OOD,2,767,71.4471968709257,0.6849259475002161,70.67808298722242,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__frozen,11ID,2,5341,76.53997378768021,0.7259656658106182,75.0023407925879,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__frozen,3OOD,2,767,72.35984354628422,0.6725734059884506,71.53697537222664,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__frozen,11ID,2,5341,76.53997378768021,0.7257442278916394,75.00327109974744,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__frozen,3OOD,2,767,73.01173402868318,0.6667295993014174,72.13887007559916,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__refit,11ID,2,5341,75.64126568058416,0.6670393412217255,74.46270319011528,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__refit,3OOD,2,767,71.70795306388527,0.6613962220056426,71.00023431294237,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__refit,11ID,2,5341,76.55869687324471,0.7262769370874932,75.01737620909239,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__refit,3OOD,2,767,71.4471968709257,0.6849259475002161,70.67808298722242,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__refit,11ID,2,5341,76.53997378768021,0.7259656658106182,75.0023407925879,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__refit,3OOD,2,767,72.35984354628422,0.6725734059884506,71.53697537222664,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__refit,11ID,2,5341,76.53997378768021,0.7257442278916394,75.00327109974744,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__refit,3OOD,2,767,73.01173402868318,0.6667295993014174,72.13887007559916,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__frozen,11ID,3,5341,75.58509642389065,0.6667367012658328,74.41449535071737,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__frozen,3OOD,3,767,71.83833116036506,0.6609315544509814,71.11821030373345,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__frozen,11ID,3,5341,76.89571241340573,0.7501379557027792,75.21089063714001,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__frozen,3OOD,3,767,71.83833116036506,0.6846088680026311,71.0270667653625,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__frozen,11ID,3,5341,76.87698932784123,0.7497442654132189,75.19625585525243,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__frozen,3OOD,3,767,72.7509778357236,0.6722563264908656,71.8855694993158,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__frozen,11ID,3,5341,76.87698932784123,0.7495107323828648,75.19723412418249,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__frozen,3OOD,3,767,73.40286831812256,0.6663423763945361,72.4873608671151,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__refit,11ID,3,5341,75.58509642389065,0.6667367012658328,74.41449535071737,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__refit,3OOD,3,767,71.83833116036506,0.6609315544509814,71.11821030373345,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__refit,11ID,3,5341,76.89571241340573,0.7501379557027792,75.21089063714001,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__refit,3OOD,3,767,71.83833116036506,0.6846088680026311,71.0270667653625,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__refit,11ID,3,5341,76.87698932784123,0.7497442654132189,75.19625585525243,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__refit,3OOD,3,767,72.7509778357236,0.6722563264908656,71.8855694993158,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__refit,11ID,3,5341,76.87698932784123,0.7495107323828648,75.19723412418249,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__refit,3OOD,3,767,73.40286831812256,0.6663423763945361,72.4873608671151,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__frozen,11ID,4,5341,75.56637333832616,0.6657414007504491,74.40220674980081,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__frozen,3OOD,4,767,71.83833116036506,0.6606499377526239,71.11930116753729,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__frozen,11ID,4,5341,76.91443549897024,0.7543425802514775,75.20956523148743,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__frozen,3OOD,4,767,71.83833116036506,0.6842565863881068,71.02841473693854,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__frozen,11ID,4,5341,76.87698932784123,0.7539388169428328,75.17870193439188,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__frozen,3OOD,4,767,72.6205997392438,0.6718341622441962,71.77148352221352,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__frozen,11ID,4,5341,76.87698932784123,0.7537052839124786,75.1796784092819,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__frozen,3OOD,4,767,73.40286831812256,0.6654955707079879,72.49076130515081,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__refit,11ID,4,5341,75.56637333832616,0.6657414007504491,74.40220674980081,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local__refit,3OOD,4,767,71.83833116036506,0.6606499377526239,71.11930116753729,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__refit,11ID,4,5341,76.91443549897024,0.7543425802514775,75.20956523148743,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch__refit,3OOD,4,767,71.83833116036506,0.6842565863881068,71.02841473693854,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__refit,11ID,4,5341,76.87698932784123,0.7539388169428328,75.17870193439188,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb10__refit,3OOD,4,767,72.6205997392438,0.6718341622441962,71.77148352221352,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__refit,11ID,4,5341,76.87698932784123,0.7537052839124786,75.1796784092819,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-MM,K2_local_switch_fb25__refit,3OOD,4,767,73.40286831812256,0.6654955707079879,72.49076130515081,"11-source train profile, kappa=20; thresholds source-only"
+E5,StateRoute-T,K1__frozen,14ID,0,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_fixed_map__frozen,14ID,0,6108,75.34381139489194,0.6741133960830438,74.1708482768032,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_local__frozen,14ID,0,6108,75.36018336607727,0.6738755931880781,74.18626856281051,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K1__refit,14ID,0,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_fixed_map__refit,14ID,0,6108,75.34381139489194,0.6741133960830438,74.1708482768032,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_local__refit,14ID,0,6108,75.36018336607727,0.6738755931880781,74.18626856281051,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K1__frozen,14ID,1,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_fixed_map__frozen,14ID,1,6108,75.24557956777997,0.6605418018279832,74.14122772964873,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_local__frozen,14ID,1,6108,75.29469548133595,0.6604042117735027,74.1851545699672,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K1__refit,14ID,1,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_fixed_map__refit,14ID,1,6108,75.24557956777997,0.6605418018279832,74.14122772964873,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_local__refit,14ID,1,6108,75.29469548133595,0.6604042117735027,74.1851545699672,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K1__frozen,14ID,2,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_fixed_map__frozen,14ID,2,6108,74.5743287491814,0.6751022468003571,73.48813496434217,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_local__frozen,14ID,2,6108,75.03274394237066,0.6719151970849715,73.9058247026933,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K1__refit,14ID,2,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_fixed_map__refit,14ID,2,6108,74.5743287491814,0.6751022468003571,73.48813496434217,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_local__refit,14ID,2,6108,75.03274394237066,0.6719151970849715,73.9058247026933,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K1__frozen,14ID,3,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_fixed_map__frozen,14ID,3,6108,74.5743287491814,0.6751026397294662,73.48813334883046,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_local__frozen,14ID,3,6108,75.01637197118534,0.6719597615927594,73.89119899980618,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K1__refit,14ID,3,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_fixed_map__refit,14ID,3,6108,74.5743287491814,0.6751026397294662,73.48813334883046,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_local__refit,14ID,3,6108,75.01637197118534,0.6719597615927594,73.89119899980618,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K1__frozen,14ID,4,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_fixed_map__frozen,14ID,4,6108,75.24557956777997,0.6605418018279832,74.14122772964873,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_local__frozen,14ID,4,6108,75.29469548133595,0.6604042117735027,74.1851545699672,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K1__refit,14ID,4,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_fixed_map__refit,14ID,4,6108,75.24557956777997,0.6605418018279832,74.14122772964873,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-T,K2_local__refit,14ID,4,6108,75.29469548133595,0.6604042117735027,74.1851545699672,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K1__frozen,14ID,0,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_fixed_map__frozen,14ID,0,6108,75.0,0.6445100892426052,73.99180232684691,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_local__frozen,14ID,0,6108,75.39292730844794,0.65950828839294,74.2756184426721,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K1__refit,14ID,0,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_fixed_map__refit,14ID,0,6108,75.0,0.6445100892426052,73.99180232684691,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_local__refit,14ID,0,6108,75.39292730844794,0.65950828839294,74.2756184426721,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K1__frozen,14ID,1,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_fixed_map__frozen,14ID,1,6108,74.75442043222003,0.6610941260839296,73.70513657252928,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_local__frozen,14ID,1,6108,75.31106745252129,0.6726980554553559,74.14792706729035,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K1__refit,14ID,1,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_fixed_map__refit,14ID,1,6108,74.75442043222003,0.6610941260839296,73.70513657252928,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_local__refit,14ID,1,6108,75.31106745252129,0.6726980554553559,74.14792706729035,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K1__frozen,14ID,2,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_fixed_map__frozen,14ID,2,6108,74.93451211525868,0.6434892477251731,73.93815762031332,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_local__frozen,14ID,2,6108,75.36018336607727,0.6586097946043475,74.25052192053381,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K1__refit,14ID,2,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_fixed_map__refit,14ID,2,6108,74.93451211525868,0.6434892477251731,73.93815762031332,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_local__refit,14ID,2,6108,75.36018336607727,0.6586097946043475,74.25052192053381,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K1__frozen,14ID,3,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_fixed_map__frozen,14ID,3,6108,74.93451211525868,0.645330570572215,73.93039414095477,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_local__frozen,14ID,3,6108,75.32743942370661,0.6593692412275872,74.21841718064547,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K1__refit,14ID,3,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_fixed_map__refit,14ID,3,6108,74.93451211525868,0.645330570572215,73.93039414095477,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_local__refit,14ID,3,6108,75.32743942370661,0.6593692412275872,74.21841718064547,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K1__frozen,14ID,4,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_fixed_map__frozen,14ID,4,6108,74.90176817288801,0.6576594995175903,73.84967993356781,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_local__frozen,14ID,4,6108,75.31106745252129,0.6710291295744806,74.1549224685049,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K1__refit,14ID,4,6108,73.69024230517354,0.7555466604693948,72.38920502563163,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_fixed_map__refit,14ID,4,6108,74.90176817288801,0.6576594995175903,73.84967993356781,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3
+E5,StateRoute-MM,K2_local__refit,14ID,4,6108,75.31106745252129,0.6710291295744806,74.1549224685049,All test queries ID; switch/fallback gate omitted; thresholds inactive at rung <=3

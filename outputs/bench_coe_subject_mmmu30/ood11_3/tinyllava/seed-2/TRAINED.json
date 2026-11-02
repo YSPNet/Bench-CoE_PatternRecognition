@@ -1,0 +1,17 @@
+{
+  "assignment_sha256": "f850101004f4f7238465f811e91b92ac65c383343e738e4618de402eadc37ee6",
+  "backbone": "tinyllava",
+  "best_dev_subject_loss": 0.8370666274383887,
+  "best_epoch": 19,
+  "checkpoint_sha256": "dbc4ec2f1f6b2f740ca755e0040d8b0525ddb18bb16d7ca5b381f46c9086f1c9",
+  "dev_scored_rows": 2680,
+  "device": "cuda",
+  "feature_sha256": "4e0fff577c12c49195e64377c53b63683cf3bff43b66293370db9e76ed8a887b",
+  "protocol": "ood11_3",
+  "seed": 2,
+  "selection": "minimum source dev subject cross-entropy only",
+  "source_dev_count": 2680,
+  "source_sha256": "bcce5f5e43c81506d3b7703de083608ddc6ceffa98414a796ade96e918750792",
+  "source_train_count": 18665,
+  "trainable_rows": 18665
+}

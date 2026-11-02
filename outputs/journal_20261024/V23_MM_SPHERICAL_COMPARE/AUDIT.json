@@ -1,0 +1,68 @@
+{
+  "c_max": null,
+  "c_min": null,
+  "command": "python -B scripts/journal_20261024/v23_mm_spherical_compare.py",
+  "end_time": "2026-10-31T02:46:22+00:00",
+  "experiment": "V23_MM_SPHERICAL_COMPARE",
+  "failures": [],
+  "feature_artifact_sha256": "36d3922828d0279ad5ecbe0fa366f9beb4b27eaa66f54c58835892db3aff89a4",
+  "git_commit": null,
+  "git_commit_note": "Repository has no .git metadata",
+  "gpu": "none; frozen Qwen3-VL features, four CPU BLAS threads",
+  "k": 2,
+  "kappa": 64.0,
+  "lambda_grid": [
+    0.0,
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3
+  ],
+  "original_fitter": "MiniBatchKMeans(n_init=3,batch_size=1024,max_iter=100) on L2-normalized inputs",
+  "original_lambda": 0.03,
+  "python_env": {
+    "numpy": "1.26.4",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python": "3.12.11"
+  },
+  "representation_provenance": {
+    "qwen_cache_feature_sha256": "36d3922828d0279ad5ecbe0fa366f9beb4b27eaa66f54c58835892db3aff89a4",
+    "qwen_overlay_manifest_sha256": "6bae2cf98cee51c6059b313fe8a2f9992c64d3c402a11c9f86ef9bdb259a68b3",
+    "raw_source_feature_norm_quantiles": [
+      55.49456024169922,
+      65.26598052978515,
+      73.52316284179688,
+      82.79860992431641,
+      135.28195190429688
+    ],
+    "source_feature_sha256": "f899bae5fe43b7bb5b1a7369a357c3ec2ac32b831fef950ec3a7efc57625dd4b",
+    "source_fit_n": 16269,
+    "source_manifest_sha256": "fe8f01bb6f863b695e70c981246ebd93d7fa9c12108b0f890ec855d78f65957c",
+    "test_multi_image_overlay_n": 10,
+    "test_n": 6108
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "seeds_requested": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "selection_rule": "K=2 Qwen3-VL 2048-d heldout11 source-fit. Compare frozen Euclidean minibatch centroids, cosine assignment to original centroids with source reprofiling, and exact full-batch spherical k-means with unit centers. Kappa=64. Report both lambda=0.03 fixed from v23 and lambda independently selected by three source-only group folds. No test outcomes enter fitting or selection.",
+  "spherical_fitter": "SphericalKMeans(n_init=10,max_iter=100,tolerance=1e-6) with unit centers",
+  "split_sizes": {
+    "11ID": 5341,
+    "3OOD": 767
+  },
+  "start_time": "2026-10-31T02:45:00+00:00",
+  "status": "complete"
+}

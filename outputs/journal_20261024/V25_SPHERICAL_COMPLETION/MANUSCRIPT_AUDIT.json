@@ -1,0 +1,21 @@
+{
+  "backup": "outputs/journal_20261024/V25_SPHERICAL_COMPLETION/ORIGINAL_v25.docx",
+  "bootstrap_audit_sha256": "f91475c1ad82737344e0282c3b6b7f68f888424c60c3fcc8678db30b264a82e9",
+  "experiment_audit_sha256": "8642b695cded49f2ede408c9f180429f60e6ec3eb6b8fe08d46735540f4dd1d2",
+  "figures_replaced": {
+    "rId114.png": "FigA1_spherical_paired_all.png",
+    "rId61.png": "Fig4_spherical_front.png",
+    "rId69.png": "Fig6_spherical_k_sweep.png",
+    "rId84.png": "Fig10_spherical_cases.png",
+    "rId92.png": "Fig12_spherical_paired_ood.png",
+    "rId97.png": "Fig13_spherical_cost_dumbbell.png"
+  },
+  "output": "Bench-CoE_PatternRecognition_manuscript_v25_completed.docx",
+  "output_sha256": "773e6d5c9f15aff5e68a4ffc817566079f34cf1e41ea71949ab247dc8dc39729",
+  "source": "Bench-CoE_PatternRecognition_manuscript_v25.docx",
+  "source_sha256": "e64724b142a48dd9e3b8a54aa5ed61522e8aa1f259714a6850fc495056d4046c",
+  "status": "complete",
+  "table_A4_rows": 21,
+  "tables": 20,
+  "textual_TBD_count": 0
+}

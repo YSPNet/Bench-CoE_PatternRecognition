@@ -1,0 +1,156 @@
+{
+  "acceptance": [
+    {
+      "expected": [
+        74.915,
+        0.6483,
+        73.9
+      ],
+      "observed": [
+        74.91486574983628,
+        0.6483267296248988,
+        73.90044528647852
+      ],
+      "passed": true,
+      "tolerance": [
+        0.12,
+        0.02,
+        0.12
+      ],
+      "view": "14ID"
+    },
+    {
+      "expected": [
+        75.121,
+        0.6503,
+        74.074
+      ],
+      "observed": [
+        75.12076390189104,
+        0.6502971393509145,
+        74.07419213857766
+      ],
+      "passed": true,
+      "tolerance": [
+        0.12,
+        0.02,
+        0.12
+      ],
+      "view": "11ID"
+    },
+    {
+      "expected": [
+        73.664,
+        0.6372,
+        72.837
+      ],
+      "observed": [
+        73.66362451108213,
+        0.6372147891203742,
+        72.83717429651246
+      ],
+      "passed": true,
+      "tolerance": [
+        0.35,
+        0.02,
+        0.35
+      ],
+      "view": "3OOD"
+    }
+  ],
+  "c_max": 0.001063963514752686,
+  "c_min": 1.4453729818342254e-05,
+  "command": "python -B scripts/journal_20261024/e12_matched.py",
+  "end_time": "2026-10-24T15:07:57+00:00",
+  "experiment": "E12",
+  "failures": [],
+  "git_commit": null,
+  "git_commit_note": "Repository has no .git metadata",
+  "gpu": "cached Qwen3-VL features; CPU map replay",
+  "model_sha256": {
+    "full14/KMeans2/seed-0": "2a00db75c9b235d1517348549e898c3ffcf5a5f72ca2800e31cecaff2e7450d0",
+    "full14/KMeans2/seed-1": "aa47dd583060e459588813419b09904bc5883124fc8c13cf0d3db3fdea231710",
+    "full14/KMeans2/seed-2": "5955f2e14255175a663a0b24841317fc24e542ff3f60c3ab83cdb343b1006e0c",
+    "full14/KMeans2/seed-3": "537195b3e40b734224b23f9a24df1090fc32ba8594c7d3d8e90599e7dcd9ba80",
+    "full14/KMeans2/seed-4": "9f17bd0032b33d223ff0765b5912c5b9a2b7ad9df3b38f9950e87c570cdff997",
+    "full14/KMeans30/seed-0": "cb345568ab2bf5af8003eb39cf5618a4603f06c2affb7d795a7f4756deffe7a9",
+    "full14/KMeans30/seed-1": "8b6f876e001c0287d75772124139c5ef70529325a3e051ef9ef05acecb44d0ca",
+    "full14/KMeans30/seed-2": "5ccb60074301d7df198823f481ec42f071dd09a6b3c4ae3632cc19e2a3bdfe67",
+    "full14/KMeans30/seed-3": "ffae7d45782e136471b4262494e5e174f215396a101a87b44e63bc688e0aeae1",
+    "full14/KMeans30/seed-4": "786127c80d297d808ffee0b9eb2f209eaf795d7ce17795237cf8137283f4bcfd",
+    "full14/MMMU30/seed-0": "d88ad11313d420c7eedfbc5f75619d75ebe87b51e64a24db28acc7dfd6aaf0f7",
+    "full14/MMMU30/seed-1": "d88ad11313d420c7eedfbc5f75619d75ebe87b51e64a24db28acc7dfd6aaf0f7",
+    "full14/MMMU30/seed-2": "d88ad11313d420c7eedfbc5f75619d75ebe87b51e64a24db28acc7dfd6aaf0f7",
+    "full14/MMMU30/seed-3": "d88ad11313d420c7eedfbc5f75619d75ebe87b51e64a24db28acc7dfd6aaf0f7",
+    "full14/MMMU30/seed-4": "d88ad11313d420c7eedfbc5f75619d75ebe87b51e64a24db28acc7dfd6aaf0f7",
+    "heldout11/KMeans2/seed-0": "aa246bbffc4d203aa10bd5316f78c49df9db08c9c462003ce3228e9bb0c62403",
+    "heldout11/KMeans2/seed-1": "e04f3651bc33e310aba885713067b25d358e2cb7a8d62993c0557876decc1963",
+    "heldout11/KMeans2/seed-2": "a8a753a83d37bdb94affdeea9162c0542229667af727c1e681708ea34f1034f4",
+    "heldout11/KMeans2/seed-3": "de1891f75049c7f3a37b82a66fc68efb8063dd9223106998c4817e85a891ac4c",
+    "heldout11/KMeans2/seed-4": "0aa2a8c455d1e49765488c0f136b3c320c339a4c7269cd4d8590943b7a7aa27e",
+    "heldout11/KMeans30/seed-0": "befba28bc11e1ec5bb9c03e23739a170b7e34779bfd42efd8932ab324b19f81d",
+    "heldout11/KMeans30/seed-1": "60b6b01119433a3337cfffe4ef006360c3f95a7e98e64e47dcdf2abf26720369",
+    "heldout11/KMeans30/seed-2": "e58d8b047bea2a3a48e7cc35329c9d51b25449810dbe044935d1c20725642425",
+    "heldout11/KMeans30/seed-3": "5667668f87b06d0070b1e486e48635b15f502225556d904c6c0927861f647b9e",
+    "heldout11/KMeans30/seed-4": "a3231a163d0376587912c61f060756fbfab5b79bf7129c064e402b1b80a47144",
+    "heldout11/MMMU30/seed-0": "0c86562a7f013d7678cbe36c77a21ae16a577e67331aa127c711a4259ca8e92d",
+    "heldout11/MMMU30/seed-1": "0c86562a7f013d7678cbe36c77a21ae16a577e67331aa127c711a4259ca8e92d",
+    "heldout11/MMMU30/seed-2": "0c86562a7f013d7678cbe36c77a21ae16a577e67331aa127c711a4259ca8e92d",
+    "heldout11/MMMU30/seed-3": "0c86562a7f013d7678cbe36c77a21ae16a577e67331aa127c711a4259ca8e92d",
+    "heldout11/MMMU30/seed-4": "0c86562a7f013d7678cbe36c77a21ae16a577e67331aa127c711a4259ca8e92d"
+  },
+  "prior_attempt_failures": [
+    {
+      "end_time": "2026-10-24T15:07:17+00:00",
+      "failures": [
+        {
+          "error": "source-fit coverage changed for full14",
+          "id": "E12",
+          "seed": null,
+          "traceback_path": "outputs/journal_20261024/E12/traceback.txt"
+        }
+      ],
+      "start_time": "2026-10-24T15:07:16+00:00"
+    },
+    {
+      "end_time": "2026-10-24T15:07:36+00:00",
+      "failures": [
+        {
+          "error": "'quality is not a file in the archive'",
+          "id": "E12",
+          "seed": null,
+          "traceback_path": "outputs/journal_20261024/E12/traceback.txt"
+        }
+      ],
+      "start_time": "2026-10-24T15:07:35+00:00"
+    }
+  ],
+  "python_env": {
+    "numpy": "1.26.4",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python": "3.12.11"
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "selected_lambdas": {
+    "full14/KMeans2": 0.02,
+    "full14/KMeans30": 0.05,
+    "full14/MMMU30": 0.05,
+    "heldout11/KMeans2": 0.03,
+    "heldout11/KMeans30": 0.1,
+    "heldout11/MMMU30": 0.1
+  },
+  "selection_rule": "Within each protocol all partitions use the same source-fit Y/C subset. Plain map is argmax with kappa=0 and lambda=0; cost-aware map uses kappa=64 and each partition's previously frozen source-only 3-fold OOF lambda. The MMMU prototypes use official MMMU training inputs/labels, so the 3OOD MMMU slice carries the manuscript's declared input-side prototype caveat.",
+  "split_sizes": {
+    "11ID": 5341,
+    "14ID": 6108,
+    "3OOD": 767
+  },
+  "start_time": "2026-10-24T15:07:54+00:00",
+  "status": "complete"
+}

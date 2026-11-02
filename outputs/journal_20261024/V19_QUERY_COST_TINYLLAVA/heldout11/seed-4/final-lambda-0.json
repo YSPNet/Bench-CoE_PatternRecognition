@@ -1,0 +1,61 @@
+{
+  "backbone": "tinyllava",
+  "best_dev_soft_loss": 2.7098991799988843,
+  "best_epoch": 4,
+  "checkpoint": "outputs/journal_20261024/V19_QUERY_COST_TINYLLAVA/models/heldout11/seed-4/final/lambda-0.pt",
+  "checkpoint_sha256": "0f3968f7c4435801e2e02fdf2d1506122e1781648c8583188681c0b1e284184d",
+  "dev_n": 2556,
+  "epochs_run": 9,
+  "history": [
+    {
+      "dev_loss": 2.713932138839984,
+      "epoch": 1,
+      "train_loss": 2.7586165877596813
+    },
+    {
+      "dev_loss": 2.737539867466791,
+      "epoch": 2,
+      "train_loss": 2.7250222042509074
+    },
+    {
+      "dev_loss": 2.720799966970333,
+      "epoch": 3,
+      "train_loss": 2.713066836109828
+    },
+    {
+      "dev_loss": 2.7098991799988843,
+      "epoch": 4,
+      "train_loss": 2.7017990705056727
+    },
+    {
+      "dev_loss": 2.717821434629915,
+      "epoch": 5,
+      "train_loss": 2.6942171019748824
+    },
+    {
+      "dev_loss": 2.7122517676793727,
+      "epoch": 6,
+      "train_loss": 2.690765906314224
+    },
+    {
+      "dev_loss": 2.719811608160792,
+      "epoch": 7,
+      "train_loss": 2.686480788848554
+    },
+    {
+      "dev_loss": 2.7118512304362743,
+      "epoch": 8,
+      "train_loss": 2.6840736425043046
+    },
+    {
+      "dev_loss": 2.71156116419928,
+      "epoch": 9,
+      "train_loss": 2.68058174226913
+    }
+  ],
+  "lambda": "0",
+  "missing_feature_fallback_expert_index": 12,
+  "protocol": "heldout11",
+  "seed": 4,
+  "trainable_n": 17767
+}

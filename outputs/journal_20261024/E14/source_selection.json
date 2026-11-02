@@ -1,0 +1,15 @@
+{
+  "MM_penalty_lambda": {
+    "full14": 0.02,
+    "heldout11": 0.03
+  },
+  "T_oof_folds": 3,
+  "T_oof_seed": 0,
+  "T_penalty_lambda": {
+    "full14": 0.02,
+    "heldout11": 0.02
+  },
+  "conditional_cap": "global mean cost median",
+  "group_isolated": true,
+  "test_selection": false
+}

@@ -1,0 +1,74 @@
+{
+  "complete_document_equality_verified": true,
+  "contract_sha256": "a1c24102e63954371a113d247d4beb72fdb03fc16bcd871d0589aa2399fa5e0f",
+  "documents": [
+    {
+      "path": "independent_metrics/query_bert/seed-0.json",
+      "sha256": "3ad27bbf190ee2fb44438cdee1f43b3ce1db35ffe219ab850eb4bde8c7fdb3ce"
+    },
+    {
+      "path": "independent_metrics/query_bert/seed-1.json",
+      "sha256": "908f48106a42d06dfd78ac9b88fa45b7a6198f45ce4dd711a56e670ff74b7113"
+    },
+    {
+      "path": "independent_metrics/query_bert/seed-2.json",
+      "sha256": "603e058bfe944659117d382571fe60308a91e724de0a0f9e5a2bdea48f0252ef"
+    },
+    {
+      "path": "independent_metrics/query_bert/seed-3.json",
+      "sha256": "022f5a6adacf8dc7a414781701088bada4ce4322dcfe32ff4d2006beadff7a5d"
+    },
+    {
+      "path": "independent_metrics/query_bert/seed-4.json",
+      "sha256": "c07f9878bad1f19c6a7312021091cc1e433f090ac485188d7a1bcafbf1b3ed18"
+    },
+    {
+      "path": "independent_metrics/query_qwen3vl/seed-0.json",
+      "sha256": "932e24b5ace7e1d09da49ef47771eaf16300da92bdc8f5ccb5bca082b98cb639"
+    },
+    {
+      "path": "independent_metrics/query_qwen3vl/seed-1.json",
+      "sha256": "6287a5cf8c55d610783f6ce92ec877c549daae5014d0b2d7696ef794486fcd7b"
+    },
+    {
+      "path": "independent_metrics/query_qwen3vl/seed-2.json",
+      "sha256": "5622fa036e51b021ea41ea0e02fed6aef5279a7e2fd320d187c7d80b228f972d"
+    },
+    {
+      "path": "independent_metrics/query_qwen3vl/seed-3.json",
+      "sha256": "7db94d1858c3662cb2f66bef3d9ba9e87d53cde0997347e2d6842ecd7e231bbe"
+    },
+    {
+      "path": "independent_metrics/query_qwen3vl/seed-4.json",
+      "sha256": "f42b5b1e31d5c373ae336665f391d013bec1942dcd693edbfcf2b91d1e2f522d"
+    },
+    {
+      "path": "independent_metrics/query_tinyllava/seed-0.json",
+      "sha256": "b2f821a48289d3497e109450ef958523a6d8f9f6e8388dd8e74151922c6b0324"
+    },
+    {
+      "path": "independent_metrics/query_tinyllava/seed-1.json",
+      "sha256": "f32f5da92a3e84997434b86556a307099d96b64ff49f5368fc55a8c34753126a"
+    },
+    {
+      "path": "independent_metrics/query_tinyllava/seed-2.json",
+      "sha256": "46df7474630a1f794c798f72974cd93e0ca36569d8a99504613c9e6dc7ef6ecf"
+    },
+    {
+      "path": "independent_metrics/query_tinyllava/seed-3.json",
+      "sha256": "174fc6a907a6446b8a6a6eb659739cca552f106ff6a01abfee746c125e9e127c"
+    },
+    {
+      "path": "independent_metrics/query_tinyllava/seed-4.json",
+      "sha256": "27b13dfb7c98a16aa8c0b6a03493956dcb10e3af8908af8123817f246eab1f66"
+    }
+  ],
+  "expected_documents": 15,
+  "numerical_runtime": {
+    "numpy_version": "1.26.4",
+    "require_same_runtime_as_run_metrics_and_aggregation": true
+  },
+  "passed": true,
+  "schema_version": 1,
+  "verified_documents": 15
+}

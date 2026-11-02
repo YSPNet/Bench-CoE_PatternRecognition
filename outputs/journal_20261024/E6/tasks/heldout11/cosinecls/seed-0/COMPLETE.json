@@ -1,0 +1,19 @@
+{
+  "candidates": [
+    "outputs/journal_20261024/E6/tasks/heldout11/cosinecls/seed-0/lambda-0/CANDIDATE.json",
+    "outputs/journal_20261024/E6/tasks/heldout11/cosinecls/seed-0/lambda-10/CANDIDATE.json",
+    "outputs/journal_20261024/E6/tasks/heldout11/cosinecls/seed-0/lambda-100/CANDIDATE.json",
+    "outputs/journal_20261024/E6/tasks/heldout11/cosinecls/seed-0/lambda-1000/CANDIDATE.json",
+    "outputs/journal_20261024/E6/tasks/heldout11/cosinecls/seed-0/lambda-10000/CANDIDATE.json",
+    "outputs/journal_20261024/E6/tasks/heldout11/cosinecls/seed-0/lambda-inf/CANDIDATE.json"
+  ],
+  "lambda_best_test": {
+    "11ID": "10",
+    "3OOD": "10"
+  },
+  "lambda_val": "10",
+  "method": "cosinecls",
+  "protocol": "heldout11",
+  "seed": 0,
+  "selected_val_model": null
+}

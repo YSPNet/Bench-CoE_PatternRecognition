@@ -1,0 +1,134 @@
+{
+  "c_max": 0.001063963514752686,
+  "c_min": 1.4453729818342254e-05,
+  "command": "python -B scripts/journal_20261024/e5.py; python -B scripts/journal_20261024/e5_refine.py",
+  "end_time": "2026-10-24T05:15:33+00:00",
+  "experiment": "E5",
+  "failures": [],
+  "full14_mm_lambda": 0.02,
+  "git_commit": null,
+  "git_commit_note": "Repository has no .git metadata",
+  "gpu": "cached features; CPU router fits",
+  "python_env": {
+    "numpy": "1.26.4",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python": "3.12.11"
+  },
+  "rung2_acceptance": [
+    {
+      "base": "T",
+      "observed": [
+        75.53267178431005,
+        0.6558575179285573,
+        74.41439729883174
+      ],
+      "pass_check": true,
+      "published_sd": [
+        0.010255056309777444,
+        5.087533075818954e-05,
+        0.009264903927304011
+      ],
+      "target": [
+        75.54016101853585,
+        0.6558203638401883,
+        74.42116342799721
+      ],
+      "view": "11ID",
+      "within_sd": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "base": "T",
+      "observed": [
+        74.1851368970013,
+        0.6528644110556513,
+        73.2354789291852
+      ],
+      "pass_check": true,
+      "published_sd": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "target": [
+        74.1851368970013,
+        0.6528644110556513,
+        73.2354789291852
+      ],
+      "view": "3OOD",
+      "within_sd": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "base": "MM",
+      "observed": [
+        75.13574237034263,
+        0.6510561769772947,
+        74.0842879865066
+      ],
+      "pass_check": true,
+      "published_sd": [
+        0.06539692640544262,
+        0.004765836905659926,
+        0.06473093334236653
+      ],
+      "target": [
+        75.12076390189104,
+        0.6502971393509145,
+        74.07419213857766
+      ],
+      "view": "11ID",
+      "within_sd": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "base": "MM",
+      "observed": [
+        73.48109517601043,
+        0.6412396129114326,
+        72.65912861645613
+      ],
+      "pass_check": true,
+      "published_sd": [
+        0.27657370841716794,
+        0.006748123505030968,
+        0.2714050629742314
+      ],
+      "target": [
+        73.66362451108213,
+        0.6372147891203742,
+        72.83717429651246
+      ],
+      "view": "3OOD",
+      "within_sd": [
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "selection_rule": "Rungs 1-2 only. Both bases profile the full 11-source train with kappa=20; T uses source global-cost median eligibility, MM lambda uses group-isolated 3-fold source-fit OOF; no 3OOD tuning. Refit gate percentiles and delta cap: 3-fold group-isolated source-fit OOF on each learned-state base; frozen thresholds copied unchanged from subject-state MODEL_LOCK.json. 14ID gate omitted.",
+  "split_sizes": {
+    "11ID": 5341,
+    "14ID": 6108,
+    "3OOD": 767
+  },
+  "start_time": "2026-10-24T05:09:57+00:00",
+  "status": "COMPLETE"
+}

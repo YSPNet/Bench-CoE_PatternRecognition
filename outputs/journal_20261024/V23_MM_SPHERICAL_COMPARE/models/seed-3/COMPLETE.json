@@ -1,0 +1,101 @@
+{
+  "cosine_original_expert_table": [
+    6,
+    10
+  ],
+  "cosine_original_source_support": [
+    4069,
+    12200
+  ],
+  "k": 2,
+  "kappa": 64.0,
+  "original_center_norms": [
+    0.8048671502246718,
+    0.8132277255218773
+  ],
+  "original_expert_table": [
+    6,
+    10
+  ],
+  "original_lambda": 0.03,
+  "original_model_sha256": "de1891f75049c7f3a37b82a66fc68efb8063dd9223106998c4817e85a891ac4c",
+  "original_source_support": [
+    4091,
+    12178
+  ],
+  "predictions_sha256": "2d18b32317d7a13f3fd858cd3825fc07455064ac550d9461d4ac9998cfcc31f1",
+  "protocol": "heldout11",
+  "seed": 3,
+  "selected_spherical_lambda": 0.03,
+  "source_agreement_original_vs_spherical": 0.9948982727887393,
+  "source_ari_original_vs_spherical": 0.9784318715173745,
+  "source_fit_n": 16269,
+  "source_only_selection": true,
+  "spherical_center_norms": [
+    1.0,
+    1.0
+  ],
+  "spherical_converged": true,
+  "spherical_cv_expert_table": [
+    10,
+    6
+  ],
+  "spherical_fixed_expert_table": [
+    10,
+    6
+  ],
+  "spherical_iterations": 8,
+  "spherical_objective": 3055.6714572473584,
+  "spherical_source_cv": [
+    {
+      "A": 79.05833179666851,
+      "C": 1.9844767356658348,
+      "R": 72.32620562439445,
+      "lambda_cost": 0.0
+    },
+    {
+      "A": 79.05833179666851,
+      "C": 1.9844767356658348,
+      "R": 72.32620562439445,
+      "lambda_cost": 0.001
+    },
+    {
+      "A": 79.05833179666851,
+      "C": 1.9844767356658348,
+      "R": 72.32620562439445,
+      "lambda_cost": 0.003
+    },
+    {
+      "A": 79.05833179666851,
+      "C": 1.9844767356658348,
+      "R": 72.32620562439445,
+      "lambda_cost": 0.01
+    },
+    {
+      "A": 75.00768332411334,
+      "C": 0.6461503085059961,
+      "R": 73.99167643378061,
+      "lambda_cost": 0.03
+    },
+    {
+      "A": 75.00768332411334,
+      "C": 0.6461503085059961,
+      "R": 73.99167643378061,
+      "lambda_cost": 0.1
+    },
+    {
+      "A": 65.49880140143833,
+      "C": 0.23538579506817914,
+      "R": 67.09190879811018,
+      "lambda_cost": 0.3
+    }
+  ],
+  "spherical_source_support": [
+    12097,
+    4172
+  ],
+  "status": "complete",
+  "test_agreement_original_vs_spherical": 0.9957432874918141,
+  "test_ari_original_vs_spherical": 0.9820343266358593,
+  "test_n": 6108
+}

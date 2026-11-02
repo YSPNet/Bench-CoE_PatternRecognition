@@ -1,0 +1,6 @@
+method,stage,trainable_scope,elapsed_seconds_mean,elapsed_seconds_std,peak_cuda_memory_bytes_max,throughput_definition
+Query-BERT,full_training_and_prediction,all_parameters,636.1472057648003,65.39169833021722,8338396160,training resource record; VLM head-only excludes frozen backbone extraction
+Query-TinyLLaVA,full_training_and_prediction,LayerNorm+Linear_only,11.299046400841325,0.9737291022816922,73049088,training resource record; VLM head-only excludes frozen backbone extraction
+Query-Qwen3VL,full_training_and_prediction,LayerNorm+Linear_only,11.93363704062067,1.0167277403654666,70124544,training resource record; VLM head-only excludes frozen backbone extraction
+Query-tinyllava,frozen_backbone_feature_extraction,none,153.50617040507495,,8552467968,8-GPU end-to-end extraction wall proxy=max rank elapsed; excludes model load
+Query-qwen3vl,frozen_backbone_feature_extraction,none,1234.7275336231105,,9830543872,8-GPU end-to-end extraction wall proxy=max rank elapsed; excludes model load

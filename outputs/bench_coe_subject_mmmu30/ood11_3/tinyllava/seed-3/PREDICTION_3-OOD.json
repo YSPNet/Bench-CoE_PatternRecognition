@@ -1,0 +1,12 @@
+{
+  "backbone": "tinyllava",
+  "checkpoint_sha256": "b7e94f7a19a7cfd7cf844d496173bf7afb6e9ef87d10693ea63f9a2c662c5c95",
+  "fallback_n": 10,
+  "map_sha256": "4aa554e96b3798697aa08af275725cd4c09950cbe3f8fce5325ee1509fbf9a93",
+  "n": 767,
+  "predictions_sha256": "a256c689872b2f41991eb7e1025ea62c7179c67270a2ebcc97a13174b3c099ee",
+  "protocol": "ood11_3",
+  "seed": 3,
+  "test_outcomes_read": false,
+  "view": "3-OOD"
+}

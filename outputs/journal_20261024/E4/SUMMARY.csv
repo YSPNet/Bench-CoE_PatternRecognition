@@ -1,0 +1,12 @@
+experiment,method,variant,view,n_seeds,A_mean,A_sd,C_mean,C_sd,R_mean,R_sd,notes
+E4,StateRoute-MM,stateroute_MM_K2_14ID,14ID,5,74.91486574983628,0.021346438785870267,0.6483267296248988,0.006340769417699588,73.90044528647852,0.04379097527233494,New 14-source fit with 32-image overlay; lambda selected by source-fit 3-fold OOF
+E4,StateRoute-T,stateroute_T_K2_14ID,14ID,5,75.2423051735429,0.007321768099215851,0.6608751744652235,2.4366842254825278e-05,74.13693431230163,0.006359567345819956,New 14-source fit; q selected by source-fit 3-fold OOF
+E4,Subject-state,subject_accuracy14,14ID,5,78.38899803536346,0.0,1.0984022791917185,0.0,75.08517043326412,0.0,Frozen deterministic subject fit; seed-independent replay
+E4,Subject-state,subject_rule1_gate_fpr10,11ID,5,76.68975847219622,0.0,0.7964984315077681,0.0,74.8402899024245,0.0,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule1_gate_fpr10,3OOD,5,72.22946544980444,0.0,0.6608119982775426,0.0,71.46697188879581,0.0,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule2_gate_fpr10,11ID,5,77.51357423703426,0.0,0.9432181466743629,0.0,74.95690023208549,0.0,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule2_gate_fpr10,3OOD,5,71.83833116036506,0.0,0.7862980452031803,0.0,70.64707581299086,0.0,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule3_gate_fpr10,11ID,5,77.28889721026026,0.0,0.8720534397058957,1.2412670766236366e-16,75.04963957142058,0.0,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule3_gate_fpr10,3OOD,5,71.83833116036506,0.0,0.7090483738301167,0.0,70.93412190926747,0.0,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule4_gate_fpr25,11ID,5,77.28889721026026,0.0,0.8715833779525266,1.2412670766236366e-16,75.05153584339797,0.0,Frozen deterministic subject fit and thresholds; seed-independent replay
+E4,Subject-state,subject_rule4_gate_fpr25,3OOD,5,72.7509778357236,0.0,0.7063275138754034,0.0,71.7525247030539,0.0,Frozen deterministic subject fit and thresholds; seed-independent replay

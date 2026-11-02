@@ -1,0 +1,48 @@
+{
+  "c_max": null,
+  "c_min": null,
+  "command": "scripts/journal_20261024/v23_state_modality_compare.py",
+  "eligibility_q": 0.5,
+  "end_time": "2026-10-31T02:59:06+00:00",
+  "experiment": "V23_STATE_MODALITY_COMPARE",
+  "failures": [],
+  "feature_sha256": {
+    "bge_siglip_spherical": "75999a10761576cab6f0d6b2a7cdadedc260692d3d94cca96f34f59b75752c6c",
+    "bge_text_spherical": "2701fd88bfd84daf32b18f042e290fbb575dda0eaa8db03404850f0cf98f0dc5",
+    "minilm_text_original": "23209ada7630a11e6f664f04b54833a271a323e4f405a0472ecb8f364067fa8e",
+    "siglip_image_spherical": "02bad05ad80277e2f3d7827e9925a61bfe2bdc135d8fdd6ae870ef0fdd459f2f"
+  },
+  "git_commit": null,
+  "git_commit_note": "Repository has no .git metadata",
+  "gpu": "none; cached embeddings",
+  "k": 2,
+  "kappa": 20.0,
+  "python_env": {
+    "numpy": "1.26.4",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python": "3.12.11"
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "seeds_requested": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "selection_rule": "Reproduced MiniLM text control; new BGE-M3 text, SigLIP image, and equal-weight BGE-M3+SigLIP spherical K=2 state variants. All use 18,665 11-source train rows, kappa=20, source median-cost eligibility q=0.5. No test outcomes enter fitting or selection.",
+  "source_n": 18665,
+  "split_sizes": {
+    "11ID": 5341,
+    "3OOD": 767
+  },
+  "start_time": "2026-10-31T02:58:51+00:00",
+  "status": "complete",
+  "test_n": 6108
+}

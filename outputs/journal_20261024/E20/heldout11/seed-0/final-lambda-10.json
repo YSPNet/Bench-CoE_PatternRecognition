@@ -1,0 +1,48 @@
+{
+  "best_dev_loss": 2.691369458916415,
+  "best_epoch": 4,
+  "dev_n": 2556,
+  "epochs_run": 7,
+  "history": [
+    {
+      "dev_loss": 2.7108862209767803,
+      "epoch": 1,
+      "train_loss": 2.760535118058798
+    },
+    {
+      "dev_loss": 2.7006409116007726,
+      "epoch": 2,
+      "train_loss": 2.702146592604233
+    },
+    {
+      "dev_loss": 2.694649989243031,
+      "epoch": 3,
+      "train_loss": 2.686131014286878
+    },
+    {
+      "dev_loss": 2.691369458916415,
+      "epoch": 4,
+      "train_loss": 2.6728926513595868
+    },
+    {
+      "dev_loss": 2.693135575322851,
+      "epoch": 5,
+      "train_loss": 2.6591507234872345
+    },
+    {
+      "dev_loss": 2.6924473425965165,
+      "epoch": 6,
+      "train_loss": 2.6459528744479055
+    },
+    {
+      "dev_loss": 2.6932545622376396,
+      "epoch": 7,
+      "train_loss": 2.633923944667684
+    }
+  ],
+  "lambda": "10",
+  "precompute_gpu": "3",
+  "protocol": "heldout11",
+  "seed": 0,
+  "trainable_n": 17767
+}

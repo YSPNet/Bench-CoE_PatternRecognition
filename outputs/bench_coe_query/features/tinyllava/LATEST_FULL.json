@@ -1,0 +1,28 @@
+{
+  "backbone": "tinyllava",
+  "cache_root": "outputs/bench_coe_query/features/tinyllava/c7f9028853efb8b2003c0b530cf2fd6f74907a4369cd43fa655dd8db0a124f01",
+  "contract_sha256": "a1c24102e63954371a113d247d4beb72fdb03fc16bcd871d0589aa2399fa5e0f",
+  "extraction_gate": "outputs/bench_coe_query/features/tinyllava/c7f9028853efb8b2003c0b530cf2fd6f74907a4369cd43fa655dd8db0a124f01/EXTRACTION_GATE.json",
+  "gate_sha256": "880a4df54ea5c10a0674488c4686ef19950240d5c2b3f3d83f0295cbe6f6bff5",
+  "input_content": {
+    "approval_sha256": "b2adf5b214df4003abd702434e310e34a65bbf2e5ce88752fa4e1e0c6446df37",
+    "manifest_file_sha256": "2dd9fd5c2181a2904a4f970c7faa7d765e229f35d0559538bcbd4a34762cdb1d",
+    "manifest_path": "outputs/bench_coe_query/audit/INPUT_CONTENT_MANIFEST.json",
+    "manifest_sha256": "76e3fec87393681f189cb6f0742815130c52f782f40a32de8a2b3c1dad1643ad",
+    "model_configured_path": "/home/sm5/ys/Project/SegR/models/TinyLLaVA-Phi-2-SigLIP-3.1B",
+    "model_configured_path_is_symlink": false,
+    "model_configured_symlink_target": null,
+    "model_file_count": 12,
+    "model_manifest_sha256": "f174e3ed1dea5814447b88fc21de6e99d07e942b36b2d64c37d2e9fbef7250a5",
+    "model_name": "tinyllava",
+    "model_resolved_path": "/home/sm5/ys/Project/SegR/models/TinyLLaVA-Phi-2-SigLIP-3.1B",
+    "model_total_bytes": 6436550529,
+    "schema_version": 1,
+    "visual_assets_file_count": 18,
+    "visual_assets_manifest_sha256": "ca509f6b58e56982763619e6c21a07fcd78a20c86df69adeed090098768fd7c5",
+    "visual_assets_total_bytes": 9503769326
+  },
+  "manifest": "outputs/bench_coe_query/features/tinyllava/c7f9028853efb8b2003c0b530cf2fd6f74907a4369cd43fa655dd8db0a124f01/merged/manifest.json",
+  "manifest_sha256": "f23a5b840fc958ad867474ec1da8afb9798d43f9dced5c09a090d0bff55009c5",
+  "schema_version": 2
+}

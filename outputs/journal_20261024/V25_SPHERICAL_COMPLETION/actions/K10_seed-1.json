@@ -1,0 +1,35 @@
+{
+  "action_sha256": "ad35f0d3d4765237a043acd075ec11f5ed65ae4c6d99e085c3cce4817e49b7ea",
+  "cluster_artifact_sha256": "b0afd2841d68888dcb8f607fe3a1105ec01f3f7c04524520d7bb6329399c7996",
+  "cost_variant_tables": {},
+  "expert_table": [
+    7,
+    6,
+    10,
+    10,
+    10,
+    6,
+    10,
+    10,
+    12,
+    10
+  ],
+  "k": 10,
+  "kappa_fractions": {},
+  "kappa_tables": {},
+  "seed": 1,
+  "selected_lambda": 0.03,
+  "source_fit_n": 16269,
+  "source_support": [
+    1175,
+    1733,
+    1181,
+    2881,
+    3171,
+    1061,
+    1631,
+    1067,
+    1547,
+    822
+  ]
+}

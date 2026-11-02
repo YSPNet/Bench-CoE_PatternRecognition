@@ -1,0 +1,139 @@
+{
+  "events": [
+    {
+      "component": "scoped_final_test_label_materializer",
+      "operation": "final_evaluate",
+      "outside_count": 0,
+      "passed": true,
+      "requested_count": 5341
+    },
+    {
+      "component": "test_evaluation_label_store",
+      "operation": "final_evaluate",
+      "outside_count": 0,
+      "passed": true,
+      "requested_count": 5341
+    }
+  ],
+  "materialization": {
+    "all_wrong_rows": 243,
+    "cost_access": "read_only_memmap_explicit_test_rows_only",
+    "cost_matrix_path": "/home/sm5/ys/VL-RouterBench/data/matrices/C.npy",
+    "cost_matrix_sha256": "446833a05aeacb1fcd43b82753d69a02e168211528980429f7f37ef1caf8d998",
+    "expert_ids": [
+      "GPT4o",
+      "GeminiFlash2-5",
+      "Gemma3-27B",
+      "InternVL2_5-78B",
+      "Janus-Pro-1B",
+      "Janus-Pro-7B",
+      "Kimi-VL-A3B-Thinking-2506",
+      "MiMo-VL-7B-RL",
+      "Phi-3.5-Vision",
+      "Pixtral-12B",
+      "Qianfan-VL-8B",
+      "Qwen2.5-VL-32B-Instruct",
+      "Qwen2.5-VL-72B-Instruct",
+      "SmolVLM2",
+      "deepseek_vl2",
+      "deepseek_vl2_tiny",
+      "llava_next_vicuna_7b"
+    ],
+    "global_y_npz_opened": false,
+    "prediction_receipt_sha256": "7862691c07156c9fda4bab715790a4655b1eede2832041645c1136078a541e09",
+    "prediction_sha256": "9488a13e661b929f07296f59be582d48643293ffc94172585e66c25603c62da7",
+    "quality_files": [
+      {
+        "path": "/home/sm5/ys/VL-RouterBench/ORACLE/score/ai2d_test.parquet",
+        "read_mode": "predicate_filtered_requested_test_sample_ids_only",
+        "requested_samples": 580,
+        "returned_cells": 9860,
+        "sha256": "fbbb5dd87e5b65c78d3f5194340b142b048544df681599b8d2a302fe87da5b84",
+        "source": "AI2D_TEST"
+      },
+      {
+        "path": "/home/sm5/ys/VL-RouterBench/ORACLE/score/docvqa_val.parquet",
+        "read_mode": "predicate_filtered_requested_test_sample_ids_only",
+        "requested_samples": 1118,
+        "returned_cells": 19006,
+        "sha256": "a3e01d11c93ca92abc8ddb4a9f516cf0c5cca7d81528a204bc0be6621bd19f17",
+        "source": "DocVQA_VAL"
+      },
+      {
+        "path": "/home/sm5/ys/VL-RouterBench/ORACLE/score/hallusionbench.parquet",
+        "read_mode": "predicate_filtered_requested_test_sample_ids_only",
+        "requested_samples": 185,
+        "returned_cells": 3145,
+        "sha256": "4c3d0b4171de5f319d28db7dd6a1de9453e3bd49182517b0e0a26c4def171467",
+        "source": "HallusionBench"
+      },
+      {
+        "path": "/home/sm5/ys/VL-RouterBench/ORACLE/score/infovqa_val.parquet",
+        "read_mode": "predicate_filtered_requested_test_sample_ids_only",
+        "requested_samples": 598,
+        "returned_cells": 10166,
+        "sha256": "aeb163a6ca8651d1d30f1c57c6f2d562d14d47747a7c127b3b96f62d87b60abc",
+        "source": "InfoVQA_VAL"
+      },
+      {
+        "path": "/home/sm5/ys/VL-RouterBench/ORACLE/score/mmbench_dev_en_v11.parquet",
+        "read_mode": "predicate_filtered_requested_test_sample_ids_only",
+        "requested_samples": 241,
+        "returned_cells": 4097,
+        "sha256": "03db92baf877ab1283125bc2d4344e50e6ff61a2e72062a1a1add8bc7324e2ce",
+        "source": "MMBench_DEV_EN_V11"
+      },
+      {
+        "path": "/home/sm5/ys/VL-RouterBench/ORACLE/score/mmstar.parquet",
+        "read_mode": "predicate_filtered_requested_test_sample_ids_only",
+        "requested_samples": 309,
+        "returned_cells": 5253,
+        "sha256": "481575c9181516ec03b5d9bedb2319c45d07951f076fe17d63f51a48ce947acf",
+        "source": "MMStar"
+      },
+      {
+        "path": "/home/sm5/ys/VL-RouterBench/ORACLE/score/mathverse_mini.parquet",
+        "read_mode": "predicate_filtered_requested_test_sample_ids_only",
+        "requested_samples": 768,
+        "returned_cells": 13056,
+        "sha256": "aa0bf91d9d5c5ec240636432f085ab87e77e55f77c032a4e91b8933cf30946cf",
+        "source": "MathVerse_MINI"
+      },
+      {
+        "path": "/home/sm5/ys/VL-RouterBench/ORACLE/score/mathvista_mini.parquet",
+        "read_mode": "predicate_filtered_requested_test_sample_ids_only",
+        "requested_samples": 209,
+        "returned_cells": 3553,
+        "sha256": "9c1b8a11691b7b04408be4fb7471a4b9cb9f89e8580102996daf0979352e69aa",
+        "source": "MathVista_MINI"
+      },
+      {
+        "path": "/home/sm5/ys/VL-RouterBench/ORACLE/score/ocrbench.parquet",
+        "read_mode": "predicate_filtered_requested_test_sample_ids_only",
+        "requested_samples": 213,
+        "returned_cells": 3621,
+        "sha256": "c6fb2ae4c217eee2b8bacc0c71aa20498e621d94d7d28e517e4fccb89b92e781",
+        "source": "OCRBench"
+      },
+      {
+        "path": "/home/sm5/ys/VL-RouterBench/ORACLE/score/realworldqa.parquet",
+        "read_mode": "predicate_filtered_requested_test_sample_ids_only",
+        "requested_samples": 159,
+        "returned_cells": 2703,
+        "sha256": "af27765a97658c2ec5ca9e3b155e934e25184e170fa5b66da6b2ad22a59e98d7",
+        "source": "RealWorldQA"
+      },
+      {
+        "path": "/home/sm5/ys/VL-RouterBench/ORACLE/score/textvqa_val.parquet",
+        "read_mode": "predicate_filtered_requested_test_sample_ids_only",
+        "requested_samples": 961,
+        "returned_cells": 16337,
+        "sha256": "16641e181b3990521e23f36344fbb1addb0a856d68248efcb33be633e247bc01",
+        "source": "TextVQA_VAL"
+      }
+    ],
+    "requested_rows": 5341,
+    "requested_uid_sha256": "5ff2a89edac9525588861abb8056e1ec79f0977c61e5422ca45c22e6d05e60fd",
+    "row_drop_count": 0
+  }
+}

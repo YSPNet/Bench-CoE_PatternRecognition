@@ -1,0 +1,14 @@
+{
+  "best_dev_hard_label_loss": 0.6542759821965144,
+  "best_epoch": 4,
+  "checkpoint_file": "outputs/journal_20261024/E15/query_head/seed-3/split-7/half-1/model.pt",
+  "dev_n": 814,
+  "epochs_run": 9,
+  "fit_n": 7320,
+  "ignored_train": 381,
+  "prediction_file": "outputs/journal_20261024/E15/query_head/seed-3/split-7/half-1/actions.npz",
+  "seed": 3,
+  "side": 1,
+  "split": 7,
+  "wall_seconds": 3.1669478360563517
+}

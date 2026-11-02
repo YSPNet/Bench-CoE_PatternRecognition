@@ -1,0 +1,160 @@
+{
+  "acceptance": [
+    {
+      "base": "T",
+      "expected_R": 74.137,
+      "kappa": 20.0,
+      "observed_R": 74.13693431230163,
+      "passed": true,
+      "tolerance": 0.04,
+      "view": "14ID"
+    },
+    {
+      "base": "T",
+      "expected_R": 74.414,
+      "kappa": 20.0,
+      "observed_R": 74.41439729883174,
+      "passed": true,
+      "tolerance": 0.04,
+      "view": "11ID"
+    },
+    {
+      "base": "T",
+      "expected_R": 73.235,
+      "kappa": 20.0,
+      "observed_R": 73.2354789291852,
+      "passed": true,
+      "tolerance": 0.01,
+      "view": "3OOD"
+    },
+    {
+      "base": "MM",
+      "expected_R": 73.9,
+      "kappa": 64.0,
+      "observed_R": 73.90044528647852,
+      "passed": true,
+      "tolerance": 0.05,
+      "view": "14ID"
+    },
+    {
+      "base": "MM",
+      "expected_R": 74.074,
+      "kappa": 64.0,
+      "observed_R": 74.07419213857766,
+      "passed": true,
+      "tolerance": 0.08,
+      "view": "11ID"
+    },
+    {
+      "base": "MM",
+      "expected_R": 72.837,
+      "kappa": 64.0,
+      "observed_R": 72.83717429651246,
+      "passed": true,
+      "tolerance": 0.28,
+      "view": "3OOD"
+    }
+  ],
+  "c_max": 0.001063963514752686,
+  "c_min": 1.4453729818342254e-05,
+  "command": "python -B scripts/journal_20261024/e13_shrinkage.py",
+  "end_time": "2026-10-24T15:11:40+00:00",
+  "experiment": "E13",
+  "failures": [],
+  "git_commit": null,
+  "git_commit_note": "Repository has no .git metadata",
+  "gpu": "cached representations; CPU spherical k-means",
+  "kappa_grid": [
+    0.0,
+    5.0,
+    20.0,
+    64.0,
+    128.0,
+    512.0
+  ],
+  "prior_attempts": [
+    {
+      "acceptance": [
+        {
+          "base": "T",
+          "expected_R": 74.137,
+          "kappa": 20.0,
+          "observed_R": 73.88591440985466,
+          "passed": false,
+          "tolerance": 0.04,
+          "view": "14ID"
+        },
+        {
+          "base": "T",
+          "expected_R": 74.414,
+          "kappa": 20.0,
+          "observed_R": 74.41439729883174,
+          "passed": true,
+          "tolerance": 0.04,
+          "view": "11ID"
+        },
+        {
+          "base": "T",
+          "expected_R": 73.235,
+          "kappa": 20.0,
+          "observed_R": 73.2354789291852,
+          "passed": true,
+          "tolerance": 0.01,
+          "view": "3OOD"
+        },
+        {
+          "base": "MM",
+          "expected_R": 73.9,
+          "kappa": 64.0,
+          "observed_R": 73.90044528647852,
+          "passed": true,
+          "tolerance": 0.05,
+          "view": "14ID"
+        },
+        {
+          "base": "MM",
+          "expected_R": 74.074,
+          "kappa": 64.0,
+          "observed_R": 74.07419213857766,
+          "passed": true,
+          "tolerance": 0.08,
+          "view": "11ID"
+        },
+        {
+          "base": "MM",
+          "expected_R": 72.837,
+          "kappa": 64.0,
+          "observed_R": 72.83717429651246,
+          "passed": true,
+          "tolerance": 0.28,
+          "view": "3OOD"
+        }
+      ],
+      "correction": "14ID T must use E4 source-fit subset, not full train",
+      "end_time": "2026-10-24T15:10:00+00:00",
+      "failures": [],
+      "start_time": "2026-10-24T15:09:28+00:00",
+      "status": "acceptance_failed"
+    }
+  ],
+  "python_env": {
+    "numpy": "1.26.4",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python": "3.12.11"
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "selection_rule": "K=2 states and each encoder's published cost rule are fixed. T profiles the 14-source fit subset on 14ID, as in E4, and all official 11-source train rows on 11ID/3OOD, as in E5. MM profiles source-fit. MM lambdas are frozen source-only OOF selections; T filter uses source median. Proposition 1 uses a plug-in Q estimate from the entire source train. Kappa=0 has no strict shrinkage condition and its fraction is undefined.",
+  "split_sizes": {
+    "11ID": 5341,
+    "14ID": 6108,
+    "3OOD": 767
+  },
+  "start_time": "2026-10-24T15:11:11+00:00",
+  "status": "complete"
+}

@@ -1,0 +1,37 @@
+{
+  "acceptance": {
+    "expected_rows": 120,
+    "observed_rows": 120,
+    "passed": true
+  },
+  "c_max": 0.001063963514752686,
+  "c_min": 1.4453729818342254e-05,
+  "command": "python -B scripts/journal_20261024/e16_guard.py",
+  "end_time": "2026-10-24T15:14:36+00:00",
+  "experiment": "E16",
+  "failures": [],
+  "git_commit": null,
+  "git_commit_note": "Repository has no .git metadata",
+  "gpu": "none",
+  "python_env": {
+    "numpy": "1.26.4",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python": "3.12.11"
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "selection_rule": "Frozen gate masks and on/off actions are replayed without test outcomes. Gate fraction counts threshold triggers; changed-action fraction excludes queries where fallback chose the same expert. The two are reported separately.",
+  "source_sha256": "50ebbc2c09f3bfec8e9e0ad327947491a29a5c228d5a8a88a8a2c2bfed04e329",
+  "split_sizes": {
+    "11ID": 5341,
+    "14ID": 6108,
+    "3OOD": 767
+  },
+  "start_time": "2026-10-24T15:14:36+00:00",
+  "status": "complete"
+}

@@ -1,0 +1,19 @@
+{
+  "folds": 3,
+  "lambdas": [
+    "0",
+    "10",
+    "100",
+    "1000",
+    "10000",
+    "inf"
+  ],
+  "protocol": "heldout11",
+  "seed": 4,
+  "selected_lambda": "10",
+  "status": "complete",
+  "views": [
+    "11ID",
+    "3OOD"
+  ]
+}

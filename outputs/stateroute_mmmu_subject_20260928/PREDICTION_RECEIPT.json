@@ -1,0 +1,20 @@
+{
+  "approval_source": "user requested MMMU subject-state 11-ID experiment",
+  "approved": true,
+  "denied_attempts": [],
+  "kind": "subject_routing_final_evaluation_unlock",
+  "labels_or_actual_cost_used": false,
+  "method_selection_complete": true,
+  "model_lock": {
+    "bytes": 3311,
+    "exists": true,
+    "path": "outputs/stateroute_mmmu_subject_20260928/MODEL_LOCK.json",
+    "sha256": "75cebd635870e87f4bc17e1e84dee59fb6be4f258e6bb266c6643d92c77c30c5"
+  },
+  "prediction_path": "outputs/stateroute_mmmu_subject_20260928/PREDICTIONS.npz",
+  "prediction_sha256": "9488a13e661b929f07296f59be582d48643293ffc94172585e66c25603c62da7",
+  "predictions_frozen": true,
+  "target_split": "test",
+  "test_fit_performed": false,
+  "test_outcomes_opened": 0
+}

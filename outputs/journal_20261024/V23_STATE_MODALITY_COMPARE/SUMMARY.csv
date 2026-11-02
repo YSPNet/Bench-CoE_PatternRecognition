@@ -1,0 +1,9 @@
+experiment,method,variant,view,n_seeds,A_mean,A_sd,C_mean,C_sd,R_mean,R_sd,notes
+V23_STATE_MODALITY_COMPARE,State-Bench-CoE,bge_siglip_spherical,11ID,5,75.58509642389065,0.0,0.6472991059675799,0.0,74.49715475156133,0.0,K=2; spherical; full source n=18665; kappa=20; q=0.5
+V23_STATE_MODALITY_COMPARE,State-Bench-CoE,bge_siglip_spherical,3OOD,5,74.57627118644068,0.0,0.6342674104958703,0.0,73.65959979177168,0.0,K=2; spherical; full source n=18665; kappa=20; q=0.5
+V23_STATE_MODALITY_COMPARE,State-Bench-CoE,bge_text_spherical,11ID,5,75.47275791050365,0.0,0.6478747472231119,0.0,74.39547820822888,0.0,K=2; spherical; full source n=18665; kappa=20; q=0.5
+V23_STATE_MODALITY_COMPARE,State-Bench-CoE,bge_text_spherical,3OOD,5,75.09778357235984,0.0,0.6346310345883872,0.0,74.12024074672202,0.0,K=2; spherical; full source n=18665; kappa=20; q=0.5
+V23_STATE_MODALITY_COMPARE,State-Bench-CoE,minilm_text_original,11ID,5,75.53267178431005,0.008373218414154586,0.6558575179285573,4.1539533617628935e-05,74.41439729883174,0.007564762379267586,K=2; spherical; full source n=18665; kappa=20; q=0.5
+V23_STATE_MODALITY_COMPARE,State-Bench-CoE,minilm_text_original,3OOD,5,74.1851368970013,0.0,0.6528644110556513,0.0,73.2354789291852,0.0,K=2; spherical; full source n=18665; kappa=20; q=0.5
+V23_STATE_MODALITY_COMPARE,State-Bench-CoE,siglip_image_spherical,11ID,5,74.64894214566561,0.0,0.7484557395505496,0.0,73.25723686597487,0.0,K=2; spherical; full source n=18665; kappa=20; q=0.5
+V23_STATE_MODALITY_COMPARE,State-Bench-CoE,siglip_image_spherical,3OOD,5,68.1877444589309,0.0,0.7019037823500129,0.0,67.70613906109168,0.0,K=2; spherical; full source n=18665; kappa=20; q=0.5

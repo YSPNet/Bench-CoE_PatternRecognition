@@ -1,0 +1,74 @@
+{
+  "action_lock_sha256": "95cc4236c8447b66ca40b883ec1088a02ab7186e9a4bd928eb445f32220902d2",
+  "c_max": 0.001063963514752686,
+  "c_min": 1.4453729818342254e-05,
+  "command": "python -B scripts/journal_20261024/v25_spherical_experiments.py",
+  "end_time": "2026-10-31T16:37:59+00:00",
+  "experiment": "V25_SPHERICAL_COMPLETION",
+  "failures": [],
+  "git_commit": null,
+  "git_commit_note": "Repository has no .git metadata",
+  "gpu": "none",
+  "k_grid": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12
+  ],
+  "kappa_grid": [
+    0.0,
+    5.0,
+    20.0,
+    64.0,
+    128.0,
+    512.0
+  ],
+  "lambda_grid": [
+    0.0,
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3
+  ],
+  "python_env": {
+    "numpy": "1.26.4",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python": "3.12.4"
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "selection_rule": "11-source fit groups only; K-specific lambda from group-isolated source OOF using seed 0, then five final fits. K=2 reproduces the existing frozen five-seed source-selected spherical actions. No test outcome influences a map.",
+  "source_provenance": {
+    "qwen_cache_feature_sha256": "36d3922828d0279ad5ecbe0fa366f9beb4b27eaa66f54c58835892db3aff89a4",
+    "qwen_overlay_manifest_sha256": "6bae2cf98cee51c6059b313fe8a2f9992c64d3c402a11c9f86ef9bdb259a68b3",
+    "raw_source_feature_norm_quantiles": [
+      55.49456024169922,
+      65.26598052978515,
+      73.52316284179688,
+      82.79860992431641,
+      135.28195190429688
+    ],
+    "source_feature_sha256": "f899bae5fe43b7bb5b1a7369a357c3ec2ac32b831fef950ec3a7efc57625dd4b",
+    "source_fit_n": 16269,
+    "source_manifest_sha256": "fe8f01bb6f863b695e70c981246ebd93d7fa9c12108b0f890ec855d78f65957c",
+    "test_multi_image_overlay_n": 10,
+    "test_n": 6108
+  },
+  "split_sizes": {
+    "11ID": 5341,
+    "14ID": 6108,
+    "3OOD": 767
+  },
+  "start_time": "2026-10-31T16:28:48+00:00",
+  "status": "complete"
+}

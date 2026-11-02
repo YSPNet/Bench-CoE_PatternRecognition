@@ -1,0 +1,64 @@
+{
+  "action_sha256": "56e57112c476df3b90d53263570e9416f1acaeef7c018e69686cf31e7ce49327",
+  "cluster_artifact_sha256": "31f646577e8dcdea4d86117cf9cbe2b397f7bff48edacc9b0963f51013397808",
+  "cost_variant_tables": {
+    "eligibility_filter": [
+      6,
+      10
+    ],
+    "no_cost": [
+      6,
+      12
+    ],
+    "state_conditional_cost": [
+      6,
+      10
+    ]
+  },
+  "expert_table": [
+    6,
+    10
+  ],
+  "k": 2,
+  "kappa_fractions": {
+    "0": null,
+    "128": 0.6440288820673024,
+    "20": 0.9094922497857708,
+    "5": 1.0,
+    "512": 0.2639483969874138,
+    "64": 0.7752455951954819
+  },
+  "kappa_tables": {
+    "0": [
+      6,
+      10
+    ],
+    "128": [
+      6,
+      10
+    ],
+    "20": [
+      6,
+      10
+    ],
+    "5": [
+      6,
+      10
+    ],
+    "512": [
+      6,
+      10
+    ],
+    "64": [
+      6,
+      10
+    ]
+  },
+  "seed": 4,
+  "selected_lambda": 0.03,
+  "source_fit_n": 16269,
+  "source_support": [
+    4172,
+    12097
+  ]
+}

@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+vlm_router_data/
+outputs/journal_20261024/E6/hf_cache/
+outputs/journal_20261024/E6/images/

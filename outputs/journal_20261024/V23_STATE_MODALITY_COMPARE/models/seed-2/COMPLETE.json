@@ -1,0 +1,161 @@
+{
+  "eligibility_q": 0.5,
+  "k": 2,
+  "kappa": 20.0,
+  "new_variants": {
+    "bge_siglip_spherical": {
+      "cap": 8.517677209434153e-05,
+      "center_norms": [
+        0.9999999999999999,
+        1.0
+      ],
+      "converged": true,
+      "eligible_experts": [
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        13,
+        15,
+        16
+      ],
+      "expert_table": [
+        6,
+        10
+      ],
+      "feature_sha256": "75999a10761576cab6f0d6b2a7cdadedc260692d3d94cca96f34f59b75752c6c",
+      "model_sha256": "413f001db62f50285443418ea2a26341dd4fc74da5f8c74cd5f5b8967eae3d42",
+      "objective": 6660.333834111854,
+      "seed": 2,
+      "source_n": 18665,
+      "source_support": [
+        3969,
+        14696
+      ],
+      "test_support": [
+        1252,
+        4856
+      ],
+      "variant": "bge_siglip_spherical"
+    },
+    "bge_text_spherical": {
+      "cap": 8.517677209434153e-05,
+      "center_norms": [
+        1.0,
+        0.9999999999999999
+      ],
+      "converged": true,
+      "eligible_experts": [
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        13,
+        15,
+        16
+      ],
+      "expert_table": [
+        10,
+        6
+      ],
+      "feature_sha256": "2701fd88bfd84daf32b18f042e290fbb575dda0eaa8db03404850f0cf98f0dc5",
+      "model_sha256": "3bca4403a6905430bdedfbf34995bc60c59dc749b809232c549a43b90fd66768",
+      "objective": 6760.475420117605,
+      "seed": 2,
+      "source_n": 18665,
+      "source_support": [
+        14647,
+        4018
+      ],
+      "test_support": [
+        4842,
+        1266
+      ],
+      "variant": "bge_text_spherical"
+    },
+    "minilm_text_original": {
+      "cap": 8.517677209434153e-05,
+      "center_norms": [
+        1.0,
+        0.9999999999999999
+      ],
+      "converged": true,
+      "eligible_experts": [
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        13,
+        15,
+        16
+      ],
+      "expert_table": [
+        6,
+        10
+      ],
+      "feature_sha256": "23209ada7630a11e6f664f04b54833a271a323e4f405a0472ecb8f364067fa8e",
+      "model_sha256": "bc06d2bcca7d849db714797041ee456ae6d773ce616e6d104c41ad8c056cd3ab",
+      "objective": 11064.52853494824,
+      "seed": 2,
+      "source_n": 18665,
+      "source_support": [
+        4950,
+        13715
+      ],
+      "test_support": [
+        1629,
+        4479
+      ],
+      "variant": "minilm_text_original"
+    },
+    "siglip_image_spherical": {
+      "cap": 8.517677209434153e-05,
+      "center_norms": [
+        1.0,
+        1.0
+      ],
+      "converged": true,
+      "eligible_experts": [
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        13,
+        15,
+        16
+      ],
+      "expert_table": [
+        6,
+        10
+      ],
+      "feature_sha256": "02bad05ad80277e2f3d7827e9925a61bfe2bdc135d8fdd6ae870ef0fdd459f2f",
+      "model_sha256": "b0bff13b58a9fecdfc3c12b77d226e471f68ec6ff6e6b6ae617cf6dc8c7cd4ae",
+      "objective": 6319.1268014760535,
+      "seed": 2,
+      "source_n": 18665,
+      "source_support": [
+        14771,
+        3894
+      ],
+      "test_support": [
+        4909,
+        1199
+      ],
+      "variant": "siglip_image_spherical"
+    }
+  },
+  "predictions_sha256": "d4f3d521edaf7e7f8c831a18aaa19f36d9f26d069acd1c8672f4c51ab43c035e",
+  "protocol_version": 2,
+  "seed": 2,
+  "source_n": 18665,
+  "status": "complete",
+  "test_n": 6108
+}
